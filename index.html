@@ -881,6 +881,9 @@
                       <span class="recipe-data" data-ex-content=".aggregated_rating" data-field="rating"></span>
                       <span class="recipe-data" data-ex-content=".review_count" data-field="reviews"></span>
                       <span class="recipe-data" data-ex-content=".calories" data-field="calories"></span>
+                      <span class="recipe-data" data-ex-content=".cook_time" data-field="cookTime"></span>
+                      <span class="recipe-data" data-ex-content=".prep_time" data-field="prepTime"></span>
+                      <span class="recipe-data" data-ex-content=".total_time" data-field="totalTime"></span>
                       <span class="recipe-data" data-ex-content=".ingredients" data-field="ingredients"></span>
                       <span class="recipe-data" data-ex-content=".instructions" data-field="instructions"></span>
                       <span class="recipe-data" data-ex-content=".subjective_attributes" data-field="attributes"></span>
@@ -893,6 +896,7 @@
           <td class="facet-column">
             <div data-ex-role="facet" data-ex-expression=".meal_type_attributes" data-ex-facet-label="Meal Type" data-ex-height="14em" data-ex-sort-mode="count" data-ex-sort-direction="forward"></div>
             <div data-ex-role="facet" data-ex-expression=".type_attributes" data-ex-facet-label="Cuisine" data-ex-height="14em" data-ex-sort-mode="count" data-ex-sort-direction="forward"></div>
+            <div data-ex-role="facet" data-ex-expression=".cook_time_category" data-ex-facet-label="Cook Time" data-ex-height="10em" data-ex-sort-mode="count" data-ex-sort-direction="forward"></div>
             <div data-ex-role="facet" data-ex-facet-class="NumericRange" data-ex-expression=".calories" data-ex-facet-label="Calories" data-ex-height="10em" data-ex-interval="100" data-ex-sort-mode="count" data-ex-sort-direction="forward"></div>
             <div style="text-align: center" data-ex-role="logo"></div>
           </td>
@@ -1489,6 +1493,8 @@
                   <span class="recipe-meta-item">Rating: ${recipeData.rating}</span>
                   <span class="recipe-meta-item">${recipeData.reviews} reviews</span>
                   <span class="recipe-meta-item">${recipeData.calories} cal</span>
+                  ${formatDuration(recipeData.cookTime) ? `<span class="recipe-meta-item">Cook: ${formatDuration(recipeData.cookTime)}</span>` : ''}
+                  ${formatDuration(recipeData.totalTime) ? `<span class="recipe-meta-item">Total: ${formatDuration(recipeData.totalTime)}</span>` : ''}
                 </div>
               </div>
             </div>
@@ -1538,6 +1544,25 @@
       function formatList(text, tag) {
         const items = text.split(',').map(s => s.trim()).filter(s => s);
         return items.map(item => `<${tag}>${item}</${tag}>`).join('');
+      }
+
+      // Format ISO 8601 duration to human-readable format
+      function formatDuration(isoDuration) {
+        if (!isoDuration) return '';
+
+        const match = isoDuration.match(/PT(?:(\d+)H)?(?:(\d+)M)?/);
+        if (!match) return '';
+
+        const hours = parseInt(match[1] || 0);
+        const minutes = parseInt(match[2] || 0);
+
+        if (hours === 0 && minutes === 0) return '';
+
+        const parts = [];
+        if (hours > 0) parts.push(`${hours}h`);
+        if (minutes > 0) parts.push(`${minutes}m`);
+
+        return parts.join(' ');
       }
 
       // Format attributes with vegetarian alternative labeling
@@ -1765,6 +1790,43 @@
         });
       }
 
+      // Reorder cook time facet by natural time order (using sort index from data)
+      function reorderCookTimeFacet() {
+        // Find the cook time facet
+        const facetDivs = document.querySelectorAll('[data-ex-role="facet"][data-ex-expression=".cook_time_category"]');
+
+        facetDivs.forEach(facetDiv => {
+          // Find all facet value elements
+          const valueElements = Array.from(facetDiv.querySelectorAll('.exhibit-facet-value'));
+
+          if (valueElements.length === 0) return;
+
+          // Define the correct order based on our natural time categories
+          const correctOrder = ['< 15 min', '15-30 min', '30-60 min', '1-2 hr', '2-4 hr', '4+ hr'];
+
+          // Create a map of category to element
+          const categoryMap = {};
+          valueElements.forEach(elem => {
+            const text = elem.textContent.trim();
+            // Extract just the category name (remove count like "(123)")
+            const category = text.split('(')[0].trim().replace(/^\d+\s+/, '');
+            categoryMap[category] = elem;
+          });
+
+          // Get the parent container
+          const container = valueElements[0].parentElement;
+          if (!container) return;
+
+          // Reorder elements based on correctOrder
+          correctOrder.forEach(category => {
+            const elem = categoryMap[category];
+            if (elem) {
+              container.appendChild(elem); // Move to end in correct order
+            }
+          });
+        });
+      }
+
       document.addEventListener('DOMContentLoaded', function() {
         // Wait for Exhibit to initialize
         setTimeout(initializeCustomSearch, 1000);
@@ -1780,11 +1842,18 @@
         setTimeout(hideExportButton, 1500);
         setTimeout(hideExportButton, 3000);
 
+        // Reorder cook time facet to show natural time progression
+        setTimeout(reorderCookTimeFacet, 1500);
+        setTimeout(reorderCookTimeFacet, 3000); // Second check
+
         // Re-attach handlers when pagination changes (stable interval)
         setInterval(attachThumbnailHandlers, 2000);
 
         // Periodically hide missing field values (less frequent)
         setInterval(hideMissingFieldValues, 3000);
+
+        // Periodically reorder cook time facet
+        setInterval(reorderCookTimeFacet, 3000);
       });
     </script>
   </body>

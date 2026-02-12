@@ -8,7 +8,304 @@
     <link href="food-exhibit-data-500recipes.json" type="application/json" rel="exhibit/data" />
     <script src="https://api.simile-widgets.org/exhibit/current/exhibit-api.js"></script>
     <style>
-      /* Modal styles */
+      /* === Design System === */
+      :root {
+        --color-text-primary: #111827;
+        --color-text-secondary: #4b5563;
+        --color-text-tertiary: #6b7280;
+        --color-accent: #2563eb;
+        --color-accent-hover: #1d4ed8;
+        --color-border: #e5e7eb;
+        --color-bg-subtle: #f9fafb;
+        --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
+      }
+
+      /* Modern font stack and base styles */
+      body {
+        font-family: var(--font-sans);
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        color: var(--color-text-secondary);
+        font-size: 15px;
+        line-height: 1.6;
+        background: #ffffff;
+      }
+
+      /* Typography Scale */
+      h1 {
+        font-size: 36px;
+        font-weight: 700;
+        letter-spacing: -0.03em;
+        color: var(--color-text-primary);
+        line-height: 1.2;
+        margin: 0 0 8px 0;
+      }
+
+      h2 {
+        font-size: 24px;
+        font-weight: 700;
+        letter-spacing: -0.02em;
+        color: var(--color-text-primary);
+        line-height: 1.3;
+      }
+
+      h3 {
+        font-size: 18px;
+        font-weight: 600;
+        letter-spacing: -0.01em;
+        color: var(--color-text-primary);
+      }
+
+      h4 {
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: var(--color-text-secondary);
+      }
+
+      p {
+        color: var(--color-text-secondary);
+        line-height: 1.6;
+        margin: 0 0 12px 0;
+      }
+
+      /* Header Styling - Simple inline */
+      #header {
+        background: none;
+        border: none;
+        padding: 8px 20px;
+        margin: 0;
+      }
+
+      #header table,
+      #header tbody,
+      #header tr,
+      #header td {
+        display: inline !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        background: none !important;
+        border: none !important;
+      }
+
+      #header h1 {
+        display: inline;
+        margin: 0;
+        padding: 0;
+        font-size: 20px;
+        line-height: 1;
+        font-weight: 700;
+        color: var(--color-text-primary);
+      }
+
+      #header p {
+        display: none;
+      }
+
+      /* Align collection summary (500 Recipes) */
+      .exhibit-collectionSummaryWidget {
+        display: inline-block;
+        margin: 0 0 10px 0;
+        padding: 0;
+        font-size: 24px;
+        font-weight: 600;
+        color: var(--color-text-primary);
+        vertical-align: baseline;
+      }
+
+      .exhibit-collectionSummaryWidget-count {
+        font-size: 32px;
+        font-weight: 700;
+        color: var(--color-text-primary);
+        margin-right: 4px;
+      }
+
+      .exhibit-collectionSummaryWidget-description {
+        font-size: 16px;
+        font-weight: 500;
+        color: var(--color-text-secondary);
+      }
+
+      /* Hide the built-in Exhibit reset/clear links */
+      .exhibit-collectionSummaryWidget a[href*="clearRestrictions"],
+      .exhibit-collectionSummaryWidget-resetFiltersLink,
+      a[href*="clearRestrictions"],
+      a[href*="clearAllRestrictions"] {
+        display: none !important;
+      }
+
+      /* Align viewPanel content properly */
+      [data-ex-role="viewPanel"] {
+        margin-top: 0;
+        padding-top: 0;
+      }
+
+      /* Facet Styling */
+      .exhibit-facet-header {
+        font-family: var(--font-sans);
+        font-weight: 600;
+        font-size: 13px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--color-text-primary);
+        padding: 8px 0;
+        border-bottom: 2px solid var(--color-text-primary);
+        margin-bottom: 12px;
+      }
+
+      .exhibit-facet-value {
+        font-family: var(--font-sans);
+        font-size: 14px;
+        line-height: 1.5;
+        padding: 4px 0;
+      }
+
+      .exhibit-facet-value a {
+        color: var(--color-text-secondary);
+        text-decoration: none;
+        transition: color 0.2s;
+      }
+
+      .exhibit-facet-value a:hover {
+        color: var(--color-accent);
+      }
+
+      /* Recipe Thumbnail Captions */
+      .recipe-thumb-caption {
+        font-weight: 600;
+        font-size: 13px;
+        color: var(--color-text-primary);
+        line-height: 1.3;
+        padding: 10px 8px;
+        text-align: center;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .recipe-thumb-caption span {
+        display: block;
+        text-decoration: none !important;
+      }
+
+      .recipe-thumb-caption a,
+      .recipe-thumb-caption span a,
+      .recipe-thumb-caption span,
+      .recipe-thumb a,
+      td.recipe-thumb-caption a {
+        text-decoration: none !important;
+        border-bottom: none !important;
+      }
+
+      /* Override Exhibit's default link styles */
+      .exhibit-thumbnailView-body a,
+      .exhibit-thumbnailView-body a:link,
+      .exhibit-thumbnailView-body a:visited,
+      .exhibit-thumbnailView-body a:hover {
+        text-decoration: none !important;
+        border-bottom: none !important;
+      }
+
+      /* Recipe Cards - Square aspect ratio */
+      .recipe-thumb {
+        background: white;
+        border: 1px solid var(--color-border);
+        border-radius: 8px;
+        overflow: hidden;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        display: flex;
+        flex-direction: column;
+        aspect-ratio: 1;
+      }
+
+      .recipe-thumb:hover {
+        border-color: var(--color-accent);
+        box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.05);
+      }
+
+      .recipe-thumb-wrapper {
+        background: var(--color-bg-subtle);
+        width: 100%;
+        flex: 1;
+        overflow: hidden;
+      }
+
+      .recipe-thumb-wrapper img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s;
+      }
+
+      .recipe-thumb:hover .recipe-thumb-wrapper img {
+        transform: scale(1.05);
+      }
+
+      /* Ensure uniform card grid */
+      .exhibit-thumbnailView-body {
+        display: grid !important;
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)) !important;
+        gap: 16px !important;
+        padding: 10px !important;
+      }
+
+      .exhibit-thumbnailView-body table {
+        margin: 0 !important;
+      }
+
+      /* Remove underlines from all links */
+      a {
+        text-decoration: none !important;
+        border-bottom: none !important;
+      }
+
+      /* Hide missing field facet values - aggressive approach */
+      .exhibit-facet-value:has(a[title*="missing"]) {
+        display: none !important;
+      }
+
+      a[title*="missing this field"] {
+        display: none !important;
+      }
+
+      a[title="(missing this field)"] {
+        display: none !important;
+      }
+
+      /* Hide parent div if it contains missing text */
+      div:has(> a[title*="missing"]) {
+        display: none !important;
+      }
+
+      /* Hide Exhibit export button and bookmark button */
+      .exhibit-copyButton,
+      .exhibit-bookmarkButton,
+      img[src*="copy-button"],
+      img[src*="liveclipboard"],
+      img[src*="bookmark-icon"] {
+        display: none !important;
+      }
+
+      /* Keep Exhibit logo visible */
+      [data-ex-role="logo"],
+      [data-ex-role="logo"] img,
+      [data-ex-role="logo"] * {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+      }
+
+      /* Let Exhibit handle checkboxes naturally - don't override */
+
+      /* Keep the main Exhibit logo visible */
+      [data-ex-role="logo"],
+      [data-ex-role="logo"] * {
+        display: block !important;
+      }
+
+      /* Modal Styles */
       .modal {
         display: none;
         position: fixed;
@@ -17,176 +314,267 @@
         top: 0;
         width: 100%;
         height: 100%;
-        background-color: rgba(0,0,0,0.5);
+        background-color: rgba(17, 24, 39, 0.7);
+        backdrop-filter: blur(4px);
       }
+
       .modal-content {
         background-color: white;
         margin: 3% auto;
-        padding: 25px;
-        border-radius: 6px;
-        width: 80%;
+        padding: 32px;
+        border-radius: 12px;
+        width: 85%;
         max-width: 900px;
-        max-height: 80vh;
+        max-height: 85vh;
         overflow-y: auto;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
       }
+
       .modal-header {
         display: flex;
         justify-content: space-between;
-        align-items: center;
-        margin-bottom: 20px;
-        padding-bottom: 15px;
-        border-bottom: 2px solid #eee;
+        align-items: flex-start;
+        margin-bottom: 24px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid var(--color-border);
       }
+
       .modal-title {
-        font-size: 20px;
-        font-weight: bold;
-        color: #333;
+        font-size: 24px;
+        font-weight: 700;
+        color: var(--color-text-primary);
+        letter-spacing: -0.02em;
+        line-height: 1.3;
+        margin: 0;
       }
+
       .close-btn {
-        font-size: 28px;
-        font-weight: bold;
-        color: #aaa;
+        font-size: 32px;
+        font-weight: 300;
+        color: var(--color-text-tertiary);
         cursor: pointer;
-        line-height: 20px;
+        line-height: 1;
+        padding: 4px;
+        border-radius: 6px;
+        transition: all 0.2s;
+        background: transparent;
+        border: none;
       }
+
       .close-btn:hover {
-        color: #000;
+        color: var(--color-text-primary);
+        background: var(--color-bg-subtle);
       }
+      /* Review Items */
       .review-item {
-        margin: 15px 0;
-        padding: 15px;
-        background: #f9f9f9;
-        border-left: 3px solid #4a90e2;
-        border-radius: 3px;
+        margin: 20px 0;
+        padding: 20px;
+        background: var(--color-bg-subtle);
+        border-left: 4px solid var(--color-accent);
+        border-radius: 8px;
         transition: all 0.2s;
       }
+
       .review-item:hover {
-        background: #f0f0f0;
+        background: #f3f4f6;
+        transform: translateX(4px);
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
       }
+
       .review-text {
-        line-height: 1.6;
-        color: #333;
+        line-height: 1.7;
+        color: var(--color-text-secondary);
+        font-size: 14px;
       }
+
+      /* Attribute Highlights */
       .highlight {
-        padding: 2px 4px;
-        border-radius: 2px;
-        font-weight: 500;
+        padding: 3px 6px;
+        border-radius: 4px;
+        font-weight: 600;
+        font-size: 13px;
       }
-      .hl-audienceenjoyment { background-color: #ffeb3b; }
-      .hl-tasteflavor { background-color: #a5d6a7; }
-      .hl-texturemouthfeel { background-color: #90caf9; }
-      .hl-mealtype { background-color: #ce93d8; }
-      .hl-occasionholiday { background-color: #ffab91; }
-      .hl-cuisinetype { background-color: #f48fb1; }
+
+      .hl-audienceenjoyment {
+        background-color: #fef3c7;
+        color: #92400e;
+      }
+      .hl-tasteflavor {
+        background-color: #d1fae5;
+        color: #065f46;
+      }
+      .hl-texturemouthfeel {
+        background-color: #dbeafe;
+        color: #1e40af;
+      }
+      .hl-mealtype {
+        background-color: #e9d5ff;
+        color: #6b21a8;
+      }
+      .hl-occasionholiday {
+        background-color: #fed7aa;
+        color: #9a3412;
+      }
+      .hl-cuisinetype {
+        background-color: #fce7f3;
+        color: #9f1239;
+      }
+
+      /* Legend */
       .legend {
         display: flex;
         flex-wrap: wrap;
-        gap: 12px;
-        margin: 15px 0;
-        padding: 10px;
-        background: #f5f5f5;
-        border-radius: 3px;
+        gap: 16px;
+        margin: 20px 0;
+        padding: 16px;
+        background: white;
+        border: 1px solid var(--color-border);
+        border-radius: 8px;
       }
+
       .legend-item {
         display: flex;
         align-items: center;
-        font-size: 12px;
+        font-size: 13px;
+        font-weight: 500;
+        color: var(--color-text-secondary);
       }
+
       .legend-color {
-        width: 20px;
-        height: 12px;
-        margin-right: 5px;
-        border-radius: 2px;
+        width: 24px;
+        height: 16px;
+        margin-right: 8px;
+        border-radius: 4px;
       }
       .view-reviews-btn {
         display: inline-block;
-        margin-top: 10px;
-        padding: 8px 16px;
-        background: #4a90e2;
+        width: 100%;
+        margin-top: 16px;
+        padding: 14px 20px;
+        background: var(--color-text-primary);
         color: white;
-        border-radius: 4px;
+        border-radius: 8px;
         cursor: pointer;
-        font-size: 14px;
+        font-size: 15px;
+        font-weight: 600;
+        font-family: var(--font-sans);
         border: none;
+        transition: all 0.2s;
+        text-align: center;
       }
+
       .view-reviews-btn:hover {
-        background: #357abd;
+        background: #374151;
+        transform: translateY(-2px);
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
       }
-      /* Custom search box styling */
+      /* Search Box Styling */
       .search-container {
-        margin-bottom: 15px;
+        margin-bottom: 20px;
       }
+
+      .search-container > b {
+        font-size: 13px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.03em;
+        color: var(--color-text-primary);
+      }
+
       .search-wrapper {
         display: flex;
-        gap: 5px;
-        margin-top: 5px;
+        gap: 8px;
+        margin-top: 8px;
       }
+
       .search-input {
         flex: 1;
-        padding: 8px 12px;
-        border: 2px solid #ddd;
-        border-radius: 4px;
+        padding: 10px 14px;
+        border: 2px solid var(--color-border);
+        border-radius: 6px;
         font-size: 14px;
+        font-family: var(--font-sans);
         outline: none;
+        transition: all 0.2s;
+        background: white;
       }
+
       .search-input:focus {
-        border-color: #4a90e2;
+        border-color: var(--color-accent);
+        box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
       }
+
       .search-button {
-        padding: 8px 16px;
-        background: #4a90e2;
+        padding: 10px 18px;
+        background: var(--color-accent);
         color: white;
         border: none;
-        border-radius: 4px;
+        border-radius: 6px;
         cursor: pointer;
         font-size: 14px;
-        font-weight: 500;
+        font-weight: 600;
+        font-family: var(--font-sans);
+        transition: all 0.2s;
       }
+
       .search-button:hover {
-        background: #357abd;
+        background: var(--color-accent-hover);
+        transform: translateY(-1px);
+        box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
       }
+
       .clear-button {
-        padding: 8px 12px;
-        background: #e0e0e0;
-        color: #333;
-        border: none;
-        border-radius: 4px;
+        padding: 10px 16px;
+        background: var(--color-bg-subtle);
+        color: var(--color-text-secondary);
+        border: 2px solid var(--color-border);
+        border-radius: 6px;
         cursor: pointer;
         font-size: 14px;
+        font-weight: 600;
+        font-family: var(--font-sans);
+        transition: all 0.2s;
       }
+
       .clear-button:hover {
-        background: #d0d0d0;
+        background: #ffffff;
+        border-color: var(--color-text-tertiary);
       }
+
       .search-hint {
-        font-size: 11px;
-        color: #666;
-        margin-top: 4px;
-        font-style: italic;
+        font-size: 12px;
+        color: var(--color-text-tertiary);
+        margin-top: 6px;
+        line-height: 1.4;
       }
+
       .search-status {
-        margin-top: 8px;
-        padding: 8px 12px;
-        background: #e3f2fd;
-        border-left: 3px solid #2196f3;
-        border-radius: 3px;
+        margin-top: 10px;
+        padding: 10px 14px;
+        background: #eff6ff;
+        border-left: 3px solid var(--color-accent);
+        border-radius: 6px;
         font-size: 13px;
         display: none;
       }
+
       .search-status.active {
         display: block;
       }
+
       .search-status-label {
         font-weight: 600;
-        color: #1976d2;
+        color: var(--color-accent);
       }
+
       .search-status-terms {
-        color: #333;
-        font-family: monospace;
+        color: var(--color-text-primary);
+        font-family: 'SF Mono', 'Monaco', 'Consolas', monospace;
         background: white;
-        padding: 2px 6px;
-        border-radius: 2px;
-        margin-left: 4px;
+        padding: 3px 8px;
+        border-radius: 4px;
+        margin-left: 6px;
+        font-size: 12px;
       }
       /* Hide default Exhibit search box */
       .exhibit-facet-header-filterControl {
@@ -215,24 +603,27 @@
       }
       .recipe-modal-close {
         position: absolute;
-        top: 16px;
-        right: 16px;
-        width: 36px;
-        height: 36px;
+        top: 20px;
+        right: 20px;
+        width: 40px;
+        height: 40px;
         background: white;
-        border: 2px solid #ddd;
-        border-radius: 50%;
+        border: 1px solid var(--color-border);
+        border-radius: 8px;
         font-size: 24px;
-        line-height: 32px;
+        line-height: 38px;
         cursor: pointer;
         z-index: 10;
-        color: #666;
+        color: var(--color-text-tertiary);
         transition: all 0.2s;
+        font-weight: 300;
       }
+
       .recipe-modal-close:hover {
-        background: #f5f5f5;
-        border-color: #999;
-        color: #333;
+        background: var(--color-bg-subtle);
+        border-color: var(--color-text-tertiary);
+        color: var(--color-text-primary);
+        transform: rotate(90deg);
       }
       .recipe-card {
         background: white;
@@ -258,19 +649,24 @@
       }
       .recipe-header {
         display: flex;
-        gap: 16px;
-        padding: 20px;
-        padding-top: 60px;
-        border-bottom: 1px solid #e0e0e0;
-        align-items: center;
+        gap: 24px;
+        padding: 32px;
+        padding-top: 64px;
+        border-bottom: 1px solid var(--color-border);
+        align-items: flex-start;
+        background: var(--color-bg-subtle);
       }
       .recipe-image-wrapper {
         flex-shrink: 0;
-        width: 140px;
-        height: 140px;
-        border: 1px solid #e0e0e0;
+        width: 160px;
+        height: 160px;
+        border: 1px solid var(--color-border);
+        border-radius: 12px;
         overflow: hidden;
+        background: white;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
       }
+
       .recipe-image-wrapper img {
         width: 100%;
         height: 100%;
@@ -282,31 +678,42 @@
         min-width: 0;
       }
       .recipe-title {
-        margin: 0 0 8px 0;
-        font-size: 20px;
-        font-weight: 600;
-        color: #222;
-        line-height: 1.3;
+        margin: 0 0 12px 0;
+        font-size: 28px;
+        font-weight: 700;
+        color: var(--color-text-primary);
+        line-height: 1.2;
+        letter-spacing: -0.02em;
       }
       .recipe-meta {
         display: flex;
-        gap: 12px;
-        font-size: 13px;
-        color: #666;
+        gap: 16px;
+        font-size: 14px;
+        color: var(--color-text-tertiary);
+        font-weight: 500;
       }
+
       .recipe-meta-item {
         padding: 0;
       }
+
+      .recipe-meta-item:not(:last-child)::after {
+        content: "•";
+        margin-left: 16px;
+        color: var(--color-border);
+      }
       .recipe-content {
-        padding: 16px;
+        padding: 24px 32px;
         max-width: 100%;
         box-sizing: border-box;
+        background: white;
       }
+
       .recipe-columns {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 12px;
-        margin-bottom: 12px;
+        gap: 20px;
+        margin-bottom: 20px;
         max-width: 100%;
       }
       @media (max-width: 900px) {
@@ -326,50 +733,65 @@
         min-width: 0;
       }
       .recipe-section {
-        background: #fafafa;
-        border: 1px solid #e0e0e0;
-        padding: 14px;
+        background: white;
+        border: 1px solid var(--color-border);
+        border-radius: 8px;
+        padding: 20px;
         box-sizing: border-box;
       }
+
       /* Hide empty sections */
       .recipe-section:empty {
         display: none;
       }
+
       .recipe-section h4 {
-        margin: 0 0 10px 0;
-        color: #222;
-        font-size: 14px;
+        margin: 0 0 16px 0;
+        color: var(--color-text-primary);
+        font-size: 13px;
         font-weight: 600;
         text-transform: uppercase;
-        letter-spacing: 0.3px;
+        letter-spacing: 0.08em;
       }
       .ingredients-list,
       .instructions-list {
         margin: 0;
-        padding-left: 18px;
+        padding-left: 24px;
         word-wrap: break-word;
         overflow-wrap: break-word;
       }
+
       .ingredients-list li,
       .instructions-list li {
-        margin: 4px 0;
-        line-height: 1.4;
-        color: #444;
-        font-size: 13px;
+        margin: 8px 0;
+        line-height: 1.6;
+        color: var(--color-text-secondary);
+        font-size: 14px;
         word-wrap: break-word;
         overflow-wrap: break-word;
+      }
+
+      .ingredients-list li::marker {
+        color: var(--color-text-tertiary);
+      }
+
+      .instructions-list li::marker {
+        color: var(--color-accent);
+        font-weight: 600;
       }
       .recipe-footer {
         border-top: 1px solid #e0e0e0;
         padding-top: 12px;
       }
       .recipe-tags {
-        margin-bottom: 12px;
-        padding: 10px;
-        background: #f5f5f5;
-        border: 1px solid #e0e0e0;
+        margin-bottom: 16px;
+        padding: 14px;
+        background: var(--color-bg-subtle);
+        border: 1px solid var(--color-border);
+        border-radius: 8px;
         font-size: 13px;
-        color: #555;
+        line-height: 1.6;
+        color: var(--color-text-secondary);
       }
       .view-reviews-btn {
         width: 100%;
@@ -537,7 +959,10 @@
 
         facetDivs.forEach(facetDiv => {
           const expression = facetDiv.getAttribute('data-ex-expression');
-          if (!expression || expression.includes('NumericRange') || facetDiv.querySelector('[data-ex-facet-class="TextSearch"]')) {
+          const facetClass = facetDiv.getAttribute('data-ex-facet-class');
+
+          // Skip numeric ranges (like calories) and search facets
+          if (!expression || expression.includes('NumericRange') || facetClass === 'NumericRange' || facetDiv.querySelector('[data-ex-facet-class="TextSearch"]')) {
             return; // Skip numeric and search facets
           }
 
@@ -809,17 +1234,91 @@
       }
 
       // Smart search functionality
+      // Build an index of all facet values grouped by category
+      function buildFacetIndex() {
+        const index = [];
+        const facetDivs = document.querySelectorAll('[data-ex-role="facet"]');
+
+        facetDivs.forEach(facetDiv => {
+          const expression = facetDiv.getAttribute('data-ex-expression') || '';
+          const facetClass = facetDiv.getAttribute('data-ex-facet-class');
+          if (!expression || facetClass === 'NumericRange') return;
+
+          const category = expression.replace('.', '').replace('_attributes', '');
+
+          // Find all clickable facet value elements
+          // Exhibit renders them in various ways, so try multiple selectors
+          const values = facetDiv.querySelectorAll('.exhibit-facet-value, div[class*="facet-value"]');
+          values.forEach(elem => {
+            // Get the raw text and strip leading count number
+            const rawText = elem.textContent.trim();
+            // Facet values look like "134 Christmas" or "1 daughter" - strip leading number
+            const value = rawText.replace(/^\d+\s+/, '').replace(/\s*\(\d+\)\s*$/, '').trim();
+            if (!value || value.includes('missing')) return;
+
+            index.push({
+              category: category,
+              value: value,
+              valueLower: value.toLowerCase(),
+              element: elem
+            });
+          });
+        });
+
+        console.log('Facet index built:', index.length, 'values. Sample:', index.slice(0, 5).map(e => `[${e.category}] ${e.value}`));
+        return index;
+      }
+
+      // Find the best matching facet value for a search term
+      // Priority: exact match > starts-with > single-word exact within multi-word value
+      function findBestMatch(term, facetIndex) {
+        const termLower = term.toLowerCase();
+        let exactMatches = [];
+        let startsWithMatches = [];
+        let containsMatches = [];
+
+        facetIndex.forEach(entry => {
+          if (entry.valueLower === termLower) {
+            exactMatches.push(entry);
+          } else if (entry.valueLower.startsWith(termLower + ' ') || entry.valueLower.startsWith(termLower + '-')) {
+            startsWithMatches.push(entry);
+          } else if (entry.valueLower.includes(termLower)) {
+            containsMatches.push(entry);
+          }
+        });
+
+        // Return exact matches first (could be in multiple categories, that's fine)
+        if (exactMatches.length > 0) return exactMatches;
+
+        // Then starts-with, but pick the shortest (most specific) match per category
+        if (startsWithMatches.length > 0) {
+          startsWithMatches.sort((a, b) => a.value.length - b.value.length);
+          // Only return the single best starts-with match
+          return [startsWithMatches[0]];
+        }
+
+        // For contains matches, only use if the term is a whole word in the value
+        // This prevents "birthday" from matching "birthday boy" when "birthday" exists as exact
+        const wholeWordMatches = containsMatches.filter(entry => {
+          const regex = new RegExp('\\b' + termLower.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\b');
+          return regex.test(entry.valueLower);
+        });
+
+        if (wholeWordMatches.length > 0) {
+          // Pick the shortest match (most specific)
+          wholeWordMatches.sort((a, b) => a.value.length - b.value.length);
+          return [wholeWordMatches[0]];
+        }
+
+        return [];
+      }
+
       function performSmartSearch() {
         const searchBox = document.getElementById('customSearchBox');
         if (!searchBox) return;
 
         const query = searchBox.value.trim();
-
-        if (!query) {
-          // Clear search if empty
-          clearSearch();
-          return;
-        }
+        if (!query) { clearSearch(); return; }
 
         // Stop words to filter out
         const stopWords = new Set([
@@ -832,101 +1331,115 @@
           'food', 'foods', 'dish', 'dishes', 'recipe', 'recipes', 'meal', 'meals'
         ]);
 
-        // Parse query into words
-        const words = query.toLowerCase().split(/\s+/);
+        // Parse query into terms
+        const words = query.toLowerCase().replace(/['']/g, "'").split(/\s+/)
+          .map(w => w.replace(/'s$/, '').replace(/[^a-z0-9-]/g, ''));
+        const searchTerms = words.filter(word => word.length > 1 && !stopWords.has(word));
 
-        // Filter out stop words and keep meaningful terms
-        const searchTerms = words.filter(word => {
-          return word.length > 2 && !stopWords.has(word);
-        });
-
-        // Capitalize first letter of each term (to match data format)
-        // Data has mixed cases: "Christmas" (capitalized), "father" (lowercase)
-        // So we'll try both: original and capitalized
-        const capitalizedTerms = searchTerms.map(term => {
-          // Common holidays/occasions that should be capitalized
-          const capitalizeWords = ['christmas', 'thanksgiving', 'easter', 'halloween', 'valentine', 'birthday'];
-          if (capitalizeWords.includes(term)) {
-            return term.charAt(0).toUpperCase() + term.slice(1);
-          }
-          return term;
-        });
-
-        // If no meaningful terms, use original query
-        const finalQuery = capitalizedTerms.length > 0 ? capitalizedTerms.join(' ') : query;
+        if (searchTerms.length === 0) return;
 
         // Update search status display
         const statusDiv = document.getElementById('searchStatus');
         const termsDisplay = document.getElementById('searchTermsDisplay');
         if (statusDiv && termsDisplay) {
-          const displayText = searchTerms.join(', ') !== finalQuery
-            ? `${finalQuery} (filtered from: "${query}")`
-            : finalQuery;
-          termsDisplay.textContent = displayText;
+          termsDisplay.textContent = searchTerms.join(', ');
           statusDiv.classList.add('active');
         }
 
-        // Custom search implementation: programmatically select facet values
-        try {
-          // First, clear any existing selections
-          clearAllFacetSelections();
+        // Clear existing selections first
+        clearAllFacetSelections();
 
-          // Then, select matching facet values for each search term
-          const terms = capitalizedTerms;
-          terms.forEach(term => {
-            selectFacetValuesByTerm(term);
+        // Wait for Exhibit to re-render, then do smart selection
+        setTimeout(() => {
+          const facetIndex = buildFacetIndex();
+
+          // Prioritize single words first, then try multi-word phrases only for unmatched terms
+          const allTermCombinations = [];
+          searchTerms.forEach(term => allTermCombinations.push(term));
+          for (let len = 2; len <= searchTerms.length; len++) {
+            for (let i = 0; i <= searchTerms.length - len; i++) {
+              allTermCombinations.push(searchTerms.slice(i, i + len).join(' '));
+            }
+          }
+
+          // Phase 1: Collect all elements to click (without clicking yet)
+          const toClick = [];
+          const matchedTerms = new Set();
+
+          allTermCombinations.forEach(phrase => {
+            const phraseWords = phrase.split(' ');
+            if (phraseWords.every(w => matchedTerms.has(w))) return;
+
+            const matches = findBestMatch(phrase, facetIndex);
+            if (matches.length > 0) {
+              matches.forEach(match => {
+                if (!toClick.some(tc => tc.element === match.element)) {
+                  toClick.push(match);
+                  console.log(`Search: "${phrase}" → [${match.category}] "${match.value}"`);
+                }
+              });
+              phraseWords.forEach(w => matchedTerms.add(w));
+            }
           });
 
-        } catch (e) {
-          console.error('Custom search failed:', e);
-        }
+          // Phase 2: Click elements sequentially with delays to handle DOM re-renders
+          function clickSequentially(items, idx) {
+            if (idx >= items.length) return;
+            const match = items[idx];
+            // Re-find the element in fresh DOM since previous clicks may have re-rendered
+            const freshIndex = buildFacetIndex();
+            const fresh = freshIndex.find(e => e.category === match.category && e.valueLower === match.valueLower);
+            if (fresh && !fresh.element.classList.contains('exhibit-facet-value-selected')) {
+              const link = fresh.element.querySelector('a');
+              if (link) link.click(); else fresh.element.click();
+              console.log('Clicked:', match.value, 'in', match.category);
+            }
+            setTimeout(() => clickSequentially(items, idx + 1), 200);
+          }
+          clickSequentially(toClick, 0);
+
+          // Phase 3: Retry with fresh index for any terms that weren't matched
+          // (handles cases where Exhibit hadn't finished rendering)
+          const unmatchedTerms = searchTerms.filter(t => !matchedTerms.has(t));
+          if (unmatchedTerms.length > 0) {
+            setTimeout(() => {
+              const freshIndex = buildFacetIndex();
+              unmatchedTerms.forEach(term => {
+                const matches = findBestMatch(term, freshIndex);
+                matches.forEach(match => {
+                  if (!match.element.classList.contains('exhibit-facet-value-selected')) {
+                    const retryLink = match.element.querySelector('a');
+                    if (retryLink) retryLink.click(); else match.element.click();
+                    console.log(`Search retry: "${term}" → [${match.category}] "${match.value}"`);
+                  }
+                });
+              });
+            }, 500);
+          }
+        }, 300);
       }
 
       // Clear all facet selections
       function clearAllFacetSelections() {
-        const facetValueSelectors = document.querySelectorAll('.exhibit-facet-value');
-        facetValueSelectors.forEach(elem => {
+        document.querySelectorAll('.exhibit-facet-value').forEach(elem => {
           if (elem.classList.contains('exhibit-facet-value-selected')) {
-            elem.click(); // Deselect by clicking
-          }
-        });
-      }
-
-      // Select facet values that match the search term
-      function selectFacetValuesByTerm(term) {
-        const termLower = term.toLowerCase();
-        const facetValueSelectors = document.querySelectorAll('.exhibit-facet-value');
-
-        facetValueSelectors.forEach(elem => {
-          const valueLower = elem.textContent.trim().toLowerCase();
-          // Check if the facet value contains the search term
-          if (valueLower.includes(termLower)) {
-            if (!elem.classList.contains('exhibit-facet-value-selected')) {
-              elem.click(); // Select by clicking
-            }
+            elem.click();
           }
         });
       }
 
       function clearSearch() {
+        // Only clear the search input box
         const searchBox = document.getElementById('customSearchBox');
         if (searchBox) {
           searchBox.value = '';
+          searchBox.focus();
         }
 
         // Hide search status
         const statusDiv = document.getElementById('searchStatus');
         if (statusDiv) {
           statusDiv.classList.remove('active');
-        }
-
-        // Clear all facet selections by clicking the "Reset All Filters" link
-        const resetLink = document.querySelector('a[href*="clearRestrictions"]');
-        if (resetLink) {
-          resetLink.click();
-        } else {
-          // Fallback: manually deselect all facets
-          clearAllFacetSelections();
         }
       }
 
@@ -1205,6 +1718,53 @@
       }
 
       // Initialize after DOM is ready
+      // Hide "(missing this field)" facet values
+      function hideMissingFieldValues() {
+        // Find all links with title containing "missing"
+        const missingLinks = document.querySelectorAll('a[title*="missing"]');
+        missingLinks.forEach(link => {
+          // Hide the parent facet value div
+          const facetValue = link.closest('.exhibit-facet-value');
+          if (facetValue) {
+            facetValue.style.display = 'none';
+            facetValue.remove(); // Remove from DOM entirely
+          }
+        });
+
+        // Also check by text content
+        const allFacetValues = document.querySelectorAll('.exhibit-facet-value');
+        allFacetValues.forEach(facetValue => {
+          const text = facetValue.textContent || '';
+          if (text.includes('missing this field') || text.includes('(missing')) {
+            facetValue.style.display = 'none';
+            facetValue.remove(); // Remove from DOM entirely
+          }
+        });
+
+        // Check all links with "missing" in title
+        document.querySelectorAll('a').forEach(link => {
+          const title = link.getAttribute('title') || '';
+          if (title.toLowerCase().includes('missing')) {
+            const parent = link.closest('.exhibit-facet-value');
+            if (parent) {
+              parent.style.display = 'none';
+              parent.remove();
+            }
+          }
+        });
+      }
+
+      // Hide Exhibit export and bookmark buttons
+      function hideExportButton() {
+        document.querySelectorAll('.exhibit-copyButton, .exhibit-bookmarkButton, img[src*="copy-button"], img[src*="liveclipboard"], img[src*="bookmark"]').forEach(el => {
+          el.style.display = 'none';
+        });
+        // Also hide by title attribute
+        document.querySelectorAll('img[title*="bookmark"], img[title*="Bookmark"], a[title*="bookmark"]').forEach(el => {
+          el.style.display = 'none';
+        });
+      }
+
       document.addEventListener('DOMContentLoaded', function() {
         // Wait for Exhibit to initialize
         setTimeout(initializeCustomSearch, 1000);
@@ -1212,8 +1772,19 @@
         // Attach thumbnail handlers after Exhibit renders
         setTimeout(attachThumbnailHandlers, 2000);
 
-        // Re-attach handlers when pagination changes
-        setInterval(attachThumbnailHandlers, 1000);
+        // Hide missing field values once after Exhibit loads
+        setTimeout(hideMissingFieldValues, 1500);
+        setTimeout(hideMissingFieldValues, 3000); // Second check
+
+        // Hide export button after Exhibit loads
+        setTimeout(hideExportButton, 1500);
+        setTimeout(hideExportButton, 3000);
+
+        // Re-attach handlers when pagination changes (stable interval)
+        setInterval(attachThumbnailHandlers, 2000);
+
+        // Periodically hide missing field values (less frequent)
+        setInterval(hideMissingFieldValues, 3000);
       });
     </script>
   </body>

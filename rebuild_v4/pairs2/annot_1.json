@@ -1,0 +1,389 @@
+{
+ "judgments": [
+  {
+   "id": "q0093",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0115",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0152",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0024",
+   "verdict": "wrong",
+   "note": "firming is a prep step"
+  },
+  {
+   "id": "q0063",
+   "verdict": "wrong",
+   "note": "only one liked apples, two did not"
+  },
+  {
+   "id": "q0050",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0061",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0145",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0045",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0010",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0082",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0094",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0048",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0017",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0009",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0132",
+   "verdict": "wrong",
+   "note": "no clear enjoyment by kids"
+  },
+  {
+   "id": "q0120",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0148",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0007",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0000",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0101",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0138",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0105",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0001",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0130",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0119",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0146",
+   "verdict": "wrong",
+   "note": "kids only lukewarm, referent unclear"
+  },
+  {
+   "id": "q0026",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0097",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0040",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0090",
+   "verdict": "wrong",
+   "note": "served to guests, no enjoyment stated"
+  },
+  {
+   "id": "q0110",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0143",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0153",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0088",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0053",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0091",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0064",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0032",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0072",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0028",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0151",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0037",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0076",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0023",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0039",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0102",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0142",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0006",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0099",
+   "verdict": "wrong",
+   "note": "made for dad, no enjoyment stated"
+  },
+  {
+   "id": "q0014",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0103",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0067",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0012",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0121",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0074",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0070",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0065",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0083",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0126",
+   "verdict": "wrong",
+   "note": "states a requirement, not observed"
+  },
+  {
+   "id": "q0112",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0134",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0049",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0150",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0066",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0077",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0003",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0140",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0015",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0059",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0042",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0087",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0052",
+   "verdict": "wrong",
+   "note": "batter thick, not finished dish"
+  },
+  {
+   "id": "q0106",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0029",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  },
+  {
+   "id": "q0137",
+   "verdict": "wrong",
+   "note": "served to kids, no enjoyment stated"
+  },
+  {
+   "id": "q0124",
+   "verdict": "correct",
+   "note": "evidence states property directly"
+  }
+ ]
+}

@@ -1,0 +1,639 @@
+{
+ "judgments": [
+  {
+   "id": "p0127",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0128",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0129",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0130",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0131",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0132",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0133",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0134",
+   "verdict": "wrong",
+   "note": "no mention of grandkids"
+  },
+  {
+   "id": "p0135",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0136",
+   "verdict": "wrong",
+   "note": "describes family, not dish"
+  },
+  {
+   "id": "p0137",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0138",
+   "verdict": "wrong",
+   "note": "hypothetical mother"
+  },
+  {
+   "id": "p0139",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0140",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0141",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0142",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0143",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0144",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0145",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0146",
+   "verdict": "wrong",
+   "note": "cinnamon in quinoa, no taste"
+  },
+  {
+   "id": "p0147",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0148",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0149",
+   "verdict": "wrong",
+   "note": "no enjoyment stated"
+  },
+  {
+   "id": "p0150",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0151",
+   "verdict": "wrong",
+   "note": "future plan only"
+  },
+  {
+   "id": "p0152",
+   "verdict": "wrong",
+   "note": "Mexican restaurant elsewhere"
+  },
+  {
+   "id": "p0153",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0154",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0155",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0156",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0157",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0158",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0159",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0160",
+   "verdict": "wrong",
+   "note": "tang from added olives"
+  },
+  {
+   "id": "p0161",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0162",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0163",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0164",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0165",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0166",
+   "verdict": "wrong",
+   "note": "fresh ingredients or fresh-baked"
+  },
+  {
+   "id": "p0167",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0168",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0169",
+   "verdict": "wrong",
+   "note": "Mexican cheese/hot sauce products"
+  },
+  {
+   "id": "p0170",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0171",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0172",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0173",
+   "verdict": "wrong",
+   "note": "describes reviewers, not dish"
+  },
+  {
+   "id": "p0174",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0175",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0176",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0177",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0178",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0179",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0180",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0181",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0182",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0183",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0184",
+   "verdict": "wrong",
+   "note": "no liking stated"
+  },
+  {
+   "id": "p0185",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0186",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0187",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0188",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0189",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0190",
+   "verdict": "wrong",
+   "note": "bacon ingredient crispy"
+  },
+  {
+   "id": "p0191",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0192",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0193",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0194",
+   "verdict": "wrong",
+   "note": "Korean-style pan only"
+  },
+  {
+   "id": "p0195",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0196",
+   "verdict": "wrong",
+   "note": "broth richness, generic"
+  },
+  {
+   "id": "p0197",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0198",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0199",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0200",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0201",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0202",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0203",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0204",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0205",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0206",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0207",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0208",
+   "verdict": "wrong",
+   "note": "cajun spice added to batter"
+  },
+  {
+   "id": "p0209",
+   "verdict": "wrong",
+   "note": "hypothetical or modified zest"
+  },
+  {
+   "id": "p0210",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0211",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0212",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0213",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0214",
+   "verdict": "wrong",
+   "note": "smoky from added chipotle"
+  },
+  {
+   "id": "p0215",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0216",
+   "verdict": "wrong",
+   "note": "different variant dish"
+  },
+  {
+   "id": "p0217",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0218",
+   "verdict": "wrong",
+   "note": "not a food occasion"
+  },
+  {
+   "id": "p0219",
+   "verdict": "wrong",
+   "note": "peanut butter ingredient only"
+  },
+  {
+   "id": "p0220",
+   "verdict": "wrong",
+   "note": "dessert at dinner, not dinner"
+  },
+  {
+   "id": "p0221",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0222",
+   "verdict": "wrong",
+   "note": "garlic from additions"
+  },
+  {
+   "id": "p0223",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0224",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0225",
+   "verdict": "wrong",
+   "note": "aioli link only"
+  },
+  {
+   "id": "p0226",
+   "verdict": "wrong",
+   "note": "southwestern refers to chili"
+  },
+  {
+   "id": "p0227",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0228",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0229",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0230",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0231",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0232",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0233",
+   "verdict": "wrong",
+   "note": "speculative tang from substitution"
+  },
+  {
+   "id": "p0234",
+   "verdict": "wrong",
+   "note": "no enjoyment stated"
+  },
+  {
+   "id": "p0235",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0236",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0237",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0238",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0239",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0240",
+   "verdict": "wrong",
+   "note": "added cinnamon, barely tasted"
+  },
+  {
+   "id": "p0241",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0242",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0243",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0244",
+   "verdict": "wrong",
+   "note": "French toast elsewhere"
+  },
+  {
+   "id": "p0245",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0246",
+   "verdict": "wrong",
+   "note": "holiday shopping only"
+  },
+  {
+   "id": "p0247",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0248",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0249",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0250",
+   "verdict": "wrong",
+   "note": "eaten before dinner"
+  },
+  {
+   "id": "p0251",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0252",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  },
+  {
+   "id": "p0253",
+   "verdict": "correct",
+   "note": "evidence supports facet"
+  }
+ ]
+}

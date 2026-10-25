@@ -1,0 +1,157 @@
+{
+ "texture_mouthfeel|crispy|Pizza Dough": {
+  "id": "p0238",
+  "verdict": "correct",
+  "tags": [
+   "SER2:texture_mouthfeel"
+  ]
+ },
+ "texture_mouthfeel|crispy|The Best Belgian Waffles": {
+  "id": "p0128",
+  "verdict": "correct",
+  "tags": [
+   "SER2:texture_mouthfeel",
+   "SER2:trace:crispy"
+  ]
+ },
+ "texture_mouthfeel|crispy|Soft Peanut Butter Cookies": {
+  "id": "p0530",
+  "verdict": "correct",
+  "tags": [
+   "SER2:texture_mouthfeel"
+  ]
+ },
+ "texture_mouthfeel|tender|Roast \"Sticky\" Chicken": {
+  "id": "p0722",
+  "verdict": "correct",
+  "tags": [
+   "SER2:texture_mouthfeel"
+  ]
+ },
+ "texture_mouthfeel|crunchy|Mean Guy's General Tso's Chicken": {
+  "id": "p0254",
+  "verdict": "correct",
+  "tags": [
+   "SER2:texture_mouthfeel"
+  ]
+ },
+ "audience_enjoyment|daughter|Copycat  Green Giant Niblets Corn in Butter Sauce": {
+  "id": "p0142",
+  "verdict": "correct",
+  "tags": [
+   "SER2:audience_enjoyment"
+  ]
+ },
+ "audience_enjoyment|husband|Chicken Curry in a Hurry": {
+  "id": "p0087",
+  "verdict": "correct",
+  "tags": [
+   "SER2:audience_enjoyment"
+  ]
+ },
+ "texture_mouthfeel|crispy|Cracker Barrel's Hashbrowns Casserole - Copycat": {
+  "id": "p0634",
+  "verdict": "correct",
+  "tags": [
+   "SER2:trace:crispy"
+  ]
+ },
+ "texture_mouthfeel|crispy|Roast \"Sticky\" Chicken": {
+  "id": "p0319",
+  "verdict": "correct",
+  "tags": [
+   "SER2:trace:crispy"
+  ]
+ },
+ "texture_mouthfeel|crispy|Panda Express Orange Chicken": {
+  "id": "p0122",
+  "verdict": "correct",
+  "tags": [
+   "SER2:trace:crispy"
+  ]
+ },
+ "texture_mouthfeel|crispy|Perfect Turkey in an Electric Roaster Oven": {
+  "id": "p0616",
+  "verdict": "correct",
+  "tags": [
+   "SER2:trace:crispy"
+  ]
+ },
+ "texture_mouthfeel|crispy|Parmesan Sage Pork Chops": {
+  "id": "p0201",
+  "verdict": "correct",
+  "tags": [
+   "SER2:trace:crispy"
+  ]
+ },
+ "texture_mouthfeel|crispy|Brown Rice and Lentil Casserole": {
+  "id": "p0405",
+  "verdict": "wrong",
+  "tags": [
+   "SER2:trace:crispy"
+  ]
+ },
+ "texture_mouthfeel|crispy|Breakfast Casserole Supreme": {
+  "id": "p0482",
+  "verdict": "correct",
+  "tags": [
+   "SER2:trace:crispy"
+  ]
+ },
+ "texture_mouthfeel|crispy|Potato Salad": {
+  "id": "p0190",
+  "verdict": "wrong",
+  "tags": [
+   "SER2:trace:crispy"
+  ]
+ },
+ "texture_mouthfeel|crispy|Greek Potatoes (Oven-Roasted and Delicious!)": {
+  "id": "p0026",
+  "verdict": "correct",
+  "tags": [
+   "SER2:trace:crispy"
+  ]
+ },
+ "texture_mouthfeel|crispy|Streamlined Chimichangas": {
+  "id": "p0661",
+  "verdict": "correct",
+  "tags": [
+   "SER2:trace:crispy"
+  ]
+ },
+ "audience_enjoyment|kids|Broccoli Salad": {
+  "id": "p0601",
+  "verdict": "correct",
+  "tags": [
+   "SER2:trace:kids"
+  ]
+ },
+ "audience_enjoyment|kids|Baked Tilapia With Lots of Spice": {
+  "id": "p0081",
+  "verdict": "correct",
+  "tags": [
+   "SER2:trace:kids"
+  ]
+ },
+ "audience_enjoyment|kids|The Best Apple Pie Muffins Ever": {
+  "id": "p0404",
+  "verdict": "correct",
+  "tags": [
+   "SER2:trace:kids"
+  ]
+ },
+ "audience_enjoyment|kids|Melt-In-Your-Mouth Chicken Breasts": {
+  "id": "p0036",
+  "verdict": "correct",
+  "tags": [
+   "SER2:trace:kids"
+  ]
+ },
+ "audience_enjoyment|kids|My Mama Iuliucci's \"Don't Skip a Step\" Spaghetti Sauce": {
+  "id": "p0630",
+  "verdict": "correct",
+  "tags": [
+   "SER2:trace:kids"
+  ]
+ }
+}

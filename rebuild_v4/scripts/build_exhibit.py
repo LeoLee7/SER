@@ -35,8 +35,9 @@ CATEGORY_LABEL = {"taste_flavor": "Taste-Flavor", "texture_mouthfeel": "Texture-
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--min-support", default="taste_flavor=2,texture_mouthfeel=2,audience_enjoyment=2,meal_type=1,occasion_holiday=1,cuisine_type=1",
+    ap.add_argument("--min-support", default="taste_flavor=2,texture_mouthfeel=1,audience_enjoyment=1,meal_type=1,occasion_holiday=1,cuisine_type=1",
                     help="per-category minimum number of distinct reviews")
+    ap.add_argument("--min-recipes", type=int, default=2, help="a facet value must be carried by this many recipes")
     ap.add_argument("--src", default=str(ROOT / "data" / "verified_v4.jsonl"))
     ap.add_argument("--out", default=str(ROOT / "data" / "food-exhibit-data-500recipes.v4.json"))
     args = ap.parse_args()
@@ -93,6 +94,22 @@ def main():
         for k in ("subjective_sentiments", "positive_attribute_count", "neutral_attribute_count",
                   "negative_attribute_count"):
             item.pop(k, None)
+    df = defaultdict(Counter)
+    for item in data["items"]:
+        for d in DIMS:
+            df[d].update(item[FIELD[d]])
+    kept = Counter()
+    for item in data["items"]:
+        subj = []
+        for d in DIMS:
+            vals = [v for v in item[FIELD[d]] if df[d][v] >= args.min_recipes]
+            item[FIELD[d]] = vals
+            item[FIELD[d].replace("_attributes", "_support")] = {v: item[FIELD[d].replace("_attributes", "_support")][v] for v in vals}
+            kept[d] += len(vals)
+            subj += vals
+        item["subjective_attributes"] = subj
+        item["subjective_attribute_count"] = len(subj)
+        item["subjective_categories"] = [CATEGORY_LABEL[d] for d in DIMS if item[FIELD[d]]]
     print(f"unmatched reviews {unmatched}; spans not found on displayed text {relocated_fail}")
     json.dump(data, open(args.out, "w"))
     print(f"wrote {args.out}; min_support={args.min_support}; recipe-value pairs per dim: {dict(kept)}")

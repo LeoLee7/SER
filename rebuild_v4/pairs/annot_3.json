@@ -1,0 +1,639 @@
+{
+ "judgments": [
+  {
+   "id": "p0381",
+   "verdict": "wrong",
+   "note": "additions and plans only"
+  },
+  {
+   "id": "p0382",
+   "verdict": "correct",
+   "note": "made for summer party"
+  },
+  {
+   "id": "p0383",
+   "verdict": "correct",
+   "note": "cookies fluffier"
+  },
+  {
+   "id": "p0384",
+   "verdict": "correct",
+   "note": "crisp edges"
+  },
+  {
+   "id": "p0385",
+   "verdict": "correct",
+   "note": "husband said much better"
+  },
+  {
+   "id": "p0386",
+   "verdict": "correct",
+   "note": "husband loved it"
+  },
+  {
+   "id": "p0387",
+   "verdict": "wrong",
+   "note": "fruit was the dessert"
+  },
+  {
+   "id": "p0388",
+   "verdict": "wrong",
+   "note": "plan to use for holiday"
+  },
+  {
+   "id": "p0389",
+   "verdict": "correct",
+   "note": "tastes like Indian restaurant curry"
+  },
+  {
+   "id": "p0390",
+   "verdict": "correct",
+   "note": "came out crispy"
+  },
+  {
+   "id": "p0391",
+   "verdict": "correct",
+   "note": "served as holiday meal"
+  },
+  {
+   "id": "p0392",
+   "verdict": "correct",
+   "note": "family members preferred this recipe"
+  },
+  {
+   "id": "p0393",
+   "verdict": "wrong",
+   "note": "plan for holidays"
+  },
+  {
+   "id": "p0394",
+   "verdict": "correct",
+   "note": "kids gobbled it up"
+  },
+  {
+   "id": "p0395",
+   "verdict": "wrong",
+   "note": "seasonal nutmeg, no event"
+  },
+  {
+   "id": "p0396",
+   "verdict": "correct",
+   "note": "tender turkey"
+  },
+  {
+   "id": "p0397",
+   "verdict": "correct",
+   "note": "perfect holiday cookies"
+  },
+  {
+   "id": "p0398",
+   "verdict": "correct",
+   "note": "added to Christmas cookie list"
+  },
+  {
+   "id": "p0399",
+   "verdict": "wrong",
+   "note": "sentence about turkey, not gravy"
+  },
+  {
+   "id": "p0400",
+   "verdict": "wrong",
+   "note": "French fries, not cuisine"
+  },
+  {
+   "id": "p0401",
+   "verdict": "correct",
+   "note": "kids liked them"
+  },
+  {
+   "id": "p0402",
+   "verdict": "wrong",
+   "note": "leftover holiday ham ingredient"
+  },
+  {
+   "id": "p0403",
+   "verdict": "correct",
+   "note": "great holiday cookie"
+  },
+  {
+   "id": "p0404",
+   "verdict": "correct",
+   "note": "kids loved them"
+  },
+  {
+   "id": "p0405",
+   "verdict": "wrong",
+   "note": "crispy cheese ingredient"
+  },
+  {
+   "id": "p0406",
+   "verdict": "correct",
+   "note": "sisters liked it"
+  },
+  {
+   "id": "p0407",
+   "verdict": "wrong",
+   "note": "reviewer's Asian modification"
+  },
+  {
+   "id": "p0408",
+   "verdict": "correct",
+   "note": "family enjoyed bread"
+  },
+  {
+   "id": "p0409",
+   "verdict": "correct",
+   "note": "crispy top crust"
+  },
+  {
+   "id": "p0410",
+   "verdict": "correct",
+   "note": "wasn't too sweet"
+  },
+  {
+   "id": "p0411",
+   "verdict": "correct",
+   "note": "DH says awesome"
+  },
+  {
+   "id": "p0412",
+   "verdict": "correct",
+   "note": "kids ate the rest"
+  },
+  {
+   "id": "p0413",
+   "verdict": "correct",
+   "note": "thick creamy cheesy"
+  },
+  {
+   "id": "p0414",
+   "verdict": "correct",
+   "note": "big kids request these"
+  },
+  {
+   "id": "p0415",
+   "verdict": "wrong",
+   "note": "memory and other holiday"
+  },
+  {
+   "id": "p0416",
+   "verdict": "correct",
+   "note": "pumpkin flavor comes through"
+  },
+  {
+   "id": "p0417",
+   "verdict": "wrong",
+   "note": "restaurants and side rice"
+  },
+  {
+   "id": "p0418",
+   "verdict": "correct",
+   "note": "rich and heavy"
+  },
+  {
+   "id": "p0419",
+   "verdict": "correct",
+   "note": "moist and tender"
+  },
+  {
+   "id": "p0420",
+   "verdict": "correct",
+   "note": "used as traditional Irish dish"
+  },
+  {
+   "id": "p0421",
+   "verdict": "correct",
+   "note": "simple sweet chewy"
+  },
+  {
+   "id": "p0422",
+   "verdict": "correct",
+   "note": "slightly crispy"
+  },
+  {
+   "id": "p0423",
+   "verdict": "correct",
+   "note": "DH calls it Mexican Quiche"
+  },
+  {
+   "id": "p0424",
+   "verdict": "correct",
+   "note": "kids loved these"
+  },
+  {
+   "id": "p0425",
+   "verdict": "correct",
+   "note": "nice tangy taste"
+  },
+  {
+   "id": "p0426",
+   "verdict": "correct",
+   "note": "crusty outside"
+  },
+  {
+   "id": "p0427",
+   "verdict": "wrong",
+   "note": "hypothetical change"
+  },
+  {
+   "id": "p0428",
+   "verdict": "correct",
+   "note": "sweet but not cupcake sweet"
+  },
+  {
+   "id": "p0429",
+   "verdict": "correct",
+   "note": "cake surprisingly tender"
+  },
+  {
+   "id": "p0430",
+   "verdict": "correct",
+   "note": "dressing thick"
+  },
+  {
+   "id": "p0431",
+   "verdict": "correct",
+   "note": "ate it for breakfast"
+  },
+  {
+   "id": "p0432",
+   "verdict": "correct",
+   "note": "new holiday tradition"
+  },
+  {
+   "id": "p0433",
+   "verdict": "correct",
+   "note": "crisp on top"
+  },
+  {
+   "id": "p0434",
+   "verdict": "correct",
+   "note": "sweet and tangy flavor"
+  },
+  {
+   "id": "p0435",
+   "verdict": "correct",
+   "note": "made for Christmas"
+  },
+  {
+   "id": "p0436",
+   "verdict": "correct",
+   "note": "British pub style dish"
+  },
+  {
+   "id": "p0437",
+   "verdict": "wrong",
+   "note": "cooking step potatoes tender"
+  },
+  {
+   "id": "p0438",
+   "verdict": "wrong",
+   "note": "reviewer's Mexican spin"
+  },
+  {
+   "id": "p0439",
+   "verdict": "correct",
+   "note": "light airy fluffy texture"
+  },
+  {
+   "id": "p0440",
+   "verdict": "correct",
+   "note": "not too sweet"
+  },
+  {
+   "id": "p0441",
+   "verdict": "correct",
+   "note": "served for dinner"
+  },
+  {
+   "id": "p0442",
+   "verdict": "wrong",
+   "note": "negated, not fluffy"
+  },
+  {
+   "id": "p0443",
+   "verdict": "correct",
+   "note": "used for holiday turkey"
+  },
+  {
+   "id": "p0444",
+   "verdict": "wrong",
+   "note": "future plan for lunch"
+  },
+  {
+   "id": "p0445",
+   "verdict": "correct",
+   "note": "made for summer holiday"
+  },
+  {
+   "id": "p0446",
+   "verdict": "correct",
+   "note": "boyfriend praised it"
+  },
+  {
+   "id": "p0447",
+   "verdict": "correct",
+   "note": "not too spicy, mild heat"
+  },
+  {
+   "id": "p0448",
+   "verdict": "correct",
+   "note": "light and fluffy"
+  },
+  {
+   "id": "p0449",
+   "verdict": "correct",
+   "note": "even kids loved it"
+  },
+  {
+   "id": "p0450",
+   "verdict": "wrong",
+   "note": "Italian-American mother, person"
+  },
+  {
+   "id": "p0451",
+   "verdict": "correct",
+   "note": "served at holiday party"
+  },
+  {
+   "id": "p0452",
+   "verdict": "correct",
+   "note": "filed as breakfast recipe"
+  },
+  {
+   "id": "p0453",
+   "verdict": "correct",
+   "note": "DH loved it"
+  },
+  {
+   "id": "p0454",
+   "verdict": "wrong",
+   "note": "British scones, other dish"
+  },
+  {
+   "id": "p0455",
+   "verdict": "correct",
+   "note": "just enough tang"
+  },
+  {
+   "id": "p0456",
+   "verdict": "correct",
+   "note": "feta adds tanginess"
+  },
+  {
+   "id": "p0457",
+   "verdict": "correct",
+   "note": "supremely tender crumb"
+  },
+  {
+   "id": "p0458",
+   "verdict": "wrong",
+   "note": "preparation of chicken"
+  },
+  {
+   "id": "p0459",
+   "verdict": "wrong",
+   "note": "hypothetical weeknight use"
+  },
+  {
+   "id": "p0460",
+   "verdict": "correct",
+   "note": "creamy Mexican spiced center"
+  },
+  {
+   "id": "p0461",
+   "verdict": "correct",
+   "note": "sons ate and enjoyed"
+  },
+  {
+   "id": "p0462",
+   "verdict": "correct",
+   "note": "dish had garlic taste"
+  },
+  {
+   "id": "p0463",
+   "verdict": "correct",
+   "note": "roasted cauliflower so sweet"
+  },
+  {
+   "id": "p0464",
+   "verdict": "correct",
+   "note": "cool refreshing coleslaw"
+  },
+  {
+   "id": "p0465",
+   "verdict": "correct",
+   "note": "goes over well with kiddies"
+  },
+  {
+   "id": "p0466",
+   "verdict": "correct",
+   "note": "came out moist"
+  },
+  {
+   "id": "p0467",
+   "verdict": "correct",
+   "note": "so creamy and smooth"
+  },
+  {
+   "id": "p0468",
+   "verdict": "correct",
+   "note": "topping slightly crispy"
+  },
+  {
+   "id": "p0469",
+   "verdict": "correct",
+   "note": "kids ate every bite"
+  },
+  {
+   "id": "p0470",
+   "verdict": "wrong",
+   "note": "sister gave avocados"
+  },
+  {
+   "id": "p0471",
+   "verdict": "wrong",
+   "note": "Mexican oregano ingredient"
+  },
+  {
+   "id": "p0472",
+   "verdict": "correct",
+   "note": "crispy crunchy exterior"
+  },
+  {
+   "id": "p0473",
+   "verdict": "correct",
+   "note": "rivals Mexican restaurants"
+  },
+  {
+   "id": "p0474",
+   "verdict": "wrong",
+   "note": "hypothetical; holiday chips ingredient"
+  },
+  {
+   "id": "p0475",
+   "verdict": "wrong",
+   "note": "no spicy taste stated"
+  },
+  {
+   "id": "p0476",
+   "verdict": "correct",
+   "note": "sweet tangy taste"
+  },
+  {
+   "id": "p0477",
+   "verdict": "correct",
+   "note": "nice crispiness"
+  },
+  {
+   "id": "p0478",
+   "verdict": "wrong",
+   "note": "change, less sugar"
+  },
+  {
+   "id": "p0479",
+   "verdict": "correct",
+   "note": "made for NYE party"
+  },
+  {
+   "id": "p0480",
+   "verdict": "wrong",
+   "note": "Mexican cheese ingredient"
+  },
+  {
+   "id": "p0481",
+   "verdict": "correct",
+   "note": "like Chinese restaurant General Tso's"
+  },
+  {
+   "id": "p0482",
+   "verdict": "correct",
+   "note": "sides crispy"
+  },
+  {
+   "id": "p0483",
+   "verdict": "wrong",
+   "note": "batter thin, not dish"
+  },
+  {
+   "id": "p0484",
+   "verdict": "correct",
+   "note": "served as Easter appetizer"
+  },
+  {
+   "id": "p0485",
+   "verdict": "correct",
+   "note": "judged as side dish"
+  },
+  {
+   "id": "p0486",
+   "verdict": "correct",
+   "note": "dressing had nice tang"
+  },
+  {
+   "id": "p0487",
+   "verdict": "wrong",
+   "note": "unrelated holiday mention"
+  },
+  {
+   "id": "p0488",
+   "verdict": "correct",
+   "note": "husband loved it"
+  },
+  {
+   "id": "p0489",
+   "verdict": "wrong",
+   "note": "unrelated kids mentions"
+  },
+  {
+   "id": "p0490",
+   "verdict": "correct",
+   "note": "fresh salad"
+  },
+  {
+   "id": "p0491",
+   "verdict": "correct",
+   "note": "made for Valentine's day"
+  },
+  {
+   "id": "p0492",
+   "verdict": "correct",
+   "note": "used as side dish"
+  },
+  {
+   "id": "p0493",
+   "verdict": "wrong",
+   "note": "Mexican caramel ingredient"
+  },
+  {
+   "id": "p0494",
+   "verdict": "correct",
+   "note": "good quick dessert"
+  },
+  {
+   "id": "p0495",
+   "verdict": "wrong",
+   "note": "preference and change"
+  },
+  {
+   "id": "p0496",
+   "verdict": "correct",
+   "note": "made for dinner"
+  },
+  {
+   "id": "p0497",
+   "verdict": "wrong",
+   "note": "Italian seasoning ingredient"
+  },
+  {
+   "id": "p0498",
+   "verdict": "correct",
+   "note": "inner part crispy"
+  },
+  {
+   "id": "p0499",
+   "verdict": "wrong",
+   "note": "future plan"
+  },
+  {
+   "id": "p0500",
+   "verdict": "correct",
+   "note": "crispy wings"
+  },
+  {
+   "id": "p0501",
+   "verdict": "wrong",
+   "note": "preference and sugar change"
+  },
+  {
+   "id": "p0502",
+   "verdict": "correct",
+   "note": "served as dinner"
+  },
+  {
+   "id": "p0503",
+   "verdict": "correct",
+   "note": "tops delightfully crispy"
+  },
+  {
+   "id": "p0504",
+   "verdict": "wrong",
+   "note": "Starbucks lemon loaf, other product"
+  },
+  {
+   "id": "p0505",
+   "verdict": "correct",
+   "note": "made for holidays"
+  },
+  {
+   "id": "p0506",
+   "verdict": "correct",
+   "note": "kids liked it"
+  },
+  {
+   "id": "p0507",
+   "verdict": "correct",
+   "note": "perfectly crisp outside"
+  }
+ ]
+}

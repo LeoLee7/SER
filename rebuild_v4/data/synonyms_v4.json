@@ -147,7 +147,11 @@
  },
  "texture_mouthfeel": {
   "crispy": [
-   "crisp"
+   "crisp",
+   "crispness",
+   "crisp crust",
+   "slightly crisp",
+   "crispy grilled texture"
   ],
   "crunchy": [
    "crunch"
@@ -160,7 +164,9 @@
   ],
   "tender": [
    "fork tender",
-   "fork-tender"
+   "fork-tender",
+   "tenderness",
+   "tenderized"
   ],
   "juicy": [
    "succulent"
@@ -172,7 +178,8 @@
   ],
   "melt-in-your-mouth": [
    "melted in mouth",
-   "melt in mouth"
+   "melt in mouth",
+   "melt-in-the-mouth"
   ],
   "flaky": [
    "flakey"
@@ -180,7 +187,11 @@
   "moist": [
    "moisture",
    "not dry",
-   "not too dry"
+   "not too dry",
+   "not overly dry",
+   "not dried",
+   "not so dry",
+   "semi-moist"
   ],
   "gooey": [
    "ooey-gooey",
@@ -202,7 +213,9 @@
    "held their shape",
    "held its shape",
    "kept their form",
-   "intact"
+   "intact",
+   "hold their shape",
+   "holds shape"
   ],
   "soft": [
    "softened",
@@ -213,10 +226,15 @@
    "hardens"
   ],
   "fudgy": [
-   "fudge"
+   "fudge",
+   "fudgey"
   ],
   "crisp-tender": [
    "tender-crisp"
+  ],
+  "spreadable": [
+   "easy-to-spread",
+   "easy to spread"
   ]
  },
  "meal_type": {
@@ -365,7 +383,14 @@
    "5 yr old",
    "4yo",
    "preschooler",
-   "little man"
+   "little man",
+   "little boy",
+   "two little ones",
+   "little tasters",
+   "eight year old",
+   "7-yr old",
+   "boy",
+   "2.5 year old"
   ],
   "toddler": [
    "toddlers",
@@ -381,7 +406,9 @@
    "picky kid",
    "fussy eaters",
    "picky family",
-   "picky rice eater"
+   "picky rice eater",
+   "particular eaters",
+   "fussy adults"
   ],
   "partner": [
    "significant other",
@@ -391,7 +418,8 @@
    "fianc\u00e9"
   ],
   "father": [
-   "dad"
+   "dad",
+   "dads"
   ],
   "mother": [
    "mothers"
@@ -406,7 +434,10 @@
    "girls at work",
    "staff",
    "employees",
-   "employers"
+   "employers",
+   "co-worker",
+   "husband's coworkers",
+   "work buddies"
   ],
   "friends": [
    "friend",
@@ -421,7 +452,8 @@
    "large group"
   ],
   "son": [
-   "sons"
+   "sons",
+   "younger son"
   ],
   "daughter": [
    "daughters"
@@ -447,7 +479,10 @@
   ],
   "teenagers": [
    "teen",
-   "teens"
+   "teens",
+   "13 yr old",
+   "13 year old",
+   "16 yo"
   ],
   "men": [
    "guys"
@@ -462,7 +497,11 @@
   "family": [
    "family members",
    "extended family",
-   "relatives"
+   "relatives",
+   "families"
+  ],
+  "cousins": [
+   "cousin"
   ]
  },
  "cuisine_type": {

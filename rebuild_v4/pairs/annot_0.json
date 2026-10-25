@@ -1,0 +1,639 @@
+{
+ "judgments": [
+  {
+   "id": "p0000",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0001",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0002",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0003",
+   "verdict": "wrong",
+   "note": "garlic only as ingredient"
+  },
+  {
+   "id": "p0004",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0005",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0006",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0007",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0008",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0009",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0010",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0011",
+   "verdict": "wrong",
+   "note": "Mexican cheese ingredient"
+  },
+  {
+   "id": "p0012",
+   "verdict": "wrong",
+   "note": "other food, husband preference"
+  },
+  {
+   "id": "p0013",
+   "verdict": "wrong",
+   "note": "French thyme ingredient"
+  },
+  {
+   "id": "p0014",
+   "verdict": "wrong",
+   "note": "Mexican cheese ingredient"
+  },
+  {
+   "id": "p0015",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0016",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0017",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0018",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0019",
+   "verdict": "wrong",
+   "note": "Mexican cheese blend ingredient"
+  },
+  {
+   "id": "p0020",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0021",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0022",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0023",
+   "verdict": "wrong",
+   "note": "negated crispy"
+  },
+  {
+   "id": "p0024",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0025",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0026",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0027",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0028",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0029",
+   "verdict": "wrong",
+   "note": "light coat of sauce"
+  },
+  {
+   "id": "p0030",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0031",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0032",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0033",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0034",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0035",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0036",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0037",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0038",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0039",
+   "verdict": "wrong",
+   "note": "hypothetical seasoning"
+  },
+  {
+   "id": "p0040",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0041",
+   "verdict": "wrong",
+   "note": "product brand comparison"
+  },
+  {
+   "id": "p0042",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0043",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0044",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0045",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0046",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0047",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0048",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0049",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0050",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0051",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0052",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0053",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0054",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0055",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0056",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0057",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0058",
+   "verdict": "wrong",
+   "note": "cook made it, no enjoyment"
+  },
+  {
+   "id": "p0059",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0060",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0061",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0062",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0063",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0064",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0065",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0066",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0067",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0068",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0069",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0070",
+   "verdict": "wrong",
+   "note": "plan for tomorrow lunch"
+  },
+  {
+   "id": "p0071",
+   "verdict": "wrong",
+   "note": "served with other Mexican dinner"
+  },
+  {
+   "id": "p0072",
+   "verdict": "wrong",
+   "note": "father found it strange"
+  },
+  {
+   "id": "p0073",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0074",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0075",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0076",
+   "verdict": "wrong",
+   "note": "hypothetical holiday use"
+  },
+  {
+   "id": "p0077",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0078",
+   "verdict": "wrong",
+   "note": "general cuisine preference"
+  },
+  {
+   "id": "p0079",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0080",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0081",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0082",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0083",
+   "verdict": "wrong",
+   "note": "leftovers from other holiday recipes"
+  },
+  {
+   "id": "p0084",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0085",
+   "verdict": "wrong",
+   "note": "cook for family, no enjoyment"
+  },
+  {
+   "id": "p0086",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0087",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0088",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0089",
+   "verdict": "wrong",
+   "note": "Thai basil ingredient"
+  },
+  {
+   "id": "p0090",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0091",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0092",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0093",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0094",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0095",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0096",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0097",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0098",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0099",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0100",
+   "verdict": "wrong",
+   "note": "season, not occasion"
+  },
+  {
+   "id": "p0101",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0102",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0103",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0104",
+   "verdict": "wrong",
+   "note": "plan for kids later"
+  },
+  {
+   "id": "p0105",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0106",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0107",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0108",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0109",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0110",
+   "verdict": "wrong",
+   "note": "chocolate variant change"
+  },
+  {
+   "id": "p0111",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0112",
+   "verdict": "wrong",
+   "note": "intended stickiness, not observed"
+  },
+  {
+   "id": "p0113",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0114",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0115",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0116",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0117",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0118",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0119",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0120",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0121",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0122",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0123",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0124",
+   "verdict": "wrong",
+   "note": "Thai rice side dish"
+  },
+  {
+   "id": "p0125",
+   "verdict": "correct",
+   "note": "sentence supports facet"
+  },
+  {
+   "id": "p0126",
+   "verdict": "wrong",
+   "note": "no friend mentioned"
+  }
+ ]
+}

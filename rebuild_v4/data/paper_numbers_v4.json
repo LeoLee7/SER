@@ -1,0 +1,110 @@
+{
+ "table1": {
+  "taste_flavor": {
+   "kw": 2252,
+   "kw_prec": 0.5,
+   "ser": 436,
+   "ser_prec": 1.0,
+   "n_kw": 40,
+   "n_ser": 40
+  },
+  "texture_mouthfeel": {
+   "kw": 2377,
+   "kw_prec": 0.7,
+   "ser": 1719,
+   "ser_prec": 0.9166666666666666,
+   "n_kw": 40,
+   "n_ser": 60
+  },
+  "meal_type": {
+   "kw": 898,
+   "kw_prec": 0.725,
+   "ser": 717,
+   "ser_prec": 0.85,
+   "n_kw": 40,
+   "n_ser": 40
+  },
+  "occasion_holiday": {
+   "kw": 901,
+   "kw_prec": 0.65,
+   "ser": 659,
+   "ser_prec": 0.925,
+   "n_kw": 40,
+   "n_ser": 40
+  },
+  "audience_enjoyment": {
+   "kw": 2510,
+   "kw_prec": 0.7,
+   "ser": 2282,
+   "ser_prec": 0.9166666666666666,
+   "n_kw": 40,
+   "n_ser": 60
+  },
+  "cuisine_type": {
+   "kw": 557,
+   "kw_prec": 0.25,
+   "ser": 101,
+   "ser_prec": 0.9210526315789473,
+   "n_kw": 40,
+   "n_ser": 38
+  }
+ },
+ "trace": {
+  "tangy": {
+   "kw": 41,
+   "extracted": 32,
+   "normalized": 75,
+   "shown": 15,
+   "kw_prec": 0.8,
+   "ser_prec": 0.9333333333333333,
+   "n_kw": 30,
+   "n_ser": 15
+  },
+  "crispy": {
+   "kw": 155,
+   "extracted": 167,
+   "normalized": 169,
+   "shown": 169,
+   "kw_prec": 0.8666666666666667,
+   "ser_prec": 0.9,
+   "n_kw": 30,
+   "n_ser": 30
+  },
+  "holiday": {
+   "kw": 46,
+   "extracted": 20,
+   "normalized": 34,
+   "shown": 34,
+   "kw_prec": 0.6,
+   "ser_prec": 0.9,
+   "n_kw": 30,
+   "n_ser": 30
+  },
+  "kids": {
+   "kw": 299,
+   "extracted": 274,
+   "normalized": 292,
+   "shown": 292,
+   "kw_prec": 0.8333333333333334,
+   "ser_prec": 0.9,
+   "n_kw": 30,
+   "n_ser": 30
+  },
+  "Mexican": {
+   "kw": 70,
+   "extracted": 16,
+   "normalized": 21,
+   "shown": 21,
+   "kw_prec": 0.3,
+   "ser_prec": 0.9047619047619048,
+   "n_kw": 30,
+   "n_ser": 21
+  }
+ },
+ "all": {
+  "kw": 9495,
+  "ser": 5914,
+  "ek": 5922.85,
+  "es": 5415.634649122806
+ }
+}

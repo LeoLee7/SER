@@ -1,0 +1,547 @@
+[
+ {
+  "review_id": "h025",
+  "recipe": "Butterfinger Pie",
+  "review": "I knew that with 101 great ratings this would be delicious and I wasn't wrong. This pie is SO good as well as easy to make and with a really great presentation. I had to use small Butterfinger bars because that is all I could find. I used 13 oz and smashed them up with my meat cleaver while they were still in the wrapper. I used 4 of the small ones for on top of the pie. I can't wait to take this to my next potluck!",
+  "tuples": [
+   {
+    "id": "h025_t00",
+    "category": "occasion_holiday",
+    "value": "potluck",
+    "evidence": "to my next potluck"
+   }
+  ]
+ },
+ {
+  "review_id": "h026",
+  "recipe": "Nestle Toll House Chocolate Chip Pan Cookie",
+  "review": "Fantastic recipe. I couldn't bring myself to make another batch of cookies late one pre-Christmas night and found this recipe. I baked in a 9x13 glass pan, reduced the temp by 10 degrees and 25 minutes was just right. Another reviewer was correct, these are like Blondies! I had some leftover butterscotch chips so I tossed them in too. I let cool completely and they cut up beautifully for my cookie trays. A keeper for sure!\nUPDATE: Gave these in a cookie tray to a favorite bartender, MISTAKE!! Now I am on my third batch for all the people she shared them with, lol.  Double the vanilla and bake on parchment paper to easily lift from the pan. Perfect Perfect Perfect!!",
+  "tuples": [
+   {
+    "id": "h026_t00",
+    "category": "occasion_holiday",
+    "value": "Christmas",
+    "evidence": "pre-Christmas"
+   },
+   {
+    "id": "h026_t01",
+    "category": "audience_enjoyment",
+    "value": "bartender",
+    "evidence": "Gave these in a cookie tray to a favorite bartender"
+   }
+  ]
+ },
+ {
+  "review_id": "h027",
+  "recipe": "Perfectly Juice Prime Rib",
+  "review": "I made this for Christmas Dinner 2015. I have never cooked prime rib before. I had a beautiful 9 lb. $149 piece and was a bit nervous! I didn&#039;t need to be with this recipe. I do have a temperature probe inside my oven so that helped alot. I cooked it the first time for 60 mins because of the size of my roast. Let it sit in the unopened oven for about  90 mins and then turned oven back on. I did set the timer for 45 mins but really with my oven it is not necessary with the probe as it alarms and shuts off when pre-set temperature is reached. I cooked it to 130 degrees (which did take an additional hour or so). Let stand the 15 mins and it was a perfect medium to medium rare from one end of the roast to the other. My 10 guests were impressed as was I!",
+  "tuples": [
+   {
+    "id": "h027_t00",
+    "category": "occasion_holiday",
+    "value": "Christmas",
+    "evidence": "I made this for Christmas Dinner"
+   },
+   {
+    "id": "h027_t01",
+    "category": "audience_enjoyment",
+    "value": "guests",
+    "evidence": "My 10 guests were impressed"
+   },
+   {
+    "id": "h027_t02",
+    "category": "meal_type",
+    "value": "dinner",
+    "evidence": "Christmas Dinner"
+   }
+  ]
+ },
+ {
+  "review_id": "h028",
+  "recipe": "Jumbo Shrimp Parmesan",
+  "review": "I made this recipe exactly as written with one deviation; I used Panko Breadcrumbs instead of regular breadcrumbs. These were very good and I will make them again. The shrimp were very juicy and tender on the inside; crunchy and flavorful on the outside. I did find that 1TBS of butter would have been more than enough for this dish, and thus, 4 stars because the shrimp was a bit oily on the bottom side.   The next time that I make this recipe I will cut the butter by half. VERY good recipe- thank you!",
+  "tuples": [
+   {
+    "id": "h028_t00",
+    "category": "texture_mouthfeel",
+    "value": "tender",
+    "evidence": "tender on the inside"
+   },
+   {
+    "id": "h028_t01",
+    "category": "texture_mouthfeel",
+    "value": "juicy",
+    "evidence": "shrimp were very juicy"
+   },
+   {
+    "id": "h028_t02",
+    "category": "texture_mouthfeel",
+    "value": "crunchy",
+    "evidence": "crunchy and flavorful"
+   }
+  ]
+ },
+ {
+  "review_id": "h029",
+  "recipe": "Kittencal's Famous Greek Salad",
+  "review": "This greek salad is to die for!! Until now, I've tried in vain to find a recipe that duplicates the experience of the dressing on the greek salad at my favorite greek restaurant, and finally I've found it! I like things tart, so I did not add the sugar, but added a little extra parmesan. For the salad, I omitted the romaine and added extra cucumbers. It was a perfect addition to what turned out to be a Greek themed dinner -- rack of lamb, greek potatoes (#87782) and 24k carrots (#152441). Thanks for another great recipe, KITTENCAL! :)",
+  "tuples": [
+   {
+    "id": "h029_t00",
+    "category": "taste_flavor",
+    "value": "tangy",
+    "evidence": "I like things tart"
+   },
+   {
+    "id": "h029_t01",
+    "category": "cuisine_type",
+    "value": "Mediterranean",
+    "evidence": "greek salad"
+   },
+   {
+    "id": "h029_t02",
+    "category": "meal_type",
+    "value": "dinner",
+    "evidence": "Greek themed dinner"
+   }
+  ]
+ },
+ {
+  "review_id": "h030",
+  "recipe": "Tiny Cinnamon Rolls",
+  "review": "My kids loved these! I made a double batch using two tubes of crescent rolls. I followed the advice of others and cut the rolled up rolls into three pieces each instead of five. I also added raisins. For the icing, I used a couple of drops of vanilla and a couple of drops of almond extract. They were quick, very easy, and everyone enjoyed them. These will become a weekend morning staple in our home. Thanks so much for posting the recipe!",
+  "tuples": [
+   {
+    "id": "h030_t00",
+    "category": "meal_type",
+    "value": "breakfast",
+    "evidence": "weekend morning"
+   },
+   {
+    "id": "h030_t01",
+    "category": "occasion_holiday",
+    "value": "weekend",
+    "evidence": "weekend morning"
+   },
+   {
+    "id": "h030_t02",
+    "category": "audience_enjoyment",
+    "value": "kids",
+    "evidence": "My kids loved these!"
+   }
+  ]
+ },
+ {
+  "review_id": "h031",
+  "recipe": "Roast \"Sticky\" Chicken",
+  "review": "This chicken is wonderful! Made exactly as directed, my chicken wasn't very big so I was only able to fit 3/4 of a big onion inside. Basted three times, filled the house with a fantastic aroma that had us wanting to eat long before it was ready. I added about a 1/4 cup of water and three little pats of butter to the glass baking dish to help the basting juices along. Tasted great, fell off the bone. Can't wait to make broth out of bones and make soup! Oh! I marinated overnight in a Costco bread bag, I save them all the time because they come in handy for so many things, chicken bones for instance! Don't throw them away! Marvelous chicken, easy to do. Made me look like a star! I'll make this again, thanks for the recipe.",
+  "tuples": []
+ },
+ {
+  "review_id": "h032",
+  "recipe": "Absolute Best Ever Lasagna",
+  "review": "I made the following changes to this recipe:  ground turkey/turkey sausage for the meat, 2 cans diced tomatoes for the whole, added one tomato paste can of water to the sauce, uncooked whole wheat noodles.  My husband liked the flavors, but said it was a little 'drier' than I normally make...that was probably from my tweaking, and I fixed this the second time I made it.  I have made this again, and added one more can of diced tomatoes (3 total) to the sauce mixture, and 2 small cans of water.  PERFECT!   I use regular whole wheat noodles (not the 'no bake' kind), and I don't cook them before I assemble the lasagna.  I like the texture and taste of the noodles more when they are cooked in the lasagna instead of beforehand.  The flavors in the recipe are really good and this was an outstanding lasagna!!  I use this recipe as my guide, and just tweak it to make it saucier for our taste!!",
+  "tuples": [
+   {
+    "id": "h032_t00",
+    "category": "audience_enjoyment",
+    "value": "husband",
+    "evidence": "My husband liked the flavors"
+   }
+  ]
+ },
+ {
+  "review_id": "h033",
+  "recipe": "Black Bean and Tortilla Bake",
+  "review": "This dish tastes fantastic - really flavorful and incredibly healthy because it's high in fiber, vitamin C and low in fat.  I agree with other reviewers in that I would also decrease the number of servings to 4 instead of 6.  My only problem was that it was drier than I expected.  That may have been my fault, as my tortillas were frozen so I put them in the oven to defrost and they may have become too dry.  So to increase the moisture I added about 1/4 cup of V-8 juice I had in the refrigerator, but it was still too dry.  Next time I try this recipe I will add more tomatoes or tomato sauce.  Still deserves 5 stars though because of the intense taste and good nutrition.",
+  "tuples": [
+   {
+    "id": "h033_t00",
+    "category": "taste_flavor",
+    "value": "intense taste",
+    "evidence": "because of the intense taste"
+   }
+  ]
+ },
+ {
+  "review_id": "h034",
+  "recipe": "Frizzled Cabbage",
+  "review": "I grew up on cabbage cooked just like this but my mom used to take a huge cake pan (double the size of a full sheet cake pan) and spread cooked white rice on the botton, layer the cooked cabbage over it, layer fried slices of kielbasa and then sprinkle shredded mozzarella all over it and put it in the oven until the cheese melted and started to brown a bit. Oh so good! A family of 6 almost always wiped it out and there were no leftovers!",
+  "tuples": [
+   {
+    "id": "h034_t00",
+    "category": "audience_enjoyment",
+    "value": "family",
+    "evidence": "A family of 6 almost always wiped it out"
+   },
+   {
+    "id": "h034_t01",
+    "category": "audience_enjoyment",
+    "value": "mother",
+    "evidence": "my mom used to"
+   }
+  ]
+ },
+ {
+  "review_id": "h035",
+  "recipe": "Soft Batch Chocolate Chip Cookies",
+  "review": "I made these and they were gone in 2 days. Whether fresh from the oven or 2 days old they were GREAT! I added 1/2 tsp of salt and an extra tsp of vanilla. I used semi-sweet mini chips. I made the \"mistake\" of putting banana cream pudding in as another reviewer did and they were soooo yummy! I wish they had more than 5 stars! I think I will try choc pudding and peanut butter chips next time. UPDATE: I made some tonight without any kind of chips, just the pudding. Let me tell you, if sweet isn't your thing, this is an Awesome way to eat these cookie without the chocolate. YUM!",
+  "tuples": [
+   {
+    "id": "h035_t00",
+    "category": "taste_flavor",
+    "value": "salty",
+    "evidence": "1/2 tsp of salt"
+   },
+   {
+    "id": "h035_t01",
+    "category": "taste_flavor",
+    "value": "vanilla",
+    "evidence": "an extra tsp of vanilla"
+   },
+   {
+    "id": "h035_t02",
+    "category": "taste_flavor",
+    "value": "sweet",
+    "evidence": "if sweet isn't your thing"
+   }
+  ]
+ },
+ {
+  "review_id": "h036",
+  "recipe": "Beth's Pizza Crust",
+  "review": "I make this recipe (multiplied 5x) for our family of ten.  I add the sugar to the yeast and water mixture to activate the yeast quicker.  I kneaded it in my Bosch with the dough hook for about 2 minutes. I have used vegetable oil when out of olive oil with acceptable results, but the olive oil lends a much better flavor. I have also spiced it up a bit with various spices and garlic.  Besides pizza, we use this dough for calzones.   8-10 oz portions is an individual main dish serving.  Bake them at 400 for 17-18 minutes.",
+  "tuples": [
+   {
+    "id": "h036_t00",
+    "category": "meal_type",
+    "value": "pizza",
+    "evidence": "Besides pizza, we use this dough for calzones"
+   },
+   {
+    "id": "h036_t01",
+    "category": "taste_flavor",
+    "value": "spiced",
+    "evidence": "I have also spiced it up a bit with various spices and garlic"
+   },
+   {
+    "id": "h036_t02",
+    "category": "audience_enjoyment",
+    "value": "family",
+    "evidence": "for our family of ten"
+   },
+   {
+    "id": "h036_t03",
+    "category": "meal_type",
+    "value": "main dish",
+    "evidence": "individual main dish serving"
+   },
+   {
+    "id": "h036_t04",
+    "category": "taste_flavor",
+    "value": "better flavor",
+    "evidence": "olive oil lends a much better flavor"
+   }
+  ]
+ },
+ {
+  "review_id": "h037",
+  "recipe": "Balsamic Chicken Thighs",
+  "review": "I was in the mood for an early dinner tonight. I had all the ingredients on hand for this so decided to give it a shot....AWESOME!!!  The only change I made was to add 2 Tbsp. butter after taking the chicken out of the pan.  I cooked it down to the point that it was almost to a glaze-like consistency. YUMMY!  Served with thinly sliced zuchinni that I put into the \"glaze\" for about 1 minute.  This was excellent served with the chicken.  Next time I am going to try adding cabbage(I ate all the zuchinni right off the bat and grabbed a jar of kimchi from the refridge).  Delicious and VERY easy to make dinner.  This could easily be made a crockpot dish, too.",
+  "tuples": [
+   {
+    "id": "h037_t00",
+    "category": "audience_enjoyment",
+    "value": "self",
+    "evidence": "I ate all the zuchinni right off the bat"
+   },
+   {
+    "id": "h037_t01",
+    "category": "meal_type",
+    "value": "dinner",
+    "evidence": "an early dinner"
+   }
+  ]
+ },
+ {
+  "review_id": "h038",
+  "recipe": "Simple Caribbean Jerk Chicken",
+  "review": "This chicken is so very good!  I didn't have thyme, so instead I added some italian spices.  I absolutely loved the cinnamon flavor and couldn't imagine decreasing it.  I was only making two large chicken breasts, but kept the amount of everything else the same and it made a nice drizzle for the rice I served under it (easy garlic rice #71739) and can't wait to make this again.  I cooked the chicken in the oven, uncovered, at 400 degrees for 40 minutes.  Half way through I basted the chicken with the leftover marinade.  Super tasty.",
+  "tuples": [
+   {
+    "id": "h038_t00",
+    "category": "taste_flavor",
+    "value": "cinnamon",
+    "evidence": "I absolutely loved the cinnamon flavor"
+   },
+   {
+    "id": "h038_t01",
+    "category": "meal_type",
+    "value": "lunch",
+    "evidence": "rice I served under it"
+   },
+   {
+    "id": "h038_t02",
+    "category": "cuisine_type",
+    "value": "Italian",
+    "evidence": "some italian spices"
+   }
+  ]
+ },
+ {
+  "review_id": "h039",
+  "recipe": "Yes, Virginia There is a Great Meatloaf",
+  "review": "Sorry if this posts twice, my internet connection was acting funky when I tried to post it the first time.<br/><br/>I made this recipe for the first time last night and it came out perfect!  (Usually it takes a few tries...) My entire family enjoyed it, even my two 10-year-olds who usually won't eat anything except mac & cheese.  <br/><br/>After putting the sauce on the meatloaf to cook, I made another double batch for the table.  My husband loved it!  <br/><br/>The only thing I did differently was that I crushed half a sleeve of Ritz crackers instead of using the bread.  Based on someone's review saying the half & half was too much, I didn't measure the half & half, just poured in a little at a time until I got a soft, but not too soft consistency for the chopped meat.  I think I ended up using about half a cup anyway.  <br/><br/>I served it with mashed potatoes and steamed asparagus.  <br/><br/>I think this would work great making it in muffin tins or mini loaf pans to serve at a potluck. I would also use this recipe to make cocktail meatballs served with toothpicks to dip in the sauce. <br/><br/>It was so easy but came out so delicious!  This is going to be my meatloaf recipe from now on.  Thank you so much Nita!!",
+  "tuples": [
+   {
+    "id": "h039_t00",
+    "category": "audience_enjoyment",
+    "value": "kids",
+    "evidence": "even my two 10-year-olds who usually won't eat anything except mac & cheese"
+   },
+   {
+    "id": "h039_t01",
+    "category": "audience_enjoyment",
+    "value": "husband",
+    "evidence": "My husband loved it"
+   },
+   {
+    "id": "h039_t02",
+    "category": "occasion_holiday",
+    "value": "potluck",
+    "evidence": "to serve at a potluck"
+   },
+   {
+    "id": "h039_t03",
+    "category": "audience_enjoyment",
+    "value": "family",
+    "evidence": "My entire family enjoyed it"
+   },
+   {
+    "id": "h039_t04",
+    "category": "texture_mouthfeel",
+    "value": "soft",
+    "evidence": "soft, but not too soft consistency"
+   }
+  ]
+ },
+ {
+  "review_id": "h040",
+  "recipe": "The Best Easy Beef and Broccoli Stir-Fry",
+  "review": "Really good! Even my kids liked it!&lt;br/&gt;&lt;br/&gt;I did spice it up and add a bit more garlic (that&#039;s how we roll...)&lt;br/&gt;&lt;br/&gt;Here are my notes:&lt;br/&gt;I put the beef in a bag and added the cornstarch and garlic powder to coat - then added 2 tbsp rice vinegar with water. Marinated for 30 minutes. I also added crushed red pepper to oil before frying.&lt;br/&gt;&lt;br/&gt;To the sauce I added 1/3 cup oyster sauce, fresh garlic, fresh ginger, more crushed red pepper, and only 1/4 cup water (we like our sauce thick and I find the heat loosens it up).&lt;br/&gt;&lt;br/&gt;Also topped with toasted sesame seeds and fresh green onions.&lt;br/&gt;&lt;br/&gt;Next time I think I&#039;ll add the sesame oil as well as recommended in an earlier review.&lt;br/&gt;&lt;br/&gt;Can&#039;t wait to make it again!",
+  "tuples": [
+   {
+    "id": "h040_t00",
+    "category": "audience_enjoyment",
+    "value": "kids",
+    "evidence": "Even my kids liked it!"
+   },
+   {
+    "id": "h040_t01",
+    "category": "taste_flavor",
+    "value": "garlic",
+    "evidence": "add a bit more garlic"
+   },
+   {
+    "id": "h040_t02",
+    "category": "texture_mouthfeel",
+    "value": "thick",
+    "evidence": "we like our sauce thick"
+   },
+   {
+    "id": "h040_t03",
+    "category": "taste_flavor",
+    "value": "spicy",
+    "evidence": "I did spice it up"
+   }
+  ]
+ },
+ {
+  "review_id": "h041",
+  "recipe": "Lemon Baked Cod",
+  "review": "My picky 9 year old daughter enjoyed this, as did I.  It was so very easy to prepare.  I used a really good quality paprika, which probably added to the quality.  One thing I did wrong--I used lemon juice from concentrate with the proportion suggested, and my daughter commented that the fish was a bit TOO lemony. I liked it very well, but you might wish to dilute the ReaLemon, or use actual, real lemon juice if you have somebody with a sensitive palate.",
+  "tuples": [
+   {
+    "id": "h041_t00",
+    "category": "taste_flavor",
+    "value": "sour",
+    "evidence": "I liked it very well"
+   },
+   {
+    "id": "h041_t01",
+    "category": "audience_enjoyment",
+    "value": "picky eater",
+    "evidence": "My picky 9 year old daughter enjoyed this"
+   },
+   {
+    "id": "h041_t02",
+    "category": "audience_enjoyment",
+    "value": "daughter",
+    "evidence": "My picky 9 year old daughter enjoyed this"
+   },
+   {
+    "id": "h041_t03",
+    "category": "audience_enjoyment",
+    "value": "self",
+    "evidence": "as did I"
+   }
+  ]
+ },
+ {
+  "review_id": "h042",
+  "recipe": "Traditional Irish Shepherd's Pie",
+  "review": "This recipe is awesome! I searched for a traditional Irish dish to use for the St. Patrick's Day potluck at the office and this one looked yummy and had great reviews, so I gave it a shot. I followed the recipe to a &quot;t&quot; and it went over so well! Everyone loved it and it was gone in no time! I even made a separate small one for my husband because he couldn't resist the smell while I was cooking! I used the ground beef because I couldn't find lamb at my grocery store, so next time I will try lamb to see how it tastes. I used fresh mashed potatoes (with a little milk, butter, salt, pepper, and Parmesan) and I always leave some small chunks of potato intact and that seemed to go over well, too. I highly recommend this dish! Thanks for sharing the recipe!",
+  "tuples": [
+   {
+    "id": "h042_t00",
+    "category": "occasion_holiday",
+    "value": "St. Patrick's Day",
+    "evidence": "for the St. Patrick's Day potluck"
+   },
+   {
+    "id": "h042_t01",
+    "category": "occasion_holiday",
+    "value": "potluck",
+    "evidence": "St. Patrick's Day potluck"
+   },
+   {
+    "id": "h042_t02",
+    "category": "cuisine_type",
+    "value": "Irish",
+    "evidence": "traditional Irish dish"
+   }
+  ]
+ },
+ {
+  "review_id": "h043",
+  "recipe": "Quick Yellow Cake",
+  "review": "I made two cakes, one with light butter and the other with short. My toothpick came clean in exactly 26 min. in each cake. My first cake's bottom really stuck in the pan (but I was able to scrape it off in one piece and place it back on, so the second time I line with parchment paper, which didn't stick). Both were very fluffy, just like you'd think of an \"old-fashioned\" cake. I added about 3 drops of yellow extract and my cake was a natural yellow color. I used Recipe #44126  which I highly recommend, since it spread perfectly, leaving a nice finish (with a great chocolate flavor). This is a wonderful \"all-purpose\" cake that I'll be sure to make again! Thanks MizzNezz, for posting.\n\nRoxygirl",
+  "tuples": [
+   {
+    "id": "h043_t00",
+    "category": "texture_mouthfeel",
+    "value": "fluffy",
+    "evidence": "Both were very fluffy"
+   },
+   {
+    "id": "h043_t01",
+    "category": "taste_flavor",
+    "value": "chocolate",
+    "evidence": "great chocolate flavor"
+   }
+  ]
+ },
+ {
+  "review_id": "h044",
+  "recipe": "Oven-Fried Chicken Chimichangas",
+  "review": "I love these!  I double the recipe and add a can of black beans.  Then I like mine full so I use about a half cup of filling in each.  We have a small family and while I do enjoy cooking there is plenty of nights that I just want something easy so I make these one night bake only what we eat and put the rest on a pan and freeze individually.  Once frozen I put in a big baggy and when I'm lazy I grab an uncooked chimichanga out of the freezer brush with melted butter and cook just like I would a freshly made one.  With the doubled recipe and 1/2 cup filling I still end up with 12 chimichangas. Thanks to the poster for making my life a little easier while still eating great food!",
+  "tuples": [
+   {
+    "id": "h044_t00",
+    "category": "audience_enjoyment",
+    "value": "self",
+    "evidence": "I do enjoy cooking"
+   },
+   {
+    "id": "h044_t01",
+    "category": "audience_enjoyment",
+    "value": "family",
+    "evidence": "We have a small family"
+   }
+  ]
+ },
+ {
+  "review_id": "h045",
+  "recipe": "The  Blue Mill Tavern Loosemeat Sandwich",
+  "review": "Oh sweet mercy...DELICIOUS!!!!! I wonder if those that thought it just tasted like browned hamburger didn't use a cast iron skillet? I got rid of all my non-stick pans and use cast iron for practically everything, it really does make a difference in how food tastes! I tasted the meat before adding the vinegar, mustard and sugar, and it already had a delicious flavor that was beyond just browned ground beef. Really glad I found this recipe, I had found a few recipes for the loosemeat sandwiches referenced on the Roseanne show, but they just had meat, onions and salt. This turned out way better...my mouth was watering the whole time I was cooking them and my taste buds nearly leaped off my tongue in anticipation! They were not a bit disappointed, either. Every bit as delicious as I'd hoped they'd be...definitely worth the effort. Also, I agree with other reviewers - crisp up that ground beef, and simmer, simmer, simmer. I kept nibbling on the meat as it cooked and the flavor truly does not come into its own until the last few minutes. I've never been to the Blue Mill Tavern or anywhere in Iowa for that matter, but if I ever find myself there, I will make a point to seek out these delicious loosemeats! My husband said we could move to Iowa after I told him if we ever find ourselves there, I want to eat at the Blue Mill Tavern (:",
+  "tuples": [
+   {
+    "id": "h045_t00",
+    "category": "audience_enjoyment",
+    "value": "husband",
+    "evidence": "My husband said we could move to Iowa"
+   },
+   {
+    "id": "h045_t01",
+    "category": "texture_mouthfeel",
+    "value": "crispy",
+    "evidence": "crisp up that ground beef"
+   }
+  ]
+ },
+ {
+  "review_id": "h046",
+  "recipe": "Mashed Red Potatoes With Garlic and Parmesan",
+  "review": "Wow, these were delicious!  The only substitution that I made was I used 1/2 cup of buttermilk instead of regular milk.  I feel this gave it a richer and creamier texture.  I had these w/ an oven roasted beef brisket and a side of green beans.  Talk about comfort food at its best!  I made the full batch for the 2 of us, and we definitely enjoyed the leftovers the rest of the week.  This has become a definite staple in my collection.  Thank you so much!",
+  "tuples": [
+   {
+    "id": "h046_t00",
+    "category": "texture_mouthfeel",
+    "value": "creamy",
+    "evidence": "richer and creamier texture"
+   },
+   {
+    "id": "h046_t01",
+    "category": "audience_enjoyment",
+    "value": "self",
+    "evidence": "we definitely enjoyed the leftovers"
+   },
+   {
+    "id": "h046_t02",
+    "category": "meal_type",
+    "value": "lunch",
+    "evidence": "I had these w/ an oven roasted beef brisket and a side of green beans."
+   },
+   {
+    "id": "h046_t03",
+    "category": "taste_flavor",
+    "value": "rich",
+    "evidence": "richer and creamier texture"
+   },
+   {
+    "id": "h046_t04",
+    "category": "texture_mouthfeel",
+    "value": "creamier",
+    "evidence": "a richer and creamier texture"
+   }
+  ]
+ },
+ {
+  "review_id": "h047",
+  "recipe": "Amazing Chicken Tortilla Soup!",
+  "review": "This was fantastic. I added red and yellow pepper, a few stalks of celery, and 1 can of light kidney beans drained. I only used 2 chicken breasts.   I only used 48 oz of Kitchen Basic's chicken stock (not broth) and it was just the right consistency.   I served it with multi-colored tortilla strips and some shredded cheddar cheese.  Very nice level of spiciness.  I will definitely put this one in my home recipe box.  Oh one more substitution...I didn't have fresh jalapeno so I used some diced pickled jalapeno.",
+  "tuples": [
+   {
+    "id": "h047_t00",
+    "category": "taste_flavor",
+    "value": "spicy",
+    "evidence": "Very nice level of spiciness"
+   },
+   {
+    "id": "h047_t01",
+    "category": "taste_flavor",
+    "value": "spiciness",
+    "evidence": "Very nice level of spiciness"
+   }
+  ]
+ },
+ {
+  "review_id": "h048",
+  "recipe": "Ww 0 Point Weight Watchers Cabbage Soup",
+  "review": "Preparation Notes:\r\n\r\n1.\tI could not find fat-free beef broth, but I did find and use 99% fat free beef broth\r\n2.\tI used a tablespoon of Extra Virgin Olive Oil to satuee the onions (I don\u00e2\u20ac\u2122t care for cooking spray)\r\n3.\tInstead of using fresh carrots, green beans and zucchini, I used frozen vegetables.\r\n4.\tInstead of dried basil and oregano, I use fresh herbs.\r\n5.\tIf you add more vegetables than the recipe calls for, then you will need more beef-broth\r\n\r\n\r\nHere is my modified recipe:\r\n(keep in mind that I doubled the recipe)\r\n\r\n8 \tcups, 99% fat-free beef broth (two large cans)\r\n3\tgarlic cloves, minced\r\n1/3\tsmall can tomato paste (adjust to your preference of a \u00e2\u20ac\u0153tomato-ee\u00e2\u20ac\ufffd taste\r\n2/3\tsmall head of cabbage, chopped\r\n1\tsmall yellow onion\r\n1\tsmall bag of frozen, crinkle cut carrots (Kroger Brand)\r\n1\tsmall bag of frozen green beans (Kroger Brand)\r\n1\tsmall bag of mixed vegetables, including carrots, lima beans, zucchini, and cauliflower (Kroger Brand)\r\n2\ttablespoon, fresh chopped basil\r\n2\ttablespoon, fresh chopped oregano\r\n\tSalt & pepper to taste\r\n\r\nI followed the preparation directions, except I let the soup simmer for about two hours \u00e2\u20ac\u201c I have no idea how they could have cooked this recipe (especially with fresh vegetables) for only 10-15 minutes!",
+  "tuples": []
+ },
+ {
+  "review_id": "h049",
+  "recipe": "Kittencal's Easy No-Fail Make Anytime Turkey Gravy",
+  "review": "This is the first time I've ever made gravy and I was happy with how simple it was with so much flavor! I changed the 5 cup serving to 2 1/2 cups and only used chicken broth instead of pan drippings or chicken bouillon. I also added some garlic powder when I added the pepper. It took longer than 3 minutes to thicken, but once it started to thicken, it was done. I will use this recipe again and again and again. Thank you for posting! Everyone loved it with their turkey dinner.",
+  "tuples": [
+   {
+    "id": "h049_t00",
+    "category": "meal_type",
+    "value": "dinner",
+    "evidence": "turkey dinner"
+   }
+  ]
+ }
+]

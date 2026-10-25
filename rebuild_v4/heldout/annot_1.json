@@ -1,0 +1,402 @@
+{
+ "judgments": [
+  {
+   "id": "h025_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h026_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h026_t01",
+   "verdict": "wrong",
+   "code": "memory_or_gift",
+   "note": "gift to bartender"
+  },
+  {
+   "id": "h027_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h027_t01",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h027_t02",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h028_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h028_t01",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h028_t02",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h029_t00",
+   "verdict": "wrong",
+   "code": "unsupported",
+   "note": "reviewer preference, not dish"
+  },
+  {
+   "id": "h029_t01",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h029_t02",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h030_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h030_t01",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h030_t02",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h032_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h033_t00",
+   "verdict": "wrong",
+   "code": "generic_praise",
+   "note": ""
+  },
+  {
+   "id": "h034_t00",
+   "verdict": "wrong",
+   "code": "memory_or_gift",
+   "note": "mother's version"
+  },
+  {
+   "id": "h034_t01",
+   "verdict": "wrong",
+   "code": "memory_or_gift",
+   "note": ""
+  },
+  {
+   "id": "h035_t00",
+   "verdict": "wrong",
+   "code": "ingredient_not_attribute",
+   "note": "added salt"
+  },
+  {
+   "id": "h035_t01",
+   "verdict": "wrong",
+   "code": "ingredient_not_attribute",
+   "note": "added vanilla"
+  },
+  {
+   "id": "h035_t02",
+   "verdict": "wrong",
+   "code": "unsupported",
+   "note": ""
+  },
+  {
+   "id": "h036_t00",
+   "verdict": "wrong",
+   "code": "wrong_category",
+   "note": "pizza is a dish"
+  },
+  {
+   "id": "h036_t01",
+   "verdict": "wrong",
+   "code": "plan_or_change",
+   "note": "own modification"
+  },
+  {
+   "id": "h036_t02",
+   "verdict": "wrong",
+   "code": "unsupported",
+   "note": "no enjoyment stated"
+  },
+  {
+   "id": "h036_t03",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h036_t04",
+   "verdict": "wrong",
+   "code": "unusable_phrase",
+   "note": ""
+  },
+  {
+   "id": "h037_t00",
+   "verdict": "wrong",
+   "code": "reviewer_or_vague_group",
+   "note": ""
+  },
+  {
+   "id": "h037_t01",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h038_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h038_t01",
+   "verdict": "wrong",
+   "code": "unsupported",
+   "note": ""
+  },
+  {
+   "id": "h038_t02",
+   "verdict": "wrong",
+   "code": "ingredient_not_attribute",
+   "note": "italian spices"
+  },
+  {
+   "id": "h039_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h039_t01",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h039_t02",
+   "verdict": "wrong",
+   "code": "plan_or_change",
+   "note": "hypothetical idea"
+  },
+  {
+   "id": "h039_t03",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h039_t04",
+   "verdict": "wrong",
+   "code": "unsupported",
+   "note": "raw mixture consistency"
+  },
+  {
+   "id": "h040_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h040_t01",
+   "verdict": "wrong",
+   "code": "ingredient_not_attribute",
+   "note": ""
+  },
+  {
+   "id": "h040_t02",
+   "verdict": "wrong",
+   "code": "plan_or_change",
+   "note": "less water modification"
+  },
+  {
+   "id": "h040_t03",
+   "verdict": "wrong",
+   "code": "plan_or_change",
+   "note": "added red pepper"
+  },
+  {
+   "id": "h041_t00",
+   "verdict": "wrong",
+   "code": "unsupported",
+   "note": ""
+  },
+  {
+   "id": "h041_t01",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h041_t02",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h041_t03",
+   "verdict": "wrong",
+   "code": "reviewer_or_vague_group",
+   "note": ""
+  },
+  {
+   "id": "h042_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h042_t01",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h042_t02",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h043_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h043_t01",
+   "verdict": "wrong",
+   "code": "not_this_dish",
+   "note": "frosting from another recipe"
+  },
+  {
+   "id": "h044_t00",
+   "verdict": "wrong",
+   "code": "reviewer_or_vague_group",
+   "note": ""
+  },
+  {
+   "id": "h044_t01",
+   "verdict": "wrong",
+   "code": "unsupported",
+   "note": "no enjoyment stated"
+  },
+  {
+   "id": "h045_t00",
+   "verdict": "wrong",
+   "code": "unsupported",
+   "note": "not about dish"
+  },
+  {
+   "id": "h045_t01",
+   "verdict": "wrong",
+   "code": "plan_or_change",
+   "note": "cooking advice"
+  },
+  {
+   "id": "h046_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h046_t01",
+   "verdict": "wrong",
+   "code": "reviewer_or_vague_group",
+   "note": ""
+  },
+  {
+   "id": "h046_t02",
+   "verdict": "wrong",
+   "code": "unsupported",
+   "note": ""
+  },
+  {
+   "id": "h046_t03",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h046_t04",
+   "verdict": "wrong",
+   "code": "unusable_phrase",
+   "note": "comparative duplicate"
+  },
+  {
+   "id": "h047_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h047_t01",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h049_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  }
+ ],
+ "missed": [
+  {
+   "review_id": "h029",
+   "category": "meal_type",
+   "value": "side dish",
+   "evidence": "a perfect addition to what turned out to be a Greek themed dinner"
+  },
+  {
+   "review_id": "h031",
+   "category": "texture_mouthfeel",
+   "value": "fall-off-the-bone",
+   "evidence": "fell off the bone"
+  },
+  {
+   "review_id": "h041",
+   "category": "taste_flavor",
+   "value": "lemony",
+   "evidence": "the fish was a bit TOO lemony"
+  },
+  {
+   "review_id": "h046",
+   "category": "meal_type",
+   "value": "side dish",
+   "evidence": "I had these w/ an oven roasted beef brisket"
+  }
+ ]
+}

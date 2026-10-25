@@ -1,0 +1,10 @@
+category              old prec  old rec  old ok/n |  new prec  new rec  new ok/n | missed
+taste_flavor               32%      59%   13/40   |       54%      86%   19/35   | 1
+texture_mouthfeel          65%      68%   26/40   |       92%      89%   34/37   | 2
+meal_type                  60%      72%   18/30   |       93%      56%   14/15   | 5
+occasion_holiday           75%      79%   15/20   |       81%      68%   13/16   | 0
+audience_enjoyment         48%      75%   41/86   |       90%      84%   46/51   | 1
+cuisine_type               43%     100%    6/14   |      100%      50%    3/3    | 0
+ALL                        52%      72%  119/230  |       82%      78%  129/157  | 9
+wrong codes old: [('unsupported', 23), ('reviewer_or_vague_group', 19), ('ingredient_not_attribute', 15), ('plan_or_change', 15), ('not_this_dish', 9), ('wrong_category', 7)]
+wrong codes new: [('plan_or_change', 7), ('unsupported', 5), ('not_this_dish', 4), ('ingredient_not_attribute', 4), ('unusable_phrase', 3), ('wrong_category', 2)]

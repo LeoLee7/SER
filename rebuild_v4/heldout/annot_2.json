@@ -1,0 +1,492 @@
+{
+ "judgments": [
+  {
+   "id": "h050_t00",
+   "verdict": "wrong",
+   "code": "unusable_phrase",
+   "note": "walnut ingredient, negated phrase"
+  },
+  {
+   "id": "h050_t01",
+   "verdict": "wrong",
+   "code": "generic_praise",
+   "note": ""
+  },
+  {
+   "id": "h050_t02",
+   "verdict": "wrong",
+   "code": "reviewer_or_vague_group",
+   "note": ""
+  },
+  {
+   "id": "h051_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h051_t01",
+   "verdict": "wrong",
+   "code": "cook_not_eater",
+   "note": "family made and brought it"
+  },
+  {
+   "id": "h052_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h052_t01",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h052_t02",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h053_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h053_t01",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h053_t02",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h053_t03",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h054_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h055_t00",
+   "verdict": "wrong",
+   "code": "ingredient_not_attribute",
+   "note": "Mexican oregano"
+  },
+  {
+   "id": "h055_t01",
+   "verdict": "wrong",
+   "code": "unsupported",
+   "note": "friend entered it; judges not friends"
+  },
+  {
+   "id": "h056_t00",
+   "verdict": "wrong",
+   "code": "memory_or_gift",
+   "note": ""
+  },
+  {
+   "id": "h056_t01",
+   "verdict": "wrong",
+   "code": "generic_praise",
+   "note": ""
+  },
+  {
+   "id": "h056_t02",
+   "verdict": "wrong",
+   "code": "memory_or_gift",
+   "note": ""
+  },
+  {
+   "id": "h057_t00",
+   "verdict": "wrong",
+   "code": "plan_or_change",
+   "note": "omitted nuts"
+  },
+  {
+   "id": "h058_t00",
+   "verdict": "wrong",
+   "code": "ingredient_not_attribute",
+   "note": ""
+  },
+  {
+   "id": "h059_t00",
+   "verdict": "wrong",
+   "code": "unsupported",
+   "note": "hot means temperature"
+  },
+  {
+   "id": "h060_t00",
+   "verdict": "wrong",
+   "code": "unusable_phrase",
+   "note": "vague; from added herbs"
+  },
+  {
+   "id": "h060_t01",
+   "verdict": "wrong",
+   "code": "ingredient_not_attribute",
+   "note": "Mexican cheese"
+  },
+  {
+   "id": "h061_t00",
+   "verdict": "wrong",
+   "code": "reviewer_or_vague_group",
+   "note": ""
+  },
+  {
+   "id": "h061_t01",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h062_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h062_t01",
+   "verdict": "wrong",
+   "code": "wrong_category",
+   "note": "dinner is meal type"
+  },
+  {
+   "id": "h062_t02",
+   "verdict": "wrong",
+   "code": "plan_or_change",
+   "note": "future plan"
+  },
+  {
+   "id": "h062_t03",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h062_t04",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h062_t05",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h062_t06",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h063_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h063_t01",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h064_t00",
+   "verdict": "wrong",
+   "code": "reviewer_or_vague_group",
+   "note": ""
+  },
+  {
+   "id": "h065_t00",
+   "verdict": "wrong",
+   "code": "wrong_category",
+   "note": "crowd is audience, not occasion"
+  },
+  {
+   "id": "h065_t01",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h065_t02",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h065_t03",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h066_t00",
+   "verdict": "wrong",
+   "code": "reviewer_or_vague_group",
+   "note": ""
+  },
+  {
+   "id": "h066_t01",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h066_t02",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h066_t03",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h066_t04",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h066_t05",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h066_t06",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h067_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h067_t01",
+   "verdict": "wrong",
+   "code": "ingredient_not_attribute",
+   "note": "garlic bread side"
+  },
+  {
+   "id": "h067_t02",
+   "verdict": "wrong",
+   "code": "ingredient_not_attribute",
+   "note": "garlic bread side"
+  },
+  {
+   "id": "h067_t03",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h067_t04",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h068_t00",
+   "verdict": "wrong",
+   "code": "not_this_dish",
+   "note": "breakfast/sausage variant"
+  },
+  {
+   "id": "h068_t01",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h068_t02",
+   "verdict": "wrong",
+   "code": "not_this_dish",
+   "note": "egg-filled variant"
+  },
+  {
+   "id": "h068_t03",
+   "verdict": "wrong",
+   "code": "ingredient_not_attribute",
+   "note": "Italian smoked paprika"
+  },
+  {
+   "id": "h068_t04",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h068_t05",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h068_t06",
+   "verdict": "wrong",
+   "code": "not_this_dish",
+   "note": "breakfast/sausage variant"
+  },
+  {
+   "id": "h069_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h069_t01",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h069_t02",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h069_t03",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h069_t04",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h070_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h070_t01",
+   "verdict": "wrong",
+   "code": "unusable_phrase",
+   "note": "negated phrase"
+  },
+  {
+   "id": "h070_t02",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h070_t03",
+   "verdict": "wrong",
+   "code": "unsupported",
+   "note": "other reviewers kids"
+  },
+  {
+   "id": "h071_t00",
+   "verdict": "wrong",
+   "code": "memory_or_gift",
+   "note": ""
+  },
+  {
+   "id": "h071_t01",
+   "verdict": "wrong",
+   "code": "reviewer_or_vague_group",
+   "note": ""
+  },
+  {
+   "id": "h071_t02",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h071_t03",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h071_t04",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h071_t05",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h072_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h072_t01",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h072_t02",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h073_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h074_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h074_t01",
+   "verdict": "wrong",
+   "code": "wrong_category",
+   "note": "color, not taste"
+  },
+  {
+   "id": "h074_t02",
+   "verdict": "wrong",
+   "code": "unsupported",
+   "note": "sharing recipe, not eating"
+  }
+ ],
+ "missed": [
+  {
+   "review_id": "h070",
+   "category": "meal_type",
+   "value": "breakfast",
+   "evidence": "had me pulling out the blender this morning"
+  }
+ ]
+}

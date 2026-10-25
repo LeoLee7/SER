@@ -1,0 +1,274 @@
+[
+ {
+  "review_id": "c000",
+  "recipe": "Why-I-Joined-Zaar Carrot Cake",
+  "review": "Does this recipe REALLY need a 300th review?  YES!  It's THAT good!\nI've had this in my cookbook  forever, and why I'm just now getting around to it, I don't know.  But I'm sooo glad I did, this is incredible!  I did cut the oil with applesauce (3/4 c applesauce, 1/4 oil), used only one cup of sugar, and some frozen sliced carrots that someone had given us.  I tossed those int he food processor and added them in.  The pineapple didn't get drained, thanks to my overeager little helpers,s o the cake was 'slightly' tough (could be from their enthusiastic stirring too!).  I baked this in 2 9\" rounds, stacked with a layer of icing int he middle, and we ooh'd, ahh'd and moaned in ecstacy through the whole thing. There wasn't a crumb left..and they all want to have another this weekend!  Thanks so much for posting this jewel!",
+  "tuples": [
+   {
+    "id": "c000_t00",
+    "category": "taste_flavor",
+    "value": "incredible",
+    "evidence": "this is incredible"
+   }
+  ]
+ },
+ {
+  "review_id": "c001",
+  "recipe": "Kittencal's Buttery Cut-Out Sugar Cookies W/ Icing That Hardens",
+  "review": "I used the frosting portion of this recipe for icing my Christmas sugar cookie cut-outs yesterday.  I was searching for a frosting that hardens and allows for easier, neater cookie storage.  Only after making many modifications, the frosting turned out.  Like other reviewers, I felt the instructions for the frosting were unclear in terms of the amount of milk.  Far more than 1 tbs. is needed to achieve the right consistency, so I would suggest indicating the exact amount (or an amount closer than just 1 tbs.) would be much more helpful.  Plus once I finally reached the right consistency, I realized the flavor was lacking.  I ended up whipping 2 tbs. butter, 1/2 tsp. lemon extract and 1/2 tsp. salt into the mixture for more flavor and less tacky texture.  The frosted cookies did harden, as the recipe title promises.  The trick must be the addition of corn syrup.  Next time, I think I'll just add corn syrup to my standard butter-based frosting recipe.  Thanks for sharing your recipe!  Although it didn't completely work out for me, I did learn a new trick in the process, so thank you for that!",
+  "tuples": [
+   {
+    "id": "c001_t00",
+    "category": "texture_mouthfeel",
+    "value": "hardened",
+    "evidence": "The frosted cookies did harden"
+   }
+  ]
+ },
+ {
+  "review_id": "c002",
+  "recipe": "Chicken Noodle Soup",
+  "review": "It is 90 degrees outside and you might be wondering why I'm making chicken noodle soup on a day like today.  My neighbour is sick and really likes chicken noodle soup, so I told her husband I would make a batch for them.  I planned to use my own veggie stock, but adding spinach to it made it a nasty green colour that I don't think would be too appetizing for someone feeling unwell.  Luckily, I still had some normal veggie stock in the freezer, so I used that plus a 48 oz container of Swanson Chicken broth, low sodium/no MSG.  I followed the recipe to a T.  It was absolutely PERFECT!  I chopped carrots, green onions, celery, a bit of parsley and some  celery leaves and sauteed them for a couple minutes in just a bit of butter.  Added the broth, 2 cups of my good veggie stock and 1 tsp of bouillion granules. Simmered that on the stove til it started to boil and transferred to a 4 qt crockpot.  After that, I cooked three boneless skinless chix breasts in the remaining bits of the soup in the pot, cut those to small pieces and added to the crockpot.  There were a bit of bits on the pan from the chicken, so I added some water to that, mixed it a bit and added it to the crock as well.  I used egg noodles that I added the very last after running through cold water.   I'm kicking myself for not taking a photo of this work of chicken noodle soup art!  I did score a bowl b/c the crock was going to be too full and I gorged it down.  Thanks for a fabulous and EASY recipe, Miss Nezz.  This will be my go to quick and easy chicken noodle soup recipe!",
+  "tuples": [
+   {
+    "id": "c002_t00",
+    "category": "taste_flavor",
+    "value": "fabulous",
+    "evidence": "Thanks for a fabulous and EASY recipe"
+   }
+  ]
+ },
+ {
+  "review_id": "c003",
+  "recipe": "Oreo Balls",
+  "review": "I love how versitle this recipe is. I used 1/2 cream cheese and 1/2 peanut butter for my middles -they were a little softer set but that is ok because they are fine in the fridge- and real white chocolate for the coating (mixed with a tsp of canola oil which makes the chocolate smooth/easy to dip and gives a great shine). I then drizzled with melted peanut butter chips. YUMMY! My kids want me to dip them in peanut butter chips next time which I will try too!\r\nI used a candy dipping utensil (looks like a big loop with a handle) and mine came out very professional looking. Of course they got eaten so fast it didn't matter anyway lol.\r\nWorth noting, double stuff do not work very well for these centers, too much cream. You can get away with it but it will be really gooey inside.",
+  "tuples": [
+   {
+    "id": "c003_t00",
+    "category": "taste_flavor",
+    "value": "versatile",
+    "evidence": "I love how versitle this recipe is"
+   },
+   {
+    "id": "c003_t01",
+    "category": "texture_mouthfeel",
+    "value": "easy to dip",
+    "evidence": "easy to dip"
+   },
+   {
+    "id": "c003_t02",
+    "category": "texture_mouthfeel",
+    "value": "shiny",
+    "evidence": "gives a great shine"
+   }
+  ]
+ },
+ {
+  "review_id": "c004",
+  "recipe": "Uncle Bill's Microwave Potato Chips",
+  "review": "Uncle Bill, thank you for this recipe. It is great!  Our daughter kept asking for unhealthy snacks when I remember this recipe and that we had some older potates.  I peeled them, placed them on a glass plate I had sprayed with butter flavor oil and put a little salt on then.  Then I covered them with wax paper.  The first potato burned some between 7 and 8 minutes so I did another while our daughter and one of the babie I watch ate the good ones from the first batch.  I watched these and at 6 1/2 minutes they were perfect!!  These are SO GOOD!!! I shared some with the mother of the baby when she got her to pick her up and she said she will be making them too.  Thanks for an easy, quick healthy snack recipe!!  I won't be buying store bought chips unless I'm in a pinch for an outing. :-)",
+  "tuples": [
+   {
+    "id": "c004_t00",
+    "category": "taste_flavor",
+    "value": "healthy",
+    "evidence": "Thanks for an easy, quick healthy snack recipe!!"
+   }
+  ]
+ },
+ {
+  "review_id": "c005",
+  "recipe": "Buttery Bread Machine Rolls",
+  "review": "These are absolutely fabulous rolls. When they were mixing the dough looked a little wet, but rather than adding more flour I just took a chance and left them alone. I'm glad I did - they worked out beautifully! I shaped into 24 rolls and proofed them in the oven since the house was pretty cool today. Baked 15 minutes at 350, which was perfect for them. Soft, fluffy, buttery...dh raved about these. They will be made often here!  UPDATE 2/9/08: Two years later I'm still making these rolls.  I often either drop them into muffin tins or divide each of the 24 dough balls into thirds and make cloverleaf rolls.  The dough is really SO easy to work with and versatile!",
+  "tuples": [
+   {
+    "id": "c005_t00",
+    "category": "taste_flavor",
+    "value": "fabulous",
+    "evidence": "These are absolutely fabulous rolls"
+   }
+  ]
+ },
+ {
+  "review_id": "c006",
+  "recipe": "Frizzled Cabbage",
+  "review": "My new favorite cabbage dish! I used a small head of cabbage, a carrot, a bit of onion and garlic.  I think I can reduce the amt. of oil to 1 T. next time since the cabbage does release some liquid. I cooked it till crisp-tender.  It was very good.  Reminded me of the inside of an eggroll.  I will be making this often and trying different spices and probably some thin sliced celery as well.  Very easy and tasty. Thanks-\njustsaymo",
+  "tuples": [
+   {
+    "id": "c006_t00",
+    "category": "taste_flavor",
+    "value": "crisp-tender",
+    "evidence": "I cooked it till crisp-tender"
+   }
+  ]
+ },
+ {
+  "review_id": "c007",
+  "recipe": "So It's Bekah's Pulled Pork Now",
+  "review": "Hog heaven! I've always enjoyed pulled pork sandwiches when I've had the good fortune to find a restaurant that serves them (not common at all here in Toronto), so when my local supermarket put pork shoulder on sale for 99/cents per pound this week I decided it was time to try this recipe. I cut the thick rind/skin off the shoulder I bought (just over 7 lbs, bone-in), trying to leave most of the fat still on the meat. I did have trouble with the rub, finding that I couldn't get all of it to be absorbed by the meat no matter how strongly I massaged--I was left with just over half the rub after the meat had been completely coated and it flat-out wouldn't take any more. No worries; I saved the leftover rub and was able to rub it all onto the meat when I pulled it out of the fridge the next day and did the re-rub. This was done to falling-apart-perfection after 7 hours in the oven. I didn't use the Molasses Barbecue Sauce; instead I used recipe #40980 (Mysterygirl's K.C. Masterpiece sauce) as I prefer a sweet smoky sauce. I did make the Pig Pickin Sauce, too. Once this is in the oven, there really isn't anything to do except wait for it to be done--talk about simple! Thanks for the recipe; I'm so pleased to be able to make this restaurant favourite at home with such ease. Oh, my dinner guests loved it too!",
+  "tuples": [
+   {
+    "id": "c007_t00",
+    "category": "texture_mouthfeel",
+    "value": "falling apart",
+    "evidence": "falling-apart-perfection"
+   }
+  ]
+ },
+ {
+  "review_id": "c008",
+  "recipe": "Taco Seasoning Mix",
+  "review": "Who would have know with a few ingredients that I most always have on hand I could make the seasoning to whip up a great taco salad?  The only thing that I changed in this was to use Hot Shot Seasoning instead of the Crushed Red Pepper and it turned out wonderfully.  I doubled the batch as I made 2 pounds of hamburger and wanted there to be plenty of spice.  I agree that this tastes pretty similar to Ortega brand taco seasoning and I too will be using this often.  Thank you for a great spice to add to my cupboard Opal Fitzgerald!",
+  "tuples": [
+   {
+    "id": "c008_t00",
+    "category": "meal_type",
+    "value": "salad",
+    "evidence": "whip up a great taco salad"
+   }
+  ]
+ },
+ {
+  "review_id": "c009",
+  "recipe": "Big Thicket Chicken and Dumplings",
+  "review": "This was my first attempt at two things: Making homemade dumplings and using a whole chicken. Both turned out perfect!!! This recipe is a little time consuming, but I made it for OAMC, so while the chicken was boiling I made other recipes. I used a small vidalia onion instead of green onions, and I let the vegetables simmer in the stock for about 30 minutes while I made the dumplings (I like them to be really soft, and subtle-flavored in this type of recipe). I should have listened to some other reviews and only made half the dough, but I LOVE dumplings, so I made the whole recipe. After putting half of the dumplings in, I realized that my pot wasn't going to hold the rest so I decided to freeze the dough for a future recipe. Another thing I liked about this recipe is that is doesn't use cream or milk to make it thick. The flour from the dumplings were enough to really thicken up the stock and make it creamy. I was a little nervous when I first started dropping in the dumplings because I was thinking \"how is this going to get creamy?\", but after fifteen minutes of cooking, I realized my worry was misplaced and it really got nice. This made a large amount, and I definitely was able to freeze about four containers for future dinners (there's only two of us). I'll probably serve this with soft rolls and possibly a side of corn. Overall, a beautiful recipe! Thank you!! EDIT: I recently made this recipe again, but this time doing the \"drop\" method by pinching off about a tablespoon of dough and dropping it in.  With this, I was able to use ALL of the dumpling dough, to my BF's happiness!  With that, I have to put in about two tablesppons of flour to the stock to thicken it up, but it works great!!  This is now an absolute favorite recipe!!",
+  "tuples": [
+   {
+    "id": "c009_t00",
+    "category": "audience_enjoyment",
+    "value": "partner",
+    "evidence": "to my BF's happiness"
+   }
+  ]
+ },
+ {
+  "review_id": "c010",
+  "recipe": "Uncle Bill's Green Split Pea With Hambone Soup",
+  "review": "I've made this many times over the years with variations of ingredients/seasonings and it has always turned out wonderfully. Very hard to make a mistake unless you forget it and let it burn like I did once. I often use my large slowcooker with a lining to make this. The peas do not need soaking ever as the packaging will tell you. I dump the peas that have been sorted for rocks and rinsed right into the slowcooker with whatever liquid you prefer, water, broth, etc along with onion and garlic and seasonings. Set it for low for 6 hours and then let it switch to warm for two more adding frozen carrots if you want.. You can stir it periodically and if it isn't as thick as you like, remove the lid during the warm hours and it will thicken right up. Add more liquid if too thick for your tastes. Super easy and the liner makes clean up a breeze!",
+  "tuples": [
+   {
+    "id": "c010_t00",
+    "category": "taste_flavor",
+    "value": "seasonings",
+    "evidence": "with variations of ingredients/seasonings"
+   }
+  ]
+ },
+ {
+  "review_id": "c011",
+  "recipe": "Fried Rice",
+  "review": "Made to go along w/ Chinese Chicken and Broccoli <a href=\"/10137\">Chinese Chicken and Broccoli</a>.  I stole a bit from another recipe that made too much, and used a good slosh of sesame oil to saute the onions in instead of more butter. I used green peas but no peppers or meat.  I cooked long grain white rice in my rice cooker, using just a smidge less water to make sure that the rice wouldn't be gooey, and it came out just over the line of un-done thankfully.  All in all, the recipe was quick, tastey, and easy to customize.",
+  "tuples": [
+   {
+    "id": "c011_t00",
+    "category": "texture_mouthfeel",
+    "value": "not gooey",
+    "evidence": "to make sure that the rice wouldn't be gooey"
+   }
+  ]
+ },
+ {
+  "review_id": "c012",
+  "recipe": "Oven-Roasted Corn on the Cob",
+  "review": "This was delicious and easy! Just throw them in the oven with no worries about boiling temperatures or anything like that. The other easy thing is that each person does the \"work\" of pulling off the husks but really they were quite easy after I cooked them in the oven. I had peeled back some of the husks to make sure they were good so this allowed them to curl up a little and made it even easier. \nAnyways this is a great recipe as I found that even ones on the bottom cooked nicely so I may be able to make even more in the future for get togethers and such.\n\nMade for ZWT5, Dining Daredevils",
+  "tuples": [
+   {
+    "id": "c012_t00",
+    "category": "occasion_holiday",
+    "value": "get together",
+    "evidence": "for get togethers"
+   }
+  ]
+ },
+ {
+  "review_id": "c013",
+  "recipe": "Brown Rice and Lentil Casserole",
+  "review": "Take this one to a potluck or make it when you're home from work and too tired to cook. It's easy and excellent. I'm guessing that the cheese really makes this recipe; it's probably why the kids loved it. I added four diced carrots and a package of frozen peas to make it a one-pot dinner and I doubled the seasoning (I may try tripling it next time) for a stronger flavor. I used 2 cups low sodium broth and 1 15 oz can no sodium diced tomatoes (thanks to all the other reviewers for their tips for this recipe!) (Since I changed the quantity of liquid I cooked brown rice separately; this dish was very good over the rice.) I cooked the casserole at 375 degrees for 50 minutes plus 5 minutes to melt the cheese (cheddar/monterey jack.) I left the cheese off of 1/3 of the dish for those who don't eat cheese, and that portion was tasty too. Thanks for such a simple and successful recipe!",
+  "tuples": [
+   {
+    "id": "c013_t00",
+    "category": "taste_flavor",
+    "value": "cheesy",
+    "evidence": "the cheese really makes this recipe"
+   }
+  ]
+ },
+ {
+  "review_id": "c014",
+  "recipe": "Kittencal's Easy One-Bowl Vanilla Cupcakes",
+  "review": "HOLY WOW!! These cupcakes were SO moist and delicious, I can't even believe it myself, lol.  Had to double the recipe to make enough for my son's class, but it was well worth the effort (Moms are so stunned that I actually have the time and/or want to bake from scratch.. but there is really nothing like it)  They were amazingly, unbelievably wonderful and I will use this recipe again and again!  Iced these with cream cheese frosting and they were absolutely delicious!\nThanks Kitten for a great recipe.",
+  "tuples": [
+   {
+    "id": "c014_t00",
+    "category": "audience_enjoyment",
+    "value": "son's class",
+    "evidence": "to make enough for my son's class"
+   }
+  ]
+ },
+ {
+  "review_id": "c015",
+  "recipe": "Perfect Rump Roast",
+  "review": "Sooo, I know this recipe was originally posted some years ago, but the results were so excellent that I had to join and post. After finding myself in possession of a rump roast (and not being handy with the whole beef thing) I came looking for directions. I dislike crock potted &quot;pot roast&quot; so was looking for a more traditional dry &quot;roasted&quot; experience. After reading the reviews, I followed the method 100%, using 2 cups of beef broth with a bit of Worcestershire, a metal pan and a 2.5 pound roast. 50 cooking minutes (uncovered) plus 20 resting minutes (under a foil tent), and I sliced into the juiciest, most perfectly cooked rare to medium-rare beef roast ever. Flavor was amazing and texture was succulent- lovely exterior crust from the searing and super tender interior. I sliced it very thin and ate it on a roll, French-dip style- perfection! I have a few more roasts in the freezer as they were on sale and cannot wait to make another in this same manner. I might have to start the Sunday roast tradition with this kind of success!",
+  "tuples": [
+   {
+    "id": "c015_t00",
+    "category": "occasion_holiday",
+    "value": "Sunday",
+    "evidence": "start the Sunday roast tradition"
+   }
+  ]
+ },
+ {
+  "review_id": "c016",
+  "recipe": "The Best Browned Beef Stew Ever",
+  "review": "Really hearty and good! 4 men DD1 (5 years old), DD2 (15 months), and I say so. This recipe works well with all sorts of modifications, additional vegetables etc. I first put the stewing beef in a few tbs vinegar and Motts Tomato Juice for 35 minutes to help them become tender and give it some extra flavour. After I drained them and began the recipe. I used white rice flour instead of regular flour to be gluten free. Before I added the big pieces of vegetables I cooked the meat for approximately 40 minutes longer than called for in recipe#206712 instead of beef broth as I could make it easier. I used 3 medium carrots in all, cut into big chunks rather than diced or chopped fine for more heartiness. I used one less onion than called for, though my onions were pretty big. I exchanged the thyme to marjoram due to personal preference. In addition to the called for vegetables I added some chunks of butter nut squash one time (wouldnt do it again), a large handful of fried okra one time which was a good addition, and about 1/3 cup frozen baby peas near the end of cooking time both times. I served it with quinoa macaroni if wished. I would make again during the winter for a warming lunch or dinner.",
+  "tuples": [
+   {
+    "id": "c016_t00",
+    "category": "audience_enjoyment",
+    "value": "daughter",
+    "evidence": "4 men DD1 (5 years old), DD2 (15 months), and I say so"
+   }
+  ]
+ },
+ {
+  "review_id": "c017",
+  "recipe": "Lisa's Swirled Chocolate Chip Cookies",
+  "review": "Very good cookies - crunchy on the outside, chewy on the inside. I didn't have any choc chips in at all so I made mine with chocolate chunks (chopped up chocolate bars). Like another reviewer said, the dough was phenomenally unworkable and I too had to give up on the wooden spoon and use my hands, however it was worth the effort and the cookies went down a storm at the pot luck dinner. I made the full amount as stated but made large, monster cookies which yielded 24. I make a lot of cookies for my other half and he declared these to be the best yet \"by far\". Praise indeed!",
+  "tuples": [
+   {
+    "id": "c017_t00",
+    "category": "audience_enjoyment",
+    "value": "partner",
+    "evidence": "my other half and he declared these to be the best yet"
+   }
+  ]
+ },
+ {
+  "review_id": "c018",
+  "recipe": "Awesome Bacon-Tomato Dip",
+  "review": "This is seriously one of the tastiest dips I have ever eaten. It was a huge hit at my Superbowl party this year! Everyone ate it all up! It was wonderful with plain Wheat Thins. I also subbed a few things to make it a tad bit healthier such as turkey bacon instead and also light sour cream and  light cream cheese and mayo. I also used green onions which made it fabulous! It is okay with lettuce but I didn&#039;t think it was necessary. It is great without it also. t would highly recommend this for any occasion. It is guaranteed to be a hit!",
+  "tuples": [
+   {
+    "id": "c018_t00",
+    "category": "occasion_holiday",
+    "value": "Super Bowl",
+    "evidence": "a huge hit at my Superbowl party this year"
+   }
+  ]
+ },
+ {
+  "review_id": "c019",
+  "recipe": "Cheesecake Cookies",
+  "review": "Delicious! I was looking for a cheesecake type dessert that used only 1 package of cream cheese. I'm so glad I chose this one! We all loved it. We ate them plain the first night, after a meal of chicken soup and Recipe #96447. The second day I had prepared Recipe #15525 for another reason but the kids wanted to try some on the leftover cheesecake cookies. They loved them that way too. This recipe is very easy to fix and I know I'll be making it again. Thanks for sharing, Bev!",
+  "tuples": [
+   {
+    "id": "c019_t00",
+    "category": "audience_enjoyment",
+    "value": "family",
+    "evidence": "We all loved it"
+   }
+  ]
+ }
+]

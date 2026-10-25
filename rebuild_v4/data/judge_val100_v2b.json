@@ -1,0 +1,5904 @@
+[
+ {
+  "side": "old",
+  "dimension": "texture_mouthfeel",
+  "entity": "moist",
+  "source_text": "the cake came out moist!",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "Moist is a texture attribute, correctly categorized with positive sentiment and exact quote."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "taste_flavor",
+  "entity": "lightly-sweet",
+  "source_text": "a light, not too sweet frosting",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase describes a taste attribute, matches the category, has positive sentiment, and is a verbatim excerpt."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "texture_mouthfeel",
+  "entity": "light",
+  "source_text": "a light, not too sweet frosting",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'light' describes the frosting's texture, matches the category, is positively viewed, and the span is verbatim."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "texture_mouthfeel",
+  "entity": "creamy",
+  "source_text": "light, creamy and not too sweet",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'creamy' is a valid texture attribute, correctly categorized, with positive sentiment, and the span matches the review text."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "kids",
+  "source_text": "Kids and adults loved this.",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The entity 'kids' is a valid audience member, matches the category, sentiment is positive, and the span is verbatim."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "adults",
+  "source_text": "Kids and adults loved this.",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase directly states adults enjoyed the dish positively."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "moist",
+  "source_text": "the cake came out moist",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "Moist is a texture attribute, correctly categorized, sentiment is positive, and the span matches the review text."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "taste_flavor",
+  "entity": "not too sweet",
+  "source_text": "not too sweet frosting",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase 'not too sweet' is a valid taste attribute, correctly categorized, positively viewed, and appears verbatim in the review."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "light",
+  "source_text": "light, not too sweet frosting",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'light' describes the frosting's texture, matches the category, is praised positively, and the span is verbatim."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "creamy",
+  "source_text": "was light, creamy and not too sweet",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The attribute 'creamy' is a valid texture mouthfeel, correctly categorized, expressed positively, and the span matches the review text."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "taste_flavor",
+  "entity": "cream cheese",
+  "source_text": "It had the cream cheese taste",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase directly mentions the cream cheese flavor positively and matches the review text."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "kids",
+  "source_text": "Kids and adults loved this",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The entity 'kids' is a valid audience member, matches the category, sentiment is positive, and the span is verbatim."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "adults",
+  "source_text": "Kids and adults loved this",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The entity 'adults' is a valid audience, category matches, sentiment is positive, and the span is verbatim."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "texture_mouthfeel",
+  "entity": "creamy",
+  "source_text": "the creaminess was out of this world",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The attribute 'creamy' correctly reflects the texture mouthfeel described as 'the creaminess was out of this world' with positive sentiment and exact span."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "taste_flavor",
+  "entity": "sharp",
+  "source_text": "the cheddar was really sharp",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "Sharp is a valid taste flavor attribute and the span matches, but the statement is neutral, not positive."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "meal_type",
+  "entity": "dinner",
+  "source_text": "we got a late start on dinner",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The extracted entity 'dinner' is a valid meal_type, matches the source text, and carries neutral sentiment."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "texture_mouthfeel",
+  "entity": "thick",
+  "source_text": "The sauce still turned out really thick",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'thick' describes texture, matches the category, the tone is positive, and the span appears verbatim in the review."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "taste_flavor",
+  "entity": "sharp",
+  "source_text": "the cheddar was really sharp",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'sharp' is a valid taste_flavor attribute, correctly categorized, described neutrally, and the span matches the review."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "creamy",
+  "source_text": "the creaminess was out of this world",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The extracted attribute 'creamy' correctly reflects the texture mouthfeel described positively and the span matches the review text."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "thick",
+  "source_text": "The sauce still turned out really thick",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'thick' describes the sauce's texture, matches the category, the statement is neutral, and the span is verbatim."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "family",
+  "source_text": "we have a really large family",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase mentions family size, not who enjoyed the dish, so both entity and category are incorrect, but the sentiment is neutral and the span matches the review."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "texture_mouthfeel",
+  "entity": "tender",
+  "source_text": "how tender the meat was",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The extracted entity 'tender' is a texture attribute, category matches, sentiment is positive, and the span matches the review text."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "husband",
+  "source_text": "My husband could not get over how tender the meat was",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The entity 'husband' is a valid audience member, category matches, sentiment is positive, and the span is verbatim."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "meal_type",
+  "entity": "dinner",
+  "source_text": "I used the sauce to marinate the london broil steak",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "The text mentions marinating steak, not any meal type like dinner, so the entity and category are wrong and sentiment cannot be assessed, though the span matches the review."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "cuisine_type",
+  "entity": "Asian",
+  "source_text": "fresh ginger",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "The phrase 'fresh ginger' appears in the review, but extracting 'Asian' as the entity is unrelated and not a cuisine type mentioned in the text, and no sentiment is expressed toward it."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "tender",
+  "source_text": "how tender the meat was",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'tender' is a texture attribute, correctly categorized, with positive sentiment, and the span matches the review text."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "husband",
+  "source_text": "My husband could not get over how tender the meat was",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The entity 'husband' is a valid audience member, correctly categorized, sentiment is positive, and the span matches the review text."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "taste_flavor",
+  "entity": "salty",
+  "source_text": "add a lot more salt",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": false,
+   "span_faithful": false,
+   "rationale": "The text mentions adding more salt, not describing a salty flavor, so the extracted entity 'salty' is inaccurate, the category is mismatched, sentiment is not clearly positive, and the span does not match the source."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "taste_flavor",
+  "entity": "garlic",
+  "source_text": "added a little garlic powder",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "Garlic is a flavor ingredient fitting taste_flavor, but the text gives no explicit positive sentiment, only a factual addition."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "meal_type",
+  "entity": "dinner",
+  "source_text": "I had dinner ready",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The extracted entity 'dinner' is a valid meal_type, sentiment is neutral as the text is factual, and the span matches the review."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "taste_flavor",
+  "entity": "salty",
+  "source_text": "I had to add a lot more salt and pepper",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "The review mentions adding salt, not the attribute 'salty', so the extracted entity is not present or appropriate, making category and sentiment judgments also incorrect, though the span matches the text."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "taste_flavor",
+  "entity": "garlicky",
+  "source_text": "I also added a little garlic powder",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": false,
+   "span_faithful": false,
+   "rationale": "The text mentions adding garlic powder, not the flavor 'garlicky', and does not express a sentiment about it, so the entity is not a direct substring, making all fields incorrect."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "taste_flavor",
+  "entity": "smoky",
+  "source_text": "paprika",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "The extracted entity 'smoky' does not appear in the source text, which is 'paprika', making the entity and category incorrect, and the sentiment label irrelevant; the span is verbatim."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "meal_type",
+  "entity": "dinner",
+  "source_text": "I had dinner ready in a snap",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "The entity 'dinner' fits the meal_type category and the span matches the review, but the statement conveys a positive impression of speed, not a neutral sentiment."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "taste_flavor",
+  "entity": "exceptional",
+  "source_text": "they were exceptional",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "\u2018exceptional\u2019 describes overall quality, not a taste/flavor attribute, so both entity and category are incorrect, though the sentiment matches and the span is verbatim."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "grandma",
+  "source_text": "My grandma at 90 who despises sweets, tried to talk me into giving her more cookies",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The grandma is a valid audience member who expressed desire for more cookies, indicating positive enjoyment, and the span matches the review."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "grandmother",
+  "source_text": "My grandma at 90 who despises sweets, tried to talk me into giving her more cookies",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The grandma is a valid audience member who enjoyed the cookies, matching the category and positive sentiment, and the span is verbatim."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "cousins",
+  "source_text": "My little cousins who were there were in love",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The entity 'cousins' is a valid audience member, category matches, sentiment is positive, and the span is verbatim."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "texture_mouthfeel",
+  "entity": "soft",
+  "source_text": "prefer soft, chewy cookies",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The entity 'soft' is a valid texture attribute, correctly categorized, expressed positively, and the span matches the review text."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "texture_mouthfeel",
+  "entity": "chewy",
+  "source_text": "prefer soft, chewy cookies",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The entity 'chewy' is a valid texture attribute, correctly categorized, expressed positively, and the span matches the review text."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "texture_mouthfeel",
+  "entity": "soft",
+  "source_text": "They still came out soft",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'soft' describes texture, matches category, sentiment is positive, and the span is verbatim."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "soft",
+  "source_text": "prefer soft, chewy cookies",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'soft' is a valid texture attribute, correctly categorized, with positive sentiment, and the span matches the review text."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "chewy",
+  "source_text": "prefer soft, chewy cookies",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "Chewy is a texture attribute, correctly categorized, the reviewer expresses a positive preference, and the span matches the review text."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "soft",
+  "source_text": "They still came out soft and delicious",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'soft' is a texture attribute, correctly categorized, with positive sentiment, and the span matches the review text."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "texture_mouthfeel",
+  "entity": "moist",
+  "source_text": "they were still fairly moist",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'moist' is a texture attribute, correctly categorized, the review conveys a positive view, and the span matches the text."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "kids",
+  "source_text": "my fairly picky children gave the chops a good taste",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The entity 'kids' matches 'my fairly picky children' who enjoyed the dish, category is correct, sentiment is positive, and the span is verbatim."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "thick",
+  "source_text": "I used very thick chops",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "\u2018thick\u2019 describes size, not mouthfeel, so it is not a valid texture_mouthfeel attribute."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "moist",
+  "source_text": "they were still fairly moist",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'moist' is a texture attribute, correctly categorized, the review conveys a positive view, and the span matches the text exactly."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "kids",
+  "source_text": "my fairly picky children gave the chops a good taste",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The entity 'kids' (children) is a valid audience, category matches, sentiment is positive, and the span is verbatim."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "texture_mouthfeel",
+  "entity": "crunchy",
+  "source_text": "crunchy around the edges and top",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'crunchy' is a valid texture attribute, matches the texture_mouthfeel category, the review\u2019s tone is positive about it, and the span is verbatim."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "meal_type",
+  "entity": "dessert",
+  "source_text": "as an after-dinner dessert",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "Entity and category are correct, but the sentiment is negative, not neutral, and the span matches the review."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "self",
+  "source_text": "I love it",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "Entity 'self' is a generic reference to the reviewer, which is not a valid audience_enjoyment attribute; thus both entity and category are incorrect, while sentiment matches and span is verbatim."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "kids",
+  "source_text": "as well as my 4yo's haha",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase refers to a single 4\u2011year\u2011old, not 'kids', making the entity extraction inaccurate despite correct category and sentiment, and the span matches the review."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "crunchy",
+  "source_text": "crunchy around the edges and top",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'crunchy' is a valid texture attribute, matches the texture_mouthfeel category, is described positively, and the span is verbatim from the review."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "cakey",
+  "source_text": "cakey-chewy texture on the inside",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'cakey' describes the texture, fits the texture_mouthfeel category, is mentioned positively, and the span matches the review verbatim."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "chewy",
+  "source_text": "cakey-chewy texture on the inside",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The term 'chewy' is a valid texture attribute, correctly categorized, expressed positively, and the span matches the review verbatim."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "taste_flavor",
+  "entity": "not overbearingly sweet",
+  "source_text": "I didn't find it overbearingly sweet",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase is a valid taste attribute, matches the taste_flavor category, conveys positive sentiment, and is an exact substring."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "meal_type",
+  "entity": "dessert",
+  "source_text": "I prepared this as an after-dinner dessert",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "Entity and category are correct, but the sentiment is negative, not neutral, and the span matches the review."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "fiance",
+  "source_text": "My fiance had never had - and didn't think he'd like - a lasagna with cottage cheese, but he really likes this one!",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The fianc\u00e9 is the audience enjoying the dish, correctly categorized, with positive sentiment and exact quote."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "cuisine_type",
+  "entity": "Italian",
+  "source_text": "nutmeg (my no-so-secret ingredient for Italian cooking)",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "Italian is a valid cuisine_type, the extraction matches the text, and neutral sentiment fits."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "taste_flavor",
+  "entity": "not overly saucy",
+  "source_text": "Not overly saucy",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase is a valid attribute but does not belong to the taste_flavor category."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "holds together",
+  "source_text": "it holds together well",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase 'holds together' is a valid texture attribute, correctly categorized, with positive sentiment and exact match."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "slices beautifully",
+  "source_text": "slices beautifully",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase is a valid texture attribute, correctly categorized, positive sentiment, and matches the review verbatim."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "fiance",
+  "source_text": "he really likes this one",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": false,
+   "rationale": "The entity 'fiance' is correctly identified as the audience enjoying the dish with positive sentiment, but the quoted span does not contain the word 'fiance'."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "meal_type",
+  "entity": "supper",
+  "source_text": "easy suppers later on",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "Entity and category are correct, but the sentiment is positive, not neutral, and the span matches the review."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "occasion_holiday",
+  "entity": "birthday",
+  "source_text": "my MIL's birthday",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'birthday' is a valid occasion entity, matches the occasion_holiday category, no sentiment is expressed, and the span is verbatim."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "taste_flavor",
+  "entity": "chocolate",
+  "source_text": "definitely CHOCOLATE cake",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "Chocolate is a valid taste/flavor attribute, but the excerpt merely states the cake is chocolate without expressing a positive sentiment."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "taste_flavor",
+  "entity": "rich",
+  "source_text": "so rich",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "Entity and category are appropriate, but the sentiment toward 'rich' is negative, not positive, and the span matches the review."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "meal_type",
+  "entity": "dessert",
+  "source_text": "overwhelmingingly rich dessert",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "Dessert is a valid meal_type and appears verbatim, but the sentiment is negative, not neutral."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "occasion_holiday",
+  "entity": "birthday",
+  "source_text": "I made this for my MIL's birthday",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase correctly identifies the birthday occasion, matches the category, carries no sentiment, and is verbatim."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "taste_flavor",
+  "entity": "chocolate",
+  "source_text": "it is definitely CHOCOLATE cake",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "Chocolate is a valid flavor attribute, but the excerpt expresses no positive sentiment toward it."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "texture_mouthfeel",
+  "entity": "crispy",
+  "source_text": "they were crispy",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'crispy' is a valid texture attribute, matches the category, carries positive sentiment, and the span appears verbatim in the review."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "texture_mouthfeel",
+  "entity": "fluffy",
+  "source_text": "and fluffy on the inside",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'fluffy' describes texture, matches category, sentiment is positive, and the span is verbatim."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "meal_type",
+  "entity": "breakfast",
+  "source_text": "pancakes and waffles are vessels for butter",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "The phrase does not mention 'breakfast', so the entity and its category are unsupported and sentiment is mismatched, though the span is verbatim."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "taste_flavor",
+  "entity": "buttery",
+  "source_text": "They are a little buttery",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase 'a little buttery' is a valid taste_flavor attribute, correctly labeled positive and matches the review text."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "crispy",
+  "source_text": "they were crispy and fluffy on the inside",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The extracted entity 'crispy' is a valid texture attribute, correctly categorized, sentiment is positive, and the span matches the review text."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "fluffy",
+  "source_text": "they were crispy and fluffy on the inside",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "Fluffy is a texture attribute, correctly categorized, described positively, and the span matches the review text."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "thin",
+  "source_text": "the batter is very thin and runny",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase describes batter thinness, a texture attribute, correctly labeled with neutral sentiment and exact span."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "runny",
+  "source_text": "the batter is very thin and runny",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'runny' correctly describes texture, matches the category, is stated neutrally, and the span is verbatim."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "taste_flavor",
+  "entity": "chocolate",
+  "source_text": "increase the chocolate flavor",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase 'increase the chocolate flavor' directly mentions chocolate as a taste attribute, matches the category, conveys a positive desire, and is verbatim."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "texture_mouthfeel",
+  "entity": "fluffy",
+  "source_text": "nice and fluffy",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'fluffy' is a texture attribute, correctly categorized, expressed positively, and the span matches the review."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "fluffy",
+  "source_text": "which made it nice and fluffy",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'fluffy' describes texture/mouthfeel, matches the category, is described positively, and the span is verbatim."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "spouse",
+  "source_text": "The wife loved it",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase 'The wife loved it' correctly maps to audience_enjoyment with entity spouse, positive sentiment, and exact span."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "wife",
+  "source_text": "The wife loved it.",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The entity 'wife' is a valid audience member, category matches, sentiment is positive, and the span is exact."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "texture_mouthfeel",
+  "entity": "crust",
+  "source_text": "give the ribs a nice crust",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'crust' is a valid texture attribute, matches the category, is described positively, and the span is verbatim."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "self",
+  "source_text": "I did enjoy the recipe tho",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "Entity 'self' is not a valid audience attribute and violates the rule against reviewer-referential entities."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "thick",
+  "source_text": "cooked another 30 min. to thicken",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": false,
+   "rationale": "The attribute 'thick' fits texture_mouthfeel and is implied positively, but the exact word 'thick' does not appear verbatim in the source span."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "crust",
+  "source_text": "give the ribs a nice crust",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'crust' is a valid texture attribute, matches the category, is described positively, and the span is verbatim."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "helpers",
+  "source_text": "my overeager little helpers",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "\u2018helpers\u2019 are not a audience member enjoying the dish, the category is wrong, sentiment is negative about them, but the span matches the review."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "occasion_holiday",
+  "entity": "Christmas",
+  "source_text": "for icing my Christmas sugar cookie cut-outs",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'Christmas' is a valid holiday occasion mentioned verbatim and carries no sentiment, so all fields are correct."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "taste_flavor",
+  "entity": "lemon",
+  "source_text": "1/2 tsp. lemon extract",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase refers to lemon extract as a flavor component, matching the taste_flavor category with positive sentiment and exact span."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "occasion_holiday",
+  "entity": "Christmas",
+  "source_text": "for icing my Christmas sugar cookie cut-outs",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'Christmas' is a valid holiday occasion mentioned verbatim and carries no sentiment, so all fields are correct."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "hardens",
+  "source_text": "a frosting that hardens",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "The word 'hardens' is a valid texture attribute, correctly categorized, but the excerpt expresses a neutral need, not a positive sentiment, and the span matches the review text."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "right consistency",
+  "source_text": "to achieve the right consistency",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "The phrase is a valid texture attribute, but the review does not express a positive sentiment toward it."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "harden",
+  "source_text": "The frosted cookies did harden",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "The phrase describes texture and matches the category, but the sentiment is neutral, not positive."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "husband",
+  "source_text": "so I told her husband I would make a batch for them",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "Husband is a valid audience member, category fits, but no sentiment expressed toward him, and the span matches the review"
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "self",
+  "source_text": "I gorged it down",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "Entity 'self' is a generic reference to the reviewer, which is disallowed for audience_enjoyment, but the category and positive sentiment match the quoted text."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "neighbor",
+  "source_text": "My neighbour is sick and really likes chicken noodle soup",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "Neighbor is a valid audience member who likes the soup, matching the category and positive sentiment, and the span is exact."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "son",
+  "source_text": "to serve my son when he gets to come home for leave from the Navy",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "The phrase mentions serving the son, not his enjoyment or sentiment, so the entity and sentiment are not appropriate for audience_enjoyment."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "son",
+  "source_text": "He loves pasta dishes",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The son is a valid audience member, the category matches, sentiment is positive, and the span is verbatim."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "daughter",
+  "source_text": "I made it for my daughter and I tonight..we both loved it!",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The daughter is a valid audience member, category matches, sentiment is positive, and the span is verbatim."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "daughter",
+  "source_text": "she's a very picky eater",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "The entity 'daughter' correctly refers to an audience member, but the quoted text expresses no positive sentiment toward her enjoyment."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "son",
+  "source_text": "He loves pasta dishes",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The entity 'son' is correctly identified, belongs to audience_enjoyment, sentiment is positive, and the span matches the review text."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "daughter",
+  "source_text": "I made it for my daughter and I tonight..we both loved it!",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The daughter is a valid audience member, the category matches, sentiment is positive, and the span is verbatim."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "picky eater",
+  "source_text": "she's a very picky eater",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "The phrase is a neutral description, not a positive audience enjoyment attribute, and 'picky eater' is not a valid entity for audience_enjoyment."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "taste_flavor",
+  "entity": "creamy",
+  "source_text": "I love creamy dishes",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The extracted attribute 'creamy' is a valid taste/flavor term, correctly categorized, with positive sentiment and exact match in the review."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "texture_mouthfeel",
+  "entity": "tender",
+  "source_text": "four tenderloins",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "The extracted entity 'tender' is not present; the text contains 'four tenderloins', which refers to a cut, not a texture attribute."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "texture_mouthfeel",
+  "entity": "moist",
+  "source_text": "meat was fully cooked, moist and tender",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The extracted entity 'moist' is a valid texture attribute, correctly categorized, positively described, and the span matches the review verbatim."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "texture_mouthfeel",
+  "entity": "tender",
+  "source_text": "meat was fully cooked, moist and tender",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The attribute 'tender' is a texture mouthfeel term, correctly categorized, with positive sentiment, and the span matches the review text."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "moist",
+  "source_text": "the meat was fully cooked, moist and tender",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The extracted entity 'moist' is a valid texture attribute, correctly categorized, carries positive sentiment, and the span matches the review verbatim."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "tender",
+  "source_text": "the meat was fully cooked, moist and tender",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'tender' is a valid texture attribute, matches the category, carries positive sentiment, and the source text is an exact quote."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "taste_flavor",
+  "entity": "sweet",
+  "source_text": "Simple, sweet",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'sweet' is a valid taste_flavor attribute, correctly categorized, with positive sentiment, and the span matches the review text."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "texture_mouthfeel",
+  "entity": "chewy",
+  "source_text": "chewy",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'chewy' is a valid texture attribute, correctly categorized, carries positive sentiment, and matches the review text exactly."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "taste_flavor",
+  "entity": "sweet",
+  "source_text": "Simple, sweet, chewy, and delicious!",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'sweet' is a taste attribute, correctly categorized, with positive sentiment and exact quote."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "chewy",
+  "source_text": "Simple, sweet, chewy, and delicious!",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'chewy' is a valid texture attribute, matches the category, has positive sentiment, and the span is verbatim."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "texture_mouthfeel",
+  "entity": "soft",
+  "source_text": "they're very soft",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'soft' is a valid texture attribute, matches the texture_mouthfeel category, is described positively, and the span is verbatim."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "self",
+  "source_text": "I tried to eat one of these myself",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "The entity 'self' is a self\u2011reference, which is disallowed for audience_enjoyment, and the excerpt does not convey a positive sentiment."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "soft",
+  "source_text": "they're very soft",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'soft' is a valid texture attribute, correctly categorized, expressed positively, and the span matches the review text."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "husband",
+  "source_text": "DH would just say \"it's OK\"",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "The text mentions DH, not the husband, so the extracted entity and its category are wrong and no sentiment toward husband is expressed."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "husband",
+  "source_text": "he said that he LOVED this bread",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "The extracted entity 'husband' does not appear in the quoted source text, which refers to 'he' (DH), so the entity and category are incorrect and the sentiment does not apply to the husband."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "husband",
+  "source_text": "DH told me not to try any more recipes because this is THE one",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": false,
+   "span_faithful": false,
+   "rationale": "The entity 'husband' is not present in the source text, making the extraction non\u2011faithful and incorrect for both entity and category, and the sentiment label is unsupported."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "daughter",
+  "source_text": "for my daughter and her family",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The entity 'daughter' is a valid audience member, matches the audience_enjoyment category, sentiment is positive, and the span matches the review text."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "family",
+  "source_text": "for my daughter and her family",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase refers to the daughter and her family as the audience enjoying the bread, matching the category and positive sentiment, and the span is exact."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "daughter",
+  "source_text": "for my daughter and her family",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "The entity 'daughter' correctly denotes an audience member, but the excerpt contains no sentiment toward her, so the sentiment label is wrong."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "family",
+  "source_text": "for my daughter and her family",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase refers to the daughter and her family as the audience enjoying the bread, matching the category and sentiment, and is a verbatim span."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "cuisine_type",
+  "entity": "French",
+  "source_text": "French toast",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "The extracted entity 'French' is not a valid cuisine_type attribute in this context and sentiment is positive, not neutral."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "husband",
+  "source_text": "he said that he LOVED this bread",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The extracted entity 'husband' does not appear in the quoted source text, which refers to 'he' (DH), not the husband."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "daughter",
+  "source_text": "I also make it regularly for my daughter and her family",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The daughter is a valid audience member, category matches, sentiment is neutral, and the span is verbatim."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "family",
+  "source_text": "I also make it regularly for my daughter and her family",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The entity 'family' correctly denotes an audience group enjoying the dish, matches the category, sentiment is neutral, and the span is verbatim."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "meal_type",
+  "entity": "toast",
+  "source_text": "It makes great toast too",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'toast' appears verbatim and is positively described, but it is a food item, not a meal_type category."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "meal_type",
+  "entity": "French toast",
+  "source_text": "this bread makes the very very best French toast",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase 'French toast' is correctly extracted and positive sentiment matches, but it does not belong to the 'meal_type' category for the bread recipe."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "family",
+  "source_text": "My family loved this cake",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase 'My family loved this cake' correctly identifies the family as the audience enjoying the dish with positive sentiment and matches the text verbatim."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "family",
+  "source_text": "My family loved this cake",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase 'My family loved this cake' correctly identifies the family as the audience enjoying the dish with positive sentiment and is verbatim."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "crispy",
+  "source_text": "maintain a little of the crispiness of the chicken",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The entity 'crispy' is a valid texture attribute, correctly categorized, sentiment is positive, and the span matches the review text."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "taste_flavor",
+  "entity": "edible",
+  "source_text": "The recipe was edible",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "'edible' is not a taste/flavor attribute, so both entity and category are incorrect, but the neutral sentiment and exact span are correct."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "cuisine_type",
+  "entity": "Chinese",
+  "source_text": "Chinese fried food",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase 'Chinese fried food' is a valid cuisine_type entity, correctly labeled with neutral sentiment and matches the review text."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "taste_flavor",
+  "entity": "edible",
+  "source_text": "The recipe was edible.",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "\u2018edible\u2019 is not a taste/flavor attribute, so both entity and category are incorrect, but the neutral sentiment matches the text and the span is exact."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "taste_flavor",
+  "entity": "better than Panda Express",
+  "source_text": "it does taste better than Panda Express",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase is a valid taste attribute, correctly categorized, positive sentiment, and matches the review text."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "cuisine_type",
+  "entity": "Chinese",
+  "source_text": "all Chinese fried food that we do at home",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase is a direct quote, correctly identifies Chinese as a cuisine type, and the sentiment is neutral."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "kids",
+  "source_text": "My kids want me to dip them in peanut butter chips next time",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The entity 'kids' is a valid audience member, category matches, sentiment is positive, and the span is verbatim."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "texture_mouthfeel",
+  "entity": "soft",
+  "source_text": "they were a little softer set",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "Entity and category fit texture, but sentiment is not clearly positive, only neutral acceptance."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "texture_mouthfeel",
+  "entity": "smooth",
+  "source_text": "makes the chocolate smooth",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'smooth' describes texture, matches the category, is praised, and the span is verbatim."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "smooth",
+  "source_text": "makes the chocolate smooth",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'smooth' describes texture, matches the category, is positively viewed, and the span is verbatim."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "kids",
+  "source_text": "My kids want me to dip them in peanut butter chips next time",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase mentions the kids as the audience enjoying the dish, correctly categorized, with a positive desire, and the span matches the review."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "taste_flavor",
+  "entity": "chocolate",
+  "source_text": "perfect chocolate brownie",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'chocolate' is a valid flavor attribute, matches the taste_flavor category, the sentiment is positive, and the span is verbatim."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "texture_mouthfeel",
+  "entity": "crispy",
+  "source_text": "Crispy edges",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'crispy' describes texture mouthfeel, matches the category, is positively described, and appears verbatim."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "texture_mouthfeel",
+  "entity": "moist",
+  "source_text": "super moist inside",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'moist' describes texture, matches the category, sentiment is positive, and the phrase is a direct quote."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "husband",
+  "source_text": "My husband is amazed",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The husband is mentioned as amazed, not as someone who ate/enjoyed the dish, so both entity and category are incorrect, though sentiment is positive and the span matches."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "taste_flavor",
+  "entity": "chocolate",
+  "source_text": "the perfect chocolate brownie",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "\u2018chocolate\u2019 is an ingredient, not a taste/flavor descriptor, so both entity and category are incorrect, though the sentiment is positive and the span matches the review."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "crispy",
+  "source_text": "Crispy edges",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'crispy' describes texture, matches the category, is positively described, and appears verbatim."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "moist",
+  "source_text": "super moist inside",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'moist' is a texture attribute, correctly categorized, with positive sentiment and exact match to the review text."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "husband",
+  "source_text": "My husband is amazed I could make something that good",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "Husband is a plausible audience member, sentiment matches, text is exact, but the category audience_enjoyment expects enjoyment of eating, not amazement at cooking."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "self",
+  "source_text": "we came home to a wonderful feast!",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "Entity 'self' is not a valid audience attribute and violates the rule against reviewer-referential entities."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "taste_flavor",
+  "entity": "hearty",
+  "source_text": "Wonderful, hearty recipe!",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "'hearty' describes overall richness, not a taste/flavor attribute, so both entity and category are mismatched despite correct sentiment and exact span."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "daughter",
+  "source_text": "Our daughter kept asking for unhealthy snacks",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The daughter is a valid audience member, the category matches, the desire implies positive sentiment, and the span matches the review text."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "daughter",
+  "source_text": "our daughter and one of the babie I watch ate the good ones",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The daughter is a valid audience member who enjoyed the dish, category matches, sentiment is positive, and the span is verbatim."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "mother",
+  "source_text": "she said she will be making them too",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The mother is a valid audience member, correctly categorized, with positive sentiment, and the span matches the review text."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "meal_type",
+  "entity": "snack",
+  "source_text": "healthy snack recipe",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "Snack is a valid meal_type and appears in the text, but the sentiment is positive, not neutral."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "daughter",
+  "source_text": "our daughter and one of the babie I watch ate the good ones from the first batch",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The daughter is a valid audience member who enjoyed the dish, category matches, sentiment is positive, and the span is verbatim."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "baby",
+  "source_text": "our daughter and one of the babie I watch ate the good ones from the first batch",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The baby is a valid audience member who enjoyed the snack, matching the category, sentiment, and exact text."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "mother",
+  "source_text": "I shared some with the mother of the baby when she got her to pick her up and she said she will be making them too",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The mother is a valid audience member, correctly categorized, with positive sentiment, and the span matches the review text."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "meal_type",
+  "entity": "snack",
+  "source_text": "Thanks for an easy, quick healthy snack recipe!!",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The extraction correctly identifies 'snack' as a meal_type with positive sentiment and the span matches the review text."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "son",
+  "source_text": "My 25-year old son said to tell you it is the best darn 'Jewish stew' he's ever eaten",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The son is a valid audience member who expressed positive enjoyment, and the quoted text matches the review."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "texture_mouthfeel",
+  "entity": "crisp-tender",
+  "source_text": "the veggies were crisp-tender",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase 'crisp-tender' describes texture, matches category, is praised, and is verbatim from the review."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "son",
+  "source_text": "My 25-year old son said to tell you it is the best darn 'Jewish stew' he's ever eaten",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The son is a valid audience member, correctly categorized, with positive sentiment and exact text match."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "cuisine_type",
+  "entity": "Jewish",
+  "source_text": "the best darn 'Jewish stew' he's ever eaten",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The term 'Jewish' correctly denotes a cuisine type, matches the positive sentiment, and the span is verbatim."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "crisp-tender",
+  "source_text": "the veggies were crisp-tender",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase 'crisp-tender' describes texture, matches category, is positive, and is verbatim from the review."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "texture_mouthfeel",
+  "entity": "soft",
+  "source_text": "Soft, fluffy, buttery",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The extracted attribute 'soft' is a valid texture term, matches the category, has positive sentiment, and the span is verbatim."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "texture_mouthfeel",
+  "entity": "fluffy",
+  "source_text": "Soft, fluffy, buttery",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'fluffy' is a texture attribute, correctly categorized, sentiment is positive, and the span matches the review text."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "texture_mouthfeel",
+  "entity": "buttery",
+  "source_text": "Soft, fluffy, buttery",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'buttery' is a valid extracted attribute, the sentiment is positive, the text matches exactly, but 'buttery' describes flavor rather than texture/mouthfeel."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "husband",
+  "source_text": "dh raved about these",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "The text 'dh raved about these' contains no mention of 'husband', so the entity is wrong, making both category and sentiment mismatched, though the span is verbatim."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "taste_flavor",
+  "entity": "buttery",
+  "source_text": "Soft, fluffy, buttery",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'buttery' is a valid taste/flavor attribute, correctly categorized, expressed positively, and appears verbatim in the review."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "soft",
+  "source_text": "Soft, fluffy, buttery",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The extracted attribute 'soft' is a valid texture term, matches the category, has positive sentiment, and the span is verbatim."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "fluffy",
+  "source_text": "Soft, fluffy, buttery",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "Fluffy is a texture attribute, correctly categorized, positive sentiment matches, and the span is verbatim."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "husband",
+  "source_text": "dh raved about these",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": false,
+   "span_faithful": false,
+   "rationale": "The extracted entity 'husband' does not appear in the source text and is not a valid attribute, making all fields incorrect."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "meal_type",
+  "entity": "appetizer",
+  "source_text": "just using it as a appetizer",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The entity 'appetizer' is a valid meal_type, the sentiment is neutral, and the span matches the review text."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "taste_flavor",
+  "entity": "cumin",
+  "source_text": "add some cumin next time",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "Cumin is an ingredient, not a taste/flavor attribute, so both entity and category are incorrect; the suggestion carries no sentiment, making neutral correct; the span matches the review text."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "taste_flavor",
+  "entity": "salty",
+  "source_text": "more salt",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": false,
+   "rationale": "The entity 'salty' is not a verbatim phrase from the source and the text mentions 'more salt' instead, making the span non\u2011faithful and the entity extraction inaccurate."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "we",
+  "source_text": "we all really enjoyed it",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "'we' refers to the reviewer group, which is disallowed for audience_enjoyment entity"
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "meal_type",
+  "entity": "appetizer",
+  "source_text": "using it as a appetizer",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The entity 'appetizer' is a valid meal_type, the sentiment is neutral factual, and the span matches the review text."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "meal_type",
+  "entity": "breakfast",
+  "source_text": "Sunday morning",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "The text only says 'Sunday morning' without mentioning breakfast, so the extracted entity is not present and thus incorrect, making category and sentiment also incorrect, though the span is verbatim."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "grandkids",
+  "source_text": "to see my grandkids",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "The phrase refers to visiting grandkids, not to them enjoying the dish, so both entity and category are incorrect and sentiment does not apply."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "grandkids",
+  "source_text": "a day trip to see my grandkids",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "Grandkids are mentioned as a travel destination, not as diners, so the entity is not a valid audience_enjoyment attribute and the category is incorrect; the sentiment label matches the neutral tone and the span is verbatim."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "texture_mouthfeel",
+  "entity": "crisp-tender",
+  "source_text": "I cooked it till crisp-tender",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "The phrase describes texture correctly, but does not express a positive sentiment toward it."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "crisp-tender",
+  "source_text": "I cooked it till crisp-tender",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "The phrase 'crisp-tender' is a valid texture attribute, correctly categorized, but the text merely describes it without an explicit positive sentiment, and the span matches the review verbatim."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "taste_flavor",
+  "entity": "eggroll",
+  "source_text": "Reminded me of the inside of an eggroll",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "\u2018eggroll\u2019 is not a taste/flavor attribute and thus mismatches the taste_flavor category, though the sentiment is positive and the span matches the review."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "dinner guests",
+  "source_text": "my dinner guests loved it too",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase refers to the reviewer\u2019s guests enjoying the dish, matches audience_enjoyment, positive sentiment, and is a verbatim substring."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "meal_type",
+  "entity": "dinner",
+  "source_text": "my dinner guests",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "'dinner' is not a meal_type attribute here and the phrase refers to guests, not the meal, making entity and category wrong and sentiment mismatched."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "falling-apart",
+  "source_text": "This was done to falling-apart-perfection",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase describes the meat's texture, matches the category, conveys a positive sentiment, and is a verbatim excerpt."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "guests",
+  "source_text": "my dinner guests loved it too",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The entity 'guests' is a valid audience, category matches, sentiment is positive, and the span appears verbatim in the review."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "texture_mouthfeel",
+  "entity": "tender",
+  "source_text": "after the meat was tender",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "Tender is a texture attribute and correctly extracted, but the phrase is neutral, not a positive sentiment."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "tender",
+  "source_text": "after the meat was tender",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "Tender is a texture attribute and correctly extracted, but the phrase is factual with no positive sentiment."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "texture_mouthfeel",
+  "entity": "thin",
+  "source_text": "a thin one",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase 'a thin one' is a valid texture attribute, matches the texture_mouthfeel category, expresses a positive preference, and is verbatim in the review."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "texture_mouthfeel",
+  "entity": "brown",
+  "source_text": "base is then brown color",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "\u2018brown\u2019 describes color, not texture/mouthfeel, so both entity and category are incorrect, but the sentiment is neutral and the span matches the review."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "taste_flavor",
+  "entity": "not so sweet",
+  "source_text": "so its not so sweet",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase 'not so sweet' is a valid taste attribute, matches the taste_flavor category, the reviewer expresses a positive view of reduced sweetness, and the span is verbatim."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "taste_flavor",
+  "entity": "spice",
+  "source_text": "plenty of spice",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "\u2018spice\u2019 is not a taste/flavor descriptor and is mis\u2011categorized, though the sentiment is positive and the span matches the review."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "taste_flavor",
+  "entity": "similar",
+  "source_text": "tastes pretty similar to Ortega brand taco seasoning",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "\u2018similar\u2019 is not a taste/flavor attribute, so both entity and category are incorrect, while the neutral sentiment and exact span are correct."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "taste_flavor",
+  "entity": "spice",
+  "source_text": "great spice",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "\u2018spice\u2019 is an ingredient, not a taste/flavor descriptor, so both entity and category are incorrect, though the sentiment is positive and the span matches the review."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "taste_flavor",
+  "entity": "spicy",
+  "source_text": "wanted there to be plenty of spice",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": true,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "The text mentions 'spice' not the adjective 'spicy', and no clear positive sentiment is expressed toward a taste attribute."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "meal_type",
+  "entity": "pie",
+  "source_text": "for my vanilla creme pie",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "\u2018pie\u2019 is a dish, not a meal type, so both entity and category are incorrect, while the sentiment is neutral and the span matches the review."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "texture_mouthfeel",
+  "entity": "thick",
+  "source_text": "I like my crust thick",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The extracted attribute 'thick' is a valid texture attribute, correctly categorized, with positive sentiment, and the span matches the review text."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "thick",
+  "source_text": "I like my crust thick",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'thick' is a texture attribute, correctly categorized, expressed positively, and the span matches the review."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "taste_flavor",
+  "entity": "sweet",
+  "source_text": "it is sweet",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The extracted taste attribute 'sweet' matches the review, is correctly categorized, has positive sentiment, and the phrase appears verbatim."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "taste_flavor",
+  "entity": "salty",
+  "source_text": "a little salty",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase 'a little salty' is a valid taste attribute, matches the taste_flavor category, is expressed positively, and is quoted exactly from the review."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "meal_type",
+  "entity": "dessert",
+  "source_text": "cranberry walnut pie",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": true,
+   "sentiment_correct": false,
+   "span_faithful": false,
+   "rationale": "The entity 'dessert' is not a verbatim phrase from the source and sentiment is clearly positive, not neutral."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "taste_flavor",
+  "entity": "sweet",
+  "source_text": "it is sweet and yet a little salty all at the same time",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The entity 'sweet' is a valid taste attribute, category matches, sentiment is positive, and the span is verbatim from the review."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "taste_flavor",
+  "entity": "salty",
+  "source_text": "it is sweet and yet a little salty all at the same time",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The attribute 'salty' is a taste flavor, correctly categorized, sentiment is positive, and the span matches the review text."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "taste_flavor",
+  "entity": "spicy",
+  "source_text": "really gives this some kick",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase indicates a spicy flavor, matches category, sentiment is positive, and the span is verbatim."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "occasion_holiday",
+  "entity": "winter",
+  "source_text": "throughout the winter",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "Winter is a season, not a specific holiday or occasion, so both entity and category are incorrect, while the sentiment is neutral and the span matches the review."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "husband",
+  "source_text": "he still raved and raved about it",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase refers to the husband enjoying the dish positively and the span matches the review."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "cuisine_type",
+  "entity": "Italian",
+  "source_text": "hot italian sausages",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "Italian is a cuisine type mentioned in the phrase and carries no sentiment, and the span matches the review."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "taste_flavor",
+  "entity": "kick",
+  "source_text": "Using the hot sausage really gives this some kick",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'kick' describes a flavor attribute, fits taste_flavor, sentiment is positive, and the span matches the review text."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "husband",
+  "source_text": "he still raved and raved about it",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The husband is correctly identified as an audience member enjoying the dish, the category matches, 'raved' indicates positive sentiment, and the span matches the review text."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "occasion_holiday",
+  "entity": "fall",
+  "source_text": "it'll be perfect for a cool fall day",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "\u2018fall\u2019 is a season, not a specific holiday, so it does not belong to the occasion_holiday category, making both entity and category incorrect, while the positive sentiment and exact span are correct."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "occasion_holiday",
+  "entity": "winter",
+  "source_text": "make this often throughout the winter",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "Winter is a season, not a specific holiday or occasion, so both entity and category are incorrect, while the sentiment is neutral and the span matches the review."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "adults",
+  "source_text": "Was a hit with both adults and kids",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The entity 'adults' is a valid audience enjoyment target, correctly categorized, sentiment is positive, and the span matches the review."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "kids",
+  "source_text": "Was a hit with both adults and kids",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The entity 'kids' is a valid audience, category matches, sentiment is positive, and the span is verbatim."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "4 year old",
+  "source_text": "My 4 year old gobbled it up",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase refers to a child who enjoyed the dish, matching audience_enjoyment with positive sentiment and exact text."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "7 year old",
+  "source_text": "and so did my 7 year old",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase refers to the 7\u2011year\u2011old enjoying the dish, fitting audience_enjoyment with positive sentiment and exact match."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "husband",
+  "source_text": "My hubby ate like it was going to fly away",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The entity 'husband' is a valid audience member, matches the category, sentiment is positive, and the span is exact."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "taste_flavor",
+  "entity": "full of flavor",
+  "source_text": "And it was so full of flavor",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase 'full of flavor' is a generic quality statement, not a specific taste attribute, so it is not a correct entity for the taste_flavor category."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "adults",
+  "source_text": "Was a hit with both adults and kids",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The entity 'adults' is a valid audience enjoyment target, correctly categorized, sentiment is positive, and the span matches the review."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "kids",
+  "source_text": "Was a hit with both adults and kids",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The entity 'kids' is a valid audience enjoyment attribute, correctly categorized, sentiment is positive, and the span matches the review text."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "kids",
+  "source_text": "My 4 year old gobbled it up and so did my 7 year old",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase refers to the kids enjoying the dish positively and matches the review text."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "husband",
+  "source_text": "My hubby ate like it was going to fly away",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "Husband is a valid audience member who enjoyed the dish, category matches, sentiment is positive, and the span matches the review text."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "taste_flavor",
+  "entity": "full of flavor",
+  "source_text": "it was so full of flavor",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase 'full of flavor' is a generic quality statement, not a specific taste attribute, so both entity and category are incorrect despite the positive sentiment and exact span match."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "guests",
+  "source_text": "Esp if you have guests over",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "Entity 'guests' is present, but the category audience_enjoyment is incorrect as the sentence does not describe enjoyment."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "ladies",
+  "source_text": "it can impress the ladies",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The entity 'ladies' is a valid audience group, category matches, sentiment is positive, and the span is verbatim."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "meal_type",
+  "entity": "side-dish",
+  "source_text": "served it with a side of potatoes",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase describes a side dish, fits meal_type, carries no sentiment, and matches the review text verbatim."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "cuisine_type",
+  "entity": "Italian",
+  "source_text": "italian seasoned crumbs",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "The phrase refers to a seasoning, not a cuisine type, so the entity and category are incorrect and sentiment cannot be judged, though the span matches the review."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "bachelor",
+  "source_text": "Great for the bachelor who has no time or ability to cook",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The term 'bachelor' denotes an audience type, but the text describes suitability, not actual enjoyment, so the category is incorrect while other fields are correct."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "ladies",
+  "source_text": "it can impress the ladies",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The entity 'ladies' is a valid audience group, category matches, sentiment is positive, and the span is verbatim from the review."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "taste_flavor",
+  "entity": "fresh",
+  "source_text": "This is so fresh",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'fresh' is a valid taste/flavor attribute, correctly categorized, with positive sentiment and exact match in the review."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "taste_flavor",
+  "entity": "garlic",
+  "source_text": "a little bit more garlic",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "Garlic is an ingredient, not a taste/flavor attribute, and the phrase is neutral, though the span matches the review."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "taste_flavor",
+  "entity": "cayenne",
+  "source_text": "and cayenne",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "Cayenne is a flavor ingredient, but the snippet provides no sentiment, making the positive label incorrect."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "taste_flavor",
+  "entity": "lime juice",
+  "source_text": "fresh lime juice",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "The phrase 'lime juice' is an ingredient, not a taste/flavor attribute, and the excerpt carries no explicit sentiment."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "meal_type",
+  "entity": "lunch",
+  "source_text": "I usually serve it with grilled green and yellow zuccini and lemon and spinach couscous.",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "The text does not mention 'lunch' or any meal type, so the entity and category are incorrect and sentiment cannot be assessed, though the span is verbatim."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "meal_type",
+  "entity": "dinner",
+  "source_text": "I usually serve it with grilled green and yellow zuccini and lemon and spinach couscous.",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "The text does not mention 'dinner' or any meal type, so the entity and category are incorrect and no sentiment toward a non\u2011existent entity is expressed, though the span is verbatim."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "taste_flavor",
+  "entity": "fresh",
+  "source_text": "This is so fresh and flavorful",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'fresh' is a valid taste/flavor attribute, correctly categorized, with positive sentiment and exact match."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "kids",
+  "source_text": "All of my kids & friends that have tried them love them",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The entity 'kids' is a valid audience member, category matches, sentiment is positive, and the span is verbatim."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "friends",
+  "source_text": "All of my kids & friends that have tried them love them",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The entity 'friends' is a valid audience member, matches the category, sentiment is positive, and the span is verbatim."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "son",
+  "source_text": "even my son that doesn't like anything with cooked apples!",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The son is a valid audience member, the category matches, sentiment is positive, and the span matches the review."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "taste_flavor",
+  "entity": "nummy",
+  "source_text": "way too nummy",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "'nummy' is a generic positive quality, not a specific taste/flavor attribute, so both entity and category are incorrect despite correct sentiment and faithful span."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "kids",
+  "source_text": "All of my kids & friends that have tried them love them",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The entity 'kids' is a valid audience member, category matches, sentiment is positive, and the span is verbatim."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "friends",
+  "source_text": "All of my kids & friends that have tried them love them",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "Friends are a valid audience enjoying the muffins, sentiment is positive, and the span matches the review."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "son",
+  "source_text": "even my son that doesn't like anything with cooked apples",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The son is a valid audience member who liked the muffins, matching the category and positive sentiment, and the text is a verbatim excerpt."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "spouse",
+  "source_text": "My spouse is also a triple portion guy",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "Spouse is a valid audience member, correctly categorized, sentiment positive, and span matches the review."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "meal_type",
+  "entity": "dinner",
+  "source_text": "on Pie night",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": false,
+   "rationale": "'dinner' is a plausible meal_type inferred from 'on Pie night', but the exact word does not appear in the text."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "taste_flavor",
+  "entity": "comfort food",
+  "source_text": "There is something about true comfort food and this one nails it",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "\u2018comfort food\u2019 is not a taste/flavor attribute, so both entity and category are incorrect, though sentiment is positive and the span matches the review."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "spouse",
+  "source_text": "My spouse is also a triple portion guy on Pie night",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "Spouse is a valid audience member enjoying the dish, correctly categorized and positively described, and the span matches the review."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "texture_mouthfeel",
+  "entity": "soft",
+  "source_text": "I like them to be really soft",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The extracted attribute 'soft' is a valid texture mouthfeel, matches the category, sentiment is positive, and the span is verbatim from the review."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "boyfriend",
+  "source_text": "to my BF's happiness",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase refers to the boyfriend enjoying the dish, matching audience_enjoyment with positive sentiment and exact span."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "texture_mouthfeel",
+  "entity": "creamy",
+  "source_text": "make it creamy",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The entity 'creamy' is a valid texture attribute, correctly categorized, sentiment is positive, and the span matches the review text."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "texture_mouthfeel",
+  "entity": "creamy",
+  "source_text": "really thicken up the stock and make it creamy",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'creamy' describes texture, matches category, sentiment is positive, and the span is verbatim."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "texture_mouthfeel",
+  "entity": "creamy",
+  "source_text": "it really got nice",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "The extracted entity 'creamy' is not present in the quoted span 'it really got nice', making the entity, category, and sentiment mismatched, though the span is verbatim."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "meal_type",
+  "entity": "dinner",
+  "source_text": "future dinners",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase 'future dinners' directly mentions the meal type dinner with no expressed sentiment, and the span matches the review text."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "soft",
+  "source_text": "I like them to be really soft",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The extracted attribute 'soft' is a valid texture mouthfeel, matches the category, sentiment is positive, and the span is verbatim from the review."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "taste_flavor",
+  "entity": "subtle-flavored",
+  "source_text": "subtle-flavored in this type of recipe",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase 'subtle-flavored' is a valid taste/flavor attribute, correctly categorized, positive sentiment, and matches the source text verbatim."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "creamy",
+  "source_text": "make it creamy",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The attribute 'creamy' is a texture mouthfeel term, correctly categorized, sentiment is positive, and the phrase appears verbatim."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "thick",
+  "source_text": "enough to really thicken up the stock",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The extracted attribute 'thick' is a valid texture term, matches the category, sentiment is positive, and the span is verbatim from the review."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "boyfriend",
+  "source_text": "to my BF's happiness",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The boyfriend is an audience member enjoying the dish, the sentiment is positive, and the span matches the review text."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "meal_type",
+  "entity": "dessert",
+  "source_text": "Great for desserts",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "Entity and category are appropriate, but the phrase expresses a positive sentiment, not neutral, and the span matches the review."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "taste_flavor",
+  "entity": "cinnamon",
+  "source_text": "cinnamon and nutmeg",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "Cinnamon is a valid flavor attribute and correctly categorized, the text is quoted exactly, but no positive sentiment is expressed toward it."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "taste_flavor",
+  "entity": "nutmeg",
+  "source_text": "cinnamon and nutmeg",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "Nutmeg is a flavor ingredient, correctly categorized, but the text gives no positive sentiment, only mentions it."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "cuisine_type",
+  "entity": "Italian",
+  "source_text": "Italian seasoning",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'Italian' refers to a seasoning, not a cuisine type, so both entity and category are incorrect, but the neutral sentiment and span are accurate."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "taste_flavor",
+  "entity": "Italian seasoning",
+  "source_text": "Italian seasonings",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "Italian seasoning is an ingredient, not a taste/flavor attribute, and the text does not express a positive sentiment toward it, though the span matches the review."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "meal_type",
+  "entity": "dessert",
+  "source_text": "Great for desserts",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "Entity and category are correct, but the sentiment is positive, not neutral, and the span matches the review."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "meal_type",
+  "entity": "breakfast",
+  "source_text": "breakfast",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "Breakfast is a valid meal_type mentioned, but the review expresses a positive view, not neutral sentiment."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "meal_type",
+  "entity": "supper",
+  "source_text": "supper",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "The word 'supper' is a valid meal_type entity and appears verbatim, but the context expresses a positive view, not neutral sentiment."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "taste_flavor",
+  "entity": "wonderfully",
+  "source_text": "it has always turned out wonderfully",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "\u2018wonderfully\u2019 is not a taste/flavor attribute, so both entity and category are incorrect, though the sentiment is positive and the span matches the review."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "texture_mouthfeel",
+  "entity": "thick",
+  "source_text": "as thick as you like",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "Entity and category match texture, but the phrase is neutral, not positive sentiment."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "thick",
+  "source_text": "if it isn't as thick as you like",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "The word 'thick' is a valid texture attribute and the span matches the review, but the sentence is neutral, not positive."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "not too thick",
+  "source_text": "Add more liquid if too thick for your tastes",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": true,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "The phrase 'not too thick' is not a verbatim attribute from the text and the sentence expresses a neutral suggestion, not a positive sentiment."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "meal_type",
+  "entity": "dinner",
+  "source_text": "friends over for dinner",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase 'friends over for dinner' is a verbatim span, 'dinner' is a valid meal_type entity, and no sentiment is expressed, making neutral appropriate."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "husband",
+  "source_text": "my husband and I",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "Husband is a valid audience member, category fits, but no sentiment expressed toward him, and the span matches the review text."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "self",
+  "source_text": "my husband and I",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "'my husband and I' refers to the reviewers themselves, which is disallowed for audience_enjoyment and carries no sentiment label."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "meal_type",
+  "entity": "dinner",
+  "source_text": "We had some for dinner tonight",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The entity 'dinner' is a valid meal_type, sentiment is neutral as the text is factual, and the span matches the review."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "friends",
+  "source_text": "having friends over for dinner",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "Friends are a valid audience entity, category matches, neutral sentiment aligns with no expressed feeling, and the span matches exactly."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "husband",
+  "source_text": "my husband and I are in California for the winter",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "The phrase mentions husband in a location context, not as an audience enjoying the dish, and carries no sentiment."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "meal_type",
+  "entity": "dinner",
+  "source_text": "having friends over for dinner",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'dinner' is a valid meal_type entity, matches the source text exactly, and carries no sentiment, so neutral is appropriate."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "meal_type",
+  "entity": "dinner",
+  "source_text": "We had some for dinner tonight",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'dinner' is a valid meal_type, the extraction matches the review text exactly, and the context conveys a positive sentiment toward having it for dinner."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "taste_flavor",
+  "entity": "sweet",
+  "source_text": "hint of sweetness",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase 'hint of sweetness' directly provides a taste attribute 'sweet' with positive sentiment and matches the category."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "texture_mouthfeel",
+  "entity": "moist",
+  "source_text": "most moist biscuits",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'moist' is a valid texture attribute, correctly categorized, expressed positively, and the span matches the review text."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "texture_mouthfeel",
+  "entity": "sticky",
+  "source_text": "dough was on the sticky side",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'sticky' describes dough texture, matches the texture_mouthfeel category, is stated neutrally, and the span is a direct substring."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "taste_flavor",
+  "entity": "sweetness",
+  "source_text": "They just had a hint of sweetness",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase refers to the sweet taste, correctly categorized, with positive sentiment and exact match."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "moist",
+  "source_text": "were the most moist biscuits I have ever eaten",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'moist' is a texture attribute, correctly categorized, with positive sentiment and exact quote."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "texture_mouthfeel",
+  "entity": "fluffy",
+  "source_text": "made a great fluffy biscuit",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'fluffy' is a texture attribute, correctly categorized, with positive sentiment and exact match in the review."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "fluffy",
+  "source_text": "made a great fluffy biscuit",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'fluffy' describes texture, matches category, sentiment is positive, and the span is verbatim."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "taste_flavor",
+  "entity": "salty",
+  "source_text": "salt",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "The extracted entity 'salty' is not present; source text is 'salt', which is an ingredient, not a taste/flavor attribute, making both entity and category incorrect and sentiment mismatched."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "taste_flavor",
+  "entity": "pepper",
+  "source_text": "pepper",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "Pepper is a valid flavor attribute, but the review gives no explicit positive sentiment toward it."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "taste_flavor",
+  "entity": "garlic",
+  "source_text": "garlic powder",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "Garlic is a flavor ingredient, but no sentiment about it is expressed in the review."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "taste_flavor",
+  "entity": "spicy",
+  "source_text": "spicy",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'spicy' is a valid taste attribute, correctly categorized, expressed positively, and matches the review text exactly."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "cuisine_type",
+  "entity": "Mexican",
+  "source_text": "Mexican sauces",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "Entity and category are correct, but sentiment is negative, not neutral, and the span matches the review."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "taste_flavor",
+  "entity": "spicy",
+  "source_text": "spicy",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'spicy' is a valid taste attribute, matches the taste_flavor category, is described positively, and appears verbatim in the review."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "taste_flavor",
+  "entity": "not too spicy",
+  "source_text": "don't like things too spicy",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": false,
+   "rationale": "The phrase refers to spiciness level, a valid taste attribute, category matches, sentiment is neutral, but the exact span is not verbatim."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "cuisine_type",
+  "entity": "Mexican",
+  "source_text": "enchiladas",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'enchiladas' indicates Mexican cuisine, matches category, sentiment is neutral, and the span is verbatim."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "parents",
+  "source_text": "my parents and husband were WANTING more!",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The entity 'parents' correctly represents an audience member enjoying the dish, category matches, sentiment is positive, and the span is verbatim."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "husband",
+  "source_text": "my parents and husband were WANTING more!",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The entity 'husband' is a valid audience member, matches the category, sentiment is positive, and the span is verbatim."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "parents",
+  "source_text": "my parents and husband were WANTING more",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The entity 'parents' is a valid audience member, category matches, sentiment is positive, and the span is verbatim."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "husband",
+  "source_text": "my parents and husband were WANTING more",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The husband is a valid audience member enjoying the dish, correctly categorized, sentiment is positive, and the span matches the review text."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "taste_flavor",
+  "entity": "spicy",
+  "source_text": "we like a little more heat",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": false,
+   "rationale": "The word 'spicy' is not a verbatim span and not directly present in the source text, though the sentiment toward more heat is positive and the category fits."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "cuisine_type",
+  "entity": "Mexican",
+  "source_text": "enchiladas",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": false,
+   "span_faithful": false,
+   "rationale": "Mexican is a sensible cuisine type inferred from 'enchiladas', but sentiment is positive not neutral and the span is not verbatim."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "cuisine_type",
+  "entity": "Mexican",
+  "source_text": "enchilada sauce",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The term 'enchilada sauce' implies Mexican cuisine, matching the entity and category, sentiment is neutral as no explicit sentiment toward the cuisine type, and the span matches the review text."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "self",
+  "source_text": "as we like a little more heat",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "The entity 'self' is not a valid audience attribute and the phrase is neutral, not a positive sentiment toward an audience."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "meal_type",
+  "entity": "dinner",
+  "source_text": "9X13 dish of enchiladas",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "The phrase '9X13 dish of enchiladas' does not mention 'dinner', so the entity and category are wrong and no sentiment is expressed, though the span matches the review."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "taste_flavor",
+  "entity": "heat",
+  "source_text": "we like a little more heat",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase 'heat' is a valid taste/flavor attribute, matches the category, sentiment is positive, and the span is verbatim."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "cuisine_type",
+  "entity": "Mexican",
+  "source_text": "enchilada sauce",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": false,
+   "rationale": "The word 'Mexican' is not present in the source span 'enchilada sauce', so the entity is not faithfully extracted, though it is a correct cuisine type and sentiment is neutral."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "cuisine_type",
+  "entity": "Mexican",
+  "source_text": "enchiladas",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": false,
+   "rationale": "The review never mentions 'Mexican' verbatim, so the span and entity are not directly extracted, though enchiladas imply Mexican cuisine, making the category correct and sentiment neutral acceptable."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "meal_type",
+  "entity": "enchiladas",
+  "source_text": "beef, bean and cheese enchiladas",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "Enchiladas is a dish, not a meal_type, so both category and entity correctness are false; sentiment is neutral as no opinion is expressed; the span matches the review text."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "cuisine_type",
+  "entity": "Chinese",
+  "source_text": "Chinese Chicken and Broccoli",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "Chinese is a valid cuisine_type entity taken verbatim and sentiment is neutral as no opinion is expressed."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "cuisine_type",
+  "entity": "Chinese",
+  "source_text": "Chinese Chicken and Broccoli",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The extracted entity 'Chinese' is a valid cuisine type from the phrase, category matches, sentiment is neutral as no opinion is expressed, and the span matches the review text."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "taste_flavor",
+  "entity": "tastey",
+  "source_text": "tastey",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "'tastey' is a generic quality adjective, not a specific taste/flavor attribute, so both entity and category are incorrect, making the sentiment label irrelevant, though the span matches the review."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "cuisine_type",
+  "entity": "Chinese",
+  "source_text": "Made to go along w/ Chinese Chicken and Broccoli",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'Chinese' is a valid cuisine_type, the statement is neutral, and the span matches the review."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "taste_flavor",
+  "entity": "sweet",
+  "source_text": "I like sweet cookies",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase 'i like sweet cookies' appears verbatim, sweet is a taste attribute, and the sentiment is positive."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "taste_flavor",
+  "entity": "sweet",
+  "source_text": "i like sweet cookies",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase 'sweet' is a taste/flavor attribute, correctly categorized, with positive sentiment and appears verbatim in the review."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "taste_flavor",
+  "entity": "yum",
+  "source_text": "can anyone say YUM",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "\u2018YUM\u2019 is an exclamation of enjoyment, not a taste/flavor attribute, so both entity and category are incorrect, though the sentiment is positive and the span matches the review."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "taste_flavor",
+  "entity": "enjoyed",
+  "source_text": "really enjoyed it",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'enjoyed' is not a taste/flavor attribute, making both entity and category wrong, though sentiment is positive and the span matches the review."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "self",
+  "source_text": "I was so eager to eat it",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "Entity 'self' is not a valid attribute; other fields are correct and span matches the review."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "occasion_holiday",
+  "entity": "get togethers",
+  "source_text": "make even more in the future for get togethers",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase is a valid specific occasion, matches the category, sentiment is neutral, and the span appears verbatim in the review."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "occasion_holiday",
+  "entity": "potluck",
+  "source_text": "Take this one to a potluck",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase 'potluck' is a specific occasion, correctly categorized, with neutral sentiment and exact span match."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "meal_type",
+  "entity": "dinner",
+  "source_text": "make it a one-pot dinner",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The extracted entity 'dinner' is a valid meal_type, the phrase carries no sentiment so neutral is appropriate, and the span matches the review text."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "kids",
+  "source_text": "the kids loved it",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase 'the kids loved it' correctly identifies kids as the audience enjoying the dish with positive sentiment and matches the review text."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "taste_flavor",
+  "entity": "stronger flavor",
+  "source_text": "for a stronger flavor",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase 'stronger flavor' is a valid taste/flavor attribute, correctly categorized, expressed positively, and matches the review verbatim."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "occasion_holiday",
+  "entity": "potluck",
+  "source_text": "Take this one to a potluck",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The entity 'potluck' is a valid occasion, matches the category, sentiment is neutral, and the span is verbatim."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "kids",
+  "source_text": "the kids loved it",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The entity 'kids' is a valid audience member, matches the category, sentiment is positive, and the span is verbatim."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "taste_flavor",
+  "entity": "cheese",
+  "source_text": "the cheese really makes this recipe",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "Cheese is an ingredient, not a taste/flavor attribute, so both entity and category are incorrect, though the sentiment is positive and the span matches the review."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "taste_flavor",
+  "entity": "stronger flavor",
+  "source_text": "for a stronger flavor",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase 'stronger flavor' is a valid attribute mention, but it does not fit the specific taste_flavor category which expects concrete taste descriptors."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "meal_type",
+  "entity": "dinner",
+  "source_text": "to make it a one-pot dinner",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The entity 'dinner' is a valid meal_type, sentiment is neutral, and the span matches the review text."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "those who don't eat cheese",
+  "source_text": "I left the cheese off of 1/3 of the dish for those who don't eat cheese, and that portion was tasty too",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase refers to a non\u2011cheese\u2011eating audience, matches the category, is a valid entity, sentiment is positive, and the span is exact."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "family",
+  "source_text": "my family kept urging me",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "The phrase refers to family urging the reviewer, not to them enjoying the dish, so the entity and category are incorrect and sentiment is not clearly positive."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "taste_flavor",
+  "entity": "garlic",
+  "source_text": "we like garlic",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "Garlic is an ingredient, not a taste/flavor descriptor, so both entity and category are incorrect, while the sentiment matches and the span is verbatim."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "family",
+  "source_text": "my family kept urging me to keep experimenting",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "The phrase refers to family urging the cook, not to them enjoying the dish, so the entity and category are incorrect and sentiment is not clearly positive."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "family",
+  "source_text": "Yet another \"family favorite\"",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The entity 'family' is a valid audience attribute, category matches, sentiment is positive, and the span is verbatim."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "taste_flavor",
+  "entity": "garlic",
+  "source_text": "we like garlic",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "Garlic is an ingredient, not a taste/flavor attribute, so both entity and category are incorrect, though sentiment and span are correct."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "taste_flavor",
+  "entity": "moderate garlic",
+  "source_text": "we prefer it in moderate amounts",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "The phrase refers to amount, not taste flavor, and does not express a clear positive sentiment."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "thin",
+  "source_text": "a little on the thin side",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'thin' describes texture mouthfeel, matches the category, sentiment is neutral, and the span is verbatim."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "pouring consistency",
+  "source_text": "it was the perfect pouring consistency",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase correctly identifies a texture attribute, matches the category, conveys a positive sentiment, and is quoted verbatim."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "texture_mouthfeel",
+  "entity": "juicy",
+  "source_text": "chicken was juicy",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'juicy' is a valid texture attribute, correctly categorized, expressed positively, and appears verbatim in the review."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "meal_type",
+  "entity": "dinner",
+  "source_text": "I don't always think ahead to dinner time",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'dinner' is not a relevant attribute of the dish in this context, so both entity and category are incorrect, though the sentiment label matches the neutral tone and the span is exact."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "cuisine_type",
+  "entity": "Spanish",
+  "source_text": "with Spanish style rice",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase 'Spanish' correctly denotes a cuisine type, matches the category, carries no sentiment, and is verbatim from the review."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "juicy",
+  "source_text": "The chicken was juicy and flavorful",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The extracted attribute 'juicy' is a valid texture descriptor, correctly categorized, positively described, and the span matches the review text."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "self",
+  "source_text": "We enjoy this on a regular basis",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The entity 'self' is not a valid attribute and the enjoyment refers to the reviewers themselves, which is disallowed for audience_enjoyment."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "texture_mouthfeel",
+  "entity": "tender",
+  "source_text": "until tender",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "The word 'tender' is a texture attribute and appears verbatim, but the phrase conveys a neutral description, not a positive sentiment."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "family",
+  "source_text": "This is a family favorite now",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The entity 'family' is a valid audience, category matches, sentiment is positive, and the span is verbatim."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "family",
+  "source_text": "This is a family favorite now",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase correctly identifies the family as the audience enjoying the dish with positive sentiment and matches the review text."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "taste_flavor",
+  "entity": "right",
+  "source_text": "They were just right",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "'right' is not a specific taste/flavor attribute, so both entity and category are incorrect, though the sentiment is positive and the span matches the review."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "texture_mouthfeel",
+  "entity": "flaky",
+  "source_text": "They are flaky",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'flaky' is a valid texture attribute, matches the category, carries a positive sentiment, and the span appears verbatim in the review."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "flaky",
+  "source_text": "They are flaky",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'flaky' is a valid texture attribute, matches the category, carries a positive sentiment, and the span appears verbatim in the review."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "taste_flavor",
+  "entity": "not too sweet",
+  "source_text": "I did not want the biscuits to be sweet",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "The entity describes sweetness level and fits taste_flavor, but the source text does not express a positive sentiment toward it."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "meal_type",
+  "entity": "dinner",
+  "source_text": "very tasty dinner",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase 'very tasty dinner' correctly extracts the meal_type entity 'dinner' with positive sentiment and matches the review text."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "meal_type",
+  "entity": "dinner",
+  "source_text": "very tasty dinner",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "The phrase 'very tasty dinner' is a valid meal_type entity and appears verbatim, but it conveys a positive sentiment, not neutral."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "texture_mouthfeel",
+  "entity": "moist",
+  "source_text": "These cupcakes were SO moist",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'moist' is a texture attribute, correctly categorized, with positive sentiment, and the span matches the review text."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "son",
+  "source_text": "to make enough for my son's class",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase mentions the son\u2019s class as the audience enjoying the cupcakes, matching the category, entity, positive sentiment, and exact span."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "moist",
+  "source_text": "These cupcakes were SO moist",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'moist' is a texture attribute, correctly categorized, with positive sentiment, and the span matches the review text."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "son",
+  "source_text": "to make enough for my son's class",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The son is a valid audience member, the category matches, the statement is neutral, and the span matches the review text."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "meal_type",
+  "entity": "appetizer",
+  "source_text": "amazing, tasty appetizer",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "The phrase is a positive description, so sentiment should be positive, not neutral."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "family",
+  "source_text": "Your family or guests will be amazed",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "Family is a valid audience member, correctly categorized, sentiment positive, and text matches the review"
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "guests",
+  "source_text": "Your family or guests will be amazed",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The entity 'guests' is a valid audience member, category matches, sentiment is positive, and the span is verbatim."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "cuisine_type",
+  "entity": "Italian",
+  "source_text": "best Italian restaurants",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "Italian is a cuisine type, correctly extracted, with positive sentiment and exact match."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "meal_type",
+  "entity": "appetizer",
+  "source_text": "amazing, tasty appetizer",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase 'amazing, tasty appetizer' is a direct excerpt, correctly identifies the meal type and carries positive sentiment."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "family",
+  "source_text": "Your family or guests will be amazed",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "Family is a valid audience member, correctly categorized, sentiment is positive, and the span matches the review text"
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "guests",
+  "source_text": "Your family or guests will be amazed",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "Guests are a valid audience, correctly categorized, sentiment positive, and text matches the review"
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "cuisine_type",
+  "entity": "Italian",
+  "source_text": "better than any you will find prepared by the best Italian restaurants",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The entity Italian is a valid cuisine_type, the sentiment is positive, and the span matches the review text."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "taste_flavor",
+  "entity": "cumin",
+  "source_text": "doubled the cumin",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "Cumin is a flavor-related ingredient, correctly categorized, sentiment is positive, and the span matches the review text."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "taste_flavor",
+  "entity": "cayenne",
+  "source_text": "dash of cayenne",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "Cayenne is a flavor ingredient, fits taste_flavor, sentiment is neutral, and the span matches the review text."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "taste_flavor",
+  "entity": "chili powder",
+  "source_text": "chili powder",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase 'chili powder' is a valid taste/flavor attribute, correctly categorized, with neutral sentiment and exact match."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "taste_flavor",
+  "entity": "cilantro",
+  "source_text": "fresh cilantro",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "Cilantro is an ingredient, not a taste/flavor attribute, so both entity and category are incorrect; the neutral sentiment matches the text, and the span is verbatim."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "taste_flavor",
+  "entity": "bold",
+  "source_text": "I doubled the cumin because I like a more bold taste",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'bold' describes the taste/flavor, matches the category, sentiment is positive, and the span is verbatim from the review."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "meal_type",
+  "entity": "lunch",
+  "source_text": "easy lunches",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The extracted entity 'lunch' is a valid meal_type, matches the phrase 'easy lunches', and the sentiment is appropriately neutral with a faithful span."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "meal_type",
+  "entity": "lunch",
+  "source_text": "easy lunches",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The entity 'lunch' is a valid meal_type extracted from the phrase 'easy lunches', sentiment is neutral and the span matches the review."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "kids",
+  "source_text": "loves mine",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The text mentions a toddler (singular) loving the soup, not 'kids', so the extracted entity is inaccurate and thus the category assignment is also invalid, while the sentiment matches."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "husband",
+  "source_text": "my husband declared that mine (this recipe) is sooooo much better",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The husband is an audience member, correctly categorized, sentiment is positive, and the span matches the review text."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "occasion_holiday",
+  "entity": "tonight",
+  "source_text": "Made this tonight",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "'tonight' is not a specific holiday or occasion and the phrase carries no sentiment, making both entity and category incorrect and sentiment mismatched."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "taste_flavor",
+  "entity": "salty",
+  "source_text": "I like things salty",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The attribute 'salty' is a taste flavor, correctly categorized, the sentiment is positive, and the span matches the review text."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "just right",
+  "source_text": "the texture was just right",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase 'just right' describes texture, matches the category, conveys positive sentiment, and is a verbatim excerpt."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "texture_mouthfeel",
+  "entity": "succulent",
+  "source_text": "texture was succulent",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'succulent' describes texture, matches category, sentiment is positive, and the phrase appears verbatim in the review."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "texture_mouthfeel",
+  "entity": "tender",
+  "source_text": "super tender interior",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'tender' is a texture attribute, correctly categorized, with positive sentiment, and the span matches the review text."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "texture_mouthfeel",
+  "entity": "crispy",
+  "source_text": "lovely exterior crust",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": false,
+   "rationale": "The extracted entity 'crispy' does not appear in the source text 'lovely exterior crust', making it neither span\u2011faithful nor a correct texture attribute, though the sentiment is positive."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "juicy",
+  "source_text": "the juiciest, most perfectly cooked rare to medium-rare beef roast ever",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "\u2018juicy\u2019 is a valid texture attribute, correctly categorized, sentiment is positive, and the span matches the review text."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "succulent",
+  "source_text": "texture was succulent",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'succulent' describes texture, matches category, sentiment is positive, and the phrase appears verbatim in the review."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "crust",
+  "source_text": "lovely exterior crust from the searing",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'crust' is a valid texture attribute, matches the texture_mouthfeel category, is described positively, and the span is verbatim from the review."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "tender",
+  "source_text": "super tender interior",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'tender' describes mouthfeel, matches the category, has positive sentiment, and is a direct quote."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "cuisine_type",
+  "entity": "French",
+  "source_text": "ate it on a roll, French-dip style",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "The word 'French' is part of 'French-dip style' describing a sandwich style, not a cuisine type, so the entity and category are incorrect and sentiment toward it is not clearly positive."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "husband",
+  "source_text": "he loved this",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The entity 'husband' is a valid audience member, matches the category, sentiment is positive, and the span is verbatim."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "husband",
+  "source_text": "had seconds",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "Husband is a valid audience member, correctly categorized, sentiment positive, and phrase appears verbatim."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "taste_flavor",
+  "entity": "perfect balance of flavor",
+  "source_text": "made a perfect balance of flavor",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase is a valid taste/flavor attribute, correctly categorized, positive sentiment, and matches the review text."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "taste_flavor",
+  "entity": "slight kick",
+  "source_text": "with a very slight kick",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase describes a flavor attribute, matches the category, conveys positive sentiment, and is quoted verbatim."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "husband",
+  "source_text": "he loved this and had seconds",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The entity 'husband' is a valid audience member, matches the category, sentiment is positive, and the span is verbatim."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "men",
+  "source_text": "4 men DD1 (5 years old), DD2 (15 months), and I say so",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The entity 'men' correctly denotes audience members, matches the category, sentiment is positive, and the span is verbatim."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "texture_mouthfeel",
+  "entity": "tender",
+  "source_text": "to help them become tender",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'tender' is a texture attribute, correctly categorized, with positive sentiment and exact span match."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "meal_type",
+  "entity": "lunch",
+  "source_text": "warming lunch or dinner",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "Entity and category are correct, but the phrase conveys a positive (warming) sentiment, not neutral, and the span matches the review."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "meal_type",
+  "entity": "dinner",
+  "source_text": "warming lunch or dinner",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The extracted entity 'dinner' is a valid meal_type, matches the source text, and the sentiment is neutral."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "occasion_holiday",
+  "entity": "winter",
+  "source_text": "during the winter",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "Winter is a season, not a specific holiday or occasion, so it does not fit the occasion_holiday category; sentiment is neutral and the span matches the review."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "taste_flavor",
+  "entity": "hearty",
+  "source_text": "Really hearty and good!",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "'hearty' is not a taste/flavor attribute, so both entity and category are incorrect despite the positive sentiment and exact span."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "men",
+  "source_text": "4 men DD1 (5 years old), DD2 (15 months), and I say so",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The entity 'men' correctly denotes the audience who enjoyed the dish, category matches, sentiment is positive, and the span is verbatim."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "kids",
+  "source_text": "4 men DD1 (5 years old), DD2 (15 months), and I say so",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "The text does not contain the word 'kids', sentiment is not explicitly positive, and the entity is not a valid audience_enjoyment reference."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "tender",
+  "source_text": "to help them become tender",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'tender' is a texture attribute, correctly categorized, with positive sentiment and exact match."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "taste_flavor",
+  "entity": "heartiness",
+  "source_text": "for more heartiness",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "\u2018heartiness\u2019 is a texture/quality not a taste_flavor attribute, the phrase gives no sentiment, and the span matches the review."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "occasion_holiday",
+  "entity": "winter",
+  "source_text": "I would make again during the winter",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "Winter is a season, not a specific holiday or occasion, so both entity and category are incorrect, but the sentiment label matches the neutral tone and the span is verbatim."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "meal_type",
+  "entity": "lunch",
+  "source_text": "for a warming lunch or dinner",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The extracted entity 'lunch' is a valid meal_type, sentiment is neutral, and the span matches the review text."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "meal_type",
+  "entity": "dinner",
+  "source_text": "for a warming lunch or dinner",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "Entity and category are correct, but sentiment is positive not neutral; span matches review text."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "taste_flavor",
+  "entity": "garlic",
+  "source_text": "I used 5 large cloves of garlic",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "The extracted entity 'garlic' is an ingredient, not a taste/flavor attribute, and the source text states a neutral fact, not a positive sentiment."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "taste_flavor",
+  "entity": "onion",
+  "source_text": "You need onion in this, add half an onion",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "Onion is an ingredient, not a taste_flavor attribute, and the comment is a suggestion rather than a positive sentiment, though the span matches the review."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "occasion_holiday",
+  "entity": "Saturday",
+  "source_text": "Saturday finally rolled around",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "Saturday is a day, not a specific occasion/holiday, so both entity and category are incorrect, sentiment is neutral and the span matches the review."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "taste_flavor",
+  "entity": "sweet",
+  "source_text": "sweet paprika",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "The word 'sweet' is part of the ingredient name 'sweet paprika', not a standalone taste/flavor attribute of the dish."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "texture_mouthfeel",
+  "entity": "crunchy",
+  "source_text": "crunchy on the outside",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The term 'crunchy' is a valid texture attribute, matches the texture_mouthfeel category, is described positively, and the span is verbatim."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "texture_mouthfeel",
+  "entity": "chewy",
+  "source_text": "chewy on the inside",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The term 'chewy' describes texture, matches the category, conveys a positive impression, and is quoted exactly from the review."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "husband",
+  "source_text": "my other half and he declared these to be the best yet",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase refers to the reviewer\u2019s husband enjoying the cookies positively and the span matches the review text."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "crunchy",
+  "source_text": "crunchy on the outside",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'crunchy' is a valid texture attribute, matches the texture_mouthfeel category, is described positively, and the span is verbatim."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "chewy",
+  "source_text": "chewy on the inside",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The term 'chewy' is a valid texture attribute, matches the texture_mouthfeel category, the review\u2019s tone is positive, and the span is verbatim."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "occasion_holiday",
+  "entity": "potluck",
+  "source_text": "at the pot luck dinner",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The extracted entity 'potluck' correctly denotes the occasion, matches the category, sentiment is neutral as no opinion is expressed, and the span is verbatim."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "meal_type",
+  "entity": "dinner",
+  "source_text": "at the pot luck dinner",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "\u2018dinner\u2019 is not the meal type of the cookies and is mis\u2011categorized, though the span matches the review and sentiment is neutral."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "other half",
+  "source_text": "I make a lot of cookies for my other half and he declared these to be the best yet",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase refers to the reviewer\u2019s partner enjoying the cookies, fits audience_enjoyment, sentiment is positive, and the span matches the review."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "cuisine_type",
+  "entity": "Italian",
+  "source_text": "Italian flavored breadcrumbs",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'Italian' is a valid cuisine type, correctly extracted, with neutral sentiment and exact match in the review."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "meal_type",
+  "entity": "side-dish",
+  "source_text": "Served with salad",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The text mentions a salad as a side dish, but the extracted entity should be 'salad' not the generic label 'side-dish'."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "taste_flavor",
+  "entity": "tastiest",
+  "source_text": "one of the tastiest dips",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "'tastiest' is a generic quality term, not a specific taste/flavor attribute, so both entity and category are incorrect despite correct sentiment and exact span."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "occasion_holiday",
+  "entity": "Superbowl",
+  "source_text": "at my Superbowl party",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The entity Superbowl is a specific occasion, category matches, sentiment is neutral, and the span matches the review text."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "occasion_holiday",
+  "entity": "occasion",
+  "source_text": "for any occasion",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "The extracted entity 'occasion' is generic and not a specific attribute, the category requires a specific occasion, and the sentiment is positive rather than neutral, though the span matches the review."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "taste_flavor",
+  "entity": "tastiest",
+  "source_text": "one of the tastiest dips I have ever eaten",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "'tastiest' is a generic quality adjective, not a specific taste/flavor attribute, so both entity and category are incorrect despite correct sentiment and exact span."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "occasion_holiday",
+  "entity": "Superbowl party",
+  "source_text": "a huge hit at my Superbowl party this year",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase is a specific occasion, matches the category, sentiment is positive, and the span appears verbatim in the review."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "taste_flavor",
+  "entity": "fabulous",
+  "source_text": "which made it fabulous",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "\u2018fabulous\u2019 is a general quality word, not a taste/flavor attribute, so both entity and category are incorrect, but the sentiment is positive and the span matches the review."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "meal_type",
+  "entity": "side-dish",
+  "source_text": "I've eaten them as a side dish",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase 'side dish' is a valid meal_type entity, correctly categorized, expressed neutrally, and the span matches the review text."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "meal_type",
+  "entity": "side dish",
+  "source_text": "I've eaten them as a side dish",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase 'side dish' is a valid meal_type entity, correctly categorized, expressed without sentiment, and the span matches the review text."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "husband",
+  "source_text": "My husband even said this was good",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The husband is a valid audience member, the category matches, sentiment is positive, and the span is exact."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "husband",
+  "source_text": "My husband even said this was good",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The husband is a valid audience member, correctly categorized, sentiment is positive, and the span matches the review."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "meal_type",
+  "entity": "dessert",
+  "source_text": "cheesecake type dessert",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase 'cheesecake type dessert' correctly identifies the meal type, matches the category, carries no sentiment, and is verbatim."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "meal_type",
+  "entity": "snack",
+  "source_text": "ate them plain",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The text does not label the item as a 'snack' dessert, so the entity and category are incorrect, while the sentiment toward the phrase is neutral and the span matches the review."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "meal_type",
+  "entity": "dinner",
+  "source_text": "after a meal of chicken soup",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase refers to a meal of chicken soup, not specifically 'dinner', so the entity is incorrect and thus the category is also incorrect, while the neutral sentiment and exact span are correct."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "kids",
+  "source_text": "the kids wanted to try some",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "Entity and category are appropriate, but the quoted span shows desire, not a clear positive sentiment."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "kids",
+  "source_text": "They loved them that way too",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase refers to the kids enjoying the dish, matching audience_enjoyment with positive sentiment and exact text."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "we",
+  "source_text": "We all loved it",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "'we' is a pronoun referring to the reviewer and thus not a valid audience_enjoyment entity"
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "kids",
+  "source_text": "the kids wanted to try some on the leftover cheesecake cookies",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "Entity and category match audience enjoyment, but the quoted span does not express a positive sentiment."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "kids",
+  "source_text": "They loved them that way too",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The kids are the audience enjoying the dish, the sentiment is positive, and the span matches the review text."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "husband",
+  "source_text": "My husband LOVED it",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The husband is a valid audience member, correctly categorized, sentiment matches 'LOVED', and the span matches the review text."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "husband",
+  "source_text": "My husband LOVED it",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The husband is a valid audience member, correctly categorized, sentiment matches 'LOVED', and the span matches the review."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "taste_flavor",
+  "entity": "comfort food",
+  "source_text": "a big bowl of pure comfort food",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "\u2018comfort food\u2019 is a generic quality term, not a specific taste/flavor attribute, so both entity and category are incorrect, though sentiment is positive and the span matches the review."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "taste_flavor",
+  "entity": "caramelize",
+  "source_text": "allowed the onions and cabbage to caramelize beautifully",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "\u2018caramelize\u2019 is a cooking process, not a taste/flavor attribute, so both entity and category are incorrect, though the positive sentiment and span are correct."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "family",
+  "source_text": "My whole family loves them",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The entity 'family' is a valid audience, category matches, sentiment is positive, and the span is verbatim."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "audience_enjoyment",
+  "entity": "self",
+  "source_text": "pecans to some (for myself)",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "\u2018self\u2019 is not a valid audience attribute and refers to the reviewer, which is disallowed for audience_enjoyment; the category is thus incorrect, while the neutral sentiment matches the lack of expressed sentiment and the span matches the review."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "texture_mouthfeel",
+  "entity": "light",
+  "source_text": "They were indeed light",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'light' describes texture, matches category, sentiment is positive, and the span is verbatim."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "texture_mouthfeel",
+  "entity": "fluffy",
+  "source_text": "and fluffy",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'fluffy' describes texture, matches the category, has positive sentiment, and appears verbatim as 'and fluffy' in the review."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "texture_mouthfeel",
+  "entity": "filling",
+  "source_text": "yet super filling",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "\u2018filling\u2019 describes satiety, not texture, so both entity and category are mismatched though sentiment matches and the span is exact."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "meal_type",
+  "entity": "breakfast",
+  "source_text": "this yummy breakfast",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "Entity and category are correct, but the phrase conveys a positive sentiment, not neutral, and the span matches the review."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "family",
+  "source_text": "My whole family loves them",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The entity 'family' is a valid audience, category matches, sentiment is positive, and the span is verbatim."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "audience_enjoyment",
+  "entity": "chocolate lovers",
+  "source_text": "for the chocolate lovers in the family",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase correctly identifies the audience (chocolate lovers) and matches the text verbatim with neutral sentiment."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "meal_type",
+  "entity": "breakfast",
+  "source_text": "this yummy breakfast",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase 'this yummy breakfast' correctly identifies a meal_type, matches the positive sentiment, and is verbatim from the review."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "light",
+  "source_text": "They were indeed light and fluffy",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The word 'light' is a valid texture attribute, correctly categorized, expressed positively, and the span matches the review text."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "fluffy",
+  "source_text": "They were indeed light and fluffy",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The extracted attribute 'fluffy' is a valid texture_mouthfeel term, correctly categorized, positively described, and the span matches the review text."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "filling",
+  "source_text": "yet super filling",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "\u2018filling\u2019 is not a texture/mouthfeel attribute, so both entity and category are incorrect, though the sentiment matches and the span is verbatim."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "meal_type",
+  "entity": "breakfast",
+  "source_text": "this morning",
+  "judge": {
+   "entity_correct": false,
+   "category_correct": false,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "The text 'this morning' indicates time, not a meal type, and does not mention 'breakfast', so the entity and category are incorrect; sentiment is not applicable, but the span matches the review."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "taste_flavor",
+  "entity": "tangy",
+  "source_text": "I like the tartness of it",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": false,
+   "rationale": "Tangy is a valid taste attribute derived from 'tartness', category and sentiment match, but the phrase is not verbatim from the review."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "taste_flavor",
+  "entity": "tart",
+  "source_text": "I like the tartness of it",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The entity 'tart' is a valid taste attribute, matches the category, sentiment is positive, and the span appears verbatim in the review."
+  }
+ },
+ {
+  "side": "old",
+  "dimension": "meal_type",
+  "entity": "side",
+  "source_text": "saffron rice as a side",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": true,
+   "span_faithful": true,
+   "rationale": "The phrase 'saffron rice as a side' correctly extracts the entity 'side' as a meal_type with neutral sentiment and matches the review verbatim."
+  }
+ },
+ {
+  "side": "new",
+  "dimension": "texture_mouthfeel",
+  "entity": "thick",
+  "source_text": "It was already thick",
+  "judge": {
+   "entity_correct": true,
+   "category_correct": true,
+   "sentiment_correct": false,
+   "span_faithful": true,
+   "rationale": "The word 'thick' describes texture, but the statement is neutral, not positive, while the span matches the review."
+  }
+ }
+]

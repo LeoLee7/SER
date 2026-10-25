@@ -1,0 +1,444 @@
+{
+ "judgments": [
+  {
+   "id": "h075_t00",
+   "verdict": "wrong",
+   "code": "ingredient_not_attribute",
+   "note": ""
+  },
+  {
+   "id": "h075_t01",
+   "verdict": "wrong",
+   "code": "unsupported",
+   "note": "husband not an eater; deployment meetings"
+  },
+  {
+   "id": "h075_t02",
+   "verdict": "wrong",
+   "code": "memory_or_gift",
+   "note": ""
+  },
+  {
+   "id": "h076_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h076_t01",
+   "verdict": "wrong",
+   "code": "ingredient_not_attribute",
+   "note": ""
+  },
+  {
+   "id": "h076_t02",
+   "verdict": "wrong",
+   "code": "reviewer_or_vague_group",
+   "note": ""
+  },
+  {
+   "id": "h077_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h077_t01",
+   "verdict": "wrong",
+   "code": "unsupported",
+   "note": ""
+  },
+  {
+   "id": "h077_t02",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h077_t03",
+   "verdict": "wrong",
+   "code": "not_this_dish",
+   "note": ""
+  },
+  {
+   "id": "h078_t00",
+   "verdict": "wrong",
+   "code": "plan_or_change",
+   "note": ""
+  },
+  {
+   "id": "h078_t01",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h078_t02",
+   "verdict": "wrong",
+   "code": "not_this_dish",
+   "note": ""
+  },
+  {
+   "id": "h078_t03",
+   "verdict": "wrong",
+   "code": "reviewer_or_vague_group",
+   "note": ""
+  },
+  {
+   "id": "h078_t04",
+   "verdict": "wrong",
+   "code": "unsupported",
+   "note": ""
+  },
+  {
+   "id": "h078_t05",
+   "verdict": "wrong",
+   "code": "unusable_phrase",
+   "note": ""
+  },
+  {
+   "id": "h078_t06",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h079_t00",
+   "verdict": "wrong",
+   "code": "generic_praise",
+   "note": ""
+  },
+  {
+   "id": "h079_t01",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h080_t00",
+   "verdict": "wrong",
+   "code": "plan_or_change",
+   "note": "spice from substituted filling"
+  },
+  {
+   "id": "h080_t01",
+   "verdict": "wrong",
+   "code": "reviewer_or_vague_group",
+   "note": ""
+  },
+  {
+   "id": "h081_t00",
+   "verdict": "wrong",
+   "code": "unsupported",
+   "note": "future, no enjoyment stated"
+  },
+  {
+   "id": "h081_t01",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h082_t00",
+   "verdict": "wrong",
+   "code": "reviewer_or_vague_group",
+   "note": ""
+  },
+  {
+   "id": "h082_t01",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h083_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h083_t01",
+   "verdict": "wrong",
+   "code": "unsupported",
+   "note": ""
+  },
+  {
+   "id": "h084_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h084_t01",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h084_t02",
+   "verdict": "wrong",
+   "code": "generic_praise",
+   "note": ""
+  },
+  {
+   "id": "h085_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h086_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h086_t01",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h086_t02",
+   "verdict": "wrong",
+   "code": "unsupported",
+   "note": "evidence about science experiment"
+  },
+  {
+   "id": "h086_t03",
+   "verdict": "wrong",
+   "code": "not_this_dish",
+   "note": "restaurant versions"
+  },
+  {
+   "id": "h087_t00",
+   "verdict": "wrong",
+   "code": "plan_or_change",
+   "note": "about added potatoes"
+  },
+  {
+   "id": "h087_t01",
+   "verdict": "wrong",
+   "code": "reviewer_or_vague_group",
+   "note": ""
+  },
+  {
+   "id": "h088_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h089_t00",
+   "verdict": "wrong",
+   "code": "plan_or_change",
+   "note": "step of reviewer's change"
+  },
+  {
+   "id": "h089_t01",
+   "verdict": "wrong",
+   "code": "plan_or_change",
+   "note": ""
+  },
+  {
+   "id": "h089_t02",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h089_t03",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h090_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h090_t01",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h090_t02",
+   "verdict": "wrong",
+   "code": "plan_or_change",
+   "note": ""
+  },
+  {
+   "id": "h090_t03",
+   "verdict": "wrong",
+   "code": "ingredient_not_attribute",
+   "note": ""
+  },
+  {
+   "id": "h090_t04",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h090_t05",
+   "verdict": "wrong",
+   "code": "plan_or_change",
+   "note": ""
+  },
+  {
+   "id": "h091_t00",
+   "verdict": "wrong",
+   "code": "reviewer_or_vague_group",
+   "note": ""
+  },
+  {
+   "id": "h091_t01",
+   "verdict": "wrong",
+   "code": "not_this_dish",
+   "note": ""
+  },
+  {
+   "id": "h092_t00",
+   "verdict": "wrong",
+   "code": "unsupported",
+   "note": "enjoyment not stated"
+  },
+  {
+   "id": "h093_t00",
+   "verdict": "wrong",
+   "code": "ingredient_not_attribute",
+   "note": ""
+  },
+  {
+   "id": "h093_t01",
+   "verdict": "wrong",
+   "code": "ingredient_not_attribute",
+   "note": ""
+  },
+  {
+   "id": "h094_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h095_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h095_t01",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h095_t02",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h095_t03",
+   "verdict": "wrong",
+   "code": "reviewer_or_vague_group",
+   "note": ""
+  },
+  {
+   "id": "h095_t04",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h096_t00",
+   "verdict": "wrong",
+   "code": "wrong_category",
+   "note": ""
+  },
+  {
+   "id": "h097_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h097_t01",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h097_t02",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h097_t03",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h097_t04",
+   "verdict": "wrong",
+   "code": "wrong_category",
+   "note": ""
+  },
+  {
+   "id": "h097_t05",
+   "verdict": "wrong",
+   "code": "unusable_phrase",
+   "note": ""
+  },
+  {
+   "id": "h098_t00",
+   "verdict": "wrong",
+   "code": "negated_or_disliked",
+   "note": ""
+  },
+  {
+   "id": "h098_t01",
+   "verdict": "wrong",
+   "code": "negated_or_disliked",
+   "note": ""
+  },
+  {
+   "id": "h099_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "h099_t01",
+   "verdict": "wrong",
+   "code": "cook_not_eater",
+   "note": ""
+  }
+ ],
+ "missed": [
+  {
+   "review_id": "h078",
+   "category": "meal_type",
+   "value": "side dish",
+   "evidence": "This will go great with the chicken enchiladas I've prepared for tonight"
+  },
+  {
+   "review_id": "h082",
+   "category": "texture_mouthfeel",
+   "value": "moist",
+   "evidence": "WAY too moist and light for a bundt"
+  },
+  {
+   "review_id": "h095",
+   "category": "meal_type",
+   "value": "side dish",
+   "evidence": "I will generally serve with garlic butter chicken breasts and couscous"
+  }
+ ]
+}

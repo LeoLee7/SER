@@ -1,0 +1,657 @@
+[
+ {
+  "review_id": "h050",
+  "recipe": "Charlie's Famous Chicken Salad With Grapes",
+  "review": "Too easy and so delicious!! Due to laziness, I used a store bought rotisserie chicken and just shredded it with my hands. I bought the grapes, but did not put them in as I wasn't sure if my boyfriend would like it with them. (But I did make a couple spoonfuls for myself with the grapes on the side and it was just as with and without them.) I am sometimes hesitant to use nuts, but the taste of the walnuts I chose to use were not overpowering. It was just right. I am living overseas and they do not have miracle whip so just used lite mayo. I added the salt, but I would suggest trying it without it first and then adding to taste. So easy and so good. Thank you for the recipe!",
+  "tuples": [
+   {
+    "id": "h050_t00",
+    "category": "taste_flavor",
+    "value": "not overpowering",
+    "evidence": "the taste of the walnuts I chose to use were not overpowering"
+   },
+   {
+    "id": "h050_t01",
+    "category": "taste_flavor",
+    "value": "just right",
+    "evidence": "It was just right"
+   },
+   {
+    "id": "h050_t02",
+    "category": "audience_enjoyment",
+    "value": "self",
+    "evidence": "I did make a couple spoonfuls for myself with the grapes on the side"
+   }
+  ]
+ },
+ {
+  "review_id": "h051",
+  "recipe": "Kittencal's Easy No-Fail Make Anytime Turkey Gravy",
+  "review": "This Christmas is the first time in about 20 years that my branch of the family was called upon to make and bring the turkey to the big meal at my inlaws' house (my mother in law or sister in law usually do the meats and I do the bread/sides, etc.)  My adult daughter had brined and set up the turkey in a roasting pan so all I had to do was stick it in the oven after she left for work.  While it was roasting I made yeast rolls, stuffing and side dishes, and was REALLY getting nervous about having to make gravy to feed all these people.  Naturally, I turned to Recipezaar and was so relieved to find a No-Fail Turkey Gravy recipe from a chef whose recipes I have used many times before!  I skimmed the fat from the pan drippings and added enough canned chicken broth to make the 4 cups.  Followed the directions and it turned out PERFECT.  My only comment would be that on an electric cooktop like mine I had to up the heat a little bit to get it to thicken, but once it did, I tasted it and it was delicious (no \"raw flour\" taste at all). Transferred to a small crock pot to keep warm until it can be transported to the inlaws' house in a  couple of hours.  I am sure it will be a hit!  THANK you for saving me again with a terrific recipe!  ~ Zew",
+  "tuples": [
+   {
+    "id": "h051_t00",
+    "category": "occasion_holiday",
+    "value": "Christmas",
+    "evidence": "This Christmas"
+   },
+   {
+    "id": "h051_t01",
+    "category": "audience_enjoyment",
+    "value": "family",
+    "evidence": "my branch of the family"
+   }
+  ]
+ },
+ {
+  "review_id": "h052",
+  "recipe": "Potato Kielbasa Skillet",
+  "review": "MizzNezz I love this recipe.  Easy dinner fixings on a week night.  I left the skins on the potatoes, sliced slivers of sweet red peppers along with green peppers.  Just as the potatoes started to brown, I added the spices and water.  Covered and let simmer.   Was not soupy nor like a stew as others posted.  It was a one pot- plate meal.  Next time instead of water, I may try adding some of my homemade stewed tomatoes to change it up.  Thank you for posting, my family loved it.   I will make again.",
+  "tuples": [
+   {
+    "id": "h052_t00",
+    "category": "occasion_holiday",
+    "value": "weeknight",
+    "evidence": "on a week night"
+   },
+   {
+    "id": "h052_t01",
+    "category": "audience_enjoyment",
+    "value": "family",
+    "evidence": "my family loved it"
+   },
+   {
+    "id": "h052_t02",
+    "category": "meal_type",
+    "value": "dinner",
+    "evidence": "Easy dinner fixings"
+   }
+  ]
+ },
+ {
+  "review_id": "h053",
+  "recipe": "Pete's Scratch Pancakes",
+  "review": "I made this today for breakfast and it was very fluffy and delicious. I made some changes to the recipe (as I had watched quite a few others): I used only 2 teaspoons of baking power instead of a whole tablespoon as suggested in the recipe. I also added 1 teaspoon of baking soda. The recipe mentioned beating the egg white and egg yokes separately. What I did was I beat the egg white until it's stiff (like making meringue). I also added 1 teaspoon of vanilla. I mixed the milk with the egg yokes, vanilla, butter into the flour first, and then gently folded the beaten egg white into the batter. That extra step really makes the pancakes fluffy and light. The recipe makes 13 pancakes. We ate 6, and I'm looking forward to enjoying the rest next weekend!",
+  "tuples": [
+   {
+    "id": "h053_t00",
+    "category": "texture_mouthfeel",
+    "value": "fluffy",
+    "evidence": "it was very fluffy"
+   },
+   {
+    "id": "h053_t01",
+    "category": "occasion_holiday",
+    "value": "weekend",
+    "evidence": "next weekend"
+   },
+   {
+    "id": "h053_t02",
+    "category": "meal_type",
+    "value": "breakfast",
+    "evidence": "I made this today for breakfast"
+   },
+   {
+    "id": "h053_t03",
+    "category": "texture_mouthfeel",
+    "value": "light",
+    "evidence": "and light"
+   }
+  ]
+ },
+ {
+  "review_id": "h054",
+  "recipe": "Cream Cheese Cinnamon Crescents",
+  "review": "O MY GERD!!! I am a pastry chef, and this is the best \"quick fix\", \"refrigerated dough\" recipe I have ever tried. I took another community members suggestion and made it the day before and refrigerated it. I did taste it hot, but thought it was MUCH better the second day. I simply rolled out of bed, went to the kitchen, took the Cream Cheese Cinnamon Crescents out of frig., cut into 'two bite' servings, and served. It was such a HUGE hit that I ended up printing out 6 copies of the recipe for my guests. Thank you Aunt Paula!!!!!",
+  "tuples": [
+   {
+    "id": "h054_t00",
+    "category": "audience_enjoyment",
+    "value": "guests",
+    "evidence": "It was such a HUGE hit that I ended up printing out 6 copies of the recipe for my guests"
+   }
+  ]
+ },
+ {
+  "review_id": "h055",
+  "recipe": "Award Winning Chili",
+  "review": "I couldn't believe how close this recipe is to the one I grew up on. I did tweak it a little by not using jalapena, added 1 tsp dried Mexican oregano, 3 cloves minced garlic added to the meat which was beef. I also add an additional tsp of salt and about 1 tsp of black pepper. I did have the smoked paprika which I think helped. I only used 1 T of cumin and upped the chili powder another tbls. Also, I used beef stock instead of water, used onl 1 onion and lastly I added about 1 tsp of cocoa which intensifies the overall chili flavor. This is really a very good base to tweak to your taste. This is award winning for my taste now with the changes and to the judges for my friends job at the airport where it was submitted with 24 other entries. She gave me the check  for $250.00 and she kept the trophy. I think I should have gotten that too, but that's life.",
+  "tuples": [
+   {
+    "id": "h055_t00",
+    "category": "cuisine_type",
+    "value": "Mexican",
+    "evidence": "Mexican oregano"
+   },
+   {
+    "id": "h055_t01",
+    "category": "audience_enjoyment",
+    "value": "friends",
+    "evidence": "judges for my friends job"
+   }
+  ]
+ },
+ {
+  "review_id": "h056",
+  "recipe": "Thousand Island Dressing",
+  "review": "Super yummy. Thanks for posting Graybert. I needed some for a recipe but forgot to get a bottle at the store as it is not my regular dressing. This tastes just like the way it was when I was a kid and my mom made it.The color is a titch lighter but the flavor is spot on. Definitely better than bottled. I will make again when the need arises as the ingredients were in my pantry or fridge already. Enjoy! ChefDLH",
+  "tuples": [
+   {
+    "id": "h056_t00",
+    "category": "audience_enjoyment",
+    "value": "kids",
+    "evidence": "when I was a kid"
+   },
+   {
+    "id": "h056_t01",
+    "category": "taste_flavor",
+    "value": "spot on",
+    "evidence": "flavor is spot on"
+   },
+   {
+    "id": "h056_t02",
+    "category": "audience_enjoyment",
+    "value": "mother",
+    "evidence": "my mom made it"
+   }
+  ]
+ },
+ {
+  "review_id": "h057",
+  "recipe": "World's Best Chocolate Chip Cookies",
+  "review": "I hadn't made chocolate chip cookies in awhile, and I thought I'd give this recipe a shot. I'm not one of those \"must find THE BEST CCC recipe\" people, I just like to try different ones. This was a really good one. I rolled the dough into ping pong-sized balls, and the baking time and temperature were right on. I did omit the nuts, though (family preference). I got exactly 54 cookies from this recipe (it was nice not to have that last bit of dough that is too small to bake with no chocolate chips, so you just have to eat it!). My cookies fell a bit, so they looked a bit \"rocky\", but that could be the altitude. I never make high-altitude adjustments when I bake. I very rarely have altitude issues, and my crew will pretty much eat anything that's not gross or burnt. ;) Thanks for posting this, I'm glad I tried it.",
+  "tuples": [
+   {
+    "id": "h057_t00",
+    "category": "audience_enjoyment",
+    "value": "family",
+    "evidence": "family preference"
+   }
+  ]
+ },
+ {
+  "review_id": "h058",
+  "recipe": "Taco Seasoning Mix",
+  "review": "I cleaned out my kitchen in Jan. and was in the midst of cooking when I realized I did not have taco seasoning! Thanks for coming to the rescue, I also used fresh minced garlic on nights when I was using the batch right away.  I've probably made this 3 or 4 times now, and I go a little light on the red pepper! :)<br/>Update - I wrote my review in May '08, and tonight I realized, I really use this alot.  I cut back a bit on the red pepper flakes and am a little generous with the cumin, per my taste preferences but I can't go back to prepacked seasonings...I love this one :)",
+  "tuples": [
+   {
+    "id": "h058_t00",
+    "category": "taste_flavor",
+    "value": "cumin",
+    "evidence": "am a little generous with the cumin"
+   }
+  ]
+ },
+ {
+  "review_id": "h059",
+  "recipe": "Secretly Delicious Spinach Pie",
+  "review": "I made an &quot;inspired by&quot; version of this recipe, but I&#039;m thankful for the proportions, and it turned out great.  Substitutions: plain goat&#039;s milk yogurt for the milk,  1/4 tsp garlic powder, juice of 1/2 lemon and some zest, black pepper (and a bit of cayenne), 2 links of browned chopped hot Italian turkey sausage, 1.5 cups shredded goat&#039;s milk cheddar, and 10 oz thawed drained frozen chopped spinach ~1 cup, (no tortilla)!  I ate it hot, but I&#039;m pretty sure it&#039;s just as good cold.  I plan on trying different variations, depending on what&#039;s on hand.  Thanks!",
+  "tuples": [
+   {
+    "id": "h059_t00",
+    "category": "taste_flavor",
+    "value": "spicy",
+    "evidence": "I ate it hot"
+   }
+  ]
+ },
+ {
+  "review_id": "h060",
+  "recipe": "Zucchini Lasagna (Lasagne) - Low Carb",
+  "review": "We have made this meal sooo many times and it is fabulous. We personally like it best when the zucchini is shredded in the food processor, then has as much water as possible squeezed out of it ( by squeezing handfuls or wrapping in a tea towel and pressing the heck out of it) then cooked in the microwave for 4 mins. We used the low fat ricotta, and used some Ragu instead of all the separate ingredients for the sauce. We do add all the herbs though because we like it to have a stronger taste. Sometimes we add some chilli powder which kicks it up a notch. We also add some mexican cheese, along with the mozarella, to the top which gives it a yummy crust. Fabulous recipe...thanks so much for posting",
+  "tuples": [
+   {
+    "id": "h060_t00",
+    "category": "taste_flavor",
+    "value": "stronger taste",
+    "evidence": "we like it to have a stronger taste"
+   },
+   {
+    "id": "h060_t01",
+    "category": "cuisine_type",
+    "value": "Mexican",
+    "evidence": "some mexican cheese"
+   }
+  ]
+ },
+ {
+  "review_id": "h061",
+  "recipe": "Ww 5 Can Soup",
+  "review": "EXCELLENT SOUP!!! I just made this last night for todays lunch. Very filling, I changed it up a bit, instead of Black Beans, I used a can of Vegetarian low-fat- Re-Fried beans, which makes it more of a stew like consistency.. I forgot the can of mixed veg., so mine was a 4 can soup!! I some chopped grilled chicken for protein, just wonderful. I figured it to be a 6 point lunch. I have plenty of leftovers for the freezer or the rest of the week...",
+  "tuples": [
+   {
+    "id": "h061_t00",
+    "category": "audience_enjoyment",
+    "value": "self",
+    "evidence": "just wonderful"
+   },
+   {
+    "id": "h061_t01",
+    "category": "meal_type",
+    "value": "lunch",
+    "evidence": "for todays lunch"
+   }
+  ]
+ },
+ {
+  "review_id": "h062",
+  "recipe": "The Ultimate Salmon Fillets",
+  "review": "I was looking for a healthy fish recipe for a dinner party I was throwing for my husband and his friends. I was terrified of making something like this, but I went for it, followed your recipe to a tea, just doubled the amount of sauce because I was using 5 prepackaged individual salmon fillets. These were AMAZING!! Prepped everything early, and then covered them with tin foil until the guests arrived. Popped them in the oven, and skipped the cheese and the last broil. I can't WAIT to make these again, for us and for my family. Loved it, loved it, loved it!",
+  "tuples": [
+   {
+    "id": "h062_t00",
+    "category": "audience_enjoyment",
+    "value": "friends",
+    "evidence": "for my husband and his friends"
+   },
+   {
+    "id": "h062_t01",
+    "category": "occasion_holiday",
+    "value": "dinner",
+    "evidence": "for a dinner party"
+   },
+   {
+    "id": "h062_t02",
+    "category": "audience_enjoyment",
+    "value": "family",
+    "evidence": "and for my family"
+   },
+   {
+    "id": "h062_t03",
+    "category": "meal_type",
+    "value": "dinner",
+    "evidence": "healthy fish recipe for a dinner party"
+   },
+   {
+    "id": "h062_t04",
+    "category": "occasion_holiday",
+    "value": "dinner party",
+    "evidence": "for a dinner party I was throwing"
+   },
+   {
+    "id": "h062_t05",
+    "category": "audience_enjoyment",
+    "value": "husband",
+    "evidence": "for my husband and his friends"
+   },
+   {
+    "id": "h062_t06",
+    "category": "audience_enjoyment",
+    "value": "guests",
+    "evidence": "until the guests arrived"
+   }
+  ]
+ },
+ {
+  "review_id": "h063",
+  "recipe": "Tilapia Al Ajillo (Garlic Tilapia)",
+  "review": "Outstanding, Canary Girl, A very simple, very clean tasting, and very quick dish too.  We had the bag of frozen tilapia fillets which are individually wrapped, one pound bag had six small fillets.  I prepared one each and after tasting the fish, my boyfriend wanted more!  So, I got the rest out and made them.  I always soak fish in milk prior to cooking to remove the fishy taste.  Tilapia doesn't typically taste fishy, but just in case - after being frozen and all.  I didn't have parsley so I chopped some fresh chives.  I tend to agree with Seattle Jim, the calories shown are probably higher than actual.  My one pound package indicates the tilapia to be 4 servings @ 100 calories per serving, then there's only olive oil and not that much and besides that, most of it remains in the pan...Very, very good, thank you!",
+  "tuples": [
+   {
+    "id": "h063_t00",
+    "category": "taste_flavor",
+    "value": "clean tasting",
+    "evidence": "very clean tasting"
+   },
+   {
+    "id": "h063_t01",
+    "category": "audience_enjoyment",
+    "value": "boyfriend",
+    "evidence": "my boyfriend wanted more"
+   }
+  ]
+ },
+ {
+  "review_id": "h064",
+  "recipe": "Flawless Sesame Chicken (Restaurant Style)",
+  "review": "This was an excellent dish but i would make a few changes the next time i make this.. which is why i gave it 4 stars, instead of 5. <br/>i substituted half honey and half sugar for the sugar completely, but next time i will substitute all of honey for the sugar. Also, 2 tbsp of sesame oil was alot.. so next time i will only use 1 tbsp. <br/>The marinade was enough for only 2 breast pieces, but there was enough gravy for 3 breast pieces. So i'll be increasing the marinade to be enough for 3 pieces. i didnt have any chilli paste on hand so used chilli sauce instead. <br/>Thanks for the recipe Princess! This will be made often in our house!!",
+  "tuples": [
+   {
+    "id": "h064_t00",
+    "category": "audience_enjoyment",
+    "value": "house",
+    "evidence": "This will be made often in our house!!"
+   }
+  ]
+ },
+ {
+  "review_id": "h065",
+  "recipe": "Potato Salad",
+  "review": "I had to update this review, as I have now made this again for a crowd of 50 and it was a huge hit!  I think that I must have done something different the first time, because this was absolutely delicious this time around and I will NEVER make another potato salad recipe other then this again!\r\n\r\nMade this up for a little picnic a week ago and it was a hit. I did add a little garlic powder, but kept everything else the same. Everyone there loved it and my brother ate the leftovers the next day and said that it was even better the second time around!",
+  "tuples": [
+   {
+    "id": "h065_t00",
+    "category": "occasion_holiday",
+    "value": "crowd",
+    "evidence": "for a crowd of 50 and it was a huge hit"
+   },
+   {
+    "id": "h065_t01",
+    "category": "audience_enjoyment",
+    "value": "brother",
+    "evidence": "my brother ate the leftovers the next day and said that it was even better the second time around"
+   },
+   {
+    "id": "h065_t02",
+    "category": "occasion_holiday",
+    "value": "picnic",
+    "evidence": "Made this up for a little picnic"
+   },
+   {
+    "id": "h065_t03",
+    "category": "audience_enjoyment",
+    "value": "guests",
+    "evidence": "made this again for a crowd of 50 and it was a huge hit"
+   }
+  ]
+ },
+ {
+  "review_id": "h066",
+  "recipe": "&quot;Whatever Floats Your Boat&quot; Brownies!",
+  "review": "Cooking is not my favorite thing to do; however, I love to look at  recipes. For my friend's birthday, I decided to make her brownies from scratch, a feat I have never before attempted. I doubled the recipe for a 9x13 pan. It was very easy to put together. The cooking time was definitely longer than the additional 5 min. for double the recipe; more like 10-15, but it could have been my oven. Still, I just kept an eye on the brownies once 30 minutes passed. Other than doubling, followed the recipe exactly. I added chocolate chips to the batter. They came out very moist and chewy, which is how I prefer them. They were very rich and chocolatey. My friend was quite happy and pleased with them, as was I. Definitely a recipe I will keep and make again in the future. Maybe even one that will break me of using boxed brownie mixes all together.... ;) LOL Awesome recipe! Thanks for sharing.",
+  "tuples": [
+   {
+    "id": "h066_t00",
+    "category": "audience_enjoyment",
+    "value": "self",
+    "evidence": "as was I"
+   },
+   {
+    "id": "h066_t01",
+    "category": "taste_flavor",
+    "value": "rich",
+    "evidence": "They were very rich"
+   },
+   {
+    "id": "h066_t02",
+    "category": "audience_enjoyment",
+    "value": "friends",
+    "evidence": "My friend was quite happy and pleased with them"
+   },
+   {
+    "id": "h066_t03",
+    "category": "texture_mouthfeel",
+    "value": "moist",
+    "evidence": "They came out very moist"
+   },
+   {
+    "id": "h066_t04",
+    "category": "taste_flavor",
+    "value": "chocolate",
+    "evidence": "and chocolatey"
+   },
+   {
+    "id": "h066_t05",
+    "category": "occasion_holiday",
+    "value": "birthday",
+    "evidence": "For my friend's birthday"
+   },
+   {
+    "id": "h066_t06",
+    "category": "texture_mouthfeel",
+    "value": "chewy",
+    "evidence": "and chewy"
+   }
+  ]
+ },
+ {
+  "review_id": "h067",
+  "recipe": "Pizza Dough",
+  "review": "I made this simple dough today, exactly as the recipe stated. I didn&#039;t have any issues with the salt effecting the yeast. I always add sugar and salt at the same time in doughs and keep my jar of red star rapid rise yeast in the fridge between uses. I highly recommend using this recipe if you are looking for a crisp crust with a very soft and chewy interior. I shaped half of the dough into a pizza and took the remaining half and cut it into about 10 small pieces and tossed them in melted butter, garlic salt, garlic powder, and grated parmesan cheese. I put the coated pieces in a glass baking dish sprayed with a little canola oil and baked for about 15 minutes at 425 degrees. The garlic bread pieces were just as good as the pizza I made and will definitely make this combo again frequently. Super easy to throw together and the possibilities are endless! Thanks for sharing this recipe.",
+  "tuples": [
+   {
+    "id": "h067_t00",
+    "category": "texture_mouthfeel",
+    "value": "chewy",
+    "evidence": "chewy interior"
+   },
+   {
+    "id": "h067_t01",
+    "category": "taste_flavor",
+    "value": "garlic salt",
+    "evidence": "garlic salt"
+   },
+   {
+    "id": "h067_t02",
+    "category": "taste_flavor",
+    "value": "garlic",
+    "evidence": "garlic powder"
+   },
+   {
+    "id": "h067_t03",
+    "category": "texture_mouthfeel",
+    "value": "soft",
+    "evidence": "very soft"
+   },
+   {
+    "id": "h067_t04",
+    "category": "texture_mouthfeel",
+    "value": "crispy",
+    "evidence": "a crisp crust"
+   }
+  ]
+ },
+ {
+  "review_id": "h068",
+  "recipe": "Ground Beef Stuffed Green Bell Peppers With Cheese",
+  "review": "I made my first batch, by boiling the peppers, as per recipe. The dish had a very fresh taste to it that i liked, I was in the mood to eat something nice and fresh and juicy. But then 2nd batch I made in my Webber Kettle, uncooked, I just brushed the peppers with a flavour infused olive oil, and dusted the inside of the pepper with Italian smoked paprika. And Wow what a different taste, nutty, spicy. I do like to dry fry my foods, meaning very little good quality olive oil, or coconut oil, even better. And here is the twist, use roasted chick pea and dollop of sour cream. Cilantro chopped up or yogurt, I have done breakfast the same way just filled with fresh organic eggs, shallots or spring onion with a bit of turmeric. Chirico sausage, bacon, when camping or barbequing, use normal beef or pork sausage.",
+  "tuples": [
+   {
+    "id": "h068_t00",
+    "category": "occasion_holiday",
+    "value": "bbq",
+    "evidence": "when camping or barbequing"
+   },
+   {
+    "id": "h068_t01",
+    "category": "taste_flavor",
+    "value": "nutty",
+    "evidence": "nutty"
+   },
+   {
+    "id": "h068_t02",
+    "category": "meal_type",
+    "value": "breakfast",
+    "evidence": "I have done breakfast the same way"
+   },
+   {
+    "id": "h068_t03",
+    "category": "cuisine_type",
+    "value": "Italian",
+    "evidence": "Italian smoked paprika"
+   },
+   {
+    "id": "h068_t04",
+    "category": "taste_flavor",
+    "value": "spicy",
+    "evidence": "spicy"
+   },
+   {
+    "id": "h068_t05",
+    "category": "taste_flavor",
+    "value": "fresh",
+    "evidence": "very fresh taste"
+   },
+   {
+    "id": "h068_t06",
+    "category": "occasion_holiday",
+    "value": "camping",
+    "evidence": "when camping"
+   }
+  ]
+ },
+ {
+  "review_id": "h069",
+  "recipe": "Olive Garden Copycat Zuppa Toscana",
+  "review": "Oh...Ma...Ga!!! This soup was fantastic!! I made it today for lunch and DH said it was BETTER than OG's! I used hot Italian sausage, removed from casings, crumbled and browned on the stove. Even though I drained the grease, there was still quite a bit so there was an orange tint to the soup but this did not detract from the wonderful flavor at all. Next time, I may put the cooked sausage on paper towels and blot well to remove more of the grease. I used 2 \"stalks\" of Kale roughly chopped (excluding the stem), and the rest of the ingredients exactly as stated except I used the Wal-mart brand real bacon bits in a can since they didn't have the OM brand. Terrific!! Thank you for what is already a new family favorite!!\nUPDATE: I've made this recipe countless times since I found it and it has been outstanding each and every time. I recently did it in my 7 quart crockpot (adjusting the recipe for more servings) and it was outstanding cooked that way as well. When making in the crockpot, if you slice some of your potatoes thinner, those potatoes practically disintegrate making for a slightly thicker broth, while the thicker sliced potatoes provide substance. It was a very nice change of pace for this already perfect recipe. Once I added the sausage and bacon about 2/3 of the way into the cooking time, the pre-cooked sausage also got more and more tender the longer it simmered. I put the chopped kale in the pot on top of the soup about 30 minutes before serving without mixing it in and it essentially steamed the kale leaving it a lovely bright green color that really made for a beautiful bowl of soup. Thanks again for one of my family's most favorite recipes!",
+  "tuples": [
+   {
+    "id": "h069_t00",
+    "category": "meal_type",
+    "value": "lunch",
+    "evidence": "I made it today for lunch"
+   },
+   {
+    "id": "h069_t01",
+    "category": "audience_enjoyment",
+    "value": "family",
+    "evidence": "new family favorite"
+   },
+   {
+    "id": "h069_t02",
+    "category": "audience_enjoyment",
+    "value": "husband",
+    "evidence": "DH said it was BETTER than OG's!"
+   },
+   {
+    "id": "h069_t03",
+    "category": "texture_mouthfeel",
+    "value": "thick",
+    "evidence": "making for a slightly thicker broth"
+   },
+   {
+    "id": "h069_t04",
+    "category": "texture_mouthfeel",
+    "value": "tender",
+    "evidence": "sausage also got more and more tender"
+   }
+  ]
+ },
+ {
+  "review_id": "h070",
+  "recipe": "Oatmeal Cottage Cheese Pancakes",
+  "review": "I was skeptical, but the glowing reviews about kids eating these had me pulling out the blender this morning...and I'm so glad I did!\r\nI used 2 eggs as another reviewer mentioned (worked fine & was easier this morning), I also added just a Tbs of my cinnamon/sugar mix as recommended by some others.  Since my DD loves blueberries, and I had some in the freezer, I went ahead & tossed about 1/4 cup of them (frozen) into the blender w/the mixture.  I don't know if this added moisture helped, but I had no problems with the sticking & as long as I cooked them long enough, no mushy centers either.   \r\nMy kiddos ate these up!  4 y/o, who is giving us lots of food battles lately, ate up 4 with just the smallest pool of pure maple syrup on her plate, my 1 y/o ate 3 plain & I decided I liked mine with just a little bit of jam (although I'll have to try raw honey next time because I think that would be great but I'm currently out).\r\nWill def. make these again because my 4 y/o said she would absolutely eat them again!\r\nI highly recommend giving this one a try!  Thanks for sharing - I certainly would have never put this together on my own.",
+  "tuples": [
+   {
+    "id": "h070_t00",
+    "category": "audience_enjoyment",
+    "value": "kiddos",
+    "evidence": "My kiddos ate these up!"
+   },
+   {
+    "id": "h070_t01",
+    "category": "texture_mouthfeel",
+    "value": "not mushy",
+    "evidence": "no mushy centers either"
+   },
+   {
+    "id": "h070_t02",
+    "category": "audience_enjoyment",
+    "value": "toddler",
+    "evidence": "my 1 y/o ate 3 plain"
+   },
+   {
+    "id": "h070_t03",
+    "category": "audience_enjoyment",
+    "value": "kids",
+    "evidence": "kids eating these"
+   }
+  ]
+ },
+ {
+  "review_id": "h071",
+  "recipe": "Mom's Chocolate Cupcakes",
+  "review": "WONDERFUL! Made these for my son's b'day this year and they were a big hit! This recipe reminds me of a cake my Mom used to make me for my birthday every year when I was a kid and these cupcakes were equally terrific. This came together in about 5 mins and took about 17 mins to bake - couldn't be easier! This isn't super chocolately so it's great for kids or if you use a super rich frosting (vanilla buttercream recipe #222188) like I did. These were very moist and still moist on the 2nd and 3rd day (I hid some to enjoy later:)). Will definitely make again - thanks!",
+  "tuples": [
+   {
+    "id": "h071_t00",
+    "category": "audience_enjoyment",
+    "value": "mother",
+    "evidence": "This recipe reminds me of a cake my Mom used to make me"
+   },
+   {
+    "id": "h071_t01",
+    "category": "audience_enjoyment",
+    "value": "self",
+    "evidence": "I hid some to enjoy later"
+   },
+   {
+    "id": "h071_t02",
+    "category": "audience_enjoyment",
+    "value": "son",
+    "evidence": "son's b'day this year and they were a big hit"
+   },
+   {
+    "id": "h071_t03",
+    "category": "occasion_holiday",
+    "value": "birthday",
+    "evidence": "son's b'day"
+   },
+   {
+    "id": "h071_t04",
+    "category": "texture_mouthfeel",
+    "value": "moist",
+    "evidence": "These were very moist"
+   },
+   {
+    "id": "h071_t05",
+    "category": "audience_enjoyment",
+    "value": "kids",
+    "evidence": "great for kids"
+   }
+  ]
+ },
+ {
+  "review_id": "h072",
+  "recipe": "Easy Garlic Chicken",
+  "review": "Ok -- let the rest -- I put a different spin on it.  I didn't want to turn on the oven so....I heated a cast iron skillet that had a lid.  Heated the oil, added the garlic then added the brown sugar with a few splashes of soy sauce.  After I added the chicken I added about 1/2 cup of water and cooked the chicken on both sides.  Then I put on the lid and let it simmer for 20 minutes, turned them over for another 15 minutes.  Then took off the lid to let the liquid evaporate. Flipped the chicken and cooked 5 minutes then flipped them again. The liquid will get thick.  Before serving, I flip them over a few times to get all the sauce.  My 9 year old wanted more and said it was the best chicken -- my 11 year old looked like he licked the plate!",
+  "tuples": [
+   {
+    "id": "h072_t00",
+    "category": "audience_enjoyment",
+    "value": "11 year old",
+    "evidence": "my 11 year old looked like he licked the plate!"
+   },
+   {
+    "id": "h072_t01",
+    "category": "audience_enjoyment",
+    "value": "kids",
+    "evidence": "My 9 year old wanted more and said it was the best chicken"
+   },
+   {
+    "id": "h072_t02",
+    "category": "audience_enjoyment",
+    "value": "9 year old",
+    "evidence": "My 9 year old wanted more and said it was the best chicken"
+   }
+  ]
+ },
+ {
+  "review_id": "h073",
+  "recipe": "Cracker Barrel's Hashbrowns Casserole - Copycat",
+  "review": "This is a really great tasting casserole! It may not have tasted exactly like Cracker Barrel's on the nose, it may have been BETTER! I tried a number of tricks from various suggestions with a few tweaks of my own and this was my plan: thaw the shredded-type hash browns, use only 1/4 cup margarine, use cheddar cheese soup, use only half of the sour cream (and I used fat-free), brown the onions first, and use fat-free cheddar cheese. I baked this about 15 minutes longer than called for. This was the most enthusiastic my saughter has ever been for a Zaar recipe! She came back for THIRDS! She loves this, and so does everyone else. Who needs Cracker Barrel? Thanks, Rhonda!",
+  "tuples": [
+   {
+    "id": "h073_t00",
+    "category": "audience_enjoyment",
+    "value": "daughter",
+    "evidence": "the most enthusiastic my saughter has ever been"
+   }
+  ]
+ },
+ {
+  "review_id": "h074",
+  "recipe": "Do at Home Onion Rings",
+  "review": "Hi MizzNezz;\r\nThese are the most scrumptous, crispy and easy to make ONION RINGS. They cooked so quickly and had a nice golden brown color.  They are the best that I have ever made or had for that matter.\r\nTook me a while to find your recipe.  I got a craving for Onion Rings and started to look through the ZAAR, and there you were, how lucky for us.  Will be passing your recipe on to all my friends.\r\nThank you for posting and sharing with us.\r\n\"Uncle Bill\"",
+  "tuples": [
+   {
+    "id": "h074_t00",
+    "category": "texture_mouthfeel",
+    "value": "crispy",
+    "evidence": "crispy"
+   },
+   {
+    "id": "h074_t01",
+    "category": "taste_flavor",
+    "value": "golden brown",
+    "evidence": "nice golden brown color"
+   },
+   {
+    "id": "h074_t02",
+    "category": "audience_enjoyment",
+    "value": "friends",
+    "evidence": "Will be passing your recipe on to all my friends"
+   }
+  ]
+ }
+]

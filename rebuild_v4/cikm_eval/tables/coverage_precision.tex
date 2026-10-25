@@ -1,0 +1,24 @@
+% Merged two-pillar table: coverage uplift (from recall_4stage) +
+% judged precision (from precision_top20). Demo-track compact form.
+\begin{table}[t]
+\centering
+\small
+\setlength{\tabcolsep}{6pt}
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+& \textbf{Coverage} & \multicolumn{3}{c}{\textbf{Judged precision (\%)}} \\
+\cmidrule(lr){2-2}\cmidrule(lr){3-5}
+\textbf{Category} & \textbf{uplift} & \textbf{Entity} & \textbf{Sentiment} & \textbf{Span} \\
+\midrule
+Flavor   & +22\% & 53.0 & 68.0 & 99.0 \\
+Texture  & \phantom{0}+4\% & 95.5 & 89.0 & 95.5 \\
+Occasion & +22\% & 65.0 & 74.5 & 98.5 \\
+Audience & +23\% & 53.0 & 73.0 & 98.0 \\
+Cuisine  & +13\% & 56.5 & 66.5 & 98.5 \\
+\midrule
+\textbf{All} & \textbf{+18\%} & \textbf{64.6} & \textbf{74.2} & \textbf{97.9} \\
+\bottomrule
+\end{tabular}
+\caption{The two pillars on one view. \emph{Coverage uplift} is the gain in recipes surfaced by the deployed system (v2) over a literal keyword search, summed over the top-20 facets per category; no ground-truth gold is used. \emph{Judged precision} samples 200 deployed facets per category ($n=1000$): Entity and Sentiment are rated by gpt-oss~\cite{openai2025gptoss} (cross-family from the Gemma-3 extractor~\cite{zheng2024judging}, ABSA-Quad fields~\cite{cai2021aspect}); Span is a deterministic verbatim-substring check. Coverage grows while precision holds, so the added coverage reflects genuine recall rather than noise. The honest weak spots are Flavor and Audience, where long-tail adjectives and cook-versus-audience ambiguity lower entity precision.}
+\label{tab:coverage-precision}
+\end{table}

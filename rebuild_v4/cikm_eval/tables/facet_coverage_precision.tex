@@ -1,0 +1,21 @@
+% Per-category fused table (single-column): coverage + mention precision, keyword vs SER.
+\begin{table}[t]
+\centering
+\small
+\setlength{\tabcolsep}{4.5pt}
+\begin{tabular}{@{}ll rl rl@{}}
+\toprule
+& & \multicolumn{2}{c}{\textbf{Recipes found}} & \multicolumn{2}{c}{\textbf{Precision}} \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-6}
+\textbf{Category} & \textbf{Facet} & \textbf{KW} & \textbf{SER} & \textbf{KW} & \textbf{SER} \\
+\midrule
+Flavor   & tangy   & 41  & \textbf{73} (+78\%)  & 82\% & \textbf{94\%} (+12) \\
+Texture  & crispy  & 158 & \textbf{167} (+6\%)  & 68\% & \textbf{92\%} (+24) \\
+Occasion & holiday & 46  & \textbf{61} (+33\%)  & 78\% & 78\% (0) \\
+Audience & kids    & 304 & \textbf{320} (+5\%)  & 78\% & \textbf{82\%} (+4) \\
+Type     & mexican & 70  & \textbf{76} (+9\%)   & 25\% & \textbf{55\%} (+30) \\
+\bottomrule
+\end{tabular}
+\caption{One representative facet per category. \emph{Recipes found}: recipes (of 500) surfaced by the literal word versus the SER facet (coverage gain in parentheses). \emph{Precision}: share of 40 sampled mentions per method judged genuine for search (SER gain in parentheses). SER improves both axes; facets with few surface variants (e.g.\ crispy) gain mainly through precision.}
+\label{tab:facet-coverage-precision}
+\end{table}

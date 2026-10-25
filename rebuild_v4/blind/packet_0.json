@@ -1,0 +1,685 @@
+[
+ {
+  "review_id": "r000",
+  "recipe": "Best Ever Banana Cake With Cream Cheese Frosting",
+  "review": "This cake was VERY good!  If you like banana bread, you will like this!  I took heed of the other reviewers and scooped out about a cup or so of batter and made a dozen mini muffins and put the rest in the 9X13 pan.  I found that my cake did not overflow this way otherwise it would have :-) This cake was done in my oven after an hour and 10 minutes at 275 degrees.  So depending on your oven, you might have to cook more or less.  Try checking after an hour and go from there. I let this cake cool for 20 minutes or so and then put it in the freezer for the 45 minutes.  Didn't like the idea of putting a steaming hot pan into the already packed freezer!  Anyways, the cake came out moist!  I altered the frosting b/c I myself am not crazy about super sweet cream cheese frosting but wanted a little cream cheese taste.  So I made a buttercream and cream cheese frosting by mixing 4 oz cream cheese, 2/3 cup shortening, 3/4 cups butter, 2 cups powdered sugar and one tsp vanilla.  This gave me a light, not too sweet frosting that I really liked on this cake.  It had the cream cheese taste, but was light, creamy and not too sweet. If making as directed, I would not put in all of the powdered sugar right away, as I think it might be too much. Check the taste after adding 2 cups and adjust to your taste! Kids and adults loved this. Thank you for the recipe Rhonda!",
+  "tuples": [
+   {
+    "id": "r000_t00",
+    "category": "taste_flavor",
+    "value": "not too sweet",
+    "evidence": "not too sweet frosting"
+   },
+   {
+    "id": "r000_t01",
+    "category": "taste_flavor",
+    "value": "cream cheese",
+    "evidence": "It had the cream cheese taste"
+   },
+   {
+    "id": "r000_t02",
+    "category": "texture_mouthfeel",
+    "value": "creamy",
+    "evidence": "light, creamy and not too sweet"
+   },
+   {
+    "id": "r000_t03",
+    "category": "texture_mouthfeel",
+    "value": "moist",
+    "evidence": "the cake came out moist!"
+   },
+   {
+    "id": "r000_t04",
+    "category": "audience_enjoyment",
+    "value": "adults",
+    "evidence": "Kids and adults loved this."
+   },
+   {
+    "id": "r000_t05",
+    "category": "audience_enjoyment",
+    "value": "kids",
+    "evidence": "Kids and adults loved this."
+   },
+   {
+    "id": "r000_t06",
+    "category": "texture_mouthfeel",
+    "value": "light",
+    "evidence": "a light, not too sweet frosting"
+   },
+   {
+    "id": "r000_t07",
+    "category": "taste_flavor",
+    "value": "lightly-sweet",
+    "evidence": "a light, not too sweet frosting"
+   }
+  ]
+ },
+ {
+  "review_id": "r001",
+  "recipe": "Fannie Farmer's Classic Baked Macaroni &amp; Cheese",
+  "review": "This is now our go-to recipe for mac-n-cheese. The first time I made it I used high quality white cheddar and American cheese slices (I was worried it would turn out tasting funky!) and the creaminess was out of this world. I added the American because the cheddar was really sharp and I wanted to subdue that a little. I had read somewhere that the white cheddar made for a less gritty cheese sauce and I feel that that is true. We made the macaroni again tonight but used just yellow cheddar and we actually skipped baking it because we got a late start on dinner. It still turned out really good. To make it without baking we simply mixed the cheese sauce into the cooked pasta and served (no bread crumbs, no baking). I do recommend baking, though, as the taste it amazing but if you&#039;re pressed for time it&#039;s also okay to skip that part. Also, we have a really large family so we needed to make more servings than this recipe serves. We did not double the roux part (flour and butter) but we did add more cheddar and of course more pasta. The sauce still turned out really thick; you can always thin it out with more milk if you find it too thick for your liking. Hope my comments help!",
+  "tuples": [
+   {
+    "id": "r001_t00",
+    "category": "texture_mouthfeel",
+    "value": "creamy",
+    "evidence": "the creaminess was out of this world"
+   },
+   {
+    "id": "r001_t01",
+    "category": "taste_flavor",
+    "value": "sharp",
+    "evidence": "the cheddar was really sharp"
+   },
+   {
+    "id": "r001_t02",
+    "category": "meal_type",
+    "value": "dinner",
+    "evidence": "we got a late start on dinner"
+   },
+   {
+    "id": "r001_t03",
+    "category": "texture_mouthfeel",
+    "value": "thick",
+    "evidence": "The sauce still turned out really thick"
+   },
+   {
+    "id": "r001_t04",
+    "category": "audience_enjoyment",
+    "value": "family",
+    "evidence": "we have a really large family"
+   }
+  ]
+ },
+ {
+  "review_id": "r002",
+  "recipe": "The Best Easy Beef and Broccoli Stir-Fry",
+  "review": "OMG this is so good.  As the reviewers before me, I used the sauce to marinate the london broil steak I used for several hours and then made another batch of sauce for the cooking.  I used fresh ginger grated but next time I will use more then I added, didn't measure but I could have used more, I am a little afraid of ginger as it can be overpowering if too much is used.  I added scallions at the very end of cooking and everything was just delicious.  My husband could not get over how tender the meat was, as well as flavorful.  I want to thank all the previous reviewers for their hints and opinions, they were very helpful.  I want to try with chicken and shrimp in the future.  Try this recipe, you won't be disappointed.",
+  "tuples": [
+   {
+    "id": "r002_t00",
+    "category": "cuisine_type",
+    "value": "Asian",
+    "evidence": "fresh ginger"
+   },
+   {
+    "id": "r002_t01",
+    "category": "meal_type",
+    "value": "dinner",
+    "evidence": "I used the sauce to marinate the london broil steak"
+   },
+   {
+    "id": "r002_t02",
+    "category": "texture_mouthfeel",
+    "value": "tender",
+    "evidence": "how tender the meat was"
+   },
+   {
+    "id": "r002_t03",
+    "category": "audience_enjoyment",
+    "value": "husband",
+    "evidence": "My husband could not get over how tender the meat was"
+   }
+  ]
+ },
+ {
+  "review_id": "r003",
+  "recipe": "Delicious Chicken Pot Pie",
+  "review": "It was delicious but if I would've followed the recipe exactly as it was it would've been bland.  I don't measure things.  I'm like Rachel Ray, a little this, a little that and I continually taste to make sure everything's flowing.  I had to add a lot more salt and pepper and I also added a little garlic powder, paprika, and poultry seasoning.  I only had heavy whipping cream on hand so I used 1/2 cream and 1/2 2% milk.  Oh, I cut my time in half by using a rotissierie chicken from the deli.  While the veggies were sauteeing I deboned my chicken.  I had dinner ready in a snap.  One more thing...I'm not much of a pastry chef so I used a store bought pie crust and brushed it with an egg wash prior to baking.  This is a great chicken pot pie recipe but it does require a little tweeking...to your liking.  I think next time I'm going to try making it with fat free evaporated milk to cut back on some fat and calories.  This one is definitely a keeper.",
+  "tuples": [
+   {
+    "id": "r003_t00",
+    "category": "taste_flavor",
+    "value": "garlicky",
+    "evidence": "I also added a little garlic powder"
+   },
+   {
+    "id": "r003_t01",
+    "category": "taste_flavor",
+    "value": "garlic",
+    "evidence": "added a little garlic powder"
+   },
+   {
+    "id": "r003_t02",
+    "category": "taste_flavor",
+    "value": "smoky",
+    "evidence": "paprika"
+   },
+   {
+    "id": "r003_t03",
+    "category": "meal_type",
+    "value": "dinner",
+    "evidence": "I had dinner ready"
+   },
+   {
+    "id": "r003_t04",
+    "category": "taste_flavor",
+    "value": "salty",
+    "evidence": "add a lot more salt"
+   }
+  ]
+ },
+ {
+  "review_id": "r004",
+  "recipe": "Soft Snickerdoodle Cookies",
+  "review": "These cookies were a hit! I didn't have all-purpose flour all I had was whole wheat flour but for every cup of all purpose flour I just used 3/4 of whole wheat flour. I also didn't have enough sugar to mix with the cinnamon for the coating so I had to use confectioners sugar. When I tried the dough it did not taste good (probably because of the flour I used) and it was extremely sticky (it was the first time I made snicker doodle cookies) and I was very wary but after almost tripling the amount of sugar I was supposed to mix with the cinnamon (since powdered sugar is really dense and not as sweet) I decided to just put in the first batch and if they sucked it would have been my own fault. I put the first batch in the oven just to see if I should even put in the effort to continue onwards. When I took them out they were darker then the pictures (I used brown sugar instead of white and the flour was a light brown color also) but they were exceptional. My grandma at 90 who despises sweets, tried to talk me into giving her more cookies. My little cousins who were there were in love along with everyone else who tried the cookies. Even with my substitutions I had to make they turned out amazing. Hopefully next time I have all the correct ingredients they will turn out more splendid.",
+  "tuples": [
+   {
+    "id": "r004_t00",
+    "category": "audience_enjoyment",
+    "value": "cousins",
+    "evidence": "My little cousins who were there were in love"
+   },
+   {
+    "id": "r004_t01",
+    "category": "audience_enjoyment",
+    "value": "grandma",
+    "evidence": "My grandma at 90 who despises sweets, tried to talk me into giving her more cookies"
+   },
+   {
+    "id": "r004_t02",
+    "category": "audience_enjoyment",
+    "value": "grandmother",
+    "evidence": "My grandma at 90 who despises sweets, tried to talk me into giving her more cookies"
+   },
+   {
+    "id": "r004_t03",
+    "category": "taste_flavor",
+    "value": "exceptional",
+    "evidence": "they were exceptional"
+   }
+  ]
+ },
+ {
+  "review_id": "r005",
+  "recipe": "Soft Snickerdoodle Cookies",
+  "review": "Thanks for this recipe! I've tried several snickerdoodle recipes now in search of the perfect cookie, and this worked great for me! I've always liked the flavor of snickerdoodles, but in general prefer soft, chewy cookies. These fit the bill and are the best snickerdoodle's I've ever eaten.<br/><br/>The only modification I made was that I lightly patted the balls down with my hand before baking (I didn't press them too flat) so they weren't too rounded. They still came out soft and delicious, but with a more \"traditional\" cookie shape. I also used baking powder as I didn't have cream of tartar, however, baking powder can be made by mixing one part baking soda to two parts cream of tartar, so with the amounts called for in this recipe it really amounts to the same thing anyhow.<br/><br/>These were so good, I registered just to leave feedback. I'll be tossing my other recipes and ending my search here!",
+  "tuples": [
+   {
+    "id": "r005_t00",
+    "category": "texture_mouthfeel",
+    "value": "soft",
+    "evidence": "prefer soft, chewy cookies"
+   },
+   {
+    "id": "r005_t01",
+    "category": "texture_mouthfeel",
+    "value": "chewy",
+    "evidence": "prefer soft, chewy cookies"
+   }
+  ]
+ },
+ {
+  "review_id": "r006",
+  "recipe": "Pork Chops Yum-Yum",
+  "review": "These were some of the best pork chops I've personally made.  I used very thick chops and followed several of Chef Steveo's suggestions.  I doubled the sauce to marinade the chops in (6+ hours)and then I made a second double batch of sauce to cook in.  I followed his suggestion to cook entirely on the stovetop, turning the chops every 5 minutes for 20 minutes at a low simmer.  I probably could have cooked them for 4-5 minutes less, but they were still fairly moist.  I forgot to add cornstarch to the sauce at the end, and that definitely would have helped with the moisture factor if I had served the sauce with the chops.  I'll definitely make this recipe again -- my fairly picky children gave the chops a good taste before they started to complain :> Thanks for posting!",
+  "tuples": [
+   {
+    "id": "r006_t00",
+    "category": "texture_mouthfeel",
+    "value": "thick",
+    "evidence": "I used very thick chops"
+   },
+   {
+    "id": "r006_t01",
+    "category": "audience_enjoyment",
+    "value": "kids",
+    "evidence": "my fairly picky children gave the chops a good taste"
+   },
+   {
+    "id": "r006_t02",
+    "category": "texture_mouthfeel",
+    "value": "moist",
+    "evidence": "they were still fairly moist"
+   }
+  ]
+ },
+ {
+  "review_id": "r007",
+  "recipe": "Kittencal's 5-Minute Cinnamon Flop Brunch Cake",
+  "review": "DELICIOUS!!! I'm currently 8 months pregnant and have been craving sweets. I came across this recipe and decided to give it a shot and it turned out to be amazing! I followed the directions, including adding the egg, and even added chopped walnuts. I didn't realize I was running out of vanilla extract, so I was just short of 1 tsp, but it was still yummy just the same. The texture's wonderful: crunchy around the edges and top, cakey-chewy texture on the inside. I didn't find it overbearingly sweet; it was just right for my taste buds, as well as my 4yo's haha. The downfall for me was that I prepared this as an after-dinner dessert... I can't stop eating it and it definitely won't help me w/my insomnia =P Thank you for the recipe!! I love it and will definitely be one of my go-to recipes!",
+  "tuples": [
+   {
+    "id": "r007_t00",
+    "category": "meal_type",
+    "value": "dessert",
+    "evidence": "as an after-dinner dessert"
+   },
+   {
+    "id": "r007_t01",
+    "category": "texture_mouthfeel",
+    "value": "crunchy",
+    "evidence": "crunchy around the edges and top"
+   },
+   {
+    "id": "r007_t02",
+    "category": "texture_mouthfeel",
+    "value": "cakey",
+    "evidence": "cakey-chewy texture on the inside"
+   },
+   {
+    "id": "r007_t03",
+    "category": "audience_enjoyment",
+    "value": "kids",
+    "evidence": "as well as my 4yo's haha"
+   },
+   {
+    "id": "r007_t04",
+    "category": "texture_mouthfeel",
+    "value": "chewy",
+    "evidence": "cakey-chewy texture on the inside"
+   },
+   {
+    "id": "r007_t05",
+    "category": "taste_flavor",
+    "value": "not overbearingly sweet",
+    "evidence": "I didn't find it overbearingly sweet"
+   },
+   {
+    "id": "r007_t06",
+    "category": "audience_enjoyment",
+    "value": "self",
+    "evidence": "I love it"
+   }
+  ]
+ },
+ {
+  "review_id": "r008",
+  "recipe": "Absolute Best Ever Lasagna",
+  "review": "Very good! Not overly saucy, so it holds together well and slices beautifully. Great flavour! My fiance had never had - and didn't think he'd like - a lasagna with cottage cheese, but he really likes this one!\n\nDidn't have Italian Sausage so used 2 lb ground beef. Used  fresh herbs in place of dried, and added rosemary to the mix. Didn't have 2 cans of tomatoes so used about a half dozen tomatoes from my garden (diced) with 1 can of stewed tomatoes. For the cottage cheese part I added one thawed and drained brick of frozen chopped spinach as another reviewer suggested to sneak in more veggies, as well as a generous grating of nutmeg (my no-so-secret ingredient for Italian cooking). I also opted to use the ready-to-bake noodles rather than the kind that need boiling, just because they're easier to handle and cuts down on clean up time.\n\nI didn't want to make a full 9x13\" pan of lasagna for just the two of us, so I did up two 8\" x 8\" foil square pans (each of which will feed us for 2 days). This resulted in lots of leftover filling, so using what I had on hand I also got two 6\" round and one 4\" round pie tins - perfect for single servings! Baked one of the 8\" pans to eat right away, and the others went into the freezer for easy suppers later on. \n\nThanks for a great recipe!",
+  "tuples": [
+   {
+    "id": "r008_t00",
+    "category": "texture_mouthfeel",
+    "value": "holds together",
+    "evidence": "it holds together well"
+   },
+   {
+    "id": "r008_t01",
+    "category": "cuisine_type",
+    "value": "Italian",
+    "evidence": "nutmeg (my no-so-secret ingredient for Italian cooking)"
+   },
+   {
+    "id": "r008_t02",
+    "category": "texture_mouthfeel",
+    "value": "slices beautifully",
+    "evidence": "slices beautifully"
+   },
+   {
+    "id": "r008_t03",
+    "category": "audience_enjoyment",
+    "value": "fiance",
+    "evidence": "My fiance had never had - and didn't think he'd like - a lasagna with cottage cheese, but he really likes this one!"
+   },
+   {
+    "id": "r008_t04",
+    "category": "taste_flavor",
+    "value": "not overly saucy",
+    "evidence": "Not overly saucy"
+   },
+   {
+    "id": "r008_t05",
+    "category": "meal_type",
+    "value": "supper",
+    "evidence": "easy suppers later on"
+   }
+  ]
+ },
+ {
+  "review_id": "r009",
+  "recipe": "Dark Chocolate Cake",
+  "review": "I made this for my MIL's birthday and it is definitely CHOCOLATE cake. I followed the recipe exactly and thought this was easy, just as easy as using a box mix. Two things I would have changed - I covered this cake in chocolate buttercream icing and it was so rich no one could eat more than a sliver at a time. We thought it tasted very good, just too rich for more than a bite at a time. I joked it was definitely \"Death by Chocolate\" with the combo of the cake and chocolate buttercream icing. The second thing I would have changed, also related to the icing - the cake did not hold up to a thick buttercream (was planning to pipe some decorations but used all the icing just trying to \"glue\" the crumbling cake back together!). When I make this again, I will use a \"lighter\" icing or glaze that won't destroy the cake or create an overwhelmingingly rich dessert.",
+  "tuples": [
+   {
+    "id": "r009_t00",
+    "category": "meal_type",
+    "value": "dessert",
+    "evidence": "overwhelmingingly rich dessert"
+   },
+   {
+    "id": "r009_t01",
+    "category": "occasion_holiday",
+    "value": "birthday",
+    "evidence": "my MIL's birthday"
+   },
+   {
+    "id": "r009_t02",
+    "category": "taste_flavor",
+    "value": "chocolate",
+    "evidence": "definitely CHOCOLATE cake"
+   },
+   {
+    "id": "r009_t03",
+    "category": "taste_flavor",
+    "value": "rich",
+    "evidence": "so rich"
+   }
+  ]
+ },
+ {
+  "review_id": "r010",
+  "recipe": "The Best Ever Waffles",
+  "review": "I made an account just to review these waffles after making them then seeing the one star reviews...  I followed the recipe and these came out perfectly. Probably the best waffles i&#039;ve ever had, definitely the best i&#039;ve made. Everything people in the one star reviews didn&#039;t happen for me. No baking powder taste, they were crispy and fluffy on the inside and rose up as they cooked. They were so good that i ate about half the first one with no toppings at all. They are a little buttery but pancakes and waffles are vessels for butter, so thats a plus as far as i&#039;m concerned. I still topped mine with butter. delicious.  I can only imagine the people complaining failed to use the correct measurements and or didn&#039;t follow the directions. the batter is very thin and runny until you fold in the properly whisked egg whites. Then its pretty close to any other batter i have used.",
+  "tuples": [
+   {
+    "id": "r010_t00",
+    "category": "taste_flavor",
+    "value": "buttery",
+    "evidence": "They are a little buttery"
+   },
+   {
+    "id": "r010_t01",
+    "category": "texture_mouthfeel",
+    "value": "fluffy",
+    "evidence": "and fluffy on the inside"
+   },
+   {
+    "id": "r010_t02",
+    "category": "texture_mouthfeel",
+    "value": "crispy",
+    "evidence": "they were crispy"
+   },
+   {
+    "id": "r010_t03",
+    "category": "meal_type",
+    "value": "breakfast",
+    "evidence": "pancakes and waffles are vessels for butter"
+   },
+   {
+    "id": "r010_t04",
+    "category": "texture_mouthfeel",
+    "value": "thin",
+    "evidence": "the batter is very thin and runny"
+   },
+   {
+    "id": "r010_t05",
+    "category": "texture_mouthfeel",
+    "value": "runny",
+    "evidence": "the batter is very thin and runny"
+   }
+  ]
+ },
+ {
+  "review_id": "r011",
+  "recipe": "Kittencal's Chocolate Frosting/Icing",
+  "review": "This recipe is good but I felt it needed a couple of tweaks, which is why I am giving it 4 stars. Next time I make it (and there WILL be a next time!), I'll put the largest amount of cocoa in, but reduce the amount of confectioner's sugar to compensate, rather than increasing the cream. It think that should work better to increase the chocolate flavor. Second, the recipe doesn't make very much. I put it in my KitchenAid and whipped it up with the balloon whisk, which made it nice and fluffy, but it still just barely covered a 2-layer cake spread very thinly. Next time I will double the recipe to make sure I get plenty of frosting to spread around.",
+  "tuples": [
+   {
+    "id": "r011_t00",
+    "category": "taste_flavor",
+    "value": "chocolate",
+    "evidence": "increase the chocolate flavor"
+   },
+   {
+    "id": "r011_t01",
+    "category": "texture_mouthfeel",
+    "value": "fluffy",
+    "evidence": "nice and fluffy"
+   }
+  ]
+ },
+ {
+  "review_id": "r012",
+  "recipe": "Kittencal's Chicken Crescent Roll Casserole",
+  "review": "Let me add my 5-star rating to the 165 so far.  This is a fantastic recipe.  I've made it twice now.  First time, I follow the instructions above--it was great.  This weekend I changed a few things--it was different, but still great.  I made a double recipe using one can of cream of mushroom in place of the chicken.  I boiled the chicken in a crab boil. diced it up and seasoned it with Tony's Cajun seasoning.  I added chopped, canned chilis to the chicken.  I used grated peper jack cheese for the sauce, and topped it all with grated sharp cheddar.  Finally, I had more filling than I had dough for so I sprinkled it around in the gaps between each wrap then poured the sauce over it.  I recommend not putting the sauce in first.  Just butter the dish and lay them in there.  Spoon the sauce around, with none on top of the wraps so they get nice and brown.  The wife loved it.",
+  "tuples": [
+   {
+    "id": "r012_t00",
+    "category": "audience_enjoyment",
+    "value": "spouse",
+    "evidence": "The wife loved it"
+   },
+   {
+    "id": "r012_t01",
+    "category": "audience_enjoyment",
+    "value": "wife",
+    "evidence": "The wife loved it."
+   }
+  ]
+ },
+ {
+  "review_id": "r013",
+  "recipe": "Should Be Illegal Oven BBQ Ribs",
+  "review": "I decided to try this recipe from all the great reviews it has.  I was short on time and decided to try this since the cooking time was only an hour.  I read all the 5 star reviews and noticed that almost everyone has been using the low and slow cook method for this.  That is how I normally always do mine also.  But I figured, what the heck, lets go exactly by the recipe and see how they turn out.  After cooking an hour, I noticed the sauce was runny and wasnt sticking to the ribs.  So I uncovered and cooked another 30 min. to thicken and give the ribs a nice crust.  The ribs werent as tender as we like them.  I was afraid of this, but they was still edible.  We also didnt care for the sauce.  For us there was too much honey in it that it overpowered the rest of the ingredients.  Overall I have to give the original recipe 3 stars.  I deducted 1 for not caring for the sauce, and another 1 for the cooking method.  Like many others, if you do the low and slow method, this would definitely have been a 4 star for us.  I did enjoy the recipe tho, so thankyou!",
+  "tuples": [
+   {
+    "id": "r013_t00",
+    "category": "texture_mouthfeel",
+    "value": "thick",
+    "evidence": "cooked another 30 min. to thicken"
+   },
+   {
+    "id": "r013_t01",
+    "category": "texture_mouthfeel",
+    "value": "crust",
+    "evidence": "give the ribs a nice crust"
+   },
+   {
+    "id": "r013_t02",
+    "category": "audience_enjoyment",
+    "value": "self",
+    "evidence": "I did enjoy the recipe tho"
+   }
+  ]
+ },
+ {
+  "review_id": "r014",
+  "recipe": "Why-I-Joined-Zaar Carrot Cake",
+  "review": "Does this recipe REALLY need a 300th review?  YES!  It's THAT good!\nI've had this in my cookbook  forever, and why I'm just now getting around to it, I don't know.  But I'm sooo glad I did, this is incredible!  I did cut the oil with applesauce (3/4 c applesauce, 1/4 oil), used only one cup of sugar, and some frozen sliced carrots that someone had given us.  I tossed those int he food processor and added them in.  The pineapple didn't get drained, thanks to my overeager little helpers,s o the cake was 'slightly' tough (could be from their enthusiastic stirring too!).  I baked this in 2 9\" rounds, stacked with a layer of icing int he middle, and we ooh'd, ahh'd and moaned in ecstacy through the whole thing. There wasn't a crumb left..and they all want to have another this weekend!  Thanks so much for posting this jewel!",
+  "tuples": [
+   {
+    "id": "r014_t00",
+    "category": "audience_enjoyment",
+    "value": "helpers",
+    "evidence": "my overeager little helpers"
+   }
+  ]
+ },
+ {
+  "review_id": "r015",
+  "recipe": "Kittencal's Buttery Cut-Out Sugar Cookies W/ Icing That Hardens",
+  "review": "I used the frosting portion of this recipe for icing my Christmas sugar cookie cut-outs yesterday.  I was searching for a frosting that hardens and allows for easier, neater cookie storage.  Only after making many modifications, the frosting turned out.  Like other reviewers, I felt the instructions for the frosting were unclear in terms of the amount of milk.  Far more than 1 tbs. is needed to achieve the right consistency, so I would suggest indicating the exact amount (or an amount closer than just 1 tbs.) would be much more helpful.  Plus once I finally reached the right consistency, I realized the flavor was lacking.  I ended up whipping 2 tbs. butter, 1/2 tsp. lemon extract and 1/2 tsp. salt into the mixture for more flavor and less tacky texture.  The frosted cookies did harden, as the recipe title promises.  The trick must be the addition of corn syrup.  Next time, I think I'll just add corn syrup to my standard butter-based frosting recipe.  Thanks for sharing your recipe!  Although it didn't completely work out for me, I did learn a new trick in the process, so thank you for that!",
+  "tuples": [
+   {
+    "id": "r015_t00",
+    "category": "texture_mouthfeel",
+    "value": "hardens",
+    "evidence": "a frosting that hardens"
+   },
+   {
+    "id": "r015_t01",
+    "category": "taste_flavor",
+    "value": "lemon",
+    "evidence": "1/2 tsp. lemon extract"
+   },
+   {
+    "id": "r015_t02",
+    "category": "occasion_holiday",
+    "value": "Christmas",
+    "evidence": "for icing my Christmas sugar cookie cut-outs"
+   },
+   {
+    "id": "r015_t03",
+    "category": "texture_mouthfeel",
+    "value": "harden",
+    "evidence": "The frosted cookies did harden"
+   },
+   {
+    "id": "r015_t04",
+    "category": "texture_mouthfeel",
+    "value": "right consistency",
+    "evidence": "to achieve the right consistency"
+   }
+  ]
+ },
+ {
+  "review_id": "r016",
+  "recipe": "Chicken Noodle Soup",
+  "review": "It is 90 degrees outside and you might be wondering why I'm making chicken noodle soup on a day like today.  My neighbour is sick and really likes chicken noodle soup, so I told her husband I would make a batch for them.  I planned to use my own veggie stock, but adding spinach to it made it a nasty green colour that I don't think would be too appetizing for someone feeling unwell.  Luckily, I still had some normal veggie stock in the freezer, so I used that plus a 48 oz container of Swanson Chicken broth, low sodium/no MSG.  I followed the recipe to a T.  It was absolutely PERFECT!  I chopped carrots, green onions, celery, a bit of parsley and some  celery leaves and sauteed them for a couple minutes in just a bit of butter.  Added the broth, 2 cups of my good veggie stock and 1 tsp of bouillion granules. Simmered that on the stove til it started to boil and transferred to a 4 qt crockpot.  After that, I cooked three boneless skinless chix breasts in the remaining bits of the soup in the pot, cut those to small pieces and added to the crockpot.  There were a bit of bits on the pan from the chicken, so I added some water to that, mixed it a bit and added it to the crock as well.  I used egg noodles that I added the very last after running through cold water.   I'm kicking myself for not taking a photo of this work of chicken noodle soup art!  I did score a bowl b/c the crock was going to be too full and I gorged it down.  Thanks for a fabulous and EASY recipe, Miss Nezz.  This will be my go to quick and easy chicken noodle soup recipe!",
+  "tuples": [
+   {
+    "id": "r016_t00",
+    "category": "audience_enjoyment",
+    "value": "husband",
+    "evidence": "so I told her husband I would make a batch for them"
+   },
+   {
+    "id": "r016_t01",
+    "category": "audience_enjoyment",
+    "value": "self",
+    "evidence": "I gorged it down"
+   },
+   {
+    "id": "r016_t02",
+    "category": "audience_enjoyment",
+    "value": "neighbor",
+    "evidence": "My neighbour is sick and really likes chicken noodle soup"
+   }
+  ]
+ },
+ {
+  "review_id": "r017",
+  "recipe": "Pasta with Sausage, Tomatoes, and Cream",
+  "review": "I'm not a big pasta fan, but I love creamy dishes, and I was looking for something special to serve my son when he gets to come home for leave from the Navy..He loves pasta dishes. I made it for my daughter and I tonight..we both loved it! And she's a very picky eater. The only change I made was that I stirred the parsley and about a handful of fresh parmeson cheese in while cooking to add to the thickening. Plus I added extra red pepper flakes. When I make it for my son, I may omit half of the sausage, and add some shrimp or chicken.  I find it unbelievable that something so simple could taste and look so great. Wonderful recipe!! Thanks for submitting it!",
+  "tuples": [
+   {
+    "id": "r017_t00",
+    "category": "audience_enjoyment",
+    "value": "son",
+    "evidence": "to serve my son when he gets to come home for leave from the Navy"
+   },
+   {
+    "id": "r017_t01",
+    "category": "audience_enjoyment",
+    "value": "daughter",
+    "evidence": "I made it for my daughter and I tonight..we both loved it!"
+   },
+   {
+    "id": "r017_t02",
+    "category": "audience_enjoyment",
+    "value": "picky eater",
+    "evidence": "she's a very picky eater"
+   },
+   {
+    "id": "r017_t03",
+    "category": "taste_flavor",
+    "value": "creamy",
+    "evidence": "I love creamy dishes"
+   }
+  ]
+ },
+ {
+  "review_id": "r018",
+  "recipe": "Perfect Pork Tenderloin",
+  "review": "I was a little leery at first because fear of undercooked pork is right up there with snakes and public speaking.  I cooked four tenderloins weighing a total of 5.5 lbs, making my \"oven on\" time (at 500, the highest my oven goes) calculate to 30 minutes.  I took an added \"safety\" measure by turning the oven back on at 350 for five minutes at ten minutes into \"oven off\" time, then turned the oven back off and let it cool naturally.  As recommended, I never opened the oven door to release any heat.  I took out the meat at the appointed time and added some water to the pan as the standing juice had all evaporated, leaving a brown residue.  The water and residue made a tasty au jus after I heated it in the pan and scraped the bottom.  Not that the roast need it.  As promised, the meat was fully cooked, moist and tender.  Excellent!",
+  "tuples": [
+   {
+    "id": "r018_t00",
+    "category": "texture_mouthfeel",
+    "value": "tender",
+    "evidence": "four tenderloins"
+   },
+   {
+    "id": "r018_t01",
+    "category": "texture_mouthfeel",
+    "value": "moist",
+    "evidence": "meat was fully cooked, moist and tender"
+   }
+  ]
+ },
+ {
+  "review_id": "r019",
+  "recipe": "Cinnamon Cookies",
+  "review": "This is a great, simple recipe! My best batch was when I used a 48-serving recipe. I found you can use pumpkin pie spice for a nice variation on the cinnamon, or as I did, you can use both. I didn't have to refrigerate at all to get the right dough texture, but I did have to watch carefully to make sure the bottoms didn't burn: the bottoms will burn before the sides turn brown so be careful! Also, make sure you get the cookies off the sheet right after taking them out of the oven or they may stick! Overall though these turned out amazing. Simple, sweet, chewy, and delicious!",
+  "tuples": [
+   {
+    "id": "r019_t00",
+    "category": "taste_flavor",
+    "value": "sweet",
+    "evidence": "Simple, sweet"
+   },
+   {
+    "id": "r019_t01",
+    "category": "texture_mouthfeel",
+    "value": "chewy",
+    "evidence": "chewy"
+   }
+  ]
+ },
+ {
+  "review_id": "r020",
+  "recipe": "Chocolate Chip Muffins",
+  "review": "Really great. I used 1 cup wholemeal flour, 1 cup white; and, in a jumbo, american-style muffin tin, this recipe made 6 muffins and took twenty five minutes to bake through. I didn't have chocolate chips or anything so I just cut up a 200g bar of chocolate that really needed using. Delicious! I was really worried that I'd overmixed it but they're very soft. I actually regret that I don't have any other muffin tin as I tried to eat one of these myself and became so stuffed I had to offer the other half away. Only problem I had was that I put in all the wet ingredients and thought I could leave them stand. No. The butter crystallised and I had to stick the bowl they were in into a saucepan that was boiling some water, melt it all over again. Tricky business but, as I say, the muffins are delicious and I can't fault anything.",
+  "tuples": [
+   {
+    "id": "r020_t00",
+    "category": "audience_enjoyment",
+    "value": "self",
+    "evidence": "I tried to eat one of these myself"
+   },
+   {
+    "id": "r020_t01",
+    "category": "texture_mouthfeel",
+    "value": "soft",
+    "evidence": "they're very soft"
+   }
+  ]
+ },
+ {
+  "review_id": "r021",
+  "recipe": "Country White Bread or Dinner Rolls (Bread Machine)",
+  "review": "I can't believe that I forgot to rate this WONDERFUL bread! I tried recipe after recipe and DH would just say \"it's OK\". But he said that he LOVED this bread. I make it every 3 days. DH told me not to try any more recipes because this is THE one.\nIt makes great toast too. I make the dough in the bread machine and bake it in the oven...it's prettier that way. \nSome days I have to add more flour. Some days more water. It depends on how dry or damp the weather is, so don't be discouraged with this recipe for that reason. As I said, this is THE bread! Try it once and you'll be hooked!\nUpdate 2/2/10... I'm still making this bread every 3 days for my hubby, but now I also make it regularly for my daughter and her family. Here is a tip from her: this bread makes the very very best French toast. Ever!",
+  "tuples": [
+   {
+    "id": "r021_t00",
+    "category": "cuisine_type",
+    "value": "French",
+    "evidence": "French toast"
+   },
+   {
+    "id": "r021_t01",
+    "category": "audience_enjoyment",
+    "value": "family",
+    "evidence": "for my daughter and her family"
+   },
+   {
+    "id": "r021_t02",
+    "category": "audience_enjoyment",
+    "value": "husband",
+    "evidence": "DH would just say \"it's OK\""
+   },
+   {
+    "id": "r021_t03",
+    "category": "meal_type",
+    "value": "French toast",
+    "evidence": "this bread makes the very very best French toast"
+   },
+   {
+    "id": "r021_t04",
+    "category": "audience_enjoyment",
+    "value": "daughter",
+    "evidence": "for my daughter and her family"
+   },
+   {
+    "id": "r021_t05",
+    "category": "meal_type",
+    "value": "toast",
+    "evidence": "It makes great toast too"
+   }
+  ]
+ },
+ {
+  "review_id": "r022",
+  "recipe": "Chocolate! Chocolate! Chocolate! Bundt Cake With Chocolate Glaze",
+  "review": "I gave this 5 stars. Wow was this yummy! I agree with another reviewer It tasted as good as something you would get at a restaurant. I wish I could give this recipe more stars. My family loved this cake. My fiancee said it was a bit rich. After having a piece of this cake the day after making this I think the chocolate glaze is bit much for my family. Next time I make this I will dust with powdered sugar only. I think this cake would be awesome with chopped walnuts mixed in the batter before baking. I also think caramel sauce drizzled over each slice after heating both would be great. Thanks for posting a great recipe! Christine (internetnut)",
+  "tuples": [
+   {
+    "id": "r022_t00",
+    "category": "audience_enjoyment",
+    "value": "family",
+    "evidence": "My family loved this cake"
+   }
+  ]
+ }
+]

@@ -1,0 +1,514 @@
+{
+ "taste_flavor": {
+  "sweet": [
+   "sweetness",
+   "sweeter",
+   "sugary"
+  ],
+  "not too sweet": [
+   "not overly sweet",
+   "not sweet",
+   "less sweet",
+   "not super sweet",
+   "not very sweet",
+   "not as sweet",
+   "lightly sweet",
+   "slightly sweet",
+   "not so sweet"
+  ],
+  "spicy": [
+   "heat",
+   "kick",
+   "hot",
+   "spice",
+   "hint of heat",
+   "medium hot",
+   "bite",
+   "piquant"
+  ],
+  "mild": [
+   "not too spicy",
+   "not spicy",
+   "not too hot",
+   "no heat",
+   "not overly hot",
+   "subtle heat"
+  ],
+  "tangy": [
+   "tang",
+   "tart",
+   "zing",
+   "zesty",
+   "zip",
+   "twang"
+  ],
+  "garlic": [
+   "garlicky",
+   "roasted garlic"
+  ],
+  "chocolate": [
+   "chocolatey",
+   "chocolaty",
+   "chocolately",
+   "chocolate-y",
+   "dark chocolate",
+   "rich chocolate",
+   "chocolate chip",
+   "brownie"
+  ],
+  "cheesy": [
+   "cheese"
+  ],
+  "lemon": [
+   "lemony"
+  ],
+  "banana": [
+   "banana flavor",
+   "banana-y",
+   "banana bread"
+  ],
+  "salty": [
+   "salt",
+   "salted"
+  ],
+  "not too salty": [
+   "not salty",
+   "not overly salty"
+  ],
+  "savory": [
+   "savoury"
+  ],
+  "buttery": [
+   "butter"
+  ],
+  "peanut butter": [
+   "peanut buttery",
+   "peanut-buttery"
+  ],
+  "pumpkin": [
+   "pumpkin pie"
+  ],
+  "rich": [
+   "decadent"
+  ],
+  "complex": [
+   "complexity",
+   "depth",
+   "depth of flavor",
+   "deep",
+   "deep flavor",
+   "complex flavor"
+  ],
+  "bold": [
+   "robust",
+   "intense",
+   "strong",
+   "strong flavor",
+   "intense flavor",
+   "full flavor"
+  ],
+  "balanced": [
+   "well balanced"
+  ],
+  "seasoned": [
+   "well seasoned"
+  ],
+  "comfort food": [
+   "comforting"
+  ],
+  "not overpowering": [
+   "not too overpowering",
+   "not overwhelming",
+   "not too strong"
+  ],
+  "herbs": [
+   "herby",
+   "herb"
+  ],
+  "caramelized": [
+   "carmelized"
+  ],
+  "citrus": [
+   "citrusy"
+  ],
+  "fresh": [
+   "fresh-tasting",
+   "fresher"
+  ],
+  "sweet and salty": [
+   "sweet/salty"
+  ],
+  "subtle": [
+   "subtle flavor"
+  ],
+  "fragrant": [
+   "aromatic"
+  ]
+ },
+ "texture_mouthfeel": {
+  "crispy": [
+   "crisp"
+  ],
+  "crunchy": [
+   "crunch"
+  ],
+  "crusty": [
+   "crust",
+   "nice crust",
+   "light crust",
+   "crusted"
+  ],
+  "tender": [
+   "fork tender",
+   "fork-tender"
+  ],
+  "juicy": [
+   "succulent"
+  ],
+  "falls apart": [
+   "fell apart",
+   "falling apart",
+   "fall apart"
+  ],
+  "melt-in-your-mouth": [
+   "melted in mouth",
+   "melt in mouth"
+  ],
+  "flaky": [
+   "flakey"
+  ],
+  "moist": [
+   "moisture",
+   "not dry",
+   "not too dry"
+  ],
+  "gooey": [
+   "ooey-gooey",
+   "ooey gooey"
+  ],
+  "cakey": [
+   "cakelike"
+  ],
+  "thick": [
+   "thickened"
+  ],
+  "puffy": [
+   "puffed up",
+   "puffed"
+  ],
+  "holds together": [
+   "held together",
+   "hold together",
+   "held their shape",
+   "held its shape",
+   "kept their form",
+   "intact"
+  ],
+  "soft": [
+   "softened",
+   "soften"
+  ],
+  "hard": [
+   "hardened",
+   "hardens"
+  ],
+  "fudgy": [
+   "fudge"
+  ],
+  "crisp-tender": [
+   "tender-crisp"
+  ]
+ },
+ "meal_type": {
+  "dinner": [
+   "supper"
+  ],
+  "main dish": [
+   "main course",
+   "entree",
+   "one dish meal",
+   "one-dish meal"
+  ],
+  "appetizer": [
+   "starter"
+  ],
+  "snack": [
+   "afternoon tea"
+  ],
+  "side dish": [
+   "side-dish"
+  ]
+ },
+ "occasion_holiday": {
+  "Christmas": [
+   "christmas eve"
+  ],
+  "Thanksgiving": [],
+  "Easter": [],
+  "Halloween": [],
+  "Super Bowl": [],
+  "Mother's Day": [],
+  "Father's Day": [],
+  "Memorial Day": [],
+  "Labor Day": [],
+  "St. Patrick's Day": [],
+  "Cinco de Mayo": [],
+  "Passover": [],
+  "Lent": [],
+  "Chinese New Year": [],
+  "Good Friday": [],
+  "Shabbat": [],
+  "holiday": [
+   "holidays",
+   "holiday party",
+   "festive"
+  ],
+  "4th of July": [
+   "fourth of july",
+   "july 4th"
+  ],
+  "bbq": [
+   "barbecue",
+   "cookout",
+   "summer bbq",
+   "grilling outdoors",
+   "grilling season"
+  ],
+  "birthday": [
+   "birthday party"
+  ],
+  "gathering": [
+   "get together",
+   "get-together",
+   "gatherings",
+   "family gathering",
+   "family get together",
+   "family get-together",
+   "family reunion",
+   "informal gathering",
+   "family events"
+  ],
+  "game day": [
+   "football game",
+   "football party",
+   "football sunday",
+   "football season",
+   "tailgating",
+   "game night"
+  ],
+  "New Year's": [
+   "new year's eve",
+   "new year",
+   "new year's"
+  ],
+  "special occasion": [
+   "special occasions",
+   "celebration"
+  ],
+  "fall": [
+   "autumn"
+  ],
+  "winter": [
+   "cold weather",
+   "snow day",
+   "cold winters day"
+  ],
+  "weeknight": [
+   "weekday"
+  ],
+  "church event": [
+   "church function",
+   "church picnic",
+   "church supper",
+   "church brunch",
+   "church bazaar",
+   "church coffee hour",
+   "church cookie exchange",
+   "church clean-up day"
+  ],
+  "entertaining": [
+   "company"
+  ],
+  "work party": [
+   "office party",
+   "work function",
+   "work gathering",
+   "company function",
+   "staff meeting",
+   "company picnic"
+  ],
+  "party": [
+   "parties"
+  ],
+  "wedding": [
+   "wedding reception"
+  ],
+  "chili cook-off": [
+   "chili cookoff"
+  ]
+ },
+ "audience_enjoyment": {
+  "kids": [
+   "children",
+   "child",
+   "kid",
+   "young children",
+   "little one",
+   "4 year old",
+   "5 year old",
+   "6 year old",
+   "7 year old",
+   "9 year old",
+   "four year old",
+   "six year old",
+   "6-year-old",
+   "5 yr old",
+   "4yo",
+   "preschooler",
+   "little man"
+  ],
+  "toddler": [
+   "toddlers",
+   "1 year old",
+   "2 year old",
+   "3 year old",
+   "one year old",
+   "two year old",
+   "baby"
+  ],
+  "picky eater": [
+   "picky eaters",
+   "picky kid",
+   "fussy eaters",
+   "picky family",
+   "picky rice eater"
+  ],
+  "partner": [
+   "significant other",
+   "spouse"
+  ],
+  "fiance": [
+   "fianc\u00e9"
+  ],
+  "father": [
+   "dad"
+  ],
+  "mother": [
+   "mothers"
+  ],
+  "coworkers": [
+   "co-workers",
+   "coworker",
+   "colleagues",
+   "colleague",
+   "office",
+   "people at work",
+   "girls at work",
+   "staff",
+   "employees",
+   "employers"
+  ],
+  "friends": [
+   "friend",
+   "best friend",
+   "girlfriends"
+  ],
+  "guests": [
+   "guest",
+   "dinner guests",
+   "company",
+   "crowd",
+   "large group"
+  ],
+  "son": [
+   "sons"
+  ],
+  "daughter": [
+   "daughters"
+  ],
+  "brother": [
+   "brothers"
+  ],
+  "sister": [
+   "sisters"
+  ],
+  "grandkids": [
+   "grandchildren",
+   "grandchild",
+   "grandsons",
+   "grandson",
+   "granddaughter",
+   "granddaughters"
+  ],
+  "neighbors": [
+   "neighbor",
+   "neighbour",
+   "neighbours"
+  ],
+  "teenagers": [
+   "teen",
+   "teens"
+  ],
+  "men": [
+   "guys"
+  ],
+  "women": [
+   "ladies"
+  ],
+  "meat lovers": [
+   "carnivores",
+   "meat eaters"
+  ],
+  "family": [
+   "family members",
+   "extended family",
+   "relatives"
+  ]
+ },
+ "cuisine_type": {
+  "Mexican": [
+   "tex-mex",
+   "baja"
+  ],
+  "Italian": [
+   "sicilian",
+   "tuscan",
+   "southern italian",
+   "neapolitan",
+   "american italian"
+  ],
+  "Chinese": [
+   "american chinese"
+  ],
+  "Asian": [
+   "oriental"
+  ],
+  "Mediterranean": [
+   "greek"
+  ],
+  "Japanese": [
+   "teriyaki"
+  ],
+  "Cajun": [
+   "new orleans"
+  ],
+  "Southwestern": [
+   "southwest"
+  ],
+  "Indian": [],
+  "Southern": [],
+  "French": [],
+  "Irish": [],
+  "Spanish": [],
+  "Hungarian": [],
+  "American": [],
+  "Thai": [],
+  "Moroccan": [],
+  "Filipino": [],
+  "British": [],
+  "Lebanese": [],
+  "Korean": [],
+  "Middle Eastern": [],
+  "Amish": []
+ }
+}

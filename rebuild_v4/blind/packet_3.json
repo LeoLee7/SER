@@ -1,0 +1,556 @@
+[
+ {
+  "review_id": "r069",
+  "recipe": "(Panera Bread) Black Bean Soup",
+  "review": "Very Good! I will make this often. I cut the recipe in half before printing because I am looking for healthy, easy recipes for two people. Even with the &#039;almost there&#039; measurements I followed the recipe as exactly as I could &amp; then tasted it...then I doubled the cumin because I like a more bold taste. I didn&#039;t have fresh lemon so I used RealLemon brand &amp; adjusted it to my taste. I left out the salt because it wasn&#039;t needed with canned beans &amp; bouillon cube which are both high in salt. I will try it with a dash of cayenne &amp; chili powder as one reviewer suggested. And maybe even fresh cilantro when I have it on hand. Thanks for posting the recipe!",
+  "tuples": [
+   {
+    "id": "r069_t00",
+    "category": "taste_flavor",
+    "value": "cumin",
+    "evidence": "doubled the cumin"
+   },
+   {
+    "id": "r069_t01",
+    "category": "taste_flavor",
+    "value": "cilantro",
+    "evidence": "fresh cilantro"
+   },
+   {
+    "id": "r069_t02",
+    "category": "taste_flavor",
+    "value": "cayenne",
+    "evidence": "dash of cayenne"
+   },
+   {
+    "id": "r069_t03",
+    "category": "taste_flavor",
+    "value": "bold",
+    "evidence": "I doubled the cumin because I like a more bold taste"
+   },
+   {
+    "id": "r069_t04",
+    "category": "taste_flavor",
+    "value": "chili powder",
+    "evidence": "chili powder"
+   }
+  ]
+ },
+ {
+  "review_id": "r070",
+  "recipe": "(Panera Bread) Black Bean Soup",
+  "review": "I fell in love with Panera's Black Bean Soup a few months ago, and ended up spending way too much time and money at Panera... so I am very happy that I found this recipe!<br/><br/>I decided to double the red pepper in the recipe, and the flavor was a bit strong, so the next time I make it I will stick to the original. :) Also, I used an immersion blender, and maybe mine just doesn't work great, but the soup didn't get as smooth as I would have liked it. Next time I will be using my Vita-mix. This recipe is now one of my staples! (I even froze some containers to use for easy lunches.)",
+  "tuples": [
+   {
+    "id": "r070_t00",
+    "category": "meal_type",
+    "value": "lunch",
+    "evidence": "easy lunches"
+   }
+  ]
+ },
+ {
+  "review_id": "r071",
+  "recipe": "(Panera Bread) Black Bean Soup",
+  "review": "Thank you so much for posting this recipe.  I didn't have any celery on hand, and frankly I don't think it's needed.  I probably won't add it for next time either.  I'll probably end up mincing up some red pepper and freezing it for future recipes, this was so quick and easy... I adored it.<br/> <br/>UPDATE: I just went to Panera cause we were out and needed something.  Got their black bean soup and my toddler spit it out (loves mine!), and my husband declared that mine (this recipe) is sooooo much better.  And it is!  This recipe blows Panera's out of the water!",
+  "tuples": [
+   {
+    "id": "r071_t00",
+    "category": "audience_enjoyment",
+    "value": "husband",
+    "evidence": "my husband declared that mine (this recipe) is sooooo much better"
+   },
+   {
+    "id": "r071_t01",
+    "category": "audience_enjoyment",
+    "value": "kids",
+    "evidence": "loves mine"
+   }
+  ]
+ },
+ {
+  "review_id": "r072",
+  "recipe": "Lemon Baked Cod",
+  "review": "Made this tonight using the tip left by a reviewer to chill the fish for an hour before baking. It came out super tasty and it was so easy to do. It smelled fantastic and the texture was just right. The only thing I might do in the future is add a little more salt but that&#039;s just because I like things salty. Also, I didn&#039;t have white pepper so I just used regular fresh ground pepper but I still thought it was great. Will absolutely make this again.",
+  "tuples": [
+   {
+    "id": "r072_t00",
+    "category": "occasion_holiday",
+    "value": "tonight",
+    "evidence": "Made this tonight"
+   },
+   {
+    "id": "r072_t01",
+    "category": "texture_mouthfeel",
+    "value": "just right",
+    "evidence": "the texture was just right"
+   },
+   {
+    "id": "r072_t02",
+    "category": "taste_flavor",
+    "value": "salty",
+    "evidence": "I like things salty"
+   }
+  ]
+ },
+ {
+  "review_id": "r073",
+  "recipe": "Perfect Rump Roast",
+  "review": "Sooo, I know this recipe was originally posted some years ago, but the results were so excellent that I had to join and post. After finding myself in possession of a rump roast (and not being handy with the whole beef thing) I came looking for directions. I dislike crock potted &quot;pot roast&quot; so was looking for a more traditional dry &quot;roasted&quot; experience. After reading the reviews, I followed the method 100%, using 2 cups of beef broth with a bit of Worcestershire, a metal pan and a 2.5 pound roast. 50 cooking minutes (uncovered) plus 20 resting minutes (under a foil tent), and I sliced into the juiciest, most perfectly cooked rare to medium-rare beef roast ever. Flavor was amazing and texture was succulent- lovely exterior crust from the searing and super tender interior. I sliced it very thin and ate it on a roll, French-dip style- perfection! I have a few more roasts in the freezer as they were on sale and cannot wait to make another in this same manner. I might have to start the Sunday roast tradition with this kind of success!",
+  "tuples": [
+   {
+    "id": "r073_t00",
+    "category": "texture_mouthfeel",
+    "value": "juicy",
+    "evidence": "the juiciest, most perfectly cooked rare to medium-rare beef roast ever"
+   },
+   {
+    "id": "r073_t01",
+    "category": "texture_mouthfeel",
+    "value": "crispy",
+    "evidence": "lovely exterior crust"
+   },
+   {
+    "id": "r073_t02",
+    "category": "texture_mouthfeel",
+    "value": "succulent",
+    "evidence": "texture was succulent"
+   },
+   {
+    "id": "r073_t03",
+    "category": "texture_mouthfeel",
+    "value": "tender",
+    "evidence": "super tender interior"
+   },
+   {
+    "id": "r073_t04",
+    "category": "cuisine_type",
+    "value": "French",
+    "evidence": "ate it on a roll, French-dip style"
+   },
+   {
+    "id": "r073_t05",
+    "category": "texture_mouthfeel",
+    "value": "crust",
+    "evidence": "lovely exterior crust from the searing"
+   }
+  ]
+ },
+ {
+  "review_id": "r074",
+  "recipe": "Best Albondigas Soup",
+  "review": "Sometimes you see the word \"Best\" in a recipe title (perhaps subconsciously raising your expectations) and, after making, might beg to differ. This is SO not the case here.  Your mother in law's albondigas soup is the best we've had, restaurant or homemade, hands down. The combination of chorizo and the lean ground beef, coupled with the spices and veggies made a perfect balance of flavor with a very slight kick. (I used Farmer John's brand Traditional Original Chorizo.) The technique and clear instructions were spot on. I cut some of the veggies smallish for my husband who trembles at their mere mention, but he loved this and had seconds.  Made it with small, amped-up grilled cheese sandwiches which I may post shortly. Thanks for sharing this and please thank your mother in law as well!",
+  "tuples": [
+   {
+    "id": "r074_t00",
+    "category": "audience_enjoyment",
+    "value": "husband",
+    "evidence": "he loved this"
+   },
+   {
+    "id": "r074_t01",
+    "category": "taste_flavor",
+    "value": "slight kick",
+    "evidence": "with a very slight kick"
+   },
+   {
+    "id": "r074_t02",
+    "category": "taste_flavor",
+    "value": "perfect balance of flavor",
+    "evidence": "made a perfect balance of flavor"
+   }
+  ]
+ },
+ {
+  "review_id": "r075",
+  "recipe": "The Best Browned Beef Stew Ever",
+  "review": "Really hearty and good! 4 men DD1 (5 years old), DD2 (15 months), and I say so. This recipe works well with all sorts of modifications, additional vegetables etc. I first put the stewing beef in a few tbs vinegar and Motts Tomato Juice for 35 minutes to help them become tender and give it some extra flavour. After I drained them and began the recipe. I used white rice flour instead of regular flour to be gluten free. Before I added the big pieces of vegetables I cooked the meat for approximately 40 minutes longer than called for in recipe#206712 instead of beef broth as I could make it easier. I used 3 medium carrots in all, cut into big chunks rather than diced or chopped fine for more heartiness. I used one less onion than called for, though my onions were pretty big. I exchanged the thyme to marjoram due to personal preference. In addition to the called for vegetables I added some chunks of butter nut squash one time (wouldnt do it again), a large handful of fried okra one time which was a good addition, and about 1/3 cup frozen baby peas near the end of cooking time both times. I served it with quinoa macaroni if wished. I would make again during the winter for a warming lunch or dinner.",
+  "tuples": [
+   {
+    "id": "r075_t00",
+    "category": "taste_flavor",
+    "value": "hearty",
+    "evidence": "Really hearty and good!"
+   },
+   {
+    "id": "r075_t01",
+    "category": "meal_type",
+    "value": "lunch",
+    "evidence": "warming lunch or dinner"
+   },
+   {
+    "id": "r075_t02",
+    "category": "audience_enjoyment",
+    "value": "kids",
+    "evidence": "4 men DD1 (5 years old), DD2 (15 months), and I say so"
+   },
+   {
+    "id": "r075_t03",
+    "category": "meal_type",
+    "value": "dinner",
+    "evidence": "warming lunch or dinner"
+   },
+   {
+    "id": "r075_t04",
+    "category": "audience_enjoyment",
+    "value": "men",
+    "evidence": "4 men DD1 (5 years old), DD2 (15 months), and I say so"
+   },
+   {
+    "id": "r075_t05",
+    "category": "texture_mouthfeel",
+    "value": "tender",
+    "evidence": "to help them become tender"
+   },
+   {
+    "id": "r075_t06",
+    "category": "occasion_holiday",
+    "value": "winter",
+    "evidence": "during the winter"
+   },
+   {
+    "id": "r075_t07",
+    "category": "taste_flavor",
+    "value": "heartiness",
+    "evidence": "for more heartiness"
+   }
+  ]
+ },
+ {
+  "review_id": "r076",
+  "recipe": "Faux Febreeze",
+  "review": "This definitely doesn't need another review!! *LOL* But I had to tell you , not only does it work great for what it's actually FOR , but found another use for it , quite by accident! \r\nI keep it under my kitchen sink. Well, tonight I was doing dishes and afterwards the suds wouldn't go down ... I grabbed this and sprayed 3 or 4 times and BOOM , suds were gone and the sink smelled maaaaaaahvelous ;)  \r\nGreat recipe! Thanks!!",
+  "tuples": []
+ },
+ {
+  "review_id": "r077",
+  "recipe": "Greek Chicken and Potatoes",
+  "review": "This recipe has so much potential.  Potatoes will not be cooked enough if you use boneless chicken breasts and are baking for only 30 minutes...can't be done.  Might I suggest bone-in chicken, then you would cook an hour.  Half the potatoes and slice.  If you are keeping the skin on the chicken, don't add the oil....way too greasy.  You need onion in this, add half an onion.  I used 5 large cloves of garlic and the oregano was just not enough.  You need to double it.  The lemon flavor was faint, too faint.  I would add 1/3 of a cup.  I agree with another reviewer that the potatoes need to be on top of the chicken.  But what I think I might do next time is take all the spices, herbs and liquids and marinate the chicken and potatoes in it, then bake.",
+  "tuples": [
+   {
+    "id": "r077_t00",
+    "category": "taste_flavor",
+    "value": "onion",
+    "evidence": "You need onion in this, add half an onion"
+   },
+   {
+    "id": "r077_t01",
+    "category": "taste_flavor",
+    "value": "garlic",
+    "evidence": "I used 5 large cloves of garlic"
+   }
+  ]
+ },
+ {
+  "review_id": "r078",
+  "recipe": "Mexican Enchilada Sauce",
+  "review": "I waited all week to try this recipe- I've been looking for a good enchilada sauce recipe for a casserole I like to make.  Saturday finally rolled around and I gathered all my ingredients together only to find that I had run out of chili powder!  Instead, I used 1 and 1/2 tablespoons of sweet paprika and crossed my fingers.  And it turned out great!  So, if you are ever in a pinch or just don't want any of the spice, you can use sweet paprika.  Of course, I can't wait to try it again with the chili powder.  Really great recipe!!",
+  "tuples": [
+   {
+    "id": "r078_t00",
+    "category": "taste_flavor",
+    "value": "sweet",
+    "evidence": "sweet paprika"
+   },
+   {
+    "id": "r078_t01",
+    "category": "occasion_holiday",
+    "value": "Saturday",
+    "evidence": "Saturday finally rolled around"
+   }
+  ]
+ },
+ {
+  "review_id": "r079",
+  "recipe": "Lisa's Swirled Chocolate Chip Cookies",
+  "review": "Very good cookies - crunchy on the outside, chewy on the inside. I didn't have any choc chips in at all so I made mine with chocolate chunks (chopped up chocolate bars). Like another reviewer said, the dough was phenomenally unworkable and I too had to give up on the wooden spoon and use my hands, however it was worth the effort and the cookies went down a storm at the pot luck dinner. I made the full amount as stated but made large, monster cookies which yielded 24. I make a lot of cookies for my other half and he declared these to be the best yet \"by far\". Praise indeed!",
+  "tuples": [
+   {
+    "id": "r079_t00",
+    "category": "audience_enjoyment",
+    "value": "husband",
+    "evidence": "my other half and he declared these to be the best yet"
+   },
+   {
+    "id": "r079_t01",
+    "category": "occasion_holiday",
+    "value": "potluck",
+    "evidence": "at the pot luck dinner"
+   },
+   {
+    "id": "r079_t02",
+    "category": "texture_mouthfeel",
+    "value": "chewy",
+    "evidence": "chewy on the inside"
+   },
+   {
+    "id": "r079_t03",
+    "category": "texture_mouthfeel",
+    "value": "crunchy",
+    "evidence": "crunchy on the outside"
+   },
+   {
+    "id": "r079_t04",
+    "category": "meal_type",
+    "value": "dinner",
+    "evidence": "at the pot luck dinner"
+   },
+   {
+    "id": "r079_t05",
+    "category": "audience_enjoyment",
+    "value": "other half",
+    "evidence": "I make a lot of cookies for my other half and he declared these to be the best yet"
+   }
+  ]
+ },
+ {
+  "review_id": "r080",
+  "recipe": "Highly Rated Ranch Chicken",
+  "review": "I'm updating my original review to give the recipe another star. I made it again but marinaded the chicken in Buttermilk Ranch for six hours before doing so.  It made a big difference; the dish was bursting with flavor. I still used the Italian flavored breadcrumbs.  Served with salad, baked potatoes and chopped spinach sauteed in garlic & olive oil.  Thanks again, Garnet!",
+  "tuples": [
+   {
+    "id": "r080_t00",
+    "category": "cuisine_type",
+    "value": "Italian",
+    "evidence": "Italian flavored breadcrumbs"
+   },
+   {
+    "id": "r080_t01",
+    "category": "meal_type",
+    "value": "side-dish",
+    "evidence": "Served with salad"
+   }
+  ]
+ },
+ {
+  "review_id": "r081",
+  "recipe": "Awesome Bacon-Tomato Dip",
+  "review": "This is seriously one of the tastiest dips I have ever eaten. It was a huge hit at my Superbowl party this year! Everyone ate it all up! It was wonderful with plain Wheat Thins. I also subbed a few things to make it a tad bit healthier such as turkey bacon instead and also light sour cream and  light cream cheese and mayo. I also used green onions which made it fabulous! It is okay with lettuce but I didn&#039;t think it was necessary. It is great without it also. t would highly recommend this for any occasion. It is guaranteed to be a hit!",
+  "tuples": [
+   {
+    "id": "r081_t00",
+    "category": "occasion_holiday",
+    "value": "Superbowl party",
+    "evidence": "a huge hit at my Superbowl party this year"
+   },
+   {
+    "id": "r081_t01",
+    "category": "taste_flavor",
+    "value": "fabulous",
+    "evidence": "which made it fabulous"
+   },
+   {
+    "id": "r081_t02",
+    "category": "occasion_holiday",
+    "value": "occasion",
+    "evidence": "for any occasion"
+   },
+   {
+    "id": "r081_t03",
+    "category": "occasion_holiday",
+    "value": "Superbowl",
+    "evidence": "at my Superbowl party"
+   },
+   {
+    "id": "r081_t04",
+    "category": "taste_flavor",
+    "value": "tastiest",
+    "evidence": "one of the tastiest dips"
+   }
+  ]
+ },
+ {
+  "review_id": "r082",
+  "recipe": "Refried Beans",
+  "review": "This is spooky - I know for a fact that this was one of the very first recipes that I made and reviewed shortly after I joined Recipezaar about 7 or 8 months ago! Darned gremlins! In any case, I have made them many times since then in my \"Death to Canned Refried Beans\" campaign. I always make them with Guinness stout or a good strong British brown ale instead of beer. I've eaten them as a side dish, and they have become a staple ingredient any time I make a recipe that calls for refried beans as an ingredient.",
+  "tuples": [
+   {
+    "id": "r082_t00",
+    "category": "meal_type",
+    "value": "side dish",
+    "evidence": "I've eaten them as a side dish"
+   },
+   {
+    "id": "r082_t01",
+    "category": "meal_type",
+    "value": "side-dish",
+    "evidence": "I've eaten them as a side dish"
+   }
+  ]
+ },
+ {
+  "review_id": "r083",
+  "recipe": "Easy Creamy Sour Cream Chicken Casserole",
+  "review": "Well, I'm pleasantly surprised!  I needed something quick, easy, and that utilized ingredients I had around, so I chose this.  I didn't have very high hopes, but one bite and wow!  My husband even said this was good, and he just doesn't like casseroles so I figured he wouldn't like it at all.  The only person who wouldn't eat it was my 2 year old, but he's going through a really picky phase right now, so don't hold his lack of enthusiasm against him. :)  I'll definitely keep this in my files and make it again and again!",
+  "tuples": [
+   {
+    "id": "r083_t00",
+    "category": "audience_enjoyment",
+    "value": "husband",
+    "evidence": "My husband even said this was good"
+   }
+  ]
+ },
+ {
+  "review_id": "r084",
+  "recipe": "Cheesecake Cookies",
+  "review": "Delicious! I was looking for a cheesecake type dessert that used only 1 package of cream cheese. I'm so glad I chose this one! We all loved it. We ate them plain the first night, after a meal of chicken soup and Recipe #96447. The second day I had prepared Recipe #15525 for another reason but the kids wanted to try some on the leftover cheesecake cookies. They loved them that way too. This recipe is very easy to fix and I know I'll be making it again. Thanks for sharing, Bev!",
+  "tuples": [
+   {
+    "id": "r084_t00",
+    "category": "meal_type",
+    "value": "dessert",
+    "evidence": "cheesecake type dessert"
+   },
+   {
+    "id": "r084_t01",
+    "category": "meal_type",
+    "value": "dinner",
+    "evidence": "after a meal of chicken soup"
+   },
+   {
+    "id": "r084_t02",
+    "category": "audience_enjoyment",
+    "value": "kids",
+    "evidence": "the kids wanted to try some"
+   },
+   {
+    "id": "r084_t03",
+    "category": "audience_enjoyment",
+    "value": "we",
+    "evidence": "We all loved it"
+   },
+   {
+    "id": "r084_t04",
+    "category": "meal_type",
+    "value": "snack",
+    "evidence": "ate them plain"
+   }
+  ]
+ },
+ {
+  "review_id": "r085",
+  "recipe": "Spinach Strawberry Salad",
+  "review": "This salad is to die for! OMG! I didn&#039;t have any raspberry red wine vinegar, so I made my own from scratch from a recipe I found on this site. I found that the dressing is GREAT on its own, but even better when refrigerated the night before. My husband LOVED it, and he&#039;s normally a STRICT garden salad with RANCH dressing only. I added feta crumbles and some bacon on his and kept mine just like the recipe. DELICIOUS!",
+  "tuples": [
+   {
+    "id": "r085_t00",
+    "category": "audience_enjoyment",
+    "value": "husband",
+    "evidence": "My husband LOVED it"
+   }
+  ]
+ },
+ {
+  "review_id": "r086",
+  "recipe": "Cabbage and Noodles",
+  "review": "Wonderfu! I used whole wheat noodles, and subbed margarine for the butter, and was rewarded with a big bowl of pure comfort food.  I sliced the onions rather than diced so they'd be the same shape as the cabbage once cooked, and I liked the way that worked out.  I also used a regular (not non-stick) frying pan, which allowed the onions and cabbage to caramelize beautifully and add a lot of flavor.  It does make a lot - I made half a batch and my deep 10-inch skillet was very full.  Thank you for sharing this great recipe - it's definitely a keeper.",
+  "tuples": [
+   {
+    "id": "r086_t00",
+    "category": "taste_flavor",
+    "value": "comfort food",
+    "evidence": "a big bowl of pure comfort food"
+   },
+   {
+    "id": "r086_t01",
+    "category": "taste_flavor",
+    "value": "caramelize",
+    "evidence": "allowed the onions and cabbage to caramelize beautifully"
+   }
+  ]
+ },
+ {
+  "review_id": "r087",
+  "recipe": "Light and Fluffy Pumpkin Pancakes",
+  "review": "These pancakes are incredible! My whole family loves them. I served them with recipe#37023 and everyone agreed that the combination was perfectly delicious! I doubled the pancake recipe, added chocolate chips to some for the chocolate lovers in the family, pecans to some (for myself) and left some plain. They were indeed light and fluffy, yet super filling. If you love pumpkin you will go crazy for this yummy breakfast! Thanks for sharing.",
+  "tuples": [
+   {
+    "id": "r087_t00",
+    "category": "texture_mouthfeel",
+    "value": "light",
+    "evidence": "They were indeed light"
+   },
+   {
+    "id": "r087_t01",
+    "category": "audience_enjoyment",
+    "value": "chocolate lovers",
+    "evidence": "for the chocolate lovers in the family"
+   },
+   {
+    "id": "r087_t02",
+    "category": "audience_enjoyment",
+    "value": "self",
+    "evidence": "pecans to some (for myself)"
+   },
+   {
+    "id": "r087_t03",
+    "category": "meal_type",
+    "value": "breakfast",
+    "evidence": "this yummy breakfast"
+   },
+   {
+    "id": "r087_t04",
+    "category": "audience_enjoyment",
+    "value": "family",
+    "evidence": "My whole family loves them"
+   },
+   {
+    "id": "r087_t05",
+    "category": "texture_mouthfeel",
+    "value": "fluffy",
+    "evidence": "and fluffy"
+   },
+   {
+    "id": "r087_t06",
+    "category": "texture_mouthfeel",
+    "value": "filling",
+    "evidence": "yet super filling"
+   }
+  ]
+ },
+ {
+  "review_id": "r088",
+  "recipe": "Finger Lickin Good BBQ Sauce",
+  "review": "I've made this twice now, and it is wonderful!  I just made some this morning to use on country style ribs in the crock pot.  It made just enough to cover 2 pounds of ribs..anything more would require a double batch.  I also, this time around, was out of chili powder so I made my own with ground cumin, paprika, onion powder, and a dash of cayenne pepper.  I also added an extra little splash of vinegar because I like the tartness of it.  Lasyly, I used organic ketchup, which is made wihtout corn syrup, so that this recipe would contain only real sugar.  Again, very very good!",
+  "tuples": [
+   {
+    "id": "r088_t00",
+    "category": "taste_flavor",
+    "value": "tart",
+    "evidence": "I like the tartness of it"
+   },
+   {
+    "id": "r088_t01",
+    "category": "meal_type",
+    "value": "breakfast",
+    "evidence": "this morning"
+   },
+   {
+    "id": "r088_t02",
+    "category": "taste_flavor",
+    "value": "tangy",
+    "evidence": "I like the tartness of it"
+   }
+  ]
+ },
+ {
+  "review_id": "r089",
+  "recipe": "Zesty Low-Fat Chicken Breasts",
+  "review": "This was so easy and I had everything in my cabinet! I used boneless skinless thighs and they worked great. Only thing I wish is that I had doubled the sauce. I did as requested by removing the sauce and adding cornstarch, but it wasn't really necessary. It was already thick...there just wasn't a bunch left over and I had made saffron rice as a side and would have liked to have drizzled some over it. I'll definitely make it again!",
+  "tuples": [
+   {
+    "id": "r089_t00",
+    "category": "meal_type",
+    "value": "side",
+    "evidence": "saffron rice as a side"
+   },
+   {
+    "id": "r089_t01",
+    "category": "texture_mouthfeel",
+    "value": "thick",
+    "evidence": "It was already thick"
+   }
+  ]
+ }
+]

@@ -1,0 +1,597 @@
+[
+ {
+  "review_id": "h075",
+  "recipe": "Reeses Squares - 5 Ingredients &amp; No Bake (Reese's)",
+  "review": "I definitely think these taste like peanut butter eggs..not so much just like a Reese's...but for sure JUST AS GOOD!!! :)  I cut the recipe in half b/c I didn't want to eat it all by myself.  Which I am hoping no one else in my family likes them so I can keep them all but I doubt that will happen.  I have a lot of meetings to go to for my husbands deployment and I am always searching for easy but amazing things to bring and I think I found my next star :)  I pulled it out at 20 minutes and did like a rough cut and made 25 squares in a 8 x 8 pan, then 10 minutes later went back in and re cut and they were perfect.  I am definitely going to try what someone suggested by spreading a layer of chocolate on the bottom and letting it harden then putting the peanut butter mixture on top.  I am also going to throw in some coconut next time b/c they make me think of the pb egg we always ate as kids!  Thanks for this great recipe!",
+  "tuples": [
+   {
+    "id": "h075_t00",
+    "category": "taste_flavor",
+    "value": "peanut butter",
+    "evidence": "these taste like peanut butter eggs"
+   },
+   {
+    "id": "h075_t01",
+    "category": "audience_enjoyment",
+    "value": "husband",
+    "evidence": "for my husbands deployment"
+   },
+   {
+    "id": "h075_t02",
+    "category": "audience_enjoyment",
+    "value": "kids",
+    "evidence": "as kids"
+   }
+  ]
+ },
+ {
+  "review_id": "h076",
+  "recipe": "Italian Wedding Soup",
+  "review": "This recipe was delicious.  I Love soup and was so pleased to find a great one to add to my \"usuals\".  I don't typically make any changes to recipes on this site as I feel that you can't truly know if the recipe works if you do not make it the way it's written.  This time though I did go half ground beef and half italian sausage for my meatballs as I do it that way for spaghetti and any other meatballs I make.  My large family Loved it and I ate the leftovers each day until it was gone. As with most soups, the leftovers were just as great if not better! Just remembered, I did use Chicken Bullion granules with water instead of chicken broth as I almost always do this in place of broth as it's more economical for the large bunch I feed and I always have a large jar on hand.  It was still delicious and I if real broth made it any better I'd be amazed as it was perfect :)",
+  "tuples": [
+   {
+    "id": "h076_t00",
+    "category": "audience_enjoyment",
+    "value": "family",
+    "evidence": "My large family Loved it"
+   },
+   {
+    "id": "h076_t01",
+    "category": "cuisine_type",
+    "value": "Italian",
+    "evidence": "half italian sausage"
+   },
+   {
+    "id": "h076_t02",
+    "category": "audience_enjoyment",
+    "value": "self",
+    "evidence": "and I ate the leftovers each day until it was gone"
+   }
+  ]
+ },
+ {
+  "review_id": "h077",
+  "recipe": "French Dip Roast Beef for the Crock Pot",
+  "review": "I followed the recipe exactly. After 7 hours on low I took the roast and the bay leaf out, removed the fat then shredded it before putting it back in the crock pot for 3 more hours on low. I served it as French Dip sandwiches with provolone cheese on hoagie buns and au jus juice on the side. Everyone raved about it! The taste was absolutely perfect, the meat was SO tender and it didn't taste salty at all. Thanks for an easy & yummy recipe that I'll be making again & again!",
+  "tuples": [
+   {
+    "id": "h077_t00",
+    "category": "taste_flavor",
+    "value": "not too salty",
+    "evidence": "it didn't taste salty at all"
+   },
+   {
+    "id": "h077_t01",
+    "category": "meal_type",
+    "value": "lunch",
+    "evidence": "served it as French Dip sandwiches"
+   },
+   {
+    "id": "h077_t02",
+    "category": "texture_mouthfeel",
+    "value": "tender",
+    "evidence": "the meat was SO tender"
+   },
+   {
+    "id": "h077_t03",
+    "category": "cuisine_type",
+    "value": "French",
+    "evidence": "French Dip sandwiches"
+   }
+  ]
+ },
+ {
+  "review_id": "h078",
+  "recipe": "Mexican Rice",
+  "review": "Color me amazed. This was the first time I made this recipe. I thought for sure there wasn\u2019t enough liquid for this amount of rice. But I trusted the reviews and it was perfect. 35 minutes in the oven at 350. Very simple recipe to prepare. I had to use what I had as I couldn\u2019t make it to the store today. So one can of unsalted tomatoes. One yellow onion (white would have been better). 4 garlic cloves. Swanson\u2019s unsalted chicken stock. I had no jalape&ntilde;os, so I subbed some homemade taco/Mexican seasoning. I added the seasoning towards the end of browning the rice in oil, along with the garlic. I think the oil brings out the spice's flavoring. I only had jasmine rice. Jasmine rice is a longish grain rice but tends to be sticky. Used primarily in Asian cooking. I was surprised at how fluffy it turned out. But I do think that regular long grain rice would have been better. This will go great with the chicken enchiladas I\u2019ve prepared for tonight. My husband doesn\u2019t care for beans so when I make a Mexican dish, I always make rice for him. Beans for me. Ha! This is far and away the best Mexican rice I\u2019ve ever tasted. And I appreciate that I can make a very low sodium dish but with plenty of flavor. Homemade Mexican seasoning is the way to go. It tastes better with the high quality spices I have here at home.",
+  "tuples": [
+   {
+    "id": "h078_t00",
+    "category": "taste_flavor",
+    "value": "low sodium",
+    "evidence": "I can make a very low sodium dish"
+   },
+   {
+    "id": "h078_t01",
+    "category": "texture_mouthfeel",
+    "value": "fluffy",
+    "evidence": "how fluffy it turned out"
+   },
+   {
+    "id": "h078_t02",
+    "category": "cuisine_type",
+    "value": "Asian",
+    "evidence": "Asian cooking"
+   },
+   {
+    "id": "h078_t03",
+    "category": "audience_enjoyment",
+    "value": "self",
+    "evidence": "Beans for me"
+   },
+   {
+    "id": "h078_t04",
+    "category": "audience_enjoyment",
+    "value": "husband",
+    "evidence": "I always make rice for him"
+   },
+   {
+    "id": "h078_t05",
+    "category": "occasion_holiday",
+    "value": "tonight",
+    "evidence": "for tonight"
+   },
+   {
+    "id": "h078_t06",
+    "category": "cuisine_type",
+    "value": "Mexican",
+    "evidence": "Mexican rice"
+   }
+  ]
+ },
+ {
+  "review_id": "h079",
+  "recipe": "Best Beef Stroganoff",
+  "review": "AMAZING!! I thought there would never be a stroganoff recipe I loved more than my mom's. Then I had this. It was extraordinary! I took the advice of someone else's comment and added 1/4 cup of beef broth.  I've made this twice, now and both times everyone told me how good it was. I had to give my mother in law the recipe after my brother in law ate it because he loved it so much.\r\nThe first time I made it with two 2oz. cans of the mushrooms and I decided the second time to cut it back to the one can of mushrooms and I think that was plenty.\r\nThe second time I made it with Recipe #83125.\r\nThanks for this great keeper! I know I'll be making this often!",
+  "tuples": [
+   {
+    "id": "h079_t00",
+    "category": "taste_flavor",
+    "value": "extraordinary",
+    "evidence": "It was extraordinary!"
+   },
+   {
+    "id": "h079_t01",
+    "category": "audience_enjoyment",
+    "value": "brother-in-law",
+    "evidence": "my brother in law ate it because he loved it so much"
+   }
+  ]
+ },
+ {
+  "review_id": "h080",
+  "recipe": "Bacon Wrapped Chicken (Oamc)",
+  "review": "WOW! I would give 10 stars if I could, this is the best chicken recipe by far! I didnt have any problem with the cream cheese spilling out at all, and I only used 1 piece of bacon per chicken half and it was enough. I was not sure what exactly a breast half was but since a breast is a lot of food I flattened it out then cut it in half assuming thats what the recipe meant, it worked out well this way. I didnt change a thing about the recipe and it doesnt need any changes. Thank you for such a great recipe, I will for sure be making this again!\r\n\r\nOk, we had this again last night only I used leftovers of Recipe #326343 as the filling this time. If you like jalepenos and cream cheese you will like it using this as a filling. We really enjoyed it the other way and this way, although totally different flavor, we LOVED even more! It is a bit spicy but not overkill. (I am not a huge fan of hot things) We will be having it both ways now to change it up a bit.",
+  "tuples": [
+   {
+    "id": "h080_t00",
+    "category": "taste_flavor",
+    "value": "spicy",
+    "evidence": "It is a bit spicy"
+   },
+   {
+    "id": "h080_t01",
+    "category": "audience_enjoyment",
+    "value": "self",
+    "evidence": "We really enjoyed it"
+   }
+  ]
+ },
+ {
+  "review_id": "h081",
+  "recipe": "Chocolate Zucchini Bread",
+  "review": "This is very good, it does taste like cake. I doubled the recipe, and I'm sure it's really good as-is, but I did do a few substitutions: I used 1 1/4 c. oil and 6 oz. nonfat vanilla yogurt. I cut the sugar a bit, using 2 cups white sugar and 1 1/2 cups brown sugar. I used half all-purpose and half whole wheat flour. In a doubled recipe, 1/2 tsp. baking powder didn't seem like enough to 2 tsp. baking soda, so I upped the baking powder to 1 scant tsp. (for the doubled recipe). I drained my zucchini (which I did not peel), but I think my substitutions of half whole wheat flour and nonfat yogurt made the bread need extra moisture, so I might not do that next time. I made 24 muffins and threw them in the freezer, so my husband can take them to work, and I also got 3 loaves, a little smaller than 8x4. Thanks for this great recipe.",
+  "tuples": [
+   {
+    "id": "h081_t00",
+    "category": "audience_enjoyment",
+    "value": "husband",
+    "evidence": "so my husband can take them to work"
+   },
+   {
+    "id": "h081_t01",
+    "category": "taste_flavor",
+    "value": "cake",
+    "evidence": "it does taste like cake"
+   }
+  ]
+ },
+ {
+  "review_id": "h082",
+  "recipe": "Dark Chocolate Cake",
+  "review": "Halved this recipe, subbed in almond milk, and used half coffee and half water as per other reviewers recommendation. The batter was SUPER thin and adding in boiling water to mix with raw egg in it freaked me out- it went fine, just be sure to go slow! haha! Used a bundt pan as well. Came out of the oven all pretty, glossy, and dark. I let it cool and went to flip it-----NOPE this thing was stuck in there- a pammed out pan. WAY too moist and light for a bundt- my own fault really. BUT WHATEVER I just tried a piece and it was delicious! The texture is excellent, the flavor could be more chocolatey but not a huge deal (even with dutch cocoa). As others said this cake is really sweet- reduce the sugar some and you'll be good and it should help the chocolate flavor pop out more. Overall I would recommend this cake and will make it again.",
+  "tuples": [
+   {
+    "id": "h082_t00",
+    "category": "audience_enjoyment",
+    "value": "others",
+    "evidence": "As others said this cake is really sweet"
+   },
+   {
+    "id": "h082_t01",
+    "category": "taste_flavor",
+    "value": "sweet",
+    "evidence": "this cake is really sweet"
+   }
+  ]
+ },
+ {
+  "review_id": "h083",
+  "recipe": "Artichoke and Chicken Bake",
+  "review": "Yooper this is delish!  So easy to prepare and simple ingredients....just my kind of recipe.  Two of my friends tried it and gave it a thumbs up.  I served it with wild rice, corn niblets and green beans.  It was good leftover as well.  I was the one who inquired about mayo in step 4....for some reason when I printed this it left out the word mayo but when I view the recipe on my monitor it does clearly state when to add the mayo.  Sorry if I caused any confusion with the question.  Thanks again for posting such a delightful recipe.",
+  "tuples": [
+   {
+    "id": "h083_t00",
+    "category": "audience_enjoyment",
+    "value": "friends",
+    "evidence": "Two of my friends tried it and gave it a thumbs up"
+   },
+   {
+    "id": "h083_t01",
+    "category": "meal_type",
+    "value": "dinner",
+    "evidence": "I served it with wild rice, corn niblets and green beans"
+   }
+  ]
+ },
+ {
+  "review_id": "h084",
+  "recipe": "Olive Garden Fettuccine Alfredo",
+  "review": "Wow! I really enjoyed this sauce. I was scared at first that it would not turn out right as it looks that way when you add the cream cheese to the butter but it turned out wonderfully creamy. \r\n\r\nI added mushrooms and spinach to the sauce as well as I was having a dinnerparty and wanted to make \"more\" (quantity-wise) of the sauce and give it something extra. It turned out wonderfully and I thank you so much for posting the recipe.",
+  "tuples": [
+   {
+    "id": "h084_t00",
+    "category": "texture_mouthfeel",
+    "value": "creamy",
+    "evidence": "wonderfully creamy"
+   },
+   {
+    "id": "h084_t01",
+    "category": "occasion_holiday",
+    "value": "dinner party",
+    "evidence": "I was having a dinnerparty"
+   },
+   {
+    "id": "h084_t02",
+    "category": "taste_flavor",
+    "value": "enjoyed",
+    "evidence": "I really enjoyed this sauce"
+   }
+  ]
+ },
+ {
+  "review_id": "h085",
+  "recipe": "Moist and Delicious Banana Bread",
+  "review": "I made it into 18 individual muffins rather than the loaf, cooked them for 23 minutes in total at 160c in a fan oven turning the tray round after 11 minutes. They came out a lovely golden colour, they taste amazing. The only odd thing was they became really sticky on the surface after cooking, not sure if this is due to the amount of banana per cake but it didn't ruin the cake just need to wipe your hands after! Will definitely make it again! Just read about the reviews saying it's too sweet. I love the sweetness, I also used brown instead of white sugar :-)",
+  "tuples": [
+   {
+    "id": "h085_t00",
+    "category": "taste_flavor",
+    "value": "sweet",
+    "evidence": "I love the sweetness"
+   }
+  ]
+ },
+ {
+  "review_id": "h086",
+  "recipe": "General Tso's Chicken",
+  "review": "Thank you for this recipe! I'm glad you made mention of the slurry consistency, otherwise it would have been very confusing. (If you have ever mixed corstarch and water to create a fun putty as a science experiment with kids, it's exactly the same consistency. The putty seems to flow when it's treated gently and is very tough and resistent when you try to mix it hard or poke it or punch it.)<br/><br/>Like another reviewer I added the juice of an orange, but I did this as an afterthought after tasting the finished sauce. We find our restaurants' versions have a fruity taste, even when ordering General Tso's instead of Orange Chicken, though they are very similar. The additional liquid and the late addition didn't compromise the sauce at all.<br/><br/>Because of poor planning on my part and sensitive palates, I didn't add chilies, rather I added a small amount (1/4 t.) of Vietnamese Chili Garlic sauce in with the scallions. If you do this be careful of popping and splattering as you add it. I also neglected to buy a can of chicken broth and substituted boullion with water, though I'm sure boosting the sodium content, so next time I will be better prepared.<br/><br/>I topped half of a platter with the chicken and the other half with steamed broccoli, served with steamed rice and some sliced oranges and my whole family loved it down to the smallest kid (3 years old). What we appreciate most is that this saved us our entertainment budget for the month which would have surely been fully spent had we gone out for a Chinese restaurant meal.<br/><br/>If you have the luxury of 2 hands in the kitchen this is a breeze. One person can mind the fryer while the other prepares the sauce and steams the broccoli, cuts oranges and (next time) brews a nice pot of Chinese tea!<br/><br/>Next time we'll add some sesame oil with the sauce's fry oil and toss the finished chicken with toasted sesame seeds for a little variety. Or we'll toss in some orange peel in the fryer to add to the sauce while it comes together for orange chicken. Thanks for opening up the possibility for us to do these favorites at home.",
+  "tuples": [
+   {
+    "id": "h086_t00",
+    "category": "audience_enjoyment",
+    "value": "family",
+    "evidence": "my whole family loved it"
+   },
+   {
+    "id": "h086_t01",
+    "category": "cuisine_type",
+    "value": "Chinese",
+    "evidence": "General Tso's"
+   },
+   {
+    "id": "h086_t02",
+    "category": "audience_enjoyment",
+    "value": "kids",
+    "evidence": "science experiment with kids"
+   },
+   {
+    "id": "h086_t03",
+    "category": "taste_flavor",
+    "value": "fruity",
+    "evidence": "have a fruity taste"
+   }
+  ]
+ },
+ {
+  "review_id": "h087",
+  "recipe": "Awesome Slow Cooker Pot Roast",
+  "review": "Wow! Super tasty! I added potatoes & carrots to make up for a super small roast since there is only 2 of us. Also, I added fresh mushrooms. In place of water I used beef broth. The gravy was so good I was eating it with a spoon! Followup: I've made this many times and it is the only way I will cook a pot roast now as it's sooo good. When adding veggies add them from the very beginning. Even with potatoes. They will soak up the broth and end up tasting spectacular. Unless you jab at the potatoes too much they have always kept their form all the way to the end for me even with cuting my potatoes up in large chunks. Also, if available to you try crock pot liners for easy clean up. I find them at the grocery store where the aluminum foil is. Don't skip using the dry onion soup mix. That is key to the wonderful flavor.",
+  "tuples": [
+   {
+    "id": "h087_t00",
+    "category": "texture_mouthfeel",
+    "value": "holds together",
+    "evidence": "they have always kept their form all the way to the end"
+   },
+   {
+    "id": "h087_t01",
+    "category": "audience_enjoyment",
+    "value": "self",
+    "evidence": "I was eating it with a spoon!"
+   }
+  ]
+ },
+ {
+  "review_id": "h088",
+  "recipe": "Granny's Slow Cooker Vegetarian Chili",
+  "review": "This was EXCELLENT. My husband was dreading the change from my normal chili recipe, but he thought it was delicious and was excited when he saw how much was left.\n\nI was pressed for time and made the chili on the stove, rather than in the slow cooker. It simmered 30-40 minutes before I served it.\n\nOther very minor changes to the recipe:\nI added a cup of dried lentils, cooked.\nI used 2 cans of condensed black bean soup.\nI omitted the kidney beans, diced chilies, jalapenos, parsley, oregano and basil.\nI followed the recommendation of 29 oz of crushed tomatoes.\nI used only 1/4 tsp chili powder.\nI added 4T apple cider vinegar.\n\nI am so impressed and can't wait to try this in the slow cooker. Thank you!!",
+  "tuples": [
+   {
+    "id": "h088_t00",
+    "category": "audience_enjoyment",
+    "value": "husband",
+    "evidence": "My husband was dreading the change from my normal chili recipe, but he thought it was delicious"
+   }
+  ]
+ },
+ {
+  "review_id": "h089",
+  "recipe": "Panera's Cream Cheese Potato Soup",
+  "review": "SLAM DUNK ~ WELL DONE SHAWN!!! Potato soup is one of my all time favorites, and I have an award winning \"family\" recipe (restauranteers). I ran across yours, was intrigued by the use of cream cheese, and gave it a go. This was fabulous, my kids loved it, and my neighbors are wanting more! The only thing I added/changed was sauteed the onions in butter, along with 1/4 cup shredded carrots, 1/4 cup finely diced celery, and 3-4 cloves of pressed garlic (added during the last minute or so), until all veggies were tender; used an extra can of broth; when potaotes were cooked I removed at least 1/2 of the potatoes (for a chunkier soup), and added the cream cheese before taking a potato masher to the pot straight over the heat. I then returned the cooked potatoes to the pot, and it was done. The 1st time I made this I used both red & white small potatoes (semi-peeled) which needed to be used, and made up the rest with our home grown Idaho russets. EXCELLENT recipe, and definitely will never make potato soup any other way! Thank you ;)",
+  "tuples": [
+   {
+    "id": "h089_t00",
+    "category": "texture_mouthfeel",
+    "value": "tender",
+    "evidence": "all veggies were tender"
+   },
+   {
+    "id": "h089_t01",
+    "category": "texture_mouthfeel",
+    "value": "chunky",
+    "evidence": "for a chunkier soup"
+   },
+   {
+    "id": "h089_t02",
+    "category": "audience_enjoyment",
+    "value": "kids",
+    "evidence": "my kids loved it"
+   },
+   {
+    "id": "h089_t03",
+    "category": "audience_enjoyment",
+    "value": "neighbors",
+    "evidence": "my neighbors are wanting more"
+   }
+  ]
+ },
+ {
+  "review_id": "h090",
+  "recipe": "Macaroni and Cheese",
+  "review": "I thought that this made a great macaroni and cheese!  It was devoured at a recent pot luck, so it seemed that others found no fault with it either.  If you're all about creamy, use velveeta.  If you like a stronger flavor, use sharp cheddar.  It's easy to use this basic roux to create a cheese sauce that is custom suited to your own tastes, should your tastes run to something more sophisticated.  \r\n\r\nI used a basic, mild cheddar and it produced a simple, compact macaroni and cheese that is a southern staple in these parts.  Made with a cheese other than velveeta, it slices into serving squares nicely, or of course, spoons  well too!  Great recipe.  Thanks for sharing!",
+  "tuples": [
+   {
+    "id": "h090_t00",
+    "category": "texture_mouthfeel",
+    "value": "compact",
+    "evidence": "it produced a simple, compact macaroni and cheese"
+   },
+   {
+    "id": "h090_t01",
+    "category": "cuisine_type",
+    "value": "Southern",
+    "evidence": "a southern staple"
+   },
+   {
+    "id": "h090_t02",
+    "category": "texture_mouthfeel",
+    "value": "creamy",
+    "evidence": "If you're all about creamy"
+   },
+   {
+    "id": "h090_t03",
+    "category": "taste_flavor",
+    "value": "mild",
+    "evidence": "I used a basic, mild cheddar"
+   },
+   {
+    "id": "h090_t04",
+    "category": "occasion_holiday",
+    "value": "potluck",
+    "evidence": "It was devoured at a recent pot luck"
+   },
+   {
+    "id": "h090_t05",
+    "category": "taste_flavor",
+    "value": "stronger flavor",
+    "evidence": "If you like a stronger flavor"
+   }
+  ]
+ },
+ {
+  "review_id": "h091",
+  "recipe": "Chipotle Roast for Tacos &amp; Sandwiches",
+  "review": "I toned down this recipe as the ingredients sounded so good but way to hot for me. I halved recipe. I had to cut a roast in half to do that. I used 0 chili powder though I think I should have used some, Cummin asked for, 1 chipotle chile in adobe, 2 ounces of green chilies, 3.5 ounces of salsa verde, 3/4 tsp garlic and the rest of ingredients as called for. It was good but not spicy enough for me. Next time I will add 1/2 tsp chili powder or maybe 1 tsp. It was a nice change of pace from tacos. I ate on a flour tortilla with sour cream, avacado, tomato. Served extra salsa verde on tortilla. I was able to cook 1.5 lb roast in a 1.5 quart slow cooker.",
+  "tuples": [
+   {
+    "id": "h091_t00",
+    "category": "audience_enjoyment",
+    "value": "self",
+    "evidence": "I ate on a flour tortilla"
+   },
+   {
+    "id": "h091_t01",
+    "category": "meal_type",
+    "value": "tacos",
+    "evidence": "change of pace from tacos"
+   }
+  ]
+ },
+ {
+  "review_id": "h092",
+  "recipe": "Fish Tacos",
+  "review": "Really, really delicious!  I used almost 1/2 cup low fat sour cream and only about 1/3 cup mayo.  I also used low sodium taco seasoning.  The sauce turned out great - I had about twice what I needed, so I could have halved the recipe.  I used  a 12 oz bag of frozen tilapia, which tasted a bit \"fishy\" to me, but it was probably just my particular batch.  I never thought taco seasoning of fish would be good, but it really was.  My husbad added cheese to his, but I found cheese totally unnecessary.",
+  "tuples": [
+   {
+    "id": "h092_t00",
+    "category": "audience_enjoyment",
+    "value": "husband",
+    "evidence": "My husbad added cheese to his"
+   }
+  ]
+ },
+ {
+  "review_id": "h093",
+  "recipe": "Thousand Island Dressing",
+  "review": "Skipped backtracking at the grocery store to pick up a bottle of this because I knew I'd find a good recipe here that I could make with kitchen staples and I was right:)<br/><br/>After reading some reviews, I did omit the granulated sugar.  I held off adding until everything else was mixed in and tasted.  The sugar came from the minced sweet and spicy pickle chunks I used and a tsp or so of the sweet pickle juice from the jar.  Usually the only sweet pickle relish I have on hand is Wickles which also has a tiny bit of heat but the jar of pickles was already opened so I went with them.  Not a big noticible heat but very good at any rate!<br/><br/>Great recipe and yes, made with stuff I already had at the house so even better!",
+  "tuples": [
+   {
+    "id": "h093_t00",
+    "category": "taste_flavor",
+    "value": "sweet",
+    "evidence": "sweet and spicy pickle chunks"
+   },
+   {
+    "id": "h093_t01",
+    "category": "taste_flavor",
+    "value": "spicy",
+    "evidence": "sweet and spicy pickle chunks"
+   }
+  ]
+ },
+ {
+  "review_id": "h094",
+  "recipe": "The Best Browned Beef Stew Ever",
+  "review": "I loved this recipe, as did the rest of my family. The only reason for 4 stars instead of 5 is for our tastes, there was WAY too much onion...I doubled the recipe and only used a total of 4 onions instead of 6 and even with that there was a strong onion taste instead of the onion enhancing the beef. Next time, I'll only use half the onion called for. Other than that, I made it close to the original, only adding a couple of minced garlic cloves and about 3 shots of worchestershire (for a doubled recipe). I will definately make this again. Thanks Christina for an awesome recipe!",
+  "tuples": [
+   {
+    "id": "h094_t00",
+    "category": "audience_enjoyment",
+    "value": "family",
+    "evidence": "as did the rest of my family"
+   }
+  ]
+ },
+ {
+  "review_id": "h095",
+  "recipe": "Roasted Cauliflower &amp; 16 Roasted Cloves of Garlic",
+  "review": "This is by far my favorite way to eat cauliflower, not a favorite veggie of mine, unless its prepared this way! One full head of cauliflower will serve DH, myself and 3 year old.  I follow the ingredients, but have found after making it a few times, I like the results better when I let it cook at the high 450 degree temp for about 20 min, then turning down the oven to about 350 for another 30 or so.  Really lets the garlic soften and get sweet.  Plus, easy to throw in some chicken breasts after turning down the temp and have your dinner ready at once.  I will generally serve with garlic butter chicken breasts and couscous.  Thanks for posting, this is a regular at our house!",
+  "tuples": [
+   {
+    "id": "h095_t00",
+    "category": "meal_type",
+    "value": "dinner",
+    "evidence": "have your dinner ready at once"
+   },
+   {
+    "id": "h095_t01",
+    "category": "audience_enjoyment",
+    "value": "husband",
+    "evidence": "serve DH"
+   },
+   {
+    "id": "h095_t02",
+    "category": "taste_flavor",
+    "value": "sweet",
+    "evidence": "garlic soften and get sweet"
+   },
+   {
+    "id": "h095_t03",
+    "category": "audience_enjoyment",
+    "value": "self",
+    "evidence": "serve DH, myself"
+   },
+   {
+    "id": "h095_t04",
+    "category": "audience_enjoyment",
+    "value": "3 year old",
+    "evidence": "serve DH, myself and 3 year old"
+   }
+  ]
+ },
+ {
+  "review_id": "h096",
+  "recipe": "Chocolate Chip Oatmeal Cookies",
+  "review": "These are the best oatmeal chocolate chip cookies I have ever had. I didn't change a thing in the recipe instructions other than making the cookies a little larger than called for and cooking them for about 10-12 minutes. These are very filling, have ingredients that I always have on hand, and I will definitely be making them again. Thanks for posting!  EDITED TO ADD:  I packaged these up as soon as they cooled a bit and they were much too hard the next day.  These are really good out of the oven and not so good the next day.  I think in the future I will try and freeze the batter and make them in smaller batches.",
+  "tuples": [
+   {
+    "id": "h096_t00",
+    "category": "texture_mouthfeel",
+    "value": "filling",
+    "evidence": "These are very filling"
+   }
+  ]
+ },
+ {
+  "review_id": "h097",
+  "recipe": "The Ultimate Strawberry Shortcake",
+  "review": "I made this tonight for an evening coffee snack - it was a huge hit!  This recipe is very easy to prepare - although I think it takes a bit longer than 20 minutes.  I used \"light\" cream cheese and \"light\" whipped topping - it worked very well.  I took some of the others suggestions and added more strawberries - I also decreased the sugar by about 2 tablespoons.  I did let mine sit for 6 hours and it seemed to be very easy to serve in squares.  A definite keeper and I will definitely make this very light and tasty desert again and again!!",
+  "tuples": [
+   {
+    "id": "h097_t00",
+    "category": "meal_type",
+    "value": "snack",
+    "evidence": "evening coffee snack"
+   },
+   {
+    "id": "h097_t01",
+    "category": "texture_mouthfeel",
+    "value": "light",
+    "evidence": "very light and tasty desert"
+   },
+   {
+    "id": "h097_t02",
+    "category": "occasion_holiday",
+    "value": "evening",
+    "evidence": "for an evening coffee snack"
+   },
+   {
+    "id": "h097_t03",
+    "category": "meal_type",
+    "value": "dessert",
+    "evidence": "very light and tasty desert"
+   },
+   {
+    "id": "h097_t04",
+    "category": "taste_flavor",
+    "value": "light",
+    "evidence": "very light and tasty desert"
+   },
+   {
+    "id": "h097_t05",
+    "category": "occasion_holiday",
+    "value": "evening coffee snack",
+    "evidence": "for an evening coffee snack"
+   }
+  ]
+ },
+ {
+  "review_id": "h098",
+  "recipe": "Mean Guy's General Tso's Chicken",
+  "review": "I&#039;m sorry but I hated this recipe:&lt;br/&gt;&lt;br/&gt;i. The 1/2 C cornstarch + 3 eggs = TERRIBLE, TERRIBLE batter which is not crispy/crunchy whatsoever but more fluffy/puffy (plus it refuses to brown). This batter really seems like one which only a person who did not know how to cook would make and are pleased with - who do not know any better. You could say this is the exact opposite set of instructions I would follow for the batter I would want.&lt;br/&gt;&lt;br/&gt;ii. I am not sure if I just don&#039;t like &quot;General Tso&quot; (I thought I did) or if I just don&#039;t like this recipe, but the &quot;General Tso Sauce&quot; is very plain - tastes like I just threw put some sugar in soy sauce and boiled it. I don&#039;t know that I would want to eat such a one-dimensional sauce. It is incredibly lacking in nuance and complexity.&lt;br/&gt;To a lesser extent: (since this section is not necessarily about eating healthy), why all the sugar? That is 36g added sugar - and some people doubled the sauce recipe: 72g added sugar (not to mention the cornstarch)!&lt;br/&gt;&lt;br/&gt;This recipe really was a &quot;flop&quot; for me - however, it was more of a &quot;disappointment&quot; than a &quot;disaster&quot;. I cannot understand why anyone would give this more than 3 1/2 stars. For a recipe that only contains 2 major components (sauce + batter), 50% of the recipe was completely wrong (the batter) and the other 50% earned a &quot;perfunctory performance&quot;.&lt;br/&gt;&lt;br/&gt;Maybe I just haven&#039;t eaten General Tso enough times to remember what it is supposed to be like?",
+  "tuples": [
+   {
+    "id": "h098_t00",
+    "category": "texture_mouthfeel",
+    "value": "fluffy",
+    "evidence": "fluffy/puffy"
+   },
+   {
+    "id": "h098_t01",
+    "category": "texture_mouthfeel",
+    "value": "puffy",
+    "evidence": "fluffy/puffy"
+   }
+  ]
+ },
+ {
+  "review_id": "h099",
+  "recipe": "Italian Wedding Soup",
+  "review": "Great soup!  Had a wonderful time making it with my 6 year old - she made the meatballs (with a wee bit of help, of course).  We added fresh garlic to the meatballs (which we browned) and also to the broth, as well as adding around 3 cups of baby spinach.  My cook husband thought it was awesome also.  Funny story - I combed the internet for almost an hour looking for the recipe for this soup that sounded the best (and one that I, no cook here, thought I could handle).  I finally found this one after looking at many and went to buy the ingredients.  Much to my surprise, this was the EXACT recipe I found on my box of Ronzoni orzo.  Must have been fated!  Thanks for a great recipe!",
+  "tuples": [
+   {
+    "id": "h099_t00",
+    "category": "audience_enjoyment",
+    "value": "husband",
+    "evidence": "My cook husband thought it was awesome"
+   },
+   {
+    "id": "h099_t01",
+    "category": "audience_enjoyment",
+    "value": "6 year old",
+    "evidence": "making it with my 6 year old"
+   }
+  ]
+ }
+]

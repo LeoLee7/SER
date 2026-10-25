@@ -1,0 +1,116 @@
+{
+ "annotator": "Claude (main session), 2026-10-25",
+ "judgments": [
+  {
+   "id": "c000_t00",
+   "verdict": "wrong",
+   "code": "generic_praise"
+  },
+  {
+   "id": "c001_t00",
+   "verdict": "correct",
+   "code": null
+  },
+  {
+   "id": "c002_t00",
+   "verdict": "wrong",
+   "code": "generic_praise"
+  },
+  {
+   "id": "c003_t00",
+   "verdict": "wrong",
+   "code": "wrong_category"
+  },
+  {
+   "id": "c003_t01",
+   "verdict": "wrong",
+   "code": "wrong_category"
+  },
+  {
+   "id": "c003_t02",
+   "verdict": "wrong",
+   "code": "wrong_category"
+  },
+  {
+   "id": "c004_t00",
+   "verdict": "wrong",
+   "code": "wrong_category"
+  },
+  {
+   "id": "c005_t00",
+   "verdict": "wrong",
+   "code": "generic_praise"
+  },
+  {
+   "id": "c006_t00",
+   "verdict": "wrong",
+   "code": "wrong_category"
+  },
+  {
+   "id": "c007_t00",
+   "verdict": "correct",
+   "code": null
+  },
+  {
+   "id": "c008_t00",
+   "verdict": "wrong",
+   "code": "not_this_dish"
+  },
+  {
+   "id": "c009_t00",
+   "verdict": "correct",
+   "code": null
+  },
+  {
+   "id": "c010_t00",
+   "verdict": "wrong",
+   "code": "ingredient_not_attribute"
+  },
+  {
+   "id": "c011_t00",
+   "verdict": "wrong",
+   "code": "plan_or_change"
+  },
+  {
+   "id": "c012_t00",
+   "verdict": "wrong",
+   "code": "plan_or_change"
+  },
+  {
+   "id": "c013_t00",
+   "verdict": "correct",
+   "code": null
+  },
+  {
+   "id": "c014_t00",
+   "verdict": "wrong",
+   "code": "unusable_phrase"
+  },
+  {
+   "id": "c015_t00",
+   "verdict": "wrong",
+   "code": "plan_or_change"
+  },
+  {
+   "id": "c016_t00",
+   "verdict": "correct",
+   "code": null
+  },
+  {
+   "id": "c017_t00",
+   "verdict": "correct",
+   "code": null
+  },
+  {
+   "id": "c018_t00",
+   "verdict": "correct",
+   "code": null
+  },
+  {
+   "id": "c019_t00",
+   "verdict": "wrong",
+   "code": "reviewer_or_vague_group"
+  }
+ ],
+ "missed": []
+}

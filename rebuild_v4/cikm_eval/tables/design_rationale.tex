@@ -1,0 +1,23 @@
+% Hand-written: staged design rationale (stage / role / benefit / limitation)
+\begin{table}[t]
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}p{1.4cm}p{2.2cm}p{1.7cm}p{1.7cm}@{}}
+\toprule
+\textbf{Stage} & \textbf{Role} & \textbf{Benefit} & \textbf{Limitation} \\
+\midrule
+Gemma extraction & resolve obvious (person) synonyms while reading & typed, span-grounded attributes; free bulk resolution & selective, inconsistent, can mis-extract \\
+\addlinespace
+v1 (round 1) & merge frequent residual variants; blacklist noise & cheap; completes the head; removes worst noise & misses long tail / phrases \\
+\addlinespace
+v2 (converged, judge feedback) & merge long-tail and phrasal variants; remove judge-flagged noise & reaches rare/phrasal synonyms; targeted cleanup & not exhaustive; needs a judge; ongoing \\
+\bottomrule
+\end{tabular}
+\caption{The three synonym-handling stages are complementary. Extraction resolves the
+obvious synonyms, v1 the frequent residual, v2 the long tail; each recovers cases the
+others cannot. The loop relabels and filters at the type level and never re-verifies an
+individual extraction, so it is precision-preserving: its gains are recall (via merging)
+and facet usability (via filtering), and each step can be run by a human or by the agent.}
+\label{tab:design-rationale}
+\end{table}

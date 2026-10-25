@@ -1,0 +1,534 @@
+{
+ "judgments": [
+  {
+   "id": "r000_t00",
+   "verdict": "wrong",
+   "code": "plan_or_change",
+   "note": ""
+  },
+  {
+   "id": "r000_t01",
+   "verdict": "wrong",
+   "code": "ingredient_not_attribute",
+   "note": ""
+  },
+  {
+   "id": "r000_t02",
+   "verdict": "wrong",
+   "code": "plan_or_change",
+   "note": ""
+  },
+  {
+   "id": "r000_t03",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r000_t04",
+   "verdict": "wrong",
+   "code": "reviewer_or_vague_group",
+   "note": ""
+  },
+  {
+   "id": "r000_t05",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r000_t06",
+   "verdict": "wrong",
+   "code": "plan_or_change",
+   "note": ""
+  },
+  {
+   "id": "r000_t07",
+   "verdict": "wrong",
+   "code": "plan_or_change",
+   "note": ""
+  },
+  {
+   "id": "r001_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r001_t01",
+   "verdict": "wrong",
+   "code": "ingredient_not_attribute",
+   "note": ""
+  },
+  {
+   "id": "r001_t02",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r001_t03",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r001_t04",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r002_t00",
+   "verdict": "wrong",
+   "code": "ingredient_not_attribute",
+   "note": ""
+  },
+  {
+   "id": "r002_t01",
+   "verdict": "wrong",
+   "code": "unsupported",
+   "note": ""
+  },
+  {
+   "id": "r002_t02",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r002_t03",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r003_t00",
+   "verdict": "wrong",
+   "code": "plan_or_change",
+   "note": ""
+  },
+  {
+   "id": "r003_t01",
+   "verdict": "wrong",
+   "code": "plan_or_change",
+   "note": ""
+  },
+  {
+   "id": "r003_t02",
+   "verdict": "wrong",
+   "code": "unsupported",
+   "note": ""
+  },
+  {
+   "id": "r003_t03",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r003_t04",
+   "verdict": "wrong",
+   "code": "plan_or_change",
+   "note": ""
+  },
+  {
+   "id": "r004_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r004_t01",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r004_t02",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r004_t03",
+   "verdict": "wrong",
+   "code": "generic_praise",
+   "note": ""
+  },
+  {
+   "id": "r005_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r005_t01",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r006_t00",
+   "verdict": "wrong",
+   "code": "ingredient_not_attribute",
+   "note": ""
+  },
+  {
+   "id": "r006_t01",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r006_t02",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r007_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r007_t01",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r007_t02",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r007_t03",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r007_t04",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r007_t05",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r007_t06",
+   "verdict": "wrong",
+   "code": "reviewer_or_vague_group",
+   "note": ""
+  },
+  {
+   "id": "r008_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r008_t01",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r008_t02",
+   "verdict": "wrong",
+   "code": "unusable_phrase",
+   "note": ""
+  },
+  {
+   "id": "r008_t03",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r008_t04",
+   "verdict": "wrong",
+   "code": "wrong_category",
+   "note": ""
+  },
+  {
+   "id": "r008_t05",
+   "verdict": "wrong",
+   "code": "plan_or_change",
+   "note": ""
+  },
+  {
+   "id": "r009_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r009_t01",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r009_t02",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r009_t03",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r010_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r010_t01",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r010_t02",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r010_t03",
+   "verdict": "wrong",
+   "code": "unsupported",
+   "note": ""
+  },
+  {
+   "id": "r010_t04",
+   "verdict": "wrong",
+   "code": "not_this_dish",
+   "note": ""
+  },
+  {
+   "id": "r010_t05",
+   "verdict": "wrong",
+   "code": "not_this_dish",
+   "note": ""
+  },
+  {
+   "id": "r011_t00",
+   "verdict": "wrong",
+   "code": "plan_or_change",
+   "note": ""
+  },
+  {
+   "id": "r011_t01",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r012_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r012_t01",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r013_t00",
+   "verdict": "wrong",
+   "code": "plan_or_change",
+   "note": ""
+  },
+  {
+   "id": "r013_t01",
+   "verdict": "wrong",
+   "code": "plan_or_change",
+   "note": ""
+  },
+  {
+   "id": "r013_t02",
+   "verdict": "wrong",
+   "code": "reviewer_or_vague_group",
+   "note": ""
+  },
+  {
+   "id": "r014_t00",
+   "verdict": "wrong",
+   "code": "cook_not_eater",
+   "note": ""
+  },
+  {
+   "id": "r015_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r015_t01",
+   "verdict": "wrong",
+   "code": "plan_or_change",
+   "note": ""
+  },
+  {
+   "id": "r015_t02",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r015_t03",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r015_t04",
+   "verdict": "wrong",
+   "code": "unusable_phrase",
+   "note": ""
+  },
+  {
+   "id": "r016_t00",
+   "verdict": "wrong",
+   "code": "unsupported",
+   "note": ""
+  },
+  {
+   "id": "r016_t01",
+   "verdict": "wrong",
+   "code": "reviewer_or_vague_group",
+   "note": ""
+  },
+  {
+   "id": "r016_t02",
+   "verdict": "wrong",
+   "code": "unsupported",
+   "note": ""
+  },
+  {
+   "id": "r017_t00",
+   "verdict": "wrong",
+   "code": "plan_or_change",
+   "note": ""
+  },
+  {
+   "id": "r017_t01",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r017_t02",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r017_t03",
+   "verdict": "wrong",
+   "code": "wrong_category",
+   "note": ""
+  },
+  {
+   "id": "r018_t00",
+   "verdict": "wrong",
+   "code": "unsupported",
+   "note": ""
+  },
+  {
+   "id": "r018_t01",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r019_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r019_t01",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r020_t00",
+   "verdict": "wrong",
+   "code": "reviewer_or_vague_group",
+   "note": ""
+  },
+  {
+   "id": "r020_t01",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r021_t00",
+   "verdict": "wrong",
+   "code": "not_this_dish",
+   "note": ""
+  },
+  {
+   "id": "r021_t01",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r021_t02",
+   "verdict": "wrong",
+   "code": "unsupported",
+   "note": ""
+  },
+  {
+   "id": "r021_t03",
+   "verdict": "wrong",
+   "code": "not_this_dish",
+   "note": ""
+  },
+  {
+   "id": "r021_t04",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r021_t05",
+   "verdict": "wrong",
+   "code": "wrong_category",
+   "note": ""
+  },
+  {
+   "id": "r022_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  }
+ ],
+ "missed": [
+  {
+   "review_id": "r022",
+   "category": "taste_flavor",
+   "value": "rich",
+   "evidence": "My fiancee said it was a bit rich."
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+0b9f8073fb790491696b433a7e1966109331f607  prompts/extraction_prompt_v2.md
+37fb804390a2e4fa5f01df4405800bcc29f4505e  prompts/verify_prompt_v1.md
+6fb09ca0715ad5c9327ccf19267ebf47b912338c  scripts/check.py
+7d37bb2f0db516f09d298098631be37fe28e9ae0  scripts/compare_extractors.py
+edecb401bd313d18b73d801057cc18a39fbab313  scripts/extract.py
+ebf2ac8372cdcf1c29f1b249461154204a90184c  scripts/ground.py
+1f917e06d58d6e81ca9596310dcf68636f7549a0  scripts/score_blind.py
+8abe87f93a916861ff84c9ae47e5c003b9b94738  scripts/score_file.py
+92f6a6a9432839ac503f6ca6415c76fe3b3b9dfd  scripts/verify.py
+34a5f0af84ec0aa940cc43fceb883c1d92c14093  scripts/extract.py
+# extract.py re-hashed after switching ex.map to as_completed (no change to prompt or outputs)

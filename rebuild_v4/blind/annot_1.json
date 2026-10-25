@@ -1,0 +1,486 @@
+{
+ "judgments": [
+  {
+   "id": "r023_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r024_t00",
+   "verdict": "wrong",
+   "code": "generic_praise",
+   "note": ""
+  },
+  {
+   "id": "r024_t01",
+   "verdict": "wrong",
+   "code": "not_this_dish",
+   "note": ""
+  },
+  {
+   "id": "r024_t02",
+   "verdict": "wrong",
+   "code": "unusable_phrase",
+   "note": ""
+  },
+  {
+   "id": "r025_t00",
+   "verdict": "wrong",
+   "code": "plan_or_change",
+   "note": ""
+  },
+  {
+   "id": "r025_t01",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r025_t02",
+   "verdict": "wrong",
+   "code": "plan_or_change",
+   "note": ""
+  },
+  {
+   "id": "r026_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r026_t01",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r026_t02",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r026_t03",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r027_t00",
+   "verdict": "wrong",
+   "code": "reviewer_or_vague_group",
+   "note": ""
+  },
+  {
+   "id": "r027_t01",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r028_t00",
+   "verdict": "wrong",
+   "code": "unsupported",
+   "note": ""
+  },
+  {
+   "id": "r028_t01",
+   "verdict": "wrong",
+   "code": "unsupported",
+   "note": ""
+  },
+  {
+   "id": "r028_t02",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r028_t03",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r029_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r029_t01",
+   "verdict": "wrong",
+   "code": "plan_or_change",
+   "note": ""
+  },
+  {
+   "id": "r029_t02",
+   "verdict": "wrong",
+   "code": "unsupported",
+   "note": ""
+  },
+  {
+   "id": "r030_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r030_t01",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r030_t02",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r030_t03",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r030_t04",
+   "verdict": "wrong",
+   "code": "wrong_category",
+   "note": ""
+  },
+  {
+   "id": "r031_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r031_t01",
+   "verdict": "wrong",
+   "code": "plan_or_change",
+   "note": ""
+  },
+  {
+   "id": "r031_t02",
+   "verdict": "wrong",
+   "code": "reviewer_or_vague_group",
+   "note": ""
+  },
+  {
+   "id": "r031_t03",
+   "verdict": "wrong",
+   "code": "plan_or_change",
+   "note": ""
+  },
+  {
+   "id": "r032_t00",
+   "verdict": "wrong",
+   "code": "unsupported",
+   "note": ""
+  },
+  {
+   "id": "r032_t01",
+   "verdict": "wrong",
+   "code": "unsupported",
+   "note": ""
+  },
+  {
+   "id": "r033_t00",
+   "verdict": "wrong",
+   "code": "unusable_phrase",
+   "note": ""
+  },
+  {
+   "id": "r033_t01",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r034_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r034_t01",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r034_t02",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r034_t03",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r035_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r036_t00",
+   "verdict": "wrong",
+   "code": "plan_or_change",
+   "note": ""
+  },
+  {
+   "id": "r036_t01",
+   "verdict": "wrong",
+   "code": "wrong_category",
+   "note": ""
+  },
+  {
+   "id": "r036_t02",
+   "verdict": "wrong",
+   "code": "plan_or_change",
+   "note": ""
+  },
+  {
+   "id": "r037_t00",
+   "verdict": "wrong",
+   "code": "plan_or_change",
+   "note": ""
+  },
+  {
+   "id": "r037_t01",
+   "verdict": "wrong",
+   "code": "plan_or_change",
+   "note": ""
+  },
+  {
+   "id": "r037_t02",
+   "verdict": "wrong",
+   "code": "unusable_phrase",
+   "note": ""
+  },
+  {
+   "id": "r038_t00",
+   "verdict": "wrong",
+   "code": "wrong_category",
+   "note": ""
+  },
+  {
+   "id": "r038_t01",
+   "verdict": "wrong",
+   "code": "plan_or_change",
+   "note": ""
+  },
+  {
+   "id": "r039_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r039_t01",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r039_t02",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r040_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r040_t01",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r040_t02",
+   "verdict": "wrong",
+   "code": "occasion_not_served",
+   "note": ""
+  },
+  {
+   "id": "r040_t03",
+   "verdict": "wrong",
+   "code": "occasion_not_served",
+   "note": ""
+  },
+  {
+   "id": "r040_t04",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r040_t05",
+   "verdict": "wrong",
+   "code": "ingredient_not_attribute",
+   "note": ""
+  },
+  {
+   "id": "r041_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r041_t01",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r041_t02",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r041_t03",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r041_t04",
+   "verdict": "wrong",
+   "code": "generic_praise",
+   "note": ""
+  },
+  {
+   "id": "r041_t05",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r041_t06",
+   "verdict": "wrong",
+   "code": "unsupported",
+   "note": ""
+  },
+  {
+   "id": "r042_t00",
+   "verdict": "wrong",
+   "code": "reviewer_or_vague_group",
+   "note": ""
+  },
+  {
+   "id": "r042_t01",
+   "verdict": "wrong",
+   "code": "unsupported",
+   "note": ""
+  },
+  {
+   "id": "r042_t02",
+   "verdict": "wrong",
+   "code": "not_this_dish",
+   "note": ""
+  },
+  {
+   "id": "r042_t03",
+   "verdict": "wrong",
+   "code": "ingredient_not_attribute",
+   "note": ""
+  },
+  {
+   "id": "r043_t00",
+   "verdict": "wrong",
+   "code": "unsupported",
+   "note": ""
+  },
+  {
+   "id": "r043_t01",
+   "verdict": "wrong",
+   "code": "plan_or_change",
+   "note": ""
+  },
+  {
+   "id": "r043_t02",
+   "verdict": "wrong",
+   "code": "plan_or_change",
+   "note": ""
+  },
+  {
+   "id": "r043_t03",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r043_t04",
+   "verdict": "wrong",
+   "code": "unsupported",
+   "note": ""
+  },
+  {
+   "id": "r043_t05",
+   "verdict": "wrong",
+   "code": "ingredient_not_attribute",
+   "note": ""
+  },
+  {
+   "id": "r044_t00",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r044_t01",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r044_t02",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  },
+  {
+   "id": "r044_t03",
+   "verdict": "wrong",
+   "code": "generic_praise",
+   "note": ""
+  },
+  {
+   "id": "r045_t00",
+   "verdict": "wrong",
+   "code": "wrong_category",
+   "note": ""
+  },
+  {
+   "id": "r045_t01",
+   "verdict": "wrong",
+   "code": "unsupported",
+   "note": ""
+  },
+  {
+   "id": "r045_t02",
+   "verdict": "correct",
+   "code": null,
+   "note": ""
+  }
+ ],
+ "missed": [
+  {
+   "review_id": "r038",
+   "category": "texture_mouthfeel",
+   "value": "crumbly",
+   "evidence": "It was more crumbly than a regular crust"
+  }
+ ]
+}

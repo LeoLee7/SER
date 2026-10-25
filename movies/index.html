@@ -1,0 +1,447 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Movies | Exhibit Facet Search</title>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <link rel="stylesheet" href="https://www.simile-widgets.org/styles/common.css" type="text/css" />
+    <link rel="stylesheet" href="movie-exhibit.css" type="text/css" />
+    <link rel="stylesheet" href="../ser-shared.css" type="text/css" />
+    <link href="movie-exhibit-data-100movies.json" type="application/json" rel="exhibit/data" />
+    <script src="https://api.simile-widgets.org/exhibit/current/exhibit-api.js"></script>
+    <style>
+      /* === Design System === */
+      :root {
+        --color-text-primary: #111827;
+        --color-text-secondary: #4b5563;
+        --color-text-tertiary: #6b7280;
+        --color-accent: #2563eb;
+        --color-accent-hover: #1d4ed8;
+        --color-border: #e5e7eb;
+        --color-bg-subtle: #f9fafb;
+        --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
+      }
+
+      body {
+        font-family: var(--font-sans);
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        color: var(--color-text-secondary);
+        font-size: 15px;
+        line-height: 1.6;
+        background: #ffffff;
+      }
+
+      h1 { font-size: 36px; font-weight: 700; letter-spacing: -0.03em; color: var(--color-text-primary); line-height: 1.2; margin: 0 0 8px 0; }
+      h2 { font-size: 24px; font-weight: 700; letter-spacing: -0.02em; color: var(--color-text-primary); line-height: 1.3; }
+      h3 { font-size: 18px; font-weight: 600; letter-spacing: -0.01em; color: var(--color-text-primary); }
+      h4 { font-size: 14px; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: var(--color-text-secondary); }
+      p { color: var(--color-text-secondary); line-height: 1.6; margin: 0 0 12px 0; }
+
+      /* Header */
+      #header { background: none; border: none; padding: 8px 20px; margin: 0; }
+      #header table, #header tbody, #header tr, #header td { display: inline !important; padding: 0 !important; margin: 0 !important; background: none !important; border: none !important; }
+      #header h1 { display: inline; margin: 0; padding: 0; font-size: 20px; line-height: 1; font-weight: 700; color: var(--color-text-primary); }
+      #header p { display: none; }
+
+      /* Collection summary */
+      .exhibit-collectionSummaryWidget { display: inline-block; margin: 0 0 10px 0; padding: 0; font-size: 24px; font-weight: 600; color: var(--color-text-primary); vertical-align: baseline; }
+      .exhibit-collectionSummaryWidget-count { font-size: 32px; font-weight: 700; color: var(--color-text-primary); margin-right: 4px; }
+      .exhibit-collectionSummaryWidget-description { font-size: 16px; font-weight: 500; color: var(--color-text-secondary); }
+      .exhibit-collectionSummaryWidget a[href*="clearRestrictions"], .exhibit-collectionSummaryWidget-resetFiltersLink, a[href*="clearRestrictions"], a[href*="clearAllRestrictions"] { display: none !important; }
+      [data-ex-role="viewPanel"] { margin-top: 0; padding-top: 0; }
+
+      /* Facets */
+      .exhibit-facet-header { font-family: var(--font-sans); font-weight: 600; font-size: 13px; letter-spacing: 0.03em; text-transform: uppercase; color: var(--color-text-primary); padding: 8px 0; border-bottom: 2px solid var(--color-text-primary); margin-bottom: 12px; }
+      .exhibit-facet-value { font-family: var(--font-sans); font-size: 14px; line-height: 1.5; padding: 4px 0; }
+      .exhibit-facet-value a { color: var(--color-text-secondary); text-decoration: none; transition: color 0.2s; }
+      .exhibit-facet-value a:hover { color: var(--color-accent); }
+
+      /* Remove underlines */
+      a { text-decoration: none !important; border-bottom: none !important; }
+
+      /* Hide missing field values */
+      .exhibit-facet-value:has(a[title*="missing"]) { display: none !important; }
+      a[title*="missing this field"] { display: none !important; }
+      a[title="(missing this field)"] { display: none !important; }
+      div:has(> a[title*="missing"]) { display: none !important; }
+
+      /* Hide Exhibit export and bookmark buttons */
+      .exhibit-copyButton, .exhibit-bookmarkButton, img[src*="copy-button"], img[src*="liveclipboard"], img[src*="bookmark-icon"] { display: none !important; }
+
+      /* Keep Exhibit logo */
+      [data-ex-role="logo"], [data-ex-role="logo"] img, [data-ex-role="logo"] * { display: block !important; visibility: visible !important; opacity: 1 !important; }
+      .exhibit-facet-header-filterControl { display: none !important; }
+
+      /* Thumbnail grid */
+      .exhibit-thumbnailView-body { display: grid !important; grid-template-columns: repeat(auto-fill, 180px) !important; gap: 16px !important; padding: 10px !important; }
+      .exhibit-thumbnailView-body table { margin: 0 !important; }
+      /* Card styling */
+      .movie-tile { cursor: pointer; transition: all 0.2s; width: 180px; }
+      .movie-tile:hover { transform: translateY(-4px); }
+      .movie-tile-content { background: white; border: 1px solid var(--color-border); border-radius: 10px; overflow: hidden; transition: all 0.2s; width: 180px; }
+      .movie-tile-content:hover { border-color: var(--color-accent); box-shadow: 0 8px 24px rgba(0,0,0,0.12); }
+      .movie-tile-poster { width: 180px; height: 270px; object-fit: cover; display: block; background: #e5e7eb; }
+      .movie-tile-info { padding: 8px 10px; height: 48px; }
+      .movie-tile-title { font-weight: 600; font-size: 12px; color: var(--color-text-primary); line-height: 1.3; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+
+      /* Modal */
+      .modal { display: none; position: fixed; z-index: 10000; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(17, 24, 39, 0.7); backdrop-filter: blur(4px); }
+      .modal-content { background-color: white; margin: 3% auto; padding: 32px; border-radius: 12px; width: 85%; max-width: 900px; max-height: 85vh; overflow-y: auto; box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25); }
+      .modal-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 24px; padding-bottom: 20px; border-bottom: 1px solid var(--color-border); }
+      .modal-title { font-size: 24px; font-weight: 700; color: var(--color-text-primary); letter-spacing: -0.02em; line-height: 1.3; margin: 0; }
+      .close-btn { font-size: 32px; font-weight: 300; color: var(--color-text-tertiary); cursor: pointer; line-height: 1; padding: 4px; border-radius: 6px; transition: all 0.2s; background: transparent; border: none; }
+      .close-btn:hover { color: var(--color-text-primary); background: var(--color-bg-subtle); }
+
+      /* Reviews */
+      .review-item { margin: 20px 0; padding: 20px; background: var(--color-bg-subtle); border-left: 4px solid var(--color-accent); border-radius: 8px; transition: all 0.2s; }
+      .review-item:hover { background: #f3f4f6; transform: translateX(4px); box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05); }
+      .review-text { line-height: 1.7; color: var(--color-text-secondary); font-size: 14px; }
+
+      /* Highlight colors */
+      .highlight { padding: 3px 6px; border-radius: 4px; font-weight: 600; font-size: 13px; }
+      .hl-genre { background-color: #fef3c7; color: #92400e; }
+      .hl-occasion { background-color: #d1fae5; color: #065f46; }
+      .hl-plot { background-color: #dbeafe; color: #1e40af; }
+      .hl-subjective-feeling { background-color: #e9d5ff; color: #6b21a8; }
+      .hl-target-audience { background-color: #fed7aa; color: #9a3412; }
+      .hl-vibe-style { background-color: #fce7f3; color: #9f1239; }
+
+      /* Legend */
+      .legend { display: flex; flex-wrap: wrap; gap: 16px; margin: 20px 0; padding: 16px; background: white; border: 1px solid var(--color-border); border-radius: 8px; }
+      .legend-item { display: flex; align-items: center; font-size: 13px; font-weight: 500; color: var(--color-text-secondary); }
+      .legend-color { width: 24px; height: 16px; margin-right: 8px; border-radius: 4px; }
+
+      .view-reviews-btn { display: inline-block; width: 100%; margin-top: 16px; padding: 14px 20px; background: var(--color-text-primary); color: white; border-radius: 8px; cursor: pointer; font-size: 15px; font-weight: 600; font-family: var(--font-sans); border: none; transition: all 0.2s; text-align: center; }
+      .view-reviews-btn:hover { background: #374151; transform: translateY(-2px); box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1); }
+
+      /* Search */
+      .search-container { margin-bottom: 20px; }
+      .search-container > b { font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.03em; color: var(--color-text-primary); }
+      .search-wrapper { display: flex; gap: 8px; margin-top: 8px; }
+      .search-input { flex: 1; padding: 10px 14px; border: 2px solid var(--color-border); border-radius: 6px; font-size: 14px; font-family: var(--font-sans); outline: none; transition: all 0.2s; background: white; }
+      .search-input:focus { border-color: var(--color-accent); box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1); }
+      .search-button { padding: 10px 18px; background: var(--color-accent); color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 14px; font-weight: 600; font-family: var(--font-sans); transition: all 0.2s; }
+      .search-button:hover { background: var(--color-accent-hover); transform: translateY(-1px); box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3); }
+      .clear-button { padding: 10px 16px; background: var(--color-bg-subtle); color: var(--color-text-secondary); border: 2px solid var(--color-border); border-radius: 6px; cursor: pointer; font-size: 14px; font-weight: 600; font-family: var(--font-sans); transition: all 0.2s; }
+      .clear-button:hover { background: #ffffff; border-color: var(--color-text-tertiary); }
+      .search-hint { font-size: 12px; color: var(--color-text-tertiary); margin-top: 6px; line-height: 1.4; }
+      .search-status { margin-top: 10px; padding: 10px 14px; background: #eff6ff; border-left: 3px solid var(--color-accent); border-radius: 6px; font-size: 13px; display: none; }
+      .search-status.active { display: block; }
+      .search-status-label { font-weight: 600; color: var(--color-accent); }
+      .search-status-terms { color: var(--color-text-primary); font-family: 'SF Mono', 'Monaco', 'Consolas', monospace; background: white; padding: 3px 8px; border-radius: 4px; margin-left: 6px; font-size: 12px; }
+    </style>
+  </head>
+  <body>
+    <table id="header">
+      <tr style="vertical-align: middle;">
+        <td>
+          <h1>Movie Facet Search (100 Movies)</h1>
+          <nav class="domain-switch"><a href="../index.html">Recipes</a><span class="current">Movies</span><a href="../games/index.html">Games</a></nav>
+          <p>Browse 100 movies with LLM-extracted subjective features from 2,000 reviews.</p>
+        </td>
+      </tr>
+    </table>
+
+    <div id="body">
+      <table id="exhibit" style="width: 100%; border-spacing: 10px; border: 0;">
+        <tr>
+          <td class="facet-column">
+            <div class="search-container">
+              <b>Search Attributes</b>
+              <div class="search-wrapper">
+                <input type="text"
+                       id="customSearchBox"
+                       class="search-input"
+                       placeholder="e.g., scary movie for Halloween" />
+                <button class="search-button" onclick="performSmartSearch()">Search</button>
+                <button class="clear-button" onclick="clearSearch()">Clear</button>
+              </div>
+              <div class="search-hint">Try: "funny romantic comedy" or "intense thriller" (Press Enter to search)</div>
+              <div id="searchStatus" class="search-status">
+                <span class="search-status-label">Searching for:</span>
+                <span id="searchTermsDisplay" class="search-status-terms"></span>
+              </div>
+            </div>
+            <hr />
+            <div data-ex-role="facet" data-ex-expression=".subjective_feeling" data-ex-facet-label="Subjective Feeling" data-ex-height="14em" data-ex-sort-mode="count" data-ex-sort-direction="forward"></div>
+            <div data-ex-role="facet" data-ex-expression=".vibe_style" data-ex-facet-label="Vibe & Style" data-ex-height="14em" data-ex-sort-mode="count" data-ex-sort-direction="forward"></div>
+            <div data-ex-role="facet" data-ex-expression=".plot" data-ex-facet-label="Plot" data-ex-height="14em" data-ex-sort-mode="count" data-ex-sort-direction="forward"></div>
+            <div data-ex-role="facet" data-ex-expression=".occasion" data-ex-facet-label="Occasion" data-ex-height="14em" data-ex-sort-mode="count" data-ex-sort-direction="forward"></div>
+            <div data-ex-role="facet" data-ex-expression=".target_audience" data-ex-facet-label="Target Audience" data-ex-height="14em" data-ex-sort-mode="count" data-ex-sort-direction="forward"></div>
+          </td>
+          <td class="view-column">
+            <div data-ex-role="viewPanel">
+              <div data-ex-role="view"
+                   data-ex-view-class="Thumbnail"
+                   data-ex-show-all="true"
+                   data-ex-paginate="true"
+                   data-ex-possible-orders=".review_count, .subjective_attribute_count, .imdb_rating, .avg_rating, .label">
+                <table data-ex-role="lens" class="movie-tile" style="display: none;">
+                  <tr><td>
+                    <div class="movie-tile-content">
+                      <img data-ex-src-content=".poster" class="movie-tile-poster" onerror="this.style.display='none'" />
+                      <div class="movie-tile-info">
+                        <div class="movie-tile-title"><span data-ex-content=".label"></span></div>
+                      </div>
+                    </div>
+                  </td></tr>
+                </table>
+              </div>
+            </div>
+          </td>
+          <td class="facet-column">
+            <div data-ex-role="facet" data-ex-expression=".imdb_bucket" data-ex-facet-label="IMDB Rating" data-ex-height="8em" data-ex-sort-mode="count" data-ex-sort-direction="forward"></div>
+            <div data-ex-role="facet" data-ex-expression=".runtime_bucket" data-ex-facet-label="Runtime" data-ex-height="8em" data-ex-sort-mode="count" data-ex-sort-direction="forward"></div>
+            <div data-ex-role="facet" data-ex-expression=".rated" data-ex-facet-label="MPAA Rating" data-ex-height="8em" data-ex-sort-mode="count" data-ex-sort-direction="forward"></div>
+            <hr />
+            <div data-ex-role="facet" data-ex-expression=".genre" data-ex-facet-label="Genre" data-ex-height="14em" data-ex-sort-mode="count" data-ex-sort-direction="forward"></div>
+            <div data-ex-role="facet" data-ex-expression=".cast" data-ex-facet-label="Cast" data-ex-height="14em" data-ex-sort-mode="count" data-ex-sort-direction="forward"></div>
+            <div data-ex-role="facet" data-ex-expression=".director" data-ex-facet-label="Director" data-ex-height="12em" data-ex-sort-mode="count" data-ex-sort-direction="forward"></div>
+            <div style="text-align: center" data-ex-role="logo"></div>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- Review Modal -->
+    <div id="reviewModal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="modal-title" id="modalTitle">Movie Reviews</div>
+          <span class="close-btn" onclick="closeModal()">&times;</span>
+        </div>
+        <div class="legend">
+          <div class="legend-item"><div class="legend-color hl-genre"></div> Genre</div>
+          <div class="legend-item"><div class="legend-color hl-occasion"></div> Occasion</div>
+          <div class="legend-item"><div class="legend-color hl-plot"></div> Plot</div>
+          <div class="legend-item"><div class="legend-color hl-subjective-feeling"></div> Subjective Feeling</div>
+          <div class="legend-item"><div class="legend-color hl-target-audience"></div> Target Audience</div>
+          <div class="legend-item"><div class="legend-color hl-vibe-style"></div> Vibe & Style</div>
+        </div>
+        <div id="modalReviews"></div>
+      </div>
+    </div>
+
+    <script>
+      let exhibitData = null;
+
+      function loadExhibitData() {
+        if (exhibitData) return Promise.resolve(exhibitData);
+        return fetch('movie-exhibit-data-100movies.json')
+          .then(response => response.json())
+          .then(data => { exhibitData = data; return data; })
+          .catch(err => { console.error('Error loading exhibit data:', err); return null; });
+      }
+
+      function getReviewsFromExhibit(movieId) {
+        if (!exhibitData) return [];
+        const movie = exhibitData.items.find(item => item.id == movieId);
+        return movie ? movie.reviews || [] : [];
+      }
+
+      function getSelectedFacets() {
+        const allSelected = [];
+        const facetDivs = document.querySelectorAll('[data-ex-role="facet"]');
+        facetDivs.forEach(facetDiv => {
+          const expression = facetDiv.getAttribute('data-ex-expression');
+          const facetClass = facetDiv.getAttribute('data-ex-facet-class');
+          if (!expression || expression.includes('NumericRange') || facetClass === 'NumericRange') return;
+          const allDivs = facetDiv.querySelectorAll('div');
+          allDivs.forEach(div => {
+            const classes = div.className || '';
+            const text = div.textContent?.trim() || '';
+            const computedStyle = window.getComputedStyle(div);
+            const isSelected = classes.includes('selected') || classes.includes('checked') ||
+                             classes.includes('exhibit-facet-value-selected') ||
+                             div.style.fontWeight === 'bold' || div.style.fontWeight === '700' ||
+                             computedStyle.fontWeight === 'bold' || computedStyle.fontWeight === '700' ||
+                             parseInt(computedStyle.fontWeight) >= 700;
+            if (isSelected && text && text.length > 0 && text.length < 200) {
+              let facetValue = text.split('(')[0].trim().replace(/^\d+\s+/, '');
+              if (/^\d+$/.test(facetValue)) return; // bold count element, not a value
+              if (facetValue && !allSelected.includes(facetValue)) allSelected.push(facetValue);
+            }
+          });
+        });
+        return { byDimension: {}, all: allSelected };
+      }
+
+      // Show reviews for a movie tile
+      function showReviewsForMovie(movieName) {
+        const selectedFacets = getSelectedFacets();
+        loadExhibitData().then(data => {
+          if (!data) { alert('Could not load exhibit data.'); return; }
+          const movie = data.items.find(item => item.name === movieName || item.label === movieName);
+          if (!movie) { alert('Could not find movie: ' + movieName); return; }
+
+          const reviews = movie.reviews || [];
+          let titleText = `Reviews for: ${movie.name}`;
+          if (selectedFacets.all.length > 0) titleText += ` (filtering for: ${selectedFacets.all.join(', ')})`;
+          document.getElementById('modalTitle').textContent = titleText;
+
+          let html = '';
+          if (reviews.length === 0) {
+            html = '<p>No reviews found for this movie.</p>';
+          } else {
+            const processedReviews = reviews.map(review => {
+              const result = highlightSpans(review, selectedFacets.all);
+              return { html: result.html, matchCount: result.matchCount };
+            });
+            let filteredReviews = processedReviews;
+            if (selectedFacets.all.length > 0) {
+              filteredReviews = processedReviews.filter(item => item.matchCount > 0);
+            }
+            filteredReviews.sort((a, b) => b.matchCount - a.matchCount);
+            if (filteredReviews.length === 0) {
+              html = '<p>No reviews found matching the selected attributes.</p>';
+            } else {
+              filteredReviews.forEach(item => {
+                const matchBadge = item.matchCount > 0
+                  ? `<span style="background: var(--color-accent); color: white; padding: 2px 8px; border-radius: 3px; font-size: 11px; font-weight: bold; margin-bottom: 8px; display: inline-block;">${item.matchCount} match${item.matchCount > 1 ? 'es' : ''}</span>`
+                  : '';
+                html += `<div class="review-item" style="${item.matchCount > 0 ? 'border-left-width: 5px;' : ''}">`;
+                if (matchBadge) html += matchBadge;
+                html += `<div class="review-text">${item.html}</div></div>`;
+              });
+            }
+          }
+          document.getElementById('modalReviews').innerHTML = html;
+          document.getElementById('reviewModal').style.display = 'block';
+        });
+      }
+
+      function highlightSpans(review, selectedAttributes = []) {
+        const text = review.review_text || '';
+        const attributes = review.attributes || [];
+        const normalizedSelected = selectedAttributes.map(a => a.toLowerCase().trim());
+        const spans = [];
+        let matchCount = 0;
+
+        attributes.forEach(attr => {
+          if (!attr.span || attr.span.start === undefined || attr.span.end === undefined) return;
+          const start = attr.span.start;
+          const end = attr.span.end;
+          if (start < 0 || end > text.length || start >= end) return;
+
+          const normalizedEntity = (attr.normalized_entity || attr.entity || '').toLowerCase().trim();
+          const shouldShow = selectedAttributes.length === 0 || normalizedSelected.includes(normalizedEntity);
+
+          if (shouldShow) {
+            const spanText = text.substring(start, end);
+            if (!spanText.trim()) return;
+            spans.push({ start, end, dimension: attr.dimension, entity: attr.entity });
+            if (selectedAttributes.length > 0 && normalizedSelected.includes(normalizedEntity)) matchCount++;
+          }
+        });
+
+        spans.sort((a, b) => a.start - b.start);
+        let result = '';
+        let lastEnd = 0;
+        spans.forEach(span => {
+          if (span.start >= lastEnd) {
+            result += escapeHtml(text.substring(lastEnd, span.start));
+            const dimClass = span.dimension.toLowerCase().replace(/[_\s]/g, '-');
+            result += `<span class="highlight hl-${dimClass}" title="${span.dimension}: ${span.entity}">`;
+            result += escapeHtml(text.substring(span.start, span.end));
+            result += `</span>`;
+            lastEnd = span.end;
+          }
+        });
+        result += escapeHtml(text.substring(lastEnd));
+        return { html: result, matchCount };
+      }
+
+      function escapeHtml(text) {
+        const div = document.createElement('div');
+        div.textContent = text;
+        return div.innerHTML;
+      }
+
+      function closeModal() { document.getElementById('reviewModal').style.display = 'none'; }
+
+      window.onclick = function(event) {
+        if (event.target == document.getElementById('reviewModal')) closeModal();
+      }
+
+      // Make thumbnails clickable
+      function attachTileHandlers() {
+        document.querySelectorAll('.movie-tile').forEach(thumb => {
+          const newThumb = thumb.cloneNode(true);
+          thumb.parentNode.replaceChild(newThumb, thumb);
+          newThumb.style.cursor = 'pointer';
+          newThumb.addEventListener('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            e.stopImmediatePropagation();
+            const title = this.querySelector('.movie-tile-title')?.textContent?.trim();
+            if (title) showReviewsForMovie(title);
+            return false;
+          }, true);
+        });
+      }
+
+      // Query routing lives in ../ser-search.js, shared with the recipe page.
+      window.SER_SEARCH_CONFIG = {
+        domainStopWords: ['movie', 'movies', 'film', 'films', 'show', 'shows', 'watch', 'watching']
+      };
+
+      function hideMissingFieldValues() {
+        document.querySelectorAll('a[title*="missing"]').forEach(link => {
+          const facetValue = link.closest('.exhibit-facet-value');
+          if (facetValue) { facetValue.style.display = 'none'; facetValue.remove(); }
+        });
+        document.querySelectorAll('.exhibit-facet-value').forEach(fv => {
+          const text = fv.textContent || '';
+          if (text.includes('missing this field') || text.includes('(missing')) { fv.style.display = 'none'; fv.remove(); }
+        });
+      }
+
+      function hideExportButton() {
+        document.querySelectorAll('.exhibit-copyButton, .exhibit-bookmarkButton, img[src*="copy-button"], img[src*="liveclipboard"], img[src*="bookmark"]').forEach(el => { el.style.display = 'none'; });
+        document.querySelectorAll('img[title*="bookmark"], img[title*="Bookmark"], a[title*="bookmark"]').forEach(el => { el.style.display = 'none'; });
+      }
+
+      function reorderFacet(expression, correctOrder) {
+        const facetDivs = document.querySelectorAll('[data-ex-role="facet"][data-ex-expression="' + expression + '"]');
+        facetDivs.forEach(facetDiv => {
+          const valueElements = Array.from(facetDiv.querySelectorAll('.exhibit-facet-value'));
+          if (valueElements.length === 0) return;
+          const categoryMap = {};
+          valueElements.forEach(elem => {
+            const text = elem.textContent.trim();
+            const category = text.split('(')[0].trim().replace(/^\d+\s+/, '');
+            categoryMap[category] = elem;
+          });
+          const container = valueElements[0].parentElement;
+          if (!container) return;
+          correctOrder.forEach(category => {
+            const elem = categoryMap[category];
+            if (elem) container.appendChild(elem);
+          });
+        });
+      }
+
+      function reorderCatalogFacets() {
+        reorderFacet('.imdb_bucket', ['8.0+', '7.0-7.9', '6.0-6.9', '5.0-5.9', 'Below 5.0']);
+        reorderFacet('.runtime_bucket', ['Under 90 min', '90-120 min', '120-150 min', '150+ min']);
+      }
+
+      document.addEventListener('DOMContentLoaded', function() {
+        setTimeout(initializeCustomSearch, 1000);
+        setTimeout(attachTileHandlers, 2000);
+        setTimeout(hideMissingFieldValues, 1500);
+        setTimeout(hideMissingFieldValues, 3000);
+        setTimeout(hideExportButton, 1500);
+        setTimeout(hideExportButton, 3000);
+        setTimeout(reorderCatalogFacets, 1500);
+        setTimeout(reorderCatalogFacets, 3000);
+        setInterval(attachTileHandlers, 2000);
+        setInterval(hideMissingFieldValues, 3000);
+        setInterval(reorderCatalogFacets, 3000);
+      });
+
+      document.addEventListener('keydown', function(e) { if (e.key === 'Escape') closeModal(); });
+    </script>
+    <script src="../ser-search.js"></script>
+  </body>
+</html>

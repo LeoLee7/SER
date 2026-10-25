@@ -5,6 +5,7 @@
     <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
     <link rel="stylesheet" href="https://www.simile-widgets.org/styles/common.css" type="text/css" />
     <link rel="stylesheet" href="food-exhibit.css" type="text/css" />
+    <link rel="stylesheet" href="ser-shared.css" type="text/css" />
     <link href="food-exhibit-data-500recipes.json" type="application/json" rel="exhibit/data" />
     <script src="https://api.simile-widgets.org/exhibit/current/exhibit-api.js"></script>
     <style>
@@ -814,6 +815,7 @@
       <tr style="vertical-align: middle;">
         <td>
           <h1>Food Recipe Facet Search (500 Recipes)</h1>
+          <nav class="domain-switch"><span class="current">Recipes</span><a href="movies/index.html">Movies</a><a href="games/index.html">Games</a></nav>
           <p>Browse 500 top recipes with LLM-extracted subjective features from 10,000 reviews.</p>
         </td>
       </tr>
@@ -839,12 +841,13 @@
                 <span id="searchTermsDisplay" class="search-status-terms"></span>
               </div>
             </div>
-            <!-- Removed TextSearch facet - implementing custom search instead -->
             <hr />
             <div data-ex-role="facet" data-ex-expression=".audience_attributes" data-ex-facet-label="Audience" data-ex-height="14em" data-ex-sort-mode="count" data-ex-sort-direction="forward"></div>
             <div data-ex-role="facet" data-ex-expression=".occasion_attributes" data-ex-facet-label="Occasion" data-ex-height="14em" data-ex-sort-mode="count" data-ex-sort-direction="forward"></div>
             <div data-ex-role="facet" data-ex-expression=".texture_attributes" data-ex-facet-label="Texture" data-ex-height="14em" data-ex-sort-mode="count" data-ex-sort-direction="forward"></div>
             <div data-ex-role="facet" data-ex-expression=".taste_attributes" data-ex-facet-label="Taste & Flavor" data-ex-height="14em" data-ex-sort-mode="count" data-ex-sort-direction="forward"></div>
+            <div data-ex-role="facet" data-ex-expression=".meal_type_attributes" data-ex-facet-label="Served as" data-ex-height="14em" data-ex-sort-mode="count" data-ex-sort-direction="forward"></div>
+            <div data-ex-role="facet" data-ex-expression=".type_attributes" data-ex-facet-label="Cooked as (cuisine)" data-ex-height="14em" data-ex-sort-mode="count" data-ex-sort-direction="forward"></div>
           </td>
           <td class="view-column">
             <div data-ex-role="viewPanel">
@@ -860,6 +863,8 @@
                    data-ex-view-class="Thumbnail"
                    data-ex-show-all="true"
                    data-ex-paginate="true"
+                   data-ex-orders=".aggregated_rating"
+                   data-ex-directions="reverse"
                    data-ex-possible-orders=".aggregated_rating, .review_count, .calories, .label">
                 <table data-ex-role="lens" class="recipe-thumb" style="display: none;">
                   <tr>
@@ -894,8 +899,8 @@
             </div>
           </td>
           <td class="facet-column">
-            <div data-ex-role="facet" data-ex-expression=".meal_type_attributes" data-ex-facet-label="Meal Type" data-ex-height="14em" data-ex-sort-mode="count" data-ex-sort-direction="forward"></div>
-            <div data-ex-role="facet" data-ex-expression=".type_attributes" data-ex-facet-label="Cuisine" data-ex-height="14em" data-ex-sort-mode="count" data-ex-sort-direction="forward"></div>
+            <div data-ex-role="facet" data-ex-expression=".cuisine_catalog" data-ex-facet-label="Cuisine" data-ex-height="14em" data-ex-sort-mode="count" data-ex-sort-direction="forward"></div>
+            <div data-ex-role="facet" data-ex-expression=".main_ingredient" data-ex-facet-label="Main ingredient" data-ex-height="14em" data-ex-sort-mode="count" data-ex-sort-direction="forward"></div>
             <div data-ex-role="facet" data-ex-expression=".cook_time_category" data-ex-facet-label="Cook Time" data-ex-height="10em" data-ex-sort-mode="count" data-ex-sort-direction="forward"></div>
             <div data-ex-role="facet" data-ex-facet-class="NumericRange" data-ex-expression=".calories" data-ex-facet-label="Calories" data-ex-height="10em" data-ex-interval="100" data-ex-sort-mode="count" data-ex-sort-direction="forward"></div>
             <div style="text-align: center" data-ex-role="logo"></div>
@@ -915,9 +920,9 @@
           <div class="legend-item"><div class="legend-color hl-audienceenjoyment"></div> Audience</div>
           <div class="legend-item"><div class="legend-color hl-tasteflavor"></div> Taste & Flavor</div>
           <div class="legend-item"><div class="legend-color hl-texturemouthfeel"></div> Texture</div>
-          <div class="legend-item"><div class="legend-color hl-mealtype"></div> Meal Type</div>
+          <div class="legend-item"><div class="legend-color hl-mealtype"></div> Served as</div>
           <div class="legend-item"><div class="legend-color hl-occasionholiday"></div> Occasion</div>
-          <div class="legend-item"><div class="legend-color hl-cuisinetype"></div> Cuisine</div>
+          <div class="legend-item"><div class="legend-color hl-cuisinetype"></div> Cooked as (cuisine)</div>
         </div>
         <div id="modalReviews"></div>
       </div>
@@ -1003,6 +1008,9 @@
 
               // Remove leading number and space (e.g., "474 husband" -> "husband")
               facetValue = facetValue.replace(/^\d+\s+/, '');
+
+              // Skip the bold count element inside a selected value (e.g. "56").
+              if (/^\d+$/.test(facetValue)) return;
 
               if (facetValue && !allSelected.includes(facetValue)) {
                 console.log('  -> Found selected:', facetValue, 'in', expression, '(from:', text.substring(0, 50), ')');
@@ -1237,235 +1245,11 @@
         }
       }
 
-      // Smart search functionality
-      // Build an index of all facet values grouped by category
-      function buildFacetIndex() {
-        const index = [];
-        const facetDivs = document.querySelectorAll('[data-ex-role="facet"]');
-
-        facetDivs.forEach(facetDiv => {
-          const expression = facetDiv.getAttribute('data-ex-expression') || '';
-          const facetClass = facetDiv.getAttribute('data-ex-facet-class');
-          if (!expression || facetClass === 'NumericRange') return;
-
-          const category = expression.replace('.', '').replace('_attributes', '');
-
-          // Find all clickable facet value elements
-          // Exhibit renders them in various ways, so try multiple selectors
-          const values = facetDiv.querySelectorAll('.exhibit-facet-value, div[class*="facet-value"]');
-          values.forEach(elem => {
-            // Get the raw text and strip leading count number
-            const rawText = elem.textContent.trim();
-            // Facet values look like "134 Christmas" or "1 daughter" - strip leading number
-            const value = rawText.replace(/^\d+\s+/, '').replace(/\s*\(\d+\)\s*$/, '').trim();
-            if (!value || value.includes('missing')) return;
-
-            index.push({
-              category: category,
-              value: value,
-              valueLower: value.toLowerCase(),
-              element: elem
-            });
-          });
-        });
-
-        console.log('Facet index built:', index.length, 'values. Sample:', index.slice(0, 5).map(e => `[${e.category}] ${e.value}`));
-        return index;
-      }
-
-      // Find the best matching facet value for a search term
-      // Priority: exact match > starts-with > single-word exact within multi-word value
-      function findBestMatch(term, facetIndex) {
-        const termLower = term.toLowerCase();
-        let exactMatches = [];
-        let startsWithMatches = [];
-        let containsMatches = [];
-
-        facetIndex.forEach(entry => {
-          if (entry.valueLower === termLower) {
-            exactMatches.push(entry);
-          } else if (entry.valueLower.startsWith(termLower + ' ') || entry.valueLower.startsWith(termLower + '-')) {
-            startsWithMatches.push(entry);
-          } else if (entry.valueLower.includes(termLower)) {
-            containsMatches.push(entry);
-          }
-        });
-
-        // Return exact matches first (could be in multiple categories, that's fine)
-        if (exactMatches.length > 0) return exactMatches;
-
-        // Then starts-with, but pick the shortest (most specific) match per category
-        if (startsWithMatches.length > 0) {
-          startsWithMatches.sort((a, b) => a.value.length - b.value.length);
-          // Only return the single best starts-with match
-          return [startsWithMatches[0]];
-        }
-
-        // For contains matches, only use if the term is a whole word in the value
-        // This prevents "birthday" from matching "birthday boy" when "birthday" exists as exact
-        const wholeWordMatches = containsMatches.filter(entry => {
-          const regex = new RegExp('\\b' + termLower.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\b');
-          return regex.test(entry.valueLower);
-        });
-
-        if (wholeWordMatches.length > 0) {
-          // Pick the shortest match (most specific)
-          wholeWordMatches.sort((a, b) => a.value.length - b.value.length);
-          return [wholeWordMatches[0]];
-        }
-
-        return [];
-      }
-
-      function performSmartSearch() {
-        const searchBox = document.getElementById('customSearchBox');
-        if (!searchBox) return;
-
-        const query = searchBox.value.trim();
-        if (!query) { clearSearch(); return; }
-
-        // Stop words to filter out
-        const stopWords = new Set([
-          'for', 'my', 'the', 'a', 'an', 'and', 'or', 'but', 'in', 'on', 'at', 'to', 'of',
-          'with', 'from', 'by', 'about', 'as', 'into', 'through', 'during', 'before',
-          'after', 'above', 'below', 'between', 'under', 'again', 'further', 'then',
-          'once', 'here', 'there', 'when', 'where', 'why', 'how', 'all', 'both', 'each',
-          'few', 'more', 'most', 'other', 'some', 'such', 'only', 'own', 'same', 'so',
-          'than', 'too', 'very', 'can', 'will', 'just', 'should', 'now', 'i', 'me',
-          'food', 'foods', 'dish', 'dishes', 'recipe', 'recipes', 'meal', 'meals'
-        ]);
-
-        // Parse query into terms
-        const words = query.toLowerCase().replace(/['']/g, "'").split(/\s+/)
-          .map(w => w.replace(/'s$/, '').replace(/[^a-z0-9-]/g, ''));
-        const searchTerms = words.filter(word => word.length > 1 && !stopWords.has(word));
-
-        if (searchTerms.length === 0) return;
-
-        // Update search status display
-        const statusDiv = document.getElementById('searchStatus');
-        const termsDisplay = document.getElementById('searchTermsDisplay');
-        if (statusDiv && termsDisplay) {
-          termsDisplay.textContent = searchTerms.join(', ');
-          statusDiv.classList.add('active');
-        }
-
-        // Clear existing selections first
-        clearAllFacetSelections();
-
-        // Wait for Exhibit to re-render, then do smart selection
-        setTimeout(() => {
-          const facetIndex = buildFacetIndex();
-
-          // Prioritize single words first, then try multi-word phrases only for unmatched terms
-          const allTermCombinations = [];
-          searchTerms.forEach(term => allTermCombinations.push(term));
-          for (let len = 2; len <= searchTerms.length; len++) {
-            for (let i = 0; i <= searchTerms.length - len; i++) {
-              allTermCombinations.push(searchTerms.slice(i, i + len).join(' '));
-            }
-          }
-
-          // Phase 1: Collect all elements to click (without clicking yet)
-          const toClick = [];
-          const matchedTerms = new Set();
-
-          allTermCombinations.forEach(phrase => {
-            const phraseWords = phrase.split(' ');
-            if (phraseWords.every(w => matchedTerms.has(w))) return;
-
-            const matches = findBestMatch(phrase, facetIndex);
-            if (matches.length > 0) {
-              matches.forEach(match => {
-                if (!toClick.some(tc => tc.element === match.element)) {
-                  toClick.push(match);
-                  console.log(`Search: "${phrase}" → [${match.category}] "${match.value}"`);
-                }
-              });
-              phraseWords.forEach(w => matchedTerms.add(w));
-            }
-          });
-
-          // Phase 2: Click elements sequentially with delays to handle DOM re-renders
-          function clickSequentially(items, idx) {
-            if (idx >= items.length) return;
-            const match = items[idx];
-            // Re-find the element in fresh DOM since previous clicks may have re-rendered
-            const freshIndex = buildFacetIndex();
-            const fresh = freshIndex.find(e => e.category === match.category && e.valueLower === match.valueLower);
-            if (fresh && !fresh.element.classList.contains('exhibit-facet-value-selected')) {
-              const link = fresh.element.querySelector('a');
-              if (link) link.click(); else fresh.element.click();
-              console.log('Clicked:', match.value, 'in', match.category);
-            }
-            setTimeout(() => clickSequentially(items, idx + 1), 200);
-          }
-          clickSequentially(toClick, 0);
-
-          // Phase 3: Retry with fresh index for any terms that weren't matched
-          // (handles cases where Exhibit hadn't finished rendering)
-          const unmatchedTerms = searchTerms.filter(t => !matchedTerms.has(t));
-          if (unmatchedTerms.length > 0) {
-            setTimeout(() => {
-              const freshIndex = buildFacetIndex();
-              unmatchedTerms.forEach(term => {
-                const matches = findBestMatch(term, freshIndex);
-                matches.forEach(match => {
-                  if (!match.element.classList.contains('exhibit-facet-value-selected')) {
-                    const retryLink = match.element.querySelector('a');
-                    if (retryLink) retryLink.click(); else match.element.click();
-                    console.log(`Search retry: "${term}" → [${match.category}] "${match.value}"`);
-                  }
-                });
-              });
-            }, 500);
-          }
-        }, 300);
-      }
-
-      // Clear all facet selections
-      function clearAllFacetSelections() {
-        document.querySelectorAll('.exhibit-facet-value').forEach(elem => {
-          if (elem.classList.contains('exhibit-facet-value-selected')) {
-            elem.click();
-          }
-        });
-      }
-
-      function clearSearch() {
-        // Only clear the search input box
-        const searchBox = document.getElementById('customSearchBox');
-        if (searchBox) {
-          searchBox.value = '';
-          searchBox.focus();
-        }
-
-        // Hide search status
-        const statusDiv = document.getElementById('searchStatus');
-        if (statusDiv) {
-          statusDiv.classList.remove('active');
-        }
-      }
-
-      // Support Enter key for search
-      // Wait for Exhibit to fully initialize
-      function initializeCustomSearch() {
-        const searchBox = document.getElementById('customSearchBox');
-        if (searchBox) {
-          searchBox.addEventListener('keypress', function(e) {
-            if (e.key === 'Enter') {
-              performSmartSearch();
-            }
-          });
-
-          // Add clear button on Escape
-          searchBox.addEventListener('keydown', function(e) {
-            if (e.key === 'Escape') {
-              clearSearch();
-            }
-          });
-        }
-      }
+      // Query routing lives in ser-search.js, shared with the movie and game pages.
+      window.SER_SEARCH_CONFIG = {
+        domainStopWords: ['food', 'foods', 'dish', 'dishes', 'recipe', 'recipes', 'meal', 'meals'],
+        preferFields: ['main_ingredient', 'cuisine_catalog']
+      };
 
       // Open recipe modal
       function openRecipeModal(thumbElement) {
@@ -1856,5 +1640,6 @@
         setInterval(reorderCookTimeFacet, 3000);
       });
     </script>
+    <script src="ser-search.js"></script>
   </body>
 </html>

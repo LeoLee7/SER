@@ -1,0 +1,32 @@
+/* Shared across the recipe, movie and game pages. */
+
+/* Domain switcher in the page header */
+#header .domain-switch {
+  display: inline-block;
+  margin-left: 18px;
+  vertical-align: middle;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+#header .domain-switch a,
+#header .domain-switch span.current {
+  display: inline-block;
+  padding: 4px 10px;
+  margin-right: 4px;
+  border: 1px solid var(--color-border, #e5e7eb);
+  border-radius: 6px;
+  color: var(--color-text-secondary, #4b5563);
+  background: #ffffff;
+  transition: all 0.2s;
+}
+#header .domain-switch a:hover {
+  border-color: var(--color-accent, #2563eb);
+  color: var(--color-accent, #2563eb);
+}
+#header .domain-switch span.current {
+  background: var(--color-text-primary, #111827);
+  border-color: var(--color-text-primary, #111827);
+  color: #ffffff;
+}

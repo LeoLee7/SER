@@ -60,62 +60,27 @@ The demo showcases how subjective experiences can be systematically extracted fr
 
 ## Category Settings
 
-The extraction uses **6 independent dimensions** (a single review phrase can belong to multiple categories):
+Reviews are extracted into **6 experiential categories** (a single review phrase can belong to several):
 
-| Dimension | Description | Examples |
-|-----------|-------------|----------|
-| **Taste-Flavor** | Taste and flavor profile | delicious, bland, salty, sweet, savory, rich, balanced |
-| **Texture-Mouthfeel** | Physical feel in mouth | tender, crispy, moist, dry, creamy, fluffy, chewy |
-| **Difficulty-Effort** | Ease of preparation | easy, quick, complicated, time-consuming, beginner-friendly |
-| **Occasion-Holiday** | When/what event to serve | Christmas, Thanksgiving, birthday, potluck, weeknight |
-| **Audience-Enjoyment** | Who enjoys eating (not cooking) | kids, husband, grandmother, guests, whole family |
-| **Cuisine-Type** | Cuisine style/origin | Italian, Chinese, Southern, Mexican, fusion, homestyle |
+| Category (demo label) | What it records | Examples |
+|---|---|---|
+| **Taste & Flavor** | a specific taste of the dish | tangy, spicy, garlic, not too sweet, mild |
+| **Texture** | physical feel in the mouth | tender, crispy, moist, creamy, fluffy |
+| **Served as** | the meal or role the dish was served as | dinner, breakfast, dessert, side dish |
+| **Occasion** | the event it was served for | Christmas, Thanksgiving, birthday, potluck, weeknight |
+| **Audience** | who ate and liked it (not who cooked it) | kids, husband, family, guests, picky eater |
+| **Cooked as (cuisine)** | the cuisine the reviewer describes it as | Mexican, Italian, Chinese |
 
-### Rules:
-- **Multi-category assignment**: A phrase like "tender, delicious chicken" extracts to both Texture (tender) and Taste (delicious)
-- **Normalization allowed**: "My hubby loved it" → "husband loved it"
-- **Sentiment tracking**: Each attribute is tagged as positive, negative, or neutral
+Main ingredient, listed cuisine, cook time, and calories come from the Food.com catalog.
 
-## Extraction Prompt
+## Pipeline (v4, October 2026)
 
-The LLM extraction uses this prompt structure:
+1. **Extract.** `deepseek-v4-flash` on the NRP Nautilus endpoint (`https://ellm.nrp-nautilus.io/v1`), thinking off, temperature 0.2, with [`rebuild_v4/prompts/extraction_prompt_v2.md`](rebuild_v4/prompts/extraction_prompt_v2.md). Each mention is a category, a value, a sentiment, and the exact source text. The prompt excludes the reviewer as audience, other dishes ("served it with Mexican rice"), planned changes, and cuisine words that name an ingredient or a restaurant.
+2. **Ground and verify.** Keep a mention only if its source text occurs in the review, then a second pass ([`verify_prompt_v1.md`](rebuild_v4/prompts/verify_prompt_v1.md)) checks each mention against the category definitions.
+3. **Normalize.** An observe-act-apply loop merges variants into canonical values (tart, zesty -> tangy; hubby, DH -> husband; not too spicy -> mild) and blacklists non-attributes. Each round is logged in [`rebuild_v4/normalization/ROUNDS.md`](rebuild_v4/normalization/ROUNDS.md).
+4. **Aggregate.** A recipe carries a flavor value when two of its reviews assert it, and a value of another category when one does. A value must apply to at least two recipes.
 
-```
-Extract attributes from this food/recipe review across 6 independent dimensions.
-
-## 6 Independent Dimensions (a phrase can belong to MULTIPLE categories):
-
-1. Taste-Flavor: The TASTE and FLAVOR profile
-   Examples: delicious, bland, too salty, perfectly seasoned, rich, tangy
-
-2. Texture-Mouthfeel: The PHYSICAL FEEL in the mouth
-   Examples: tender, crispy, moist, dry, creamy, fluffy
-
-3. Difficulty-Effort: How EASY or HARD to prepare
-   Examples: easy, simple, quick, complicated, time-consuming
-
-4. Occasion-Holiday: WHEN or for what EVENT to serve
-   Examples: Christmas, Thanksgiving, birthday, potluck, weeknight
-
-5. Audience-Enjoyment: WHO enjoys EATING this (not who cooked it)
-   Examples: kids loved it, husband's favorite, guests raved
-
-6. Cuisine-Type: The CUISINE STYLE or cultural/regional origin
-   Examples: Italian, Mexican, Southern, fusion, authentic
-
-## Rules:
-- A single phrase CAN belong to multiple categories
-- Normalize attributes while preserving meaning
-- Skip ingredient lists and measurements
-
-## Output Format:
-[{"category": "...", "attribute": "...", "span": "...", "sentiment": "..."}]
-```
-
-**API Configuration:**
-- Endpoint: `https://ellm.nrp-nautilus.io/v1/chat/completions`
-- Model: `gemma3`
-- Temperature: 0.2
+Every facet value keeps its link to the review span it came from, which the demo highlights. Full log, evaluation, and how to rebuild: [`rebuild_v4/README.md`](rebuild_v4/README.md). The previous version (Gemma 3 extraction) is tagged `v3-deployed-2026-10-24`.
 
 ## Demo Features
 

@@ -2,7 +2,7 @@
 
 Agent: Claude, reading the frequency-sorted distributions in `observe_roundN.md` by hand (2026-10-25).
 Input: `data/verified_v4.jsonl` (15,370 items). Maps: `data/synonyms_v4.json`, `data/blacklist_v4.json`.
-Stopping rule (feature-normalization skill): top-30 values cover >= 80% of mentions and a round gains < 2%.
+Stopping rule (feature-normalization skill): top-30 values cover >= 80% of mentions, or a round gains no more than 2 points.
 Policy: merge surface variants and clear synonyms only; keep the six v1 categories; follow the paper's examples (tart/zesty -> tangy, hubby/DH -> husband, greek -> Mediterranean, not too spicy -> mild); blacklist values that are not an attribute of that category.
 
 | Category | round 0 values / top-30 | round 1 | round 2 |
@@ -30,5 +30,9 @@ Gain 2.0%. Stopped. Taste stays below 80% because its tail is distinct flavor no
 - Texture blacklist: not crispy, not crunchy, not too crisp (negated values make no facet).
 - Canonical crisp-tender (v3 name) instead of tender-crisp.
 
+## Round 3 (2026-10-25, texture and audience tail, after the threshold change)
+Lowering the texture and audience thresholds to 1 made their tails into facet values, so the tail was read once more. Texture: crispness, crisp crust, slightly crisp -> crispy; not overly dry, semi-moist -> moist; fudgey -> fudgy; tenderness -> tender; easy to spread -> spreadable. Blacklist: easy to cut/roll/slice/stretch, freezes well, right consistency, nice texture, sheen, shiny, fried, breaded, and other non-texture tail values. Audience: dads -> father; co-worker, work buddies -> coworkers; families -> family; little boy, eight year old -> kids; 13 year old, 16 yo -> teenagers. Blacklist pets, names, customers.
+
 ## Aggregation threshold
-Minimum distinct supporting reviews per recipe: taste, texture, audience = 2; meal type, occasion, cuisine = 1. A single threshold failed both ways: at 1, husband covers 88% of recipes; at 2, Christmas falls from 17% to 5% and occasion queries return almost nothing. Sparse categories are mentioned rarely and explicitly, so one mention carries information; dense categories need agreement. Support counts are stored per value (`*_support` fields).
+Final (deployed, tag v4-deployed-2026-10-25): minimum distinct supporting reviews per recipe, flavor = 2, every other category = 1; a value must apply to at least 2 recipes.
+History: first set to taste, texture, audience = 2 and the rest = 1, because at 1 everywhere husband covers 88% of recipes and at 2 everywhere Christmas falls from 17% to 5%. The recipe-level blind eval then showed that pairs cut by the threshold were still correct 85% of the time for audience (17/20) and 75% for texture (15/20), but only 55% for flavor (11/20), so Li chose to lower texture and audience to 1 (2026-10-25). Support counts are stored per value (`*_support` fields).

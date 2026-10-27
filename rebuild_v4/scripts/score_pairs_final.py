@@ -1,7 +1,7 @@
 """Final recipe-level scores on the current v4 exhibit, combining pairs/ and pairs2/ verdicts.
 
 Precision of a set = correct / judged among sampled pairs that are still in that set now
-(current top-20 values, current shown membership). KW pairs come from pairs/ (keyword sets do
+(current top-20 values for both methods, current shown membership for SER). KW pairs come from pairs/ (keyword sets do
 not depend on the threshold). SER uses SER2 samples for texture and audience (drawn after the
 threshold change) and SER samples elsewhere. Estimated correct = pairs x precision.
 
@@ -42,7 +42,7 @@ print(f"{'category':20} {'KW pairs':>8} {'KW prec':>8} {'KW est':>7} | {'SER pai
 for d in DIMS:
     c = cov["table1"][d]
     top = set(c["facets"])
-    pk, nk = prec(lambda t, dd, v, nm: f"KW:{d}" in t)
+    pk, nk = prec(lambda t, dd, v, nm: f"KW:{d}" in t and v in top)  # same value set as the pair counts
     sertag = f"SER2:{d}" if d in ("texture_mouthfeel", "audience_enjoyment") else f"SER:{d}"
     ps, ns = prec(lambda t, dd, v, nm: sertag in t and v in top and nm in shown[d][v])
     res["table1"][d] = {"kw": c["kw"], "kw_prec": pk, "ser": c["shown"], "ser_prec": ps, "n_kw": nk, "n_ser": ns}

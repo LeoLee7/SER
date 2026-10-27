@@ -1,0 +1,639 @@
+{
+ "judgments": [
+  {
+   "id": "p0254",
+   "verdict": "correct",
+   "note": "loses its nice crunch implies crunch"
+  },
+  {
+   "id": "p0255",
+   "verdict": "correct",
+   "note": "staple for lunch or dinner"
+  },
+  {
+   "id": "p0256",
+   "verdict": "correct",
+   "note": "made as hubby's snack"
+  },
+  {
+   "id": "p0257",
+   "verdict": "wrong",
+   "note": "Thai food comparison only"
+  },
+  {
+   "id": "p0258",
+   "verdict": "correct",
+   "note": "very traditional Mexican"
+  },
+  {
+   "id": "p0259",
+   "verdict": "wrong",
+   "note": "pie brought to dinner, not dinner"
+  },
+  {
+   "id": "p0260",
+   "verdict": "correct",
+   "note": "fixed during holidays, family loved"
+  },
+  {
+   "id": "p0261",
+   "verdict": "correct",
+   "note": "the kids loved it"
+  },
+  {
+   "id": "p0262",
+   "verdict": "correct",
+   "note": "turned out a bit too salty"
+  },
+  {
+   "id": "p0263",
+   "verdict": "correct",
+   "note": "split one for dessert"
+  },
+  {
+   "id": "p0264",
+   "verdict": "correct",
+   "note": "kids enjoyed it"
+  },
+  {
+   "id": "p0265",
+   "verdict": "correct",
+   "note": "adults devoured six pounds"
+  },
+  {
+   "id": "p0266",
+   "verdict": "wrong",
+   "note": "garlic powder ingredient only"
+  },
+  {
+   "id": "p0267",
+   "verdict": "wrong",
+   "note": "Mexican corn ingredient"
+  },
+  {
+   "id": "p0268",
+   "verdict": "correct",
+   "note": "made for teacher's dinner"
+  },
+  {
+   "id": "p0269",
+   "verdict": "correct",
+   "note": "grandmother's breakfast sandwiches"
+  },
+  {
+   "id": "p0270",
+   "verdict": "correct",
+   "note": "crispy, buttery outside"
+  },
+  {
+   "id": "p0271",
+   "verdict": "correct",
+   "note": "muffins for kids' breakfast"
+  },
+  {
+   "id": "p0272",
+   "verdict": "correct",
+   "note": "texture was light"
+  },
+  {
+   "id": "p0273",
+   "verdict": "correct",
+   "note": "drunk during holiday baking"
+  },
+  {
+   "id": "p0274",
+   "verdict": "correct",
+   "note": "fixed for pot lucks"
+  },
+  {
+   "id": "p0275",
+   "verdict": "wrong",
+   "note": "seasoning; not like Spanish rice"
+  },
+  {
+   "id": "p0276",
+   "verdict": "correct",
+   "note": "guilt-free dessert"
+  },
+  {
+   "id": "p0277",
+   "verdict": "correct",
+   "note": "father's wife praised it"
+  },
+  {
+   "id": "p0278",
+   "verdict": "correct",
+   "note": "husband can't get enough"
+  },
+  {
+   "id": "p0279",
+   "verdict": "correct",
+   "note": "served at a party"
+  },
+  {
+   "id": "p0280",
+   "verdict": "correct",
+   "note": "tasted sort of French"
+  },
+  {
+   "id": "p0281",
+   "verdict": "correct",
+   "note": "gave sweet tangy taste"
+  },
+  {
+   "id": "p0282",
+   "verdict": "correct",
+   "note": "tangy delivered"
+  },
+  {
+   "id": "p0283",
+   "verdict": "correct",
+   "note": "kids loved it"
+  },
+  {
+   "id": "p0284",
+   "verdict": "correct",
+   "note": "plenty sweet enough"
+  },
+  {
+   "id": "p0285",
+   "verdict": "correct",
+   "note": "best Mexican meatball soup"
+  },
+  {
+   "id": "p0286",
+   "verdict": "wrong",
+   "note": "cheese topping and plans only"
+  },
+  {
+   "id": "p0287",
+   "verdict": "correct",
+   "note": "mild flavor"
+  },
+  {
+   "id": "p0288",
+   "verdict": "correct",
+   "note": "crisp outside chewy inside"
+  },
+  {
+   "id": "p0289",
+   "verdict": "correct",
+   "note": "young kids devoured these"
+  },
+  {
+   "id": "p0290",
+   "verdict": "wrong",
+   "note": "no crusty mention"
+  },
+  {
+   "id": "p0291",
+   "verdict": "correct",
+   "note": "picky husband loved it"
+  },
+  {
+   "id": "p0292",
+   "verdict": "wrong",
+   "note": "holiday menu planning only"
+  },
+  {
+   "id": "p0293",
+   "verdict": "wrong",
+   "note": "Italian mayo side"
+  },
+  {
+   "id": "p0294",
+   "verdict": "correct",
+   "note": "now a holiday staple"
+  },
+  {
+   "id": "p0295",
+   "verdict": "correct",
+   "note": "edges nice and crisp"
+  },
+  {
+   "id": "p0296",
+   "verdict": "correct",
+   "note": "like authentic Italian pizza"
+  },
+  {
+   "id": "p0297",
+   "verdict": "correct",
+   "note": "son inhales four"
+  },
+  {
+   "id": "p0298",
+   "verdict": "correct",
+   "note": "super moist"
+  },
+  {
+   "id": "p0299",
+   "verdict": "correct",
+   "note": "kept holiday tradition going"
+  },
+  {
+   "id": "p0300",
+   "verdict": "correct",
+   "note": "nice crunch on top"
+  },
+  {
+   "id": "p0301",
+   "verdict": "correct",
+   "note": "friends love them"
+  },
+  {
+   "id": "p0302",
+   "verdict": "correct",
+   "note": "Christmas baking"
+  },
+  {
+   "id": "p0303",
+   "verdict": "correct",
+   "note": "cheesy sauce coated each bite"
+  },
+  {
+   "id": "p0304",
+   "verdict": "correct",
+   "note": "whole family loves them"
+  },
+  {
+   "id": "p0305",
+   "verdict": "correct",
+   "note": "in holiday rotation"
+  },
+  {
+   "id": "p0306",
+   "verdict": "correct",
+   "note": "Japanese boyfriend: like mom's"
+  },
+  {
+   "id": "p0307",
+   "verdict": "correct",
+   "note": "perfect for 4th of July"
+  },
+  {
+   "id": "p0308",
+   "verdict": "wrong",
+   "note": "fresh ingredients only"
+  },
+  {
+   "id": "p0309",
+   "verdict": "correct",
+   "note": "pancakes for lunch"
+  },
+  {
+   "id": "p0310",
+   "verdict": "wrong",
+   "note": "pumpkin spice ingredient"
+  },
+  {
+   "id": "p0311",
+   "verdict": "wrong",
+   "note": "BBQ sauce ingredient"
+  },
+  {
+   "id": "p0312",
+   "verdict": "correct",
+   "note": "authentic Indian restaurant taste"
+  },
+  {
+   "id": "p0313",
+   "verdict": "correct",
+   "note": "better than Mexican restaurant burritos"
+  },
+  {
+   "id": "p0314",
+   "verdict": "correct",
+   "note": "dinner rotation"
+  },
+  {
+   "id": "p0315",
+   "verdict": "correct",
+   "note": "authentic Italian alfredo"
+  },
+  {
+   "id": "p0316",
+   "verdict": "correct",
+   "note": "crunchy sugar top"
+  },
+  {
+   "id": "p0317",
+   "verdict": "correct",
+   "note": "made holiday season happy"
+  },
+  {
+   "id": "p0318",
+   "verdict": "correct",
+   "note": "rich banana flavor"
+  },
+  {
+   "id": "p0319",
+   "verdict": "correct",
+   "note": "crispy skin"
+  },
+  {
+   "id": "p0320",
+   "verdict": "correct",
+   "note": "great easy side"
+  },
+  {
+   "id": "p0321",
+   "verdict": "correct",
+   "note": "not so sweet"
+  },
+  {
+   "id": "p0322",
+   "verdict": "correct",
+   "note": "faintly crispy outer crust"
+  },
+  {
+   "id": "p0323",
+   "verdict": "correct",
+   "note": "served as appetizer"
+  },
+  {
+   "id": "p0324",
+   "verdict": "correct",
+   "note": "southern-style home cuisine"
+  },
+  {
+   "id": "p0325",
+   "verdict": "correct",
+   "note": "thick-and-doughy crust"
+  },
+  {
+   "id": "p0326",
+   "verdict": "correct",
+   "note": "kids loved it"
+  },
+  {
+   "id": "p0327",
+   "verdict": "correct",
+   "note": "nice tangy flavor"
+  },
+  {
+   "id": "p0328",
+   "verdict": "correct",
+   "note": "dad ate it all"
+  },
+  {
+   "id": "p0329",
+   "verdict": "correct",
+   "note": "crispy broiled top"
+  },
+  {
+   "id": "p0330",
+   "verdict": "correct",
+   "note": "made holiday tasty"
+  },
+  {
+   "id": "p0331",
+   "verdict": "correct",
+   "note": "mother said best ever"
+  },
+  {
+   "id": "p0332",
+   "verdict": "correct",
+   "note": "moist and tender"
+  },
+  {
+   "id": "p0333",
+   "verdict": "correct",
+   "note": "served for ladies' lunch"
+  },
+  {
+   "id": "p0334",
+   "verdict": "correct",
+   "note": "not much salt"
+  },
+  {
+   "id": "p0335",
+   "verdict": "correct",
+   "note": "served at birthday bbq"
+  },
+  {
+   "id": "p0336",
+   "verdict": "correct",
+   "note": "not too sweet"
+  },
+  {
+   "id": "p0337",
+   "verdict": "wrong",
+   "note": "cinnamon ingredient only"
+  },
+  {
+   "id": "p0338",
+   "verdict": "correct",
+   "note": "family Easter gathering"
+  },
+  {
+   "id": "p0339",
+   "verdict": "correct",
+   "note": "daughter begs for it"
+  },
+  {
+   "id": "p0340",
+   "verdict": "correct",
+   "note": "top noodles a little crispy"
+  },
+  {
+   "id": "p0341",
+   "verdict": "correct",
+   "note": "made for dinner"
+  },
+  {
+   "id": "p0342",
+   "verdict": "correct",
+   "note": "served for lunch"
+  },
+  {
+   "id": "p0343",
+   "verdict": "correct",
+   "note": "comfort food dinner"
+  },
+  {
+   "id": "p0344",
+   "verdict": "correct",
+   "note": "tangy lemony filling"
+  },
+  {
+   "id": "p0345",
+   "verdict": "correct",
+   "note": "moist, slightly sweet"
+  },
+  {
+   "id": "p0346",
+   "verdict": "correct",
+   "note": "kids love it"
+  },
+  {
+   "id": "p0347",
+   "verdict": "wrong",
+   "note": "only recommends to friends"
+  },
+  {
+   "id": "p0348",
+   "verdict": "correct",
+   "note": "saltiness perfect"
+  },
+  {
+   "id": "p0349",
+   "verdict": "correct",
+   "note": "huge hit at party"
+  },
+  {
+   "id": "p0350",
+   "verdict": "correct",
+   "note": "made for Mother's Day"
+  },
+  {
+   "id": "p0351",
+   "verdict": "correct",
+   "note": "plenty sweet enough"
+  },
+  {
+   "id": "p0352",
+   "verdict": "correct",
+   "note": "not too sweet"
+  },
+  {
+   "id": "p0353",
+   "verdict": "correct",
+   "note": "slightly crisp outside"
+  },
+  {
+   "id": "p0354",
+   "verdict": "correct",
+   "note": "hit during the holidays"
+  },
+  {
+   "id": "p0355",
+   "verdict": "correct",
+   "note": "light and tender"
+  },
+  {
+   "id": "p0356",
+   "verdict": "wrong",
+   "note": "French buttercream other recipe"
+  },
+  {
+   "id": "p0357",
+   "verdict": "correct",
+   "note": "piece for breakfast"
+  },
+  {
+   "id": "p0358",
+   "verdict": "correct",
+   "note": "nutty, spicy taste"
+  },
+  {
+   "id": "p0359",
+   "verdict": "correct",
+   "note": "patties nice and moist"
+  },
+  {
+   "id": "p0360",
+   "verdict": "correct",
+   "note": "bottom crust very crispy"
+  },
+  {
+   "id": "p0361",
+   "verdict": "wrong",
+   "note": "pan coating, not served"
+  },
+  {
+   "id": "p0362",
+   "verdict": "wrong",
+   "note": "garlic powder ingredient"
+  },
+  {
+   "id": "p0363",
+   "verdict": "correct",
+   "note": "birthday party hit"
+  },
+  {
+   "id": "p0364",
+   "verdict": "correct",
+   "note": "creamy, cheesy"
+  },
+  {
+   "id": "p0365",
+   "verdict": "wrong",
+   "note": "mother as cook, memory"
+  },
+  {
+   "id": "p0366",
+   "verdict": "wrong",
+   "note": "stock thin before fix"
+  },
+  {
+   "id": "p0367",
+   "verdict": "wrong",
+   "note": "dinner plate only"
+  },
+  {
+   "id": "p0368",
+   "verdict": "correct",
+   "note": "DH said a keeper"
+  },
+  {
+   "id": "p0369",
+   "verdict": "wrong",
+   "note": "reviewer British, not dish"
+  },
+  {
+   "id": "p0370",
+   "verdict": "correct",
+   "note": "another pan for dinner"
+  },
+  {
+   "id": "p0371",
+   "verdict": "correct",
+   "note": "made for pot luck"
+  },
+  {
+   "id": "p0372",
+   "verdict": "correct",
+   "note": "great zing, tangy"
+  },
+  {
+   "id": "p0373",
+   "verdict": "correct",
+   "note": "Christmas dinner side"
+  },
+  {
+   "id": "p0374",
+   "verdict": "wrong",
+   "note": "seasoning gift plan"
+  },
+  {
+   "id": "p0375",
+   "verdict": "correct",
+   "note": "added nice richness"
+  },
+  {
+   "id": "p0376",
+   "verdict": "correct",
+   "note": "made on summer night"
+  },
+  {
+   "id": "p0377",
+   "verdict": "correct",
+   "note": "kids want leftovers"
+  },
+  {
+   "id": "p0378",
+   "verdict": "correct",
+   "note": "served at my BBQ"
+  },
+  {
+   "id": "p0379",
+   "verdict": "correct",
+   "note": "perfect side dish"
+  },
+  {
+   "id": "p0380",
+   "verdict": "correct",
+   "note": "rich, not too sweet"
+  }
+ ]
+}

@@ -1,0 +1,187 @@
+{
+ "table1": {
+  "taste_flavor": {
+   "facets": [
+    "sweet",
+    "spicy",
+    "rich",
+    "not too sweet",
+    "garlic",
+    "chocolate",
+    "mild",
+    "tangy",
+    "cheesy",
+    "lemon",
+    "cinnamon",
+    "buttery",
+    "banana",
+    "not too salty",
+    "peanut butter",
+    "fresh",
+    "smoky",
+    "pumpkin",
+    "salty",
+    "refreshing"
+   ],
+   "kw": 2252,
+   "normalized": 1125,
+   "shown": 436
+  },
+  "texture_mouthfeel": {
+   "facets": [
+    "moist",
+    "crispy",
+    "tender",
+    "soft",
+    "thick",
+    "fluffy",
+    "crunchy",
+    "creamy",
+    "light",
+    "juicy",
+    "chewy",
+    "smooth",
+    "dense",
+    "gooey",
+    "crusty",
+    "flaky",
+    "thin",
+    "falls apart",
+    "sticky",
+    "fudgy"
+   ],
+   "kw": 2384,
+   "normalized": 1686,
+   "shown": 811
+  },
+  "meal_type": {
+   "facets": [
+    "dinner",
+    "lunch",
+    "breakfast",
+    "dessert",
+    "snack",
+    "side dish",
+    "appetizer",
+    "main dish",
+    "brunch"
+   ],
+   "kw": 898,
+   "normalized": 717,
+   "shown": 717
+  },
+  "occasion_holiday": {
+   "facets": [
+    "Christmas",
+    "party",
+    "birthday",
+    "potluck",
+    "Thanksgiving",
+    "weeknight",
+    "holiday",
+    "gathering",
+    "bbq",
+    "summer",
+    "Easter",
+    "winter",
+    "dinner party",
+    "Super Bowl",
+    "game day",
+    "4th of July",
+    "Halloween",
+    "New Year's",
+    "valentine's day",
+    "church event"
+   ],
+   "kw": 901,
+   "normalized": 659,
+   "shown": 659
+  },
+  "audience_enjoyment": {
+   "facets": [
+    "husband",
+    "family",
+    "kids",
+    "son",
+    "daughter",
+    "friends",
+    "guests",
+    "partner",
+    "coworkers",
+    "picky eater",
+    "boyfriend",
+    "mother",
+    "father",
+    "grandkids",
+    "adults",
+    "neighbors",
+    "toddler",
+    "sister",
+    "wife",
+    "uncle"
+   ],
+   "kw": 2501,
+   "normalized": 2254,
+   "shown": 829
+  },
+  "cuisine_type": {
+   "facets": [
+    "Mexican",
+    "Italian",
+    "Chinese",
+    "Southern",
+    "Mediterranean",
+    "Asian",
+    "French",
+    "Indian",
+    "Cajun",
+    "American",
+    "Japanese",
+    "Irish",
+    "Hungarian",
+    "Southwestern",
+    "Filipino",
+    "British",
+    "Lebanese",
+    "Spanish",
+    "Korean",
+    "Thai"
+   ],
+   "kw": 601,
+   "normalized": 107,
+   "shown": 107
+  }
+ },
+ "trace": {
+  "tangy": {
+   "kw": 41,
+   "extracted": 32,
+   "normalized": 75,
+   "shown": 15
+  },
+  "crispy": {
+   "kw": 155,
+   "extracted": 167,
+   "normalized": 169,
+   "shown": 102
+  },
+  "holiday": {
+   "kw": 46,
+   "extracted": 20,
+   "normalized": 34,
+   "shown": 34
+  },
+  "kids": {
+   "kw": 299,
+   "extracted": 274,
+   "normalized": 290,
+   "shown": 121
+  },
+  "Mexican": {
+   "kw": 70,
+   "extracted": 16,
+   "normalized": 21,
+   "shown": 21
+  }
+ }
+}

@@ -1,0 +1,389 @@
+{
+ "judgments": [
+  {
+   "id": "q0108",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0020",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0046",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0092",
+   "verdict": "wrong",
+   "note": "guests took leftovers, no enjoyment stated"
+  },
+  {
+   "id": "q0144",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0089",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0131",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0027",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0096",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0080",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0021",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0078",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0100",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0111",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0135",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0113",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0071",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0069",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0041",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0060",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0022",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0073",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0035",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0016",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0104",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0057",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0085",
+   "verdict": "correct",
+   "note": "DH likens favorably to LJS"
+  },
+  {
+   "id": "q0068",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0011",
+   "verdict": "wrong",
+   "note": "preference only, not stated result"
+  },
+  {
+   "id": "q0025",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0043",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0095",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0056",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0084",
+   "verdict": "correct",
+   "note": "guests ate dip, wanted recipe"
+  },
+  {
+   "id": "q0147",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0055",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0002",
+   "verdict": "correct",
+   "note": "succulent supports juicy"
+  },
+  {
+   "id": "q0075",
+   "verdict": "wrong",
+   "note": "hypothetical large group use"
+  },
+  {
+   "id": "q0036",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0051",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0141",
+   "verdict": "correct",
+   "note": "kids ate it all up"
+  },
+  {
+   "id": "q0004",
+   "verdict": "correct",
+   "note": "sugar top gave nice crunch"
+  },
+  {
+   "id": "q0081",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0005",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0086",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0129",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0079",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0058",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0116",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0054",
+   "verdict": "wrong",
+   "note": "piece size, not mouthfeel"
+  },
+  {
+   "id": "q0114",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0127",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0019",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0030",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0098",
+   "verdict": "correct",
+   "note": "husband liked the flavor"
+  },
+  {
+   "id": "q0125",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0118",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0122",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0139",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0123",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0109",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0031",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0149",
+   "verdict": "correct",
+   "note": "plenty sweet for my kids"
+  },
+  {
+   "id": "q0107",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0044",
+   "verdict": "wrong",
+   "note": "creamy refers to ingredients"
+  },
+  {
+   "id": "q0133",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0038",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0013",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0018",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0034",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0117",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0128",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0047",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0008",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0062",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0136",
+   "verdict": "correct",
+   "note": "evidence states property"
+  },
+  {
+   "id": "q0033",
+   "verdict": "correct",
+   "note": "evidence states property"
+  }
+ ]
+}

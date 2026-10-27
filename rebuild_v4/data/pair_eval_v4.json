@@ -1,0 +1,150 @@
+{
+ "categories": {
+  "taste_flavor": {
+   "kw_pairs": 2252,
+   "kw_prec": 0.5,
+   "kw_est": 1126.0,
+   "ser_pairs": 436,
+   "ser_prec": 1.0,
+   "ser_est": 436.0,
+   "cut_prec": 0.55,
+   "n": [
+    40,
+    40,
+    20
+   ]
+  },
+  "texture_mouthfeel": {
+   "kw_pairs": 2384,
+   "kw_prec": 0.7,
+   "kw_est": 1668.8,
+   "ser_pairs": 811,
+   "ser_prec": 0.975,
+   "ser_est": 790.725,
+   "cut_prec": 0.75,
+   "n": [
+    40,
+    40,
+    20
+   ]
+  },
+  "meal_type": {
+   "kw_pairs": 898,
+   "kw_prec": 0.725,
+   "kw_est": 651.05,
+   "ser_pairs": 717,
+   "ser_prec": 0.85,
+   "ser_est": 609.4499999999999,
+   "cut_prec": null,
+   "n": [
+    40,
+    40,
+    0
+   ]
+  },
+  "occasion_holiday": {
+   "kw_pairs": 901,
+   "kw_prec": 0.65,
+   "kw_est": 585.65,
+   "ser_pairs": 659,
+   "ser_prec": 0.925,
+   "ser_est": 609.575,
+   "cut_prec": null,
+   "n": [
+    40,
+    40,
+    0
+   ]
+  },
+  "audience_enjoyment": {
+   "kw_pairs": 2501,
+   "kw_prec": 0.7,
+   "kw_est": 1750.6999999999998,
+   "ser_pairs": 829,
+   "ser_prec": 0.95,
+   "ser_est": 787.55,
+   "cut_prec": 0.85,
+   "n": [
+    40,
+    40,
+    20
+   ]
+  },
+  "cuisine_type": {
+   "kw_pairs": 601,
+   "kw_prec": 0.25,
+   "kw_est": 150.25,
+   "ser_pairs": 107,
+   "ser_prec": 0.925,
+   "ser_est": 98.97500000000001,
+   "cut_prec": null,
+   "n": [
+    40,
+    40,
+    0
+   ]
+  }
+ },
+ "trace": {
+  "tangy": {
+   "kw": 41,
+   "extracted": 32,
+   "normalized": 75,
+   "shown": 15,
+   "kw_prec": 0.8,
+   "ser_prec": 0.9333333333333333,
+   "n": [
+    30,
+    15
+   ]
+  },
+  "crispy": {
+   "kw": 155,
+   "extracted": 167,
+   "normalized": 169,
+   "shown": 102,
+   "kw_prec": 0.8666666666666667,
+   "ser_prec": 1.0,
+   "n": [
+    30,
+    30
+   ]
+  },
+  "holiday": {
+   "kw": 46,
+   "extracted": 20,
+   "normalized": 34,
+   "shown": 34,
+   "kw_prec": 0.6,
+   "ser_prec": 0.9,
+   "n": [
+    30,
+    30
+   ]
+  },
+  "kids": {
+   "kw": 299,
+   "extracted": 274,
+   "normalized": 290,
+   "shown": 121,
+   "kw_prec": 0.8333333333333334,
+   "ser_prec": 1.0,
+   "n": [
+    30,
+    30
+   ]
+  },
+  "Mexican": {
+   "kw": 70,
+   "extracted": 16,
+   "normalized": 21,
+   "shown": 21,
+   "kw_prec": 0.3,
+   "ser_prec": 0.9047619047619048,
+   "n": [
+    30,
+    21
+   ]
+  }
+ }
+}

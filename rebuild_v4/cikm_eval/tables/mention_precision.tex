@@ -1,0 +1,22 @@
+% Mention-level precision: literal keyword matching vs SER context-aware extraction.
+% Source: scripts/eval_mention_precision_multi.py ; judge gpt-oss (cross-family).
+\begin{table}[t]
+\centering
+\small
+\setlength{\tabcolsep}{7pt}
+\begin{tabular}{@{}llcc@{}}
+\toprule
+\textbf{Facet} & \textbf{Dimension} & \textbf{Keyword} & \textbf{SER} \\
+\midrule
+spicy  & Flavor   & 68 & \textbf{88} \\
+tangy  & Flavor   & 82 & \textbf{94} \\
+crispy & Texture  & 68 & \textbf{92} \\
+creamy & Texture  & 62 & \textbf{85} \\
+kids   & Audience & 78 & \textbf{82} \\
+\midrule
+\textbf{Macro} & & \textbf{72} & \textbf{88} \\
+\bottomrule
+\end{tabular}
+\caption{Mention-level precision (\%) of literal keyword matching versus SER's context-aware extraction. For each facet we sample 40 keyword-matched review sentences and 40 sentences SER extracted for that facet; an independent cross-family judge (gpt-oss~\cite{openai2025gptoss}, following Zheng et al.~\cite{zheng2024judging}) rates each on the full sentence for search relevance, under one rubric applied to both methods. SER is consistently more precise because it discards negated (``not crispy''), ingredient-only (``creamy peanut butter''), and off-topic (``Sweet and Tangy'' sauce) mentions that a substring match counts as hits.}
+\label{tab:mention-precision}
+\end{table}

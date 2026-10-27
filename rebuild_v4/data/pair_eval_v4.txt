@@ -1,0 +1,15 @@
+category             KW pairs  KW prec  KW est | SER pairs SER prec SER est | CUT prec
+taste_flavor             2252      50%    1126 |       436     100%     436 |      55%
+texture_mouthfeel        2384      70%    1669 |       811      98%     791 |      75%
+meal_type                 898      72%     651 |       717      85%     609 |       -
+occasion_holiday          901      65%     586 |       659      92%     610 |       -
+audience_enjoyment       2501      70%    1751 |       829      95%     788 |      85%
+cuisine_type              601      25%     150 |       107      92%      99 |       -
+ALL                      9537      62%    5932 |      3559      94%    3332
+
+trace facet   KW recipes  KW prec  KW est | SER recipes  SER prec  SER est
+tangy                41      80%     33 |          15       93%      14
+crispy              155      87%    134 |         102      100%     102
+holiday              46      60%     28 |          34       90%      31
+kids                299      83%    249 |         121      100%     121
+Mexican              70      30%     21 |          21       90%      19

@@ -1,0 +1,260 @@
+{
+ "base": "http://localhost:8899",
+ "domains": {
+  "recipes": {
+   "total": 500,
+   "domain_switch": [
+    "Recipes",
+    "Movies",
+    "Games"
+   ],
+   "queries": [
+    {
+     "query": "chicken dish for kids",
+     "status": "Chicken (main_ingredient), kids (audience)",
+     "selected_facets": [
+      "kids",
+      "Chicken"
+     ],
+     "result_count": 28,
+     "top5": [
+      "Easy Garlic Chicken",
+      "Slow-Cooker Cheesy Chicken",
+      "Melt-In-Your-Mouth Chicken Breasts",
+      "Funky Chicken With Sesame Noodles",
+      "Crock-Pot Chicken With Black Beans & Cream Cheese"
+     ],
+     "selected_after_clear": [],
+     "count_after_clear": 500
+    },
+    {
+     "query": "thanksgiving dessert",
+     "status": "Thanksgiving (occasion), dessert (meal_type)",
+     "selected_facets": [
+      "Thanksgiving",
+      "dessert"
+     ],
+     "result_count": 15,
+     "top5": [
+      "Sweet Potato Casserole",
+      "Old-Fashioned Banana Cream Pie",
+      "Pumpkin Pie Dip",
+      "Chocolate! Chocolate! Chocolate! Bundt Cake With Chocolate Glaze",
+      "Granny's Banana Cream Pie"
+     ],
+     "selected_after_clear": [],
+     "count_after_clear": 500
+    },
+    {
+     "query": "spicy asian dinner",
+     "status": "spicy (taste), Asian (cuisine_catalog), dinner (meal_type)",
+     "selected_facets": [
+      "spicy",
+      "dinner",
+      "Asian"
+     ],
+     "result_count": 6,
+     "top5": [
+      "Chicken Curry in a Hurry",
+      "Bourbon Chicken",
+      "Szechuan Noodles With Spicy Beef Sauce",
+      "Mean Guy's General Tso's Chicken",
+      "Crispy Ginger Beef"
+     ],
+     "selected_after_clear": [],
+     "count_after_clear": 500
+    },
+    {
+     "query": "crispy snack for my husband",
+     "status": "crispy (texture), snack (meal_type), husband (audience)",
+     "selected_facets": [
+      "husband",
+      "crispy",
+      "snack"
+     ],
+     "result_count": 12,
+     "top5": [
+      "Steven's World Famous To-Die-For Sour Cream Chicken",
+      "Vanishing Oatmeal Raisin Cookies",
+      "Roasted Pumpkin Seeds",
+      "BLT Pasta Salad",
+      "Easy Peezy Pizza Dough (Bread Machine Pizza Dough)"
+     ],
+     "selected_after_clear": [],
+     "count_after_clear": 500
+    },
+    {
+     "query": "christmas food for my father",
+     "status": "Christmas (occasion), father (audience)",
+     "selected_facets": [
+      "father",
+      "Christmas"
+     ],
+     "result_count": 2,
+     "top5": [
+      "Old-Fashioned Banana Cream Pie",
+      "Reeses Squares - 5 Ingredients & No Bake (Reese's)"
+     ],
+     "selected_after_clear": [],
+     "count_after_clear": 500
+    },
+    {
+     "query": "mexican dinner",
+     "status": "Mexican (cuisine_catalog), dinner (meal_type)",
+     "selected_facets": [
+      "dinner",
+      "Mexican"
+     ],
+     "result_count": 23,
+     "top5": [
+      "Crock Pot Chicken Taco Meat",
+      "Refried Beans",
+      "Streamlined Chimichangas",
+      "Chicken Enchiladas",
+      "Fish Tacos"
+     ],
+     "selected_after_clear": [],
+     "count_after_clear": 500
+    },
+    {
+     "query": "easy weeknight chicken",
+     "status": "weeknight (occasion), Chicken (main_ingredient)  |  ignored: easy",
+     "selected_facets": [
+      "weeknight",
+      "Chicken"
+     ],
+     "result_count": 11,
+     "top5": [
+      "Spanish Chicken & Rice Bake",
+      "Greek Chicken and Potatoes",
+      "General Tso's Chicken",
+      "Crock Pot Chicken Taco Meat",
+      "Salsa Chicken"
+     ],
+     "selected_after_clear": [],
+     "count_after_clear": 500
+    }
+   ]
+  },
+  "movies": {
+   "total": 100,
+   "domain_switch": [
+    "Recipes",
+    "Movies",
+    "Games"
+   ],
+   "queries": [
+    {
+     "query": "scary movie for halloween",
+     "status": "halloween (occasion), scary (subjective_feeling)",
+     "selected_facets": [
+      "scary",
+      "halloween"
+     ],
+     "result_count": 4,
+     "top5": [
+      "Saw II (2005)",
+      "The Brothers Grimm (2005)",
+      "The Fog (2005)",
+      "Saw (2004)"
+     ],
+     "selected_after_clear": [],
+     "count_after_clear": 100
+    },
+    {
+     "query": "funny movie for date night",
+     "status": "date night (occasion), night out (occasion), funny (subjective_feeling)",
+     "selected_facets": [
+      "funny",
+      "night out"
+     ],
+     "result_count": 1,
+     "top5": [
+      "House of Wax (2005)"
+     ],
+     "selected_after_clear": [],
+     "count_after_clear": 100
+    },
+    {
+     "query": "movie my kids loved",
+     "status": "kids and adults (target_audience), loved (subjective_feeling)",
+     "selected_facets": [
+      "kids and adults"
+     ],
+     "result_count": 1,
+     "top5": [
+      "Chicken Little (2005)"
+     ],
+     "selected_after_clear": [],
+     "count_after_clear": 100
+    }
+   ]
+  },
+  "games": {
+   "total": 100,
+   "domain_switch": [
+    "Recipes",
+    "Movies",
+    "Games"
+   ],
+   "queries": [
+    {
+     "query": "relaxing game",
+     "status": "nothing matched  |  ignored: relaxing",
+     "selected_facets": [],
+     "result_count": 100,
+     "top5": [
+      "Crab Game",
+      "ULTRAKILL",
+      "Helltaker",
+      "Cookie Clicker",
+      "Stumble Guys"
+     ],
+     "selected_after_clear": [],
+     "count_after_clear": 100
+    },
+    {
+     "query": "hard game worth the price",
+     "status": "hard (difficulty), worth buying (value), worth the price (value)",
+     "selected_facets": [
+      "hard",
+      "worth the price"
+     ],
+     "result_count": 1,
+     "top5": [
+      "IXION"
+     ],
+     "selected_after_clear": [],
+     "count_after_clear": 100
+    },
+    {
+     "query": "game to play with friends",
+     "status": "fun with friends (gameplay)",
+     "selected_facets": [
+      "fun with friends"
+     ],
+     "result_count": 5,
+     "top5": [
+      "Stormworks: Build and Rescue",
+      "Valheim",
+      "Back 4 Blood",
+      "Grounded",
+      "STALCRAFT: X"
+     ],
+     "selected_after_clear": [],
+     "count_after_clear": 100
+    }
+   ]
+  }
+ },
+ "checks": {
+  "texture_crisp_values": [
+   "crispy",
+   "crisp-tender"
+  ],
+  "crispy_single_value": true,
+  "audience_pronouns_present": [],
+  "audience_self_present": false
+ },
+ "page_errors": []
+}

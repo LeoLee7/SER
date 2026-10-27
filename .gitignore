@@ -4,3 +4,11 @@ CLAUDE.md
 /paper
 .vscode
 .DS_Store
+# v4 rebuild: large intermediates, rebuildable via rebuild_v4/scripts/run_full.sh
+rebuild_v4/data/raw_extractions_v4.jsonl
+rebuild_v4/data/grounded_v4.jsonl
+rebuild_v4/data/verified_v4.jsonl
+rebuild_v4/data/food-exhibit-data-500recipes.v4.json
+rebuild_v4/data/run_full.log
+__pycache__/
+rebuild_v4/data/food-exhibit-data-500recipes.v4_thr2.json

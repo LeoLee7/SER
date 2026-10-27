@@ -1,0 +1,629 @@
+{
+ "judgments": [
+  {
+   "id": "p0635",
+   "verdict": "wrong",
+   "note": "no sentence attests property"
+  },
+  {
+   "id": "p0636",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0637",
+   "verdict": "wrong",
+   "note": "no sentence attests property"
+  },
+  {
+   "id": "p0638",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0639",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0640",
+   "verdict": "wrong",
+   "note": "no sentence attests property"
+  },
+  {
+   "id": "p0641",
+   "verdict": "wrong",
+   "note": "no sentence attests property"
+  },
+  {
+   "id": "p0642",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0643",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0644",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0645",
+   "verdict": "wrong",
+   "note": "no sentence attests property"
+  },
+  {
+   "id": "p0646",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0647",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0648",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0649",
+   "verdict": "wrong",
+   "note": "no sentence attests property"
+  },
+  {
+   "id": "p0650",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0651",
+   "verdict": "wrong",
+   "note": "no sentence attests property"
+  },
+  {
+   "id": "p0652",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0653",
+   "verdict": "wrong",
+   "note": "no sentence attests property"
+  },
+  {
+   "id": "p0654",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0655",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0656",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0657",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0658",
+   "verdict": "wrong",
+   "note": "no sentence attests property"
+  },
+  {
+   "id": "p0659",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0660",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0661",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0662",
+   "verdict": "wrong",
+   "note": "no sentence attests property"
+  },
+  {
+   "id": "p0663",
+   "verdict": "wrong",
+   "note": "no sentence attests property"
+  },
+  {
+   "id": "p0664",
+   "verdict": "wrong",
+   "note": "no sentence attests property"
+  },
+  {
+   "id": "p0665",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0666",
+   "verdict": "wrong",
+   "note": "no sentence attests property"
+  },
+  {
+   "id": "p0667",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0668",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0669",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0670",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0671",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0672",
+   "verdict": "wrong",
+   "note": "no sentence attests property"
+  },
+  {
+   "id": "p0673",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0674",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0675",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0676",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0677",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0678",
+   "verdict": "wrong",
+   "note": "no sentence attests property"
+  },
+  {
+   "id": "p0679",
+   "verdict": "wrong",
+   "note": "no sentence attests property"
+  },
+  {
+   "id": "p0680",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0681",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0682",
+   "verdict": "wrong",
+   "note": "no sentence attests property"
+  },
+  {
+   "id": "p0683",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0684",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0685",
+   "verdict": "wrong",
+   "note": "no sentence attests property"
+  },
+  {
+   "id": "p0686",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0687",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0688",
+   "verdict": "wrong",
+   "note": "no sentence attests property"
+  },
+  {
+   "id": "p0689",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0690",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0691",
+   "verdict": "wrong",
+   "note": "no sentence attests property"
+  },
+  {
+   "id": "p0692",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0693",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0694",
+   "verdict": "wrong",
+   "note": "no sentence attests property"
+  },
+  {
+   "id": "p0695",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0696",
+   "verdict": "wrong",
+   "note": "no sentence attests property"
+  },
+  {
+   "id": "p0697",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0698",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0699",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0700",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0701",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0702",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0703",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0704",
+   "verdict": "wrong",
+   "note": "no sentence attests property"
+  },
+  {
+   "id": "p0705",
+   "verdict": "wrong",
+   "note": "no sentence attests property"
+  },
+  {
+   "id": "p0706",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0707",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0708",
+   "verdict": "wrong",
+   "note": "no sentence attests property"
+  },
+  {
+   "id": "p0709",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0710",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0711",
+   "verdict": "wrong",
+   "note": "no sentence attests property"
+  },
+  {
+   "id": "p0712",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0713",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0714",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0715",
+   "verdict": "wrong",
+   "note": "no sentence attests property"
+  },
+  {
+   "id": "p0716",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0717",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0718",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0719",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0720",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0721",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0722",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0723",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0724",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0725",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0726",
+   "verdict": "wrong",
+   "note": "no sentence attests property"
+  },
+  {
+   "id": "p0727",
+   "verdict": "wrong",
+   "note": "no sentence attests property"
+  },
+  {
+   "id": "p0728",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0729",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0730",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0731",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0732",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0733",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0734",
+   "verdict": "wrong",
+   "note": "no sentence attests property"
+  },
+  {
+   "id": "p0735",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0736",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0737",
+   "verdict": "wrong",
+   "note": "no sentence attests property"
+  },
+  {
+   "id": "p0738",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0739",
+   "verdict": "wrong",
+   "note": "no sentence attests property"
+  },
+  {
+   "id": "p0740",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0741",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0742",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0743",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0744",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0745",
+   "verdict": "wrong",
+   "note": "no sentence attests property"
+  },
+  {
+   "id": "p0746",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0747",
+   "verdict": "wrong",
+   "note": "no sentence attests property"
+  },
+  {
+   "id": "p0748",
+   "verdict": "wrong",
+   "note": "no sentence attests property"
+  },
+  {
+   "id": "p0749",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0750",
+   "verdict": "wrong",
+   "note": "no sentence attests property"
+  },
+  {
+   "id": "p0751",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0752",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0753",
+   "verdict": "wrong",
+   "note": "no sentence attests property"
+  },
+  {
+   "id": "p0754",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0755",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0756",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0757",
+   "verdict": "wrong",
+   "note": "no sentence attests property"
+  },
+  {
+   "id": "p0758",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  },
+  {
+   "id": "p0759",
+   "verdict": "correct",
+   "note": "sentence attests property"
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+% Supplementary: facets where SER context-aware extraction most improves precision over keyword.
+% Coverage shown honestly: for many of these facets the keyword count is inflated by false positives.
+\begin{table}[t]
+\centering
+\small
+\setlength{\tabcolsep}{6pt}
+\begin{tabular}{@{}ll rl rl@{}}
+\toprule
+& & \multicolumn{2}{c}{\textbf{Recipes found}} & \multicolumn{2}{c}{\textbf{Precision}} \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-6}
+\textbf{Category} & \textbf{Facet} & \textbf{Keyword} & \textbf{SER} & \textbf{Keyword} & \textbf{SER} \\
+\midrule
+\multirow{2}{*}{Flavor}   & spicy   & 158 & 174 (+10\%) & 68\% & \textbf{88\%} (+20) \\
+                          & tangy   & 41  & 73 (+78\%)  & 82\% & \textbf{94\%} (+12) \\
+\midrule
+\multirow{4}{*}{Texture}  & crispy  & 158 & 167 (+6\%)    & 68\% & \textbf{92\%} (+24) \\
+                          & creamy  & 151 & 133 ($-$12\%) & 62\% & \textbf{85\%} (+23) \\
+                          & flaky   & 25  & 17 ($-$32\%)  & 83\% & \textbf{100\%} (+17) \\
+                          & crunchy & 114 & 95 ($-$17\%)  & 80\% & \textbf{95\%} (+15) \\
+\midrule
+\multirow{2}{*}{Occasion} & bbq      & 70 & 31 ($-$56\%) & 42\% & \textbf{91\%} (+49) \\
+                          & birthday & 87 & 85 ($-$2\%)  & 88\% & \textbf{92\%} (+4) \\
+\midrule
+\multirow{3}{*}{Audience} & guests & 129 & 113 ($-$12\%) & 65\% & \textbf{80\%} (+15) \\
+                          & crowd  & 60  & 21 ($-$65\%)  & 92\% & \textbf{100\%} (+8) \\
+                          & kids   & 304 & 320 (+5\%)    & 78\% & \textbf{82\%} (+4) \\
+\midrule
+\multirow{3}{*}{Type}     & mexican  & 70  & 76 (+9\%)    & 25\% & \textbf{55\%} (+30) \\
+                          & italian  & 165 & 144 ($-$13\%) & 15\% & \textbf{28\%} (+13) \\
+                          & southern & 37  & 36 ($-$3\%)   & 30\% & \textbf{40\%} (+10) \\
+\bottomrule
+\end{tabular}
+\caption{Supplementary: facets where SER's context-aware extraction most improves mention-level precision over literal keyword matching, with coverage shown for honesty (SER precision gain in points in parentheses). Precision is the share of 40 sampled mentions per method judged genuine for search by the same judge and rubric as Table~\ref{tab:facet-coverage-precision}. For several facets the keyword recipe count exceeds SER's: a literal match is inflated by false positives it cannot filter, such as ``bbq sauce'' in a non-barbecue dish (bbq), ``crunchy peanut butter'' (crunchy), or ``mexican blend cheese'' (mexican). SER returns fewer but substantially more precise recipes there. These facets are selected to illustrate the precision gain; facets whose literal word is rarely misused (e.g.\ tender, party) already score high on keyword and gain little.}
+\label{tab:precision-wins}
+\end{table}

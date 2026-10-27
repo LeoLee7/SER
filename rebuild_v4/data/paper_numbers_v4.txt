@@ -1,0 +1,15 @@
+category             KW pairs  KW prec  KW est | SER pairs SER prec SER est  n
+taste_flavor             2252      50%    1126 |       436     100%     436  40/40
+texture_mouthfeel        2377      70%    1664 |      1719      92%    1576  40/60
+meal_type                 898      72%     651 |       717      85%     609  40/40
+occasion_holiday          901      65%     586 |       659      92%     610  40/40
+audience_enjoyment       2510      70%    1757 |      2282      92%    2092  40/60
+cuisine_type              557      25%     139 |       101      92%      93  40/38
+ALL                      9495      62%    5923 |      5914      92%    5416
+
+trace        KW rec  KW prec | extracted normalized shown  SER prec  n
+tangy            41      80% |        32         75    15       93%  30/15
+crispy          155      87% |       167        169   169       90%  30/30
+holiday          46      60% |        20         34    34       90%  30/30
+kids            299      83% |       274        292   292       90%  30/30
+Mexican          70      30% |        16         21    21       90%  30/21

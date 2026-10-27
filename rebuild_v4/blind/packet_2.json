@@ -1,0 +1,607 @@
+[
+ {
+  "review_id": "r046",
+  "recipe": "Big Thicket Chicken and Dumplings",
+  "review": "This was my first attempt at two things: Making homemade dumplings and using a whole chicken. Both turned out perfect!!! This recipe is a little time consuming, but I made it for OAMC, so while the chicken was boiling I made other recipes. I used a small vidalia onion instead of green onions, and I let the vegetables simmer in the stock for about 30 minutes while I made the dumplings (I like them to be really soft, and subtle-flavored in this type of recipe). I should have listened to some other reviews and only made half the dough, but I LOVE dumplings, so I made the whole recipe. After putting half of the dumplings in, I realized that my pot wasn't going to hold the rest so I decided to freeze the dough for a future recipe. Another thing I liked about this recipe is that is doesn't use cream or milk to make it thick. The flour from the dumplings were enough to really thicken up the stock and make it creamy. I was a little nervous when I first started dropping in the dumplings because I was thinking \"how is this going to get creamy?\", but after fifteen minutes of cooking, I realized my worry was misplaced and it really got nice. This made a large amount, and I definitely was able to freeze about four containers for future dinners (there's only two of us). I'll probably serve this with soft rolls and possibly a side of corn. Overall, a beautiful recipe! Thank you!! EDIT: I recently made this recipe again, but this time doing the \"drop\" method by pinching off about a tablespoon of dough and dropping it in.  With this, I was able to use ALL of the dumpling dough, to my BF's happiness!  With that, I have to put in about two tablesppons of flour to the stock to thicken it up, but it works great!!  This is now an absolute favorite recipe!!",
+  "tuples": [
+   {
+    "id": "r046_t00",
+    "category": "texture_mouthfeel",
+    "value": "thick",
+    "evidence": "enough to really thicken up the stock"
+   },
+   {
+    "id": "r046_t01",
+    "category": "texture_mouthfeel",
+    "value": "creamy",
+    "evidence": "make it creamy"
+   },
+   {
+    "id": "r046_t02",
+    "category": "taste_flavor",
+    "value": "subtle-flavored",
+    "evidence": "subtle-flavored in this type of recipe"
+   },
+   {
+    "id": "r046_t03",
+    "category": "texture_mouthfeel",
+    "value": "soft",
+    "evidence": "I like them to be really soft"
+   },
+   {
+    "id": "r046_t04",
+    "category": "meal_type",
+    "value": "dinner",
+    "evidence": "future dinners"
+   },
+   {
+    "id": "r046_t05",
+    "category": "audience_enjoyment",
+    "value": "boyfriend",
+    "evidence": "to my BF's happiness"
+   }
+  ]
+ },
+ {
+  "review_id": "r047",
+  "recipe": "Crepes",
+  "review": "Can't miss w/ crepes.  I make so many variations of this.  Instead of white flour I often add 1/3 c of whole wheat per cup of milk for a little more nourishment.  I also add seasonings like cinnamon and nutmeg to the crepe.  Great for desserts, breakfast and supper.  Today, i acually added some Italian seasoning and additional chopped Rosemary.  I stuffed it with sauted chopped onion, minced garlic, chopped fresh spinach, and tomatoes, seasoned with a little more Italian seasonings.  I added the hard guyere grated cheese, rolled and served with a dollop of creme fraiche and sprinkling of fresh parsely.",
+  "tuples": [
+   {
+    "id": "r047_t00",
+    "category": "taste_flavor",
+    "value": "cinnamon",
+    "evidence": "cinnamon and nutmeg"
+   },
+   {
+    "id": "r047_t01",
+    "category": "meal_type",
+    "value": "supper",
+    "evidence": "supper"
+   },
+   {
+    "id": "r047_t02",
+    "category": "taste_flavor",
+    "value": "nutmeg",
+    "evidence": "cinnamon and nutmeg"
+   },
+   {
+    "id": "r047_t03",
+    "category": "meal_type",
+    "value": "dessert",
+    "evidence": "Great for desserts"
+   },
+   {
+    "id": "r047_t04",
+    "category": "meal_type",
+    "value": "breakfast",
+    "evidence": "breakfast"
+   },
+   {
+    "id": "r047_t05",
+    "category": "taste_flavor",
+    "value": "Italian seasoning",
+    "evidence": "Italian seasonings"
+   },
+   {
+    "id": "r047_t06",
+    "category": "cuisine_type",
+    "value": "Italian",
+    "evidence": "Italian seasoning"
+   }
+  ]
+ },
+ {
+  "review_id": "r048",
+  "recipe": "Uncle Bill's Green Split Pea With Hambone Soup",
+  "review": "I've made this many times over the years with variations of ingredients/seasonings and it has always turned out wonderfully. Very hard to make a mistake unless you forget it and let it burn like I did once. I often use my large slowcooker with a lining to make this. The peas do not need soaking ever as the packaging will tell you. I dump the peas that have been sorted for rocks and rinsed right into the slowcooker with whatever liquid you prefer, water, broth, etc along with onion and garlic and seasonings. Set it for low for 6 hours and then let it switch to warm for two more adding frozen carrots if you want.. You can stir it periodically and if it isn't as thick as you like, remove the lid during the warm hours and it will thicken right up. Add more liquid if too thick for your tastes. Super easy and the liner makes clean up a breeze!",
+  "tuples": [
+   {
+    "id": "r048_t00",
+    "category": "texture_mouthfeel",
+    "value": "thick",
+    "evidence": "as thick as you like"
+   },
+   {
+    "id": "r048_t01",
+    "category": "texture_mouthfeel",
+    "value": "not too thick",
+    "evidence": "Add more liquid if too thick for your tastes"
+   },
+   {
+    "id": "r048_t02",
+    "category": "taste_flavor",
+    "value": "wonderfully",
+    "evidence": "it has always turned out wonderfully"
+   }
+  ]
+ },
+ {
+  "review_id": "r049",
+  "recipe": "Uncle Bill's Green Split Pea With Hambone Soup",
+  "review": "I made this soup a couple of days ago as I had a ham bone left after having friends over for dinner. I have made pea soup a few times, but my husband and I are in California for the winter and forgot the recipe at home. So, I looked up this one, and am so glad I did. This is the best pea soup I have ever made, I chopped all the vegtables up in a chopper and added the drippings that I had from cooking the ham. I added 10 cups of water plus the drippings, also added some garlic. As I said this was perfect and it was so good as the weather here in Palm Springs has cooled off this week with the storms coming so it was a real treat. We had some for dinner tonight with my homemade bread and it was a perfect dinner. Will definatley make this again.",
+  "tuples": [
+   {
+    "id": "r049_t00",
+    "category": "audience_enjoyment",
+    "value": "friends",
+    "evidence": "having friends over for dinner"
+   },
+   {
+    "id": "r049_t01",
+    "category": "audience_enjoyment",
+    "value": "husband",
+    "evidence": "my husband and I"
+   },
+   {
+    "id": "r049_t02",
+    "category": "audience_enjoyment",
+    "value": "self",
+    "evidence": "my husband and I"
+   },
+   {
+    "id": "r049_t03",
+    "category": "meal_type",
+    "value": "dinner",
+    "evidence": "friends over for dinner"
+   }
+  ]
+ },
+ {
+  "review_id": "r050",
+  "recipe": "Biscuits",
+  "review": "These were the best biscuits I have ever made.  I was interested since I had never had biscuits with that much sugar in them and also made with butter.  They just had a hint of sweetness and were the most moist biscuits I have ever eaten.  I usually find that most biscuits are a little dry...but not these.  My dough was on the sticky side...but I didn't want to ruin the texture so instead of adding flour and rolling the dough to cut them out...I simply took a handfull of dough and patted it with my palm onto the cooky sheet.  I would not make them in any other way...they made 9 nice large biscuits puffs.  Terrific recipe!!!",
+  "tuples": [
+   {
+    "id": "r050_t00",
+    "category": "texture_mouthfeel",
+    "value": "moist",
+    "evidence": "most moist biscuits"
+   },
+   {
+    "id": "r050_t01",
+    "category": "taste_flavor",
+    "value": "sweetness",
+    "evidence": "They just had a hint of sweetness"
+   },
+   {
+    "id": "r050_t02",
+    "category": "taste_flavor",
+    "value": "sweet",
+    "evidence": "hint of sweetness"
+   },
+   {
+    "id": "r050_t03",
+    "category": "texture_mouthfeel",
+    "value": "sticky",
+    "evidence": "dough was on the sticky side"
+   }
+  ]
+ },
+ {
+  "review_id": "r051",
+  "recipe": "Biscuits",
+  "review": "Never made biscuits before and picked this recipe for its great reviews and simplicity. Turned out awesome! Better than any biscuit I've ever had, everyone else thought the same and raved about them. Patted the dough out on a silicone baking sheet and cut into squares with a blunt knife, pulled them apart to separate and they baked up beautifully without having to dirty the counter or grease the baking sheet. They rose so high, made a great fluffy biscuit.",
+  "tuples": [
+   {
+    "id": "r051_t00",
+    "category": "texture_mouthfeel",
+    "value": "fluffy",
+    "evidence": "made a great fluffy biscuit"
+   }
+  ]
+ },
+ {
+  "review_id": "r052",
+  "recipe": "Caramelized Chicken Wings",
+  "review": "This was a great recipe! I seasoned my wings with salt, pepper, garlic powder, and some adobo seasoning and let marinate for about 3 hours. I threw all the sauce ingredients (plus about a tbsp of sesame seeds, and an additional tbsp of garlic) in a saucepan and brought to a boil, then turned down to a simmer.  After marinating, I cooked the wings at the stated temp. for about 30 minutes, drained off the fat, and poured the thickened sauce over the wings. After thoroughly coating each wing, I cooked for another 15 minutes. I then broiled for another few minutes. They were awesome!",
+  "tuples": [
+   {
+    "id": "r052_t00",
+    "category": "taste_flavor",
+    "value": "salty",
+    "evidence": "salt"
+   },
+   {
+    "id": "r052_t01",
+    "category": "taste_flavor",
+    "value": "garlic",
+    "evidence": "garlic powder"
+   },
+   {
+    "id": "r052_t02",
+    "category": "taste_flavor",
+    "value": "pepper",
+    "evidence": "pepper"
+   }
+  ]
+ },
+ {
+  "review_id": "r053",
+  "recipe": "Easy Enchiladas (Beef or Chicken)",
+  "review": "Great dish, flavourful and spicy.  It is something easy to adjust if you have those that don't like things too spicy and it is pretty easy and quick.  I didn't use olives in it because I just don't care for them with enchiladas.  The recipe even worked well with the gouda/mozzarella shredded cheese that I used (you can't get jack here and real cheddar is very uncommon).   I made it with Recipe #109685 because the premade Mexican sauces here aren't very good and it was easy enough to make when doing the rest of the recipe.",
+  "tuples": [
+   {
+    "id": "r053_t00",
+    "category": "cuisine_type",
+    "value": "Mexican",
+    "evidence": "Mexican sauces"
+   },
+   {
+    "id": "r053_t01",
+    "category": "taste_flavor",
+    "value": "spicy",
+    "evidence": "spicy"
+   },
+   {
+    "id": "r053_t02",
+    "category": "taste_flavor",
+    "value": "not too spicy",
+    "evidence": "don't like things too spicy"
+   }
+  ]
+ },
+ {
+  "review_id": "r054",
+  "recipe": "Texas Red Enchilada Sauce",
+  "review": "Well...I tried the recipe @ last and needless to say that my parents and husband were WANTING more! I would have to say that this recipe is better than any restaurant's sauce and it doesn't even give you heartburn!! (I have acid reflux..) So, I did add a couple of things because I did make a double batch to have enough sauce for the top & bottom layer. I added about 1 teaspoon of kosher salt...1/2 teaspoon of pepper...1/2 teaspoon of cornstarch (for a little thickness)..1/2 table spoon more of garlic powder & 1/2 teaspoon of cumin....so really i just added a little more of each thing...but remember...i made a double batch so if you're only making one batch, you dont need that much...Overall, the recipe was Fabulous and I made ground beef enchildas and they were delicious...I also popped the enchildadas in the over @ 350 degrees for 30 minutes ONLY!...great job to the recipe creator!!!",
+  "tuples": [
+   {
+    "id": "r054_t00",
+    "category": "audience_enjoyment",
+    "value": "husband",
+    "evidence": "my parents and husband were WANTING more!"
+   },
+   {
+    "id": "r054_t01",
+    "category": "audience_enjoyment",
+    "value": "parents",
+    "evidence": "my parents and husband were WANTING more!"
+   }
+  ]
+ },
+ {
+  "review_id": "r055",
+  "recipe": "Texas Red Enchilada Sauce",
+  "review": "I was definately concerned about using 5 teaspoons of chili powder but I followed the recipe and I'm glad I did. Very tasty and just the right amount for my 9X13 dish of enchiladas. I may never buy enchilada sauce again. The next time I make it though I will add some cayenne pepper as we like a little more heat. Also I think steps 3 & 4 should be switched because when I added the spices and tomato paste to the browned flour it formed a big tomato paste ball. I believe it would be easier to stir in the water first to make a smooth roux then add in the spices and tomato paste. This is only a suggestion but one that would be useful especially to novice cook, be sure and have all your ingredients measured out and ready to put into the roux. You have to work quickly with this recipe once the flour has browned. Thanks for posting this wonderfully tasty recipe Mark.",
+  "tuples": [
+   {
+    "id": "r055_t00",
+    "category": "taste_flavor",
+    "value": "spicy",
+    "evidence": "we like a little more heat"
+   },
+   {
+    "id": "r055_t01",
+    "category": "taste_flavor",
+    "value": "heat",
+    "evidence": "we like a little more heat"
+   },
+   {
+    "id": "r055_t02",
+    "category": "audience_enjoyment",
+    "value": "self",
+    "evidence": "as we like a little more heat"
+   },
+   {
+    "id": "r055_t03",
+    "category": "cuisine_type",
+    "value": "Mexican",
+    "evidence": "enchiladas"
+   },
+   {
+    "id": "r055_t04",
+    "category": "meal_type",
+    "value": "dinner",
+    "evidence": "9X13 dish of enchiladas"
+   }
+  ]
+ },
+ {
+  "review_id": "r056",
+  "recipe": "Texas Red Enchilada Sauce",
+  "review": "Mark, this is truly amazing enchilada sauce!  Like so many others, I didn't realize how easy it is to make!  Canned enchilada sauce is nowhere to be found around here, but frankly, even if I should happen to see some, I will make this recipe instead. ;)  I let the roux get nice and golden brown before adding the other ingredients, and used chicken stock instead of water...let it all simmer for a good 30 minutes and used it on beef, bean and cheese enchiladas.  We dolloped a big spoonful of your wholly (Holy, imo) guacamole over the top with a handful of chopped green onions and it was truly delicious.  I love your recipes, Mark!  Thanks for sharing this one! :)",
+  "tuples": [
+   {
+    "id": "r056_t00",
+    "category": "meal_type",
+    "value": "enchiladas",
+    "evidence": "beef, bean and cheese enchiladas"
+   },
+   {
+    "id": "r056_t01",
+    "category": "cuisine_type",
+    "value": "Mexican",
+    "evidence": "enchilada sauce"
+   }
+  ]
+ },
+ {
+  "review_id": "r057",
+  "recipe": "Fried Rice",
+  "review": "Made to go along w/ Chinese Chicken and Broccoli <a href=\"/10137\">Chinese Chicken and Broccoli</a>.  I stole a bit from another recipe that made too much, and used a good slosh of sesame oil to saute the onions in instead of more butter. I used green peas but no peppers or meat.  I cooked long grain white rice in my rice cooker, using just a smidge less water to make sure that the rice wouldn't be gooey, and it came out just over the line of un-done thankfully.  All in all, the recipe was quick, tastey, and easy to customize.",
+  "tuples": [
+   {
+    "id": "r057_t00",
+    "category": "cuisine_type",
+    "value": "Chinese",
+    "evidence": "Chinese Chicken and Broccoli"
+   },
+   {
+    "id": "r057_t01",
+    "category": "taste_flavor",
+    "value": "tastey",
+    "evidence": "tastey"
+   }
+  ]
+ },
+ {
+  "review_id": "r058",
+  "recipe": "Grandma's Soft Sugar Cookies",
+  "review": "I LOVE these cookies!!! Usually i dread making cookies,but these were easy and came out great! I didnt have vanilla so I used honey instead, which is frowned upon,i know...but this time it was ok,since one of the previous comments said to up the sugar,which I wanted to do,because i like sweet cookies...in the end I made a few as is(with the honey sub) and then I added,mixed spice, a bit of ginger and some cinnamon to the remaining dough,can anyone say YUM...thank you so much for this easy recipe!",
+  "tuples": [
+   {
+    "id": "r058_t00",
+    "category": "taste_flavor",
+    "value": "yum",
+    "evidence": "can anyone say YUM"
+   },
+   {
+    "id": "r058_t01",
+    "category": "taste_flavor",
+    "value": "sweet",
+    "evidence": "I like sweet cookies"
+   }
+  ]
+ },
+ {
+  "review_id": "r059",
+  "recipe": "Thick and Creamy New England Clam Chowder",
+  "review": "FAB recipe!  Just finished making and eating it and really enjoyed it.  I am in the UK but I used to live in the US, and NECC is one of those dishes that you do not see in the UK.  Notes for anyone in the UK that wants to make this...first of all I was making it for two so halved everything, with the following notes..\r\nBaby clams: Could not find these ANYWHERE then all of a sudden Tesco has started stockin them - they are by John West and you find them in the canned fish section, I used 1 x 280g can.  Celery soup - I used 1 x 295g Campbells Celery Soup, diluted as directed on the can.  Chop the potatoes small - about half the size of a sugar cube.  You may need to add more liquid at stage 5, I put in some of the prepared celery soup to add to the clam juice from the can.  Dill Weed is called tarragon in the UK (also by the way heavy cream means double cream in the UK) - I used dried tarragan which tasted fine, I also put in a teaspoon of dried thyme as I have seen this in most other NECC recipes.  I forgot to put the butter in because I was so eager to eat it!  I will def make this again and again, thanks teen!",
+  "tuples": [
+   {
+    "id": "r059_t00",
+    "category": "audience_enjoyment",
+    "value": "self",
+    "evidence": "I was so eager to eat it"
+   },
+   {
+    "id": "r059_t01",
+    "category": "taste_flavor",
+    "value": "enjoyed",
+    "evidence": "really enjoyed it"
+   }
+  ]
+ },
+ {
+  "review_id": "r060",
+  "recipe": "Oven-Roasted Corn on the Cob",
+  "review": "This was delicious and easy! Just throw them in the oven with no worries about boiling temperatures or anything like that. The other easy thing is that each person does the \"work\" of pulling off the husks but really they were quite easy after I cooked them in the oven. I had peeled back some of the husks to make sure they were good so this allowed them to curl up a little and made it even easier. \nAnyways this is a great recipe as I found that even ones on the bottom cooked nicely so I may be able to make even more in the future for get togethers and such.\n\nMade for ZWT5, Dining Daredevils",
+  "tuples": [
+   {
+    "id": "r060_t00",
+    "category": "occasion_holiday",
+    "value": "get togethers",
+    "evidence": "make even more in the future for get togethers"
+   }
+  ]
+ },
+ {
+  "review_id": "r061",
+  "recipe": "Brown Rice and Lentil Casserole",
+  "review": "Take this one to a potluck or make it when you're home from work and too tired to cook. It's easy and excellent. I'm guessing that the cheese really makes this recipe; it's probably why the kids loved it. I added four diced carrots and a package of frozen peas to make it a one-pot dinner and I doubled the seasoning (I may try tripling it next time) for a stronger flavor. I used 2 cups low sodium broth and 1 15 oz can no sodium diced tomatoes (thanks to all the other reviewers for their tips for this recipe!) (Since I changed the quantity of liquid I cooked brown rice separately; this dish was very good over the rice.) I cooked the casserole at 375 degrees for 50 minutes plus 5 minutes to melt the cheese (cheddar/monterey jack.) I left the cheese off of 1/3 of the dish for those who don't eat cheese, and that portion was tasty too. Thanks for such a simple and successful recipe!",
+  "tuples": [
+   {
+    "id": "r061_t00",
+    "category": "audience_enjoyment",
+    "value": "those who don't eat cheese",
+    "evidence": "I left the cheese off of 1/3 of the dish for those who don't eat cheese, and that portion was tasty too"
+   },
+   {
+    "id": "r061_t01",
+    "category": "occasion_holiday",
+    "value": "potluck",
+    "evidence": "Take this one to a potluck"
+   },
+   {
+    "id": "r061_t02",
+    "category": "meal_type",
+    "value": "dinner",
+    "evidence": "make it a one-pot dinner"
+   },
+   {
+    "id": "r061_t03",
+    "category": "taste_flavor",
+    "value": "stronger flavor",
+    "evidence": "for a stronger flavor"
+   },
+   {
+    "id": "r061_t04",
+    "category": "audience_enjoyment",
+    "value": "kids",
+    "evidence": "the kids loved it"
+   },
+   {
+    "id": "r061_t05",
+    "category": "taste_flavor",
+    "value": "cheese",
+    "evidence": "the cheese really makes this recipe"
+   }
+  ]
+ },
+ {
+  "review_id": "r062",
+  "recipe": "Kittencal's Famous Caesar Salad",
+  "review": "I've tried literally dozens of recipes for Caesar dressing over the years.  Most were pretty good, but my family kept urging me to keep experimenting because they just knew \"the\" one was out there somewhere.  Well, it's unanimous -- this is it!  Although we like garlic, we prefer it in moderate amounts.  I just used 1 medium clove, which was ample for us since I'd also added some when making the croutons.  Don't know what I did differently from some other reviewers, but it was the perfect pouring consistency -- if anything, a little on the thin side -- so no buttermilk was needed.  Yet another \"family favorite\" courtesy of Kittencal.  Thanks, K!",
+  "tuples": [
+   {
+    "id": "r062_t00",
+    "category": "taste_flavor",
+    "value": "moderate garlic",
+    "evidence": "we prefer it in moderate amounts"
+   },
+   {
+    "id": "r062_t01",
+    "category": "audience_enjoyment",
+    "value": "family",
+    "evidence": "my family kept urging me"
+   },
+   {
+    "id": "r062_t02",
+    "category": "texture_mouthfeel",
+    "value": "thin",
+    "evidence": "a little on the thin side"
+   },
+   {
+    "id": "r062_t03",
+    "category": "taste_flavor",
+    "value": "garlic",
+    "evidence": "we like garlic"
+   },
+   {
+    "id": "r062_t04",
+    "category": "texture_mouthfeel",
+    "value": "pouring consistency",
+    "evidence": "it was the perfect pouring consistency"
+   }
+  ]
+ },
+ {
+  "review_id": "r063",
+  "recipe": "Salsa Chicken",
+  "review": "I made this with mild taco sauce instead of salsa (so it wouldn't have the chunks from the salsa). It was a hit! The chicken was juicy and flavorful and I loved that I didn't have to marinate it so it was a low / no prep sort of meal (I don't always think ahead to dinner time...) I was very pleased with how well it turned out especially since it was so easy and required so few ingredients. I served it with Spanish style rice. Thanks so much for a keeper!",
+  "tuples": [
+   {
+    "id": "r063_t00",
+    "category": "cuisine_type",
+    "value": "Spanish",
+    "evidence": "with Spanish style rice"
+   },
+   {
+    "id": "r063_t01",
+    "category": "meal_type",
+    "value": "dinner",
+    "evidence": "I don't always think ahead to dinner time"
+   },
+   {
+    "id": "r063_t02",
+    "category": "texture_mouthfeel",
+    "value": "juicy",
+    "evidence": "chicken was juicy"
+   }
+  ]
+ },
+ {
+  "review_id": "r064",
+  "recipe": "Chicken Pot Pie With 2 Crusts",
+  "review": "Simple and easy.  The possibilities are endless!  Update 1 suggestions:  We enjoy this on a regular basis.  I usually peel, cube and fry (covered) two potatoes in a skillet until tender.  Leftover baked potatoes work well.  We&#039;ve substituted turkey for chicken and added 3-4 cups of freshly saut&eacute;ed kale when the potatoes were nearly done.  That&#039;s a good one.  Update 2 suggestions:  Another tried variation: 4 cups chicken, no potatoes and 6 strips crumbled bacon.  1/2 teaspoon poultry seasoning is a great addition to the salt and pepper.  This is a family favorite now.",
+  "tuples": [
+   {
+    "id": "r064_t00",
+    "category": "texture_mouthfeel",
+    "value": "tender",
+    "evidence": "until tender"
+   },
+   {
+    "id": "r064_t01",
+    "category": "audience_enjoyment",
+    "value": "family",
+    "evidence": "This is a family favorite now"
+   },
+   {
+    "id": "r064_t02",
+    "category": "audience_enjoyment",
+    "value": "self",
+    "evidence": "We enjoy this on a regular basis"
+   }
+  ]
+ },
+ {
+  "review_id": "r065",
+  "recipe": "Mile High Biscuits",
+  "review": "Absolutely perfect biscuit recipe! I used this recipe for Chicken and Biscuits and only put 1 tsp. of sugar as I did not want the biscuits to be sweet. They were just right. When I make strawberry shortcake, I use the full amount of sugar and am very happy with those results. Also - no need to roll the dough as this can make them tough. Just pat the dough down and cut to desired size. These biscuits are so versatile. They are flaky and so good.This recipe is easy to follow and accurate in all steps. Thanks for that!!!!! You will not be sorry when trying this biscuit recipe. Its perfect!!!! Thanks.",
+  "tuples": [
+   {
+    "id": "r065_t00",
+    "category": "taste_flavor",
+    "value": "right",
+    "evidence": "They were just right"
+   },
+   {
+    "id": "r065_t01",
+    "category": "taste_flavor",
+    "value": "not too sweet",
+    "evidence": "I did not want the biscuits to be sweet"
+   },
+   {
+    "id": "r065_t02",
+    "category": "texture_mouthfeel",
+    "value": "flaky",
+    "evidence": "They are flaky"
+   }
+  ]
+ },
+ {
+  "review_id": "r066",
+  "recipe": "Chicken Garlic Bites",
+  "review": "These are a repeat for our house!  I put the cayenne in the marinade, not the crumbs (wasn't paying attention), but I think I'll do it that way on purpose fron now on.  I also used half olive oil/half vegetable oil.  I put the chicken (more than the two breasts worth called for) in the marinade before church and had a quick to cook, very tasty dinner afterwards.  I used seasoned bread crumbs.  Next time I'll shake off more of the crumbs before baking so they aren't so crumbly.  More than 10 minutes baking would have been overdone.  These were hard to stop eating.",
+  "tuples": [
+   {
+    "id": "r066_t00",
+    "category": "meal_type",
+    "value": "dinner",
+    "evidence": "very tasty dinner"
+   }
+  ]
+ },
+ {
+  "review_id": "r067",
+  "recipe": "Kittencal's Easy One-Bowl Vanilla Cupcakes",
+  "review": "HOLY WOW!! These cupcakes were SO moist and delicious, I can't even believe it myself, lol.  Had to double the recipe to make enough for my son's class, but it was well worth the effort (Moms are so stunned that I actually have the time and/or want to bake from scratch.. but there is really nothing like it)  They were amazingly, unbelievably wonderful and I will use this recipe again and again!  Iced these with cream cheese frosting and they were absolutely delicious!\nThanks Kitten for a great recipe.",
+  "tuples": [
+   {
+    "id": "r067_t00",
+    "category": "audience_enjoyment",
+    "value": "son",
+    "evidence": "to make enough for my son's class"
+   },
+   {
+    "id": "r067_t01",
+    "category": "texture_mouthfeel",
+    "value": "moist",
+    "evidence": "These cupcakes were SO moist"
+   }
+  ]
+ },
+ {
+  "review_id": "r068",
+  "recipe": "Tomato and Basil Bruschetta",
+  "review": "Delicious bruschetta!!!  What an amazing, tasty appetizer & so easy to pull together.  Your family or guests will be amazed because this bruschetta is equal, if not better than any you will find prepared by the best Italian restaurants.  I made some simple adjustments by adding 1/3 cup of finely diced red onion & also upped the balsamic to 1 tablespoon.  For the best taste, use the finest EXTRA virgin olive oil you can find (or afford!) & you will feel like you are in Italy!",
+  "tuples": [
+   {
+    "id": "r068_t00",
+    "category": "cuisine_type",
+    "value": "Italian",
+    "evidence": "best Italian restaurants"
+   },
+   {
+    "id": "r068_t01",
+    "category": "audience_enjoyment",
+    "value": "family",
+    "evidence": "Your family or guests will be amazed"
+   },
+   {
+    "id": "r068_t02",
+    "category": "audience_enjoyment",
+    "value": "guests",
+    "evidence": "Your family or guests will be amazed"
+   },
+   {
+    "id": "r068_t03",
+    "category": "meal_type",
+    "value": "appetizer",
+    "evidence": "amazing, tasty appetizer"
+   }
+  ]
+ }
+]

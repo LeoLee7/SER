@@ -1,0 +1,613 @@
+[
+ {
+  "review_id": "h000",
+  "recipe": "Fresh Blueberry Cobbler",
+  "review": "I was super disappointed. We spend hours picking fresh blueberries from all over our property, then about another hour de-stemming all of them with the hope for a blueberry COBBLER. This recipe had so many positive reviews I thought it would be a winner. But this is not a cobbler at all! This is a cake with blueberries dumped over the top. It was dry and would have been better if the blueberries had been mixed into the batter rather than poured over the top, although still not a cobbler. More like blueberry muffin batter poured into a cake pan. Not a bad cake, but why label it a cobbler? Do you know what a cobbler is. LOL if I had store bought or frozen blueberries I might not be so upset but just spent SOO much time collecting and preparing the blueberries for something very disappointing. I wish more of the reviews had warned of this before I made it. Hope this is helpful to someone.",
+  "tuples": []
+ },
+ {
+  "review_id": "h001",
+  "recipe": "Best Beef Stroganoff",
+  "review": "This was absolutely delicious, and so simple!!!  I left out the mushrooms even though I would have loved them because my fiance won't touch anything with mushrooms, but it was still so yummy.  I also lightened it up a bit.  I used 3 tablespoons of light butter, 93% lean ground beef, 98% fat free cream of mushroom soup, and light sour cream.  You would never, ever know there weren't full fat ingredients in it!!  When I'm feeling like indulging a little more, maybe I'll try it with full fat ingredients to see if it's that much better :-)   Thanks so much for posting this!!",
+  "tuples": [
+   {
+    "id": "h001_t00",
+    "category": "taste_flavor",
+    "value": "mushrooms",
+    "evidence": "I would have loved them"
+   }
+  ]
+ },
+ {
+  "review_id": "h002",
+  "recipe": "Pizza Dough for Thin Crust Pizza",
+  "review": "I've made this several times and it's always great - but last night I took a couple of tips from another recipe, and it turned out FANTASTIC - best I've ever made - and the fam agreed.  I used the exact ingredients from this recipe, only I used 1 T of sugar to be exact, and a pinch more salt.  The changes I did make... I pre-heated (for a long time) the oven to 500, and instead of using a pizza pan, I used parchment paper only.  Basically, I rolled out the crust on parchment paper that I laid out on a large cutting board.  When the pizza was ready to put into the oven - I slid the parchment paper directly onto the oven rack.  This cut the cooking time to about 10 to 12 minutes.<br/><br/>The crust turned out fluffier (and tastier) than usual, and the entire pizza crust was crispy (no soggy middle).   It was absolutely amazing!  We topped it off with bacon, basil, mushrooms and fresh tomatoes from our garden.  Yumm.  I'll be making pizza more often...",
+  "tuples": [
+   {
+    "id": "h002_t00",
+    "category": "audience_enjoyment",
+    "value": "family",
+    "evidence": "the fam agreed"
+   },
+   {
+    "id": "h002_t01",
+    "category": "texture_mouthfeel",
+    "value": "crispy",
+    "evidence": "pizza crust was crispy"
+   },
+   {
+    "id": "h002_t02",
+    "category": "texture_mouthfeel",
+    "value": "fluffy",
+    "evidence": "The crust turned out fluffier"
+   },
+   {
+    "id": "h002_t03",
+    "category": "texture_mouthfeel",
+    "value": "not soggy",
+    "evidence": "no soggy middle"
+   },
+   {
+    "id": "h002_t04",
+    "category": "texture_mouthfeel",
+    "value": "fluffier",
+    "evidence": "crust turned out fluffier"
+   },
+   {
+    "id": "h002_t05",
+    "category": "audience_enjoyment",
+    "value": "fam",
+    "evidence": "and the fam agreed"
+   }
+  ]
+ },
+ {
+  "review_id": "h003",
+  "recipe": "Fried Rice",
+  "review": "What a great way to use up little bits of leftover ingredients!  I was looking for a recipe that would use up a small amount of leftover meat and rice and this fit the bill perfectly.  This was very quick, easy, inexpensive, and tasty.  This was indeed nothing like Asian style fried rice - this has a completely different taste.  My family enjoyed this very much and we will make this again.  The only changes I would make would be to decrease the amount of butter - I halved the butter and still felt I could have used nonstick butter flavor spray instead.  I also thought the amount of soy sauce made this a little bit too salty - I would either reduce the amount or use lower sodium soy sauce.  I suspect that the author perhaps eyeballs his soy sauce as he adds it to the rice - he instructs you to add soy sauce until the rice turns brown (so maybe he guessed approximately 1/4 cup and it is actually less?)  Anyway, I still thought is was a very good family dish.",
+  "tuples": [
+   {
+    "id": "h003_t00",
+    "category": "audience_enjoyment",
+    "value": "family",
+    "evidence": "My family enjoyed this very much"
+   }
+  ]
+ },
+ {
+  "review_id": "h004",
+  "recipe": "Kittencal's Fluffiest Scrambled Eggs",
+  "review": "Thanks for a new way of making eggs. Made these with nonfat milk for kids' breakfast and everyone loved it (they all love eggs anyway so no one mentioned that I had done anything \"different.\")  Used 1/4 teaspoon Clabber Girl baking powder and thought it would rise more - worked out great.  Never tried putting milk into scrambled eggs before!  BUT the great thing about these is that the 1 year old ate it all - and he's usually moody about whether to eat his eggs.  I oftentimes add diced scallions (aka green onions) and a dash of soy sauce to the mix - may try that next time now that I know how the eggs taste when done exactly your way.  Thanks for another great recipe, Kittencal!",
+  "tuples": [
+   {
+    "id": "h004_t00",
+    "category": "audience_enjoyment",
+    "value": "toddler",
+    "evidence": "the 1 year old ate it all"
+   },
+   {
+    "id": "h004_t01",
+    "category": "audience_enjoyment",
+    "value": "kids",
+    "evidence": "kids' breakfast"
+   },
+   {
+    "id": "h004_t02",
+    "category": "audience_enjoyment",
+    "value": "1 year old",
+    "evidence": "the 1 year old ate it all"
+   },
+   {
+    "id": "h004_t03",
+    "category": "meal_type",
+    "value": "breakfast",
+    "evidence": "kids' breakfast"
+   }
+  ]
+ },
+ {
+  "review_id": "h005",
+  "recipe": "No-Bake Chocolate Oatmeal Cookies",
+  "review": "This was the first time I ever tried a no-bake cookie so I wasn't really sure what to expect. (I've made rice krispy treats but those aren't really cookies.) I halved this recipe, but also only used 3/4 of a cup of sugar instead of 1 cup. After the boiling began, I added the last 3 ingredients and let cook for a min or so stirring well, then turned off heat but kept pan on burner while still stirring b/c I was using the old-fashioned and not quick-cooking oats. I sort of eye-balled the peanut butter to 1/4 cup. This smelled really good. I had no wax paper so I just sprayed a sheet of aluminum foil lightly w/Pam. The weather here is very warm so when a couple hours didn't quite fully set these, I stuck em in the fridge for a half hour before trying them. They are sticky and gooey, and chewy, but pretty good. Except for the oatmeal part, their taste basically reminds me of Little Debbie brand Nutty Bars. These are great for a chocolate-peanut butter fix. But honestly, I don't know if I can eat more than one a day; almost too rich for me. Thanks, Jenny White for a simple cookie. I think they turned out pretty decently. Depending on the weather, storing these in the fridge is prob best; I wrapped mine in a paper towel and stuck 'em in a plastic ziplock container. I think I honestly prefer baked cookies, but this was still a very nice try. :) I would love to try these as baked cookies, if I can just figure out how. :) Just as an afterthought, if I do try these again, I might try crunchy peanut butter instead of creamy, even though I prefer creamy, I think crunchy would lend a nice texture to these.  UPDATE: I did decide to make these again, but still didn't have crunchy pb to try.  I decided to cut down the recipe to make only 3 cookies (lol) but that way I wouldn't devour them.  They really do have the perfect blend of chocolate and pb flavor so that they remind me of Reeses peanut butter cups, while the oatmeal adds great texture.  I'm more pleased with these on this, my second time making these.  I used waxed paper and the freezer for 15 mins.  They did stick a bit to the wax paper though.  Very rich, thank you again!  Upping rating from 4 to 5 stars.",
+  "tuples": [
+   {
+    "id": "h005_t00",
+    "category": "texture_mouthfeel",
+    "value": "gooey",
+    "evidence": "and gooey"
+   },
+   {
+    "id": "h005_t01",
+    "category": "texture_mouthfeel",
+    "value": "chewy",
+    "evidence": "and chewy"
+   },
+   {
+    "id": "h005_t02",
+    "category": "taste_flavor",
+    "value": "chocolate",
+    "evidence": "perfect blend of chocolate and pb flavor"
+   },
+   {
+    "id": "h005_t03",
+    "category": "taste_flavor",
+    "value": "peanut butter",
+    "evidence": "perfect blend of chocolate and pb flavor"
+   },
+   {
+    "id": "h005_t04",
+    "category": "texture_mouthfeel",
+    "value": "crunchy",
+    "evidence": "crunchy would lend a nice texture"
+   },
+   {
+    "id": "h005_t05",
+    "category": "texture_mouthfeel",
+    "value": "sticky",
+    "evidence": "They are sticky"
+   },
+   {
+    "id": "h005_t06",
+    "category": "taste_flavor",
+    "value": "rich",
+    "evidence": "almost too rich"
+   },
+   {
+    "id": "h005_t07",
+    "category": "texture_mouthfeel",
+    "value": "great texture",
+    "evidence": "the oatmeal adds great texture"
+   }
+  ]
+ },
+ {
+  "review_id": "h006",
+  "recipe": "Should Be Illegal Oven BBQ Ribs",
+  "review": "The 4 star review is based simply on the choice of meat not the flavor.  I have never used pork back ribs and unfortunately will most likely not be using them again.  My family prefers country style ribs and I think this sauce would be perfect on them as well and I will try it.  I followed suggestions and did the low and slow method for 3.5 hrs.  on 325. For the first 2.5 hours I cooked it with everything but the barbecue sauce covered in foil.  For the remaining hour I basted it with the barbecue sauce (calls for too much in my opinion) and continued cooking.  For the final 15 minutes I removed the foil to let it get a little crispy on top.  The flavor is perfect but these type of ribs are far too fatty for me.  Also I would recommend cooking them on top of foil so when the honey/brown sugar burns it does not stick to the bottom of your pan and create a mess.  Excellent flavor over all.",
+  "tuples": [
+   {
+    "id": "h006_t00",
+    "category": "texture_mouthfeel",
+    "value": "crispy",
+    "evidence": "let it get a little crispy on top"
+   },
+   {
+    "id": "h006_t01",
+    "category": "audience_enjoyment",
+    "value": "family",
+    "evidence": "My family prefers country style ribs"
+   }
+  ]
+ },
+ {
+  "review_id": "h007",
+  "recipe": "Chicken Cordon Bleu",
+  "review": "Wow, was this good. I would give it 10 stars if I could!!  I knew it would be good as is but it was even terrific using lower fat options. I used low fat swiss cheese, fat free half & half & smart balance margarine/olive oil for the butter. Served this to my Husband, daughter & grandkids (6 & 4) & everyone gobbled it up. I did double the sauce to drizzle over the broccoli & brown rice. This is in the rotation for sure. Thanks Bev!!",
+  "tuples": [
+   {
+    "id": "h007_t00",
+    "category": "audience_enjoyment",
+    "value": "husband",
+    "evidence": "Served this to my Husband"
+   },
+   {
+    "id": "h007_t01",
+    "category": "audience_enjoyment",
+    "value": "daughter",
+    "evidence": "daughter"
+   },
+   {
+    "id": "h007_t02",
+    "category": "audience_enjoyment",
+    "value": "grandkids",
+    "evidence": "grandkids (6 & 4)"
+   }
+  ]
+ },
+ {
+  "review_id": "h008",
+  "recipe": "Blueberry Pie",
+  "review": "I just realized I didn&#039;t rate this recipe yet. I had never made a blueberry pie before because I really &quot;didn&#039;t&quot; like it but my sons do. I&#039;ve made it 3 times now and I&#039;m a convert. This one is so easy to make that even I can do it. I did the unthinkable and used premade frozen crusts that come in their own tinfoil pans. This turned out to be a good thing. I took the advise of others and coated the bottom crust with the beaten egg and added 2 tablespoons of corn starch to the dry ingredients and berries. The cooking time I increased as well to 50 min. After 30 minutes I used the tinfoil plate to cover the pie to keep it from getting to brown instead of tinfoil around the edges. That worked so well as the crust came out nice and brown and not crumbly with the pie well cooked. For the best results let it cool then chill in the refridgerater before cutting. Awesome recipe Bev :&gt;)",
+  "tuples": [
+   {
+    "id": "h008_t00",
+    "category": "audience_enjoyment",
+    "value": "son",
+    "evidence": "but my sons do"
+   },
+   {
+    "id": "h008_t01",
+    "category": "audience_enjoyment",
+    "value": "self",
+    "evidence": "I&#039;m a convert"
+   },
+   {
+    "id": "h008_t02",
+    "category": "texture_mouthfeel",
+    "value": "not crumbly",
+    "evidence": "not crumbly"
+   },
+   {
+    "id": "h008_t03",
+    "category": "meal_type",
+    "value": "dessert",
+    "evidence": "blueberry pie"
+   }
+  ]
+ },
+ {
+  "review_id": "h009",
+  "recipe": "Southern Fried Salmon Patties",
+  "review": "I have the two pickiest eater kids in the world in my house but for some odd reason they are starting to like salmon. Go figure?!!! Made these for dinner and they loved them.  You are my new hero...something besides fish sticks, pizza and hamburgers that they will actually eat!  And I enjoyed them also...very tasty!  Great, quick weeknight meal that comes together very quickly.  Thanks for sharing this little gem.  I can see why it has such high ratings!  I added some Old Bay, lemon juice and sauteed in half olive oil and half butter, per suggestions from Chef #1536911.  PERFECT!",
+  "tuples": [
+   {
+    "id": "h009_t00",
+    "category": "occasion_holiday",
+    "value": "weeknight",
+    "evidence": "Great, quick weeknight meal"
+   },
+   {
+    "id": "h009_t01",
+    "category": "audience_enjoyment",
+    "value": "kids",
+    "evidence": "they are starting to like salmon"
+   },
+   {
+    "id": "h009_t02",
+    "category": "audience_enjoyment",
+    "value": "self",
+    "evidence": "And I enjoyed them also"
+   },
+   {
+    "id": "h009_t03",
+    "category": "meal_type",
+    "value": "weeknight",
+    "evidence": "Great, quick weeknight meal"
+   },
+   {
+    "id": "h009_t04",
+    "category": "meal_type",
+    "value": "dinner",
+    "evidence": "Made these for dinner"
+   }
+  ]
+ },
+ {
+  "review_id": "h010",
+  "recipe": "Artichoke and Chicken Bake",
+  "review": "I am sorry.  I just didn't like this dish.  I had high hopes for it, as every review was positive.  However, when the mayo and cheese cooked together, they left a huge amount of grease behind.  I thought I could get passed that, but as I ate the chicken, I noticed a layer of grease forming on my lips.  Now mind you me, I am not opposed to grease, but the sight of it in pools around the chicken was unappetizing.  Even the next day, the grease was still there.  The chicken was very moist, but I couldn't enjoy it.  I am sorry I didn't enjoy it.",
+  "tuples": [
+   {
+    "id": "h010_t00",
+    "category": "texture_mouthfeel",
+    "value": "moist",
+    "evidence": "The chicken was very moist"
+   }
+  ]
+ },
+ {
+  "review_id": "h011",
+  "recipe": "Tortellini Tomato Spinach Soup",
+  "review": "This is sooooo good.  Would be great as is I'm sure, but I always have to toy with recipes...so here goes: I reduced the chicken broth to make it a bit thicker and added italian stewed tomatoes to beef up the flavor.  If you buy the already chopped frozen spinach, you can add it right in at the end and no need to defrost.  I also used frozen tortellini and brought the broth/onions/garlic to a boil to cook the pasta (before I added the cooked spinach). What a wonderfully hearty, tasty quick soup.  Hubby and I thoroughly enjoyed!",
+  "tuples": [
+   {
+    "id": "h011_t00",
+    "category": "cuisine_type",
+    "value": "Italian",
+    "evidence": "italian stewed tomatoes"
+   },
+   {
+    "id": "h011_t01",
+    "category": "audience_enjoyment",
+    "value": "husband",
+    "evidence": "Hubby and I thoroughly enjoyed!"
+   },
+   {
+    "id": "h011_t02",
+    "category": "texture_mouthfeel",
+    "value": "thicker",
+    "evidence": "to make it a bit thicker"
+   },
+   {
+    "id": "h011_t03",
+    "category": "audience_enjoyment",
+    "value": "self",
+    "evidence": "Hubby and I thoroughly enjoyed!"
+   }
+  ]
+ },
+ {
+  "review_id": "h012",
+  "recipe": "Chicken Cordon Bleu Casserole",
+  "review": "This was delicious! I tried to lighten it up a bit by using reduced fat swiss cheese and healthy request cream of chicken soup and it still came out so decadent tasting. I halved the recipe since I was only making it for two, and I used the other half of the cream of chicken to mix in with hot egg noodles and served the casserole over them. So simple yet so delicious! I probably won't make it all that often since it's pretty unhealthy but it's a fantastic comfort food meal for every now and then :-)",
+  "tuples": [
+   {
+    "id": "h012_t00",
+    "category": "taste_flavor",
+    "value": "rich",
+    "evidence": "it still came out so decadent tasting"
+   },
+   {
+    "id": "h012_t01",
+    "category": "taste_flavor",
+    "value": "comfort food",
+    "evidence": "it's a fantastic comfort food meal"
+   }
+  ]
+ },
+ {
+  "review_id": "h013",
+  "recipe": "Queso Blanco Dip",
+  "review": "I have been on a kind of a Mexican kick and had to try this and quick.  I was tickled pink I found this particular recipe and was hoping it was what I thought it was.  Well guess what?  It WAS!!!  This stuff is addicting and so good you can't stop eating it!  One bite and you are hooked for at least 1 bowl of warmed tortilla chips, but not me, I had to have 2 bowls!  What a piggy I am!  Shame on me, but really, I couldn't help myself!  Will enjoy this TV snack often and plan to share it with my friends. I know they will love it too.",
+  "tuples": [
+   {
+    "id": "h013_t00",
+    "category": "audience_enjoyment",
+    "value": "friends",
+    "evidence": "plan to share it with my friends"
+   },
+   {
+    "id": "h013_t01",
+    "category": "cuisine_type",
+    "value": "Mexican",
+    "evidence": "Mexican kick"
+   },
+   {
+    "id": "h013_t02",
+    "category": "meal_type",
+    "value": "snack",
+    "evidence": "TV snack"
+   },
+   {
+    "id": "h013_t03",
+    "category": "taste_flavor",
+    "value": "addicting",
+    "evidence": "This stuff is addicting"
+   }
+  ]
+ },
+ {
+  "review_id": "h014",
+  "recipe": "Red Lobster Cheddar Bay Biscuits Copycat",
+  "review": "I've made this recipe several times and I'm amazed how closely it tastes to the biscuits at Red Lobster. However I am always surprised why people tell you how much they like the recipe (five stars) and then tell you how they changed the recipe! Come on, it's no longer a copycat recipe at this point. This doesn't mean I might not try their suggestions in the future but if I review a recipe it will be based on the exact recipe.<br/><br/>Read more: http://www.food.com/mail/view?msgid=3769547#ixzz1qPbNZvzZ",
+  "tuples": []
+ },
+ {
+  "review_id": "h015",
+  "recipe": "Chili Con Carne With Beans",
+  "review": "The chili came out well, but I can't say that I followed the recipe exactly to get it there.  While it was largely the same I added extra vegetables like corn and peppers  The main difference, though, came from taking the advice of other reviewers, because I thought it was too tomato-y as well, so I halved the tomato sauce (but added a little extra paste) and substituted it with water.  Also I didn't have any worcestershire sauce so I made some concoction out of teriyaki sauce, barbeque sauce and ketchup and added brown sugar to make it sweeter and less tomato-y.",
+  "tuples": [
+   {
+    "id": "h015_t00",
+    "category": "taste_flavor",
+    "value": "sweet",
+    "evidence": "added brown sugar to make it sweeter"
+   },
+   {
+    "id": "h015_t01",
+    "category": "taste_flavor",
+    "value": "sweeter",
+    "evidence": "to make it sweeter"
+   },
+   {
+    "id": "h015_t02",
+    "category": "taste_flavor",
+    "value": "not tomato-y",
+    "evidence": "less tomato-y"
+   }
+  ]
+ },
+ {
+  "review_id": "h016",
+  "recipe": "Olive Garden Garlic Alfredo Sauce",
+  "review": "I have never had this at Olive Garden, but this recipe is fantastic.  I used fresh garlic, but otherwise followed the recipe exactly.  I found the sauce to be a bit thin, so I added a little mozzerella at the end to thicken it up a bit.  The whole family loved it, including my husband, who normally won't even try it if it's not spaghetti.\r\n  I am making this again today and am doubling the sauce to freeze for later use.  This recipe is so simple it is hard to believe I ever bought the canned stuff!!",
+  "tuples": [
+   {
+    "id": "h016_t00",
+    "category": "audience_enjoyment",
+    "value": "husband",
+    "evidence": "including my husband"
+   },
+   {
+    "id": "h016_t01",
+    "category": "audience_enjoyment",
+    "value": "family",
+    "evidence": "The whole family loved it"
+   }
+  ]
+ },
+ {
+  "review_id": "h017",
+  "recipe": "Fresh Blueberry Cobbler",
+  "review": "This was good, but as other reviews said it isn&#039;t really cobbler. It is too cake like in my opinion. My husband agrees and said it should be called a blueberry breakfast cake. I am a little disappointed because I hardly ever make cobbler and really wanted a good cobbler. When I pulled it out of the oven the blueberries were still whole and hadn&#039;t burst, so I put it under the broiler for a few minutes until they all burst and got a little gooey. I wish I would&#039;ve read more reviews prior to making this. I won&#039;t be making this again because I already have a go to recipe for a blueberry breakfast cake.",
+  "tuples": [
+   {
+    "id": "h017_t00",
+    "category": "meal_type",
+    "value": "breakfast",
+    "evidence": "blueberry breakfast cake"
+   },
+   {
+    "id": "h017_t01",
+    "category": "audience_enjoyment",
+    "value": "husband",
+    "evidence": "My husband agrees"
+   },
+   {
+    "id": "h017_t02",
+    "category": "texture_mouthfeel",
+    "value": "gooey",
+    "evidence": "got a little gooey"
+   }
+  ]
+ },
+ {
+  "review_id": "h018",
+  "recipe": "Adam's Ribs",
+  "review": "Now this is what you call Lip Smacking good! My neighbors and I fixed  this with 6 pounds of country style ribs last weekend and they turned out Awesome. I used Jack Daniels bbq sauce but no matter what sauce you use on these I don't think it would matter. This Dr. Pepper trick really makes for some outstandiing ribs. We can't wait untill we get a weekend with no rain so we can do these on the grillle because we have 8 lbs. of babby backs in the freezer just waiting.  Thanks for a fabulous recipe. Tis a keeper for sure.",
+  "tuples": [
+   {
+    "id": "h018_t00",
+    "category": "occasion_holiday",
+    "value": "weekend",
+    "evidence": "last weekend"
+   }
+  ]
+ },
+ {
+  "review_id": "h019",
+  "recipe": "Mom's Chocolate Cupcakes",
+  "review": "These were the best cupcakes!   I made 3 changes in recipe, one change was an accident.  I actually forgot the vinegar, will use it next time, but they were great without it.   I didn't use water, instead I used one cup of fresh brewed vanilla coffee.  I usually do this with all my chocolate cake recipes, just something my mom always did.  I would use milk for more of a milk chocolate flavor.  And lastly, as suggested, I added a handful of chocolate chips in the batter!   Yummy!  No real need for frosting, they were rich, moist, sweet...so I sprinkled powdered sugar on top.",
+  "tuples": [
+   {
+    "id": "h019_t00",
+    "category": "audience_enjoyment",
+    "value": "mother",
+    "evidence": "just something my mom always did"
+   },
+   {
+    "id": "h019_t01",
+    "category": "taste_flavor",
+    "value": "rich",
+    "evidence": "they were rich"
+   },
+   {
+    "id": "h019_t02",
+    "category": "taste_flavor",
+    "value": "sweet",
+    "evidence": "sweet..."
+   },
+   {
+    "id": "h019_t03",
+    "category": "texture_mouthfeel",
+    "value": "moist",
+    "evidence": "they were rich, moist, sweet"
+   }
+  ]
+ },
+ {
+  "review_id": "h020",
+  "recipe": "Cinnamon Swirl Quick Bread",
+  "review": "Delicious.  I wasn't paying attention while reading through the recipe, because I poured half the batter in, sprinkled it with half the cinnamon/sugar mixture, and repeated.  It made for a delicious center, but there was way too much \"topping\"; it fell off when I removed the bread from the pan!  Still, enough had baked on the top to form a delicious crust.  Thank you for sharing such a good recipe.  This bread is more cake-like than bread-like, and I will make this again and again.",
+  "tuples": [
+   {
+    "id": "h020_t00",
+    "category": "texture_mouthfeel",
+    "value": "cake-like",
+    "evidence": "more cake-like than bread-like"
+   },
+   {
+    "id": "h020_t01",
+    "category": "texture_mouthfeel",
+    "value": "crusty",
+    "evidence": "enough had baked on the top to form a delicious crust"
+   }
+  ]
+ },
+ {
+  "review_id": "h021",
+  "recipe": "Strawberries &amp; Cream Bread (Strawberry or Blueberry)",
+  "review": "I made this today for Thanksgiving with some substitutions: fresh cranberries and yogurt (because that's what I had). I also opted to add the brown sugar to balance out the tartness from the cranberries and replaced 1/4 of sugar with Splenda. The result was nicely dense and moist, between bread and muffin in texture. I also baked these in 3 mini-loaf pans for 45 minutes on 350 convection, thinking that I would freeze one or two because the family is not much on sweets but was surprised. Then again this is not as rich as a cake with frosting plus it has fruit and yogurt. I think I\"ll be making this often and I can't wait until strawberries come in season.  I hope this will come out well with frozen cranberries because I still have half a pound that I had leftover from everything. Thanks for a wonderful recipe!",
+  "tuples": [
+   {
+    "id": "h021_t00",
+    "category": "texture_mouthfeel",
+    "value": "dense",
+    "evidence": "nicely dense"
+   },
+   {
+    "id": "h021_t01",
+    "category": "texture_mouthfeel",
+    "value": "moist",
+    "evidence": "moist"
+   },
+   {
+    "id": "h021_t02",
+    "category": "taste_flavor",
+    "value": "tangy",
+    "evidence": "balance out the tartness"
+   },
+   {
+    "id": "h021_t03",
+    "category": "audience_enjoyment",
+    "value": "family",
+    "evidence": "the family is not much on sweets but was surprised"
+   },
+   {
+    "id": "h021_t04",
+    "category": "occasion_holiday",
+    "value": "Thanksgiving",
+    "evidence": "I made this today for Thanksgiving"
+   }
+  ]
+ },
+ {
+  "review_id": "h022",
+  "recipe": "Easy Lemon Pound Cake",
+  "review": "This recipe was absolutely delicious! I am not a fan of lemon, so instead I substituted lemon juice for 1/2 - 1 tsp. of vanilla and 1/2 - 3/4  tsp. of cinnamon. I started to put the batter in a mini cupcake pan (12) and cooked that, then decided that it would take too long and poured the rest into a regular cake pan (which is still cooking!). I'm so glad that I made the mini cupcakes because they are holding me over till the cake is done! The glaze I am using came from a separate recipe I found in a magazine. 1 Tbs. Butter, 1/2 C powdered sugar, and 2 - 3 Tbs. milk. Whisk the butter and gradually add in the sugar and milk to get a nice thick, creamy consistency, drizzle over and allow to set. (For this cake recipe, the icing recipe would have to be doubled or tripled.) Fantastic, easy cake...will be making this again and again when I'm having one of my \"sweet\" cravings!",
+  "tuples": [
+   {
+    "id": "h022_t00",
+    "category": "taste_flavor",
+    "value": "sweet",
+    "evidence": "one of my \"sweet\" cravings"
+   },
+   {
+    "id": "h022_t01",
+    "category": "texture_mouthfeel",
+    "value": "creamy",
+    "evidence": "nice thick, creamy consistency"
+   },
+   {
+    "id": "h022_t02",
+    "category": "meal_type",
+    "value": "dessert",
+    "evidence": "cake"
+   }
+  ]
+ },
+ {
+  "review_id": "h023",
+  "recipe": "Mexican Enchilada Sauce",
+  "review": "I just love,love, love this sauce. When we were in Europe I missed enchilada sauce so much that I hunted forever a sauce recipe that would fulfill my expectations. This is it! Now that we are back in the US canned sauce abounds. But not for us. I use this for enchiladas and is my secret weapon in my chili. I have used different types of chili powder, my personal favorite being a \"dark chili powder\". You can't go wrong with this one. And of note, if you fell like your hanging out at the stove for ever waiting for this to thicken (I did at first) simply turn up the heat and keep whisking slowly. I make this in my big open high sided non-stick pan. Works great! Thanks for sharing.",
+  "tuples": [
+   {
+    "id": "h023_t00",
+    "category": "meal_type",
+    "value": "chili",
+    "evidence": "my secret weapon in my chili"
+   },
+   {
+    "id": "h023_t01",
+    "category": "meal_type",
+    "value": "enchiladas",
+    "evidence": "I use this for enchiladas"
+   }
+  ]
+ },
+ {
+  "review_id": "h024",
+  "recipe": "Kittencal's Fluffiest Scrambled Eggs",
+  "review": "This is my first ever review! Thought the eggs were very nice and flavorful. I prepared them according to the recipe, with no changes. My (very spoiled) DH gave them a 3 as he said they were not different then my regular scrambled eggs. I will purchase fresh baking powder and try again. Served them with Kittencal's #80449 Sweet & Sour Pineapple beets as I thought they would compliment each other nicely, and they did. This was our first brunch of the New Year.\r\nTried them again today with fresh baking powder. Nope! No different then my version, which is just low heat and constant motion. Low and Slow! No need for the baking powder.",
+  "tuples": [
+   {
+    "id": "h024_t00",
+    "category": "audience_enjoyment",
+    "value": "husband",
+    "evidence": "My (very spoiled) DH gave them a 3"
+   },
+   {
+    "id": "h024_t01",
+    "category": "meal_type",
+    "value": "breakfast",
+    "evidence": "This was our first brunch of the New Year"
+   },
+   {
+    "id": "h024_t02",
+    "category": "meal_type",
+    "value": "brunch",
+    "evidence": "This was our first brunch of the New Year"
+   }
+  ]
+ }
+]

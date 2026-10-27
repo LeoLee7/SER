@@ -1,0 +1,637 @@
+[
+ {
+  "review_id": "r023",
+  "recipe": "Panda Express Orange Chicken",
+  "review": "I just tried this recipe after reading a few reviews. I made a few changes in attempt.  First, to combat the clumpiness of the batter, I doubled the egg mixture before mixing it with the flour mixture. No clumps. Then, I put the chicken in to coat (I like this rather than dipping first in egg mixture then coating in flour mixture...this is a hassle). I used chopsticks to pick them out of the batter and into oil to fry.  With the sauce, I doubled it too, but since other reviews said there's too much vinegar, I used only 5 tablespoons of vinegar and 7 tablespoons of orange juice.  I only used 6 tablespoons of sugar (less sugar since the juice has sugar)instead of 10 though. I also used only the zest of 1 orange.  I mixed in the cornstarch mixture(1/4 water to 1T cornstarch) into the bubbling orange sauce BEFORE adding the chicken to coat because I liked to maintain a little of the crispiness of the chicken.  I forgot to put in sesame oil. But it's still good!",
+  "tuples": [
+   {
+    "id": "r023_t00",
+    "category": "texture_mouthfeel",
+    "value": "crispy",
+    "evidence": "maintain a little of the crispiness of the chicken"
+   }
+  ]
+ },
+ {
+  "review_id": "r024",
+  "recipe": "Panda Express Orange Chicken",
+  "review": "The recipe was edible.  Thats about it.  Though it does taste better than Panda Express, it is nothing like Panda Express.  It was extremely complicated and difficult to follow.  I didn't like the flour in the breading, all Chinese fried food that we do at home is only cornstarch and egg.  Dipping in egg then in cornstarch not mixing together.  The Orange sauce was far to little, so we tripled it immediately, since we had doubled the recipe, and it was still far to little.  Almost needed to up it ten times even for the recipe without the doubling.  We only used the zest of one orange as required by the recipe and that to was far to much zest.  Proportions definitely off in a large way in so many areas.  Definitely not something we will cook in the future, not with this recipe as it is anyways.  Needs a lot of work to make it truly a good orange chicken!  I would not recommend this recipe to anyone.  Especially a new cook or an inexperienced cook.",
+  "tuples": [
+   {
+    "id": "r024_t00",
+    "category": "taste_flavor",
+    "value": "edible",
+    "evidence": "The recipe was edible"
+   },
+   {
+    "id": "r024_t01",
+    "category": "cuisine_type",
+    "value": "Chinese",
+    "evidence": "Chinese fried food"
+   },
+   {
+    "id": "r024_t02",
+    "category": "taste_flavor",
+    "value": "better than Panda Express",
+    "evidence": "it does taste better than Panda Express"
+   }
+  ]
+ },
+ {
+  "review_id": "r025",
+  "recipe": "Oreo Balls",
+  "review": "I love how versitle this recipe is. I used 1/2 cream cheese and 1/2 peanut butter for my middles -they were a little softer set but that is ok because they are fine in the fridge- and real white chocolate for the coating (mixed with a tsp of canola oil which makes the chocolate smooth/easy to dip and gives a great shine). I then drizzled with melted peanut butter chips. YUMMY! My kids want me to dip them in peanut butter chips next time which I will try too!\r\nI used a candy dipping utensil (looks like a big loop with a handle) and mine came out very professional looking. Of course they got eaten so fast it didn't matter anyway lol.\r\nWorth noting, double stuff do not work very well for these centers, too much cream. You can get away with it but it will be really gooey inside.",
+  "tuples": [
+   {
+    "id": "r025_t00",
+    "category": "texture_mouthfeel",
+    "value": "smooth",
+    "evidence": "makes the chocolate smooth"
+   },
+   {
+    "id": "r025_t01",
+    "category": "audience_enjoyment",
+    "value": "kids",
+    "evidence": "My kids want me to dip them in peanut butter chips next time"
+   },
+   {
+    "id": "r025_t02",
+    "category": "texture_mouthfeel",
+    "value": "soft",
+    "evidence": "they were a little softer set"
+   }
+  ]
+ },
+ {
+  "review_id": "r026",
+  "recipe": "Perfect Chocolate Brownies",
+  "review": "I'm not sure you need another 5-star review, but you're getting one from me.  I needed a recipe that uses cocoa powder.  So many use baker's chocolate or chocolate chips.  This was the perfect chocolate brownie.  Took me right back to my childhood.  Crispy edges and super moist inside.  I had to halve the recipe due to a shortage of sugar, so I used a 8\" round cake pan.  Baked just as long.  All gone before they even had a chance to cool off.  My husband is amazed I could make something that good with ingredients from the cupboard.  My secret: Barry Callebaut cocoa powder--and a great recipe!",
+  "tuples": [
+   {
+    "id": "r026_t00",
+    "category": "texture_mouthfeel",
+    "value": "crispy",
+    "evidence": "Crispy edges"
+   },
+   {
+    "id": "r026_t01",
+    "category": "texture_mouthfeel",
+    "value": "moist",
+    "evidence": "super moist inside"
+   },
+   {
+    "id": "r026_t02",
+    "category": "taste_flavor",
+    "value": "chocolate",
+    "evidence": "perfect chocolate brownie"
+   },
+   {
+    "id": "r026_t03",
+    "category": "audience_enjoyment",
+    "value": "husband",
+    "evidence": "My husband is amazed"
+   }
+  ]
+ },
+ {
+  "review_id": "r027",
+  "recipe": "Crock Pot Chicken, Gravy and Stuffing",
+  "review": "Wonderful, hearty recipe! I wanted to make it a truly one-pot meal so I added a layer of veggies under the chicken. I chopped carrots, parsnips, potatoes and half a large onion into big chunks, put them in the bottom of the crock pot and then sprinkled them with a little salt, pepper, garlic powder and onion powder. I  then added the chicken breasts and seasoned them the same way. I poured the chicken stock around the edges of the chicken so the seasoning wasn&#039;t disturbed. Then I layered about a cup or so of shredded Swiss cheese on top of the chicken (didn&#039;t have slices) and then the soups (I used the low sodium version). I ended up topping it off 2 cups of cubed PF stuffing mix and 2 cups of PF cornbread stuffing and drizzled it all with 1/2  cup of melted butter.  I cooked it on low for 6 hours and we came home to a wonderful feast! Not only was it a complete, delicious meal but clean-up was a snap! I had lined my crock-pot with a roasting bag so there was nothing to scrub or even rinse off afterward. A total win! Thanks for a wonderful recipe.",
+  "tuples": [
+   {
+    "id": "r027_t00",
+    "category": "audience_enjoyment",
+    "value": "self",
+    "evidence": "we came home to a wonderful feast!"
+   },
+   {
+    "id": "r027_t01",
+    "category": "taste_flavor",
+    "value": "hearty",
+    "evidence": "Wonderful, hearty recipe!"
+   }
+  ]
+ },
+ {
+  "review_id": "r028",
+  "recipe": "Uncle Bill's Microwave Potato Chips",
+  "review": "Uncle Bill, thank you for this recipe. It is great!  Our daughter kept asking for unhealthy snacks when I remember this recipe and that we had some older potates.  I peeled them, placed them on a glass plate I had sprayed with butter flavor oil and put a little salt on then.  Then I covered them with wax paper.  The first potato burned some between 7 and 8 minutes so I did another while our daughter and one of the babie I watch ate the good ones from the first batch.  I watched these and at 6 1/2 minutes they were perfect!!  These are SO GOOD!!! I shared some with the mother of the baby when she got her to pick her up and she said she will be making them too.  Thanks for an easy, quick healthy snack recipe!!  I won't be buying store bought chips unless I'm in a pinch for an outing. :-)",
+  "tuples": [
+   {
+    "id": "r028_t00",
+    "category": "audience_enjoyment",
+    "value": "daughter",
+    "evidence": "Our daughter kept asking for unhealthy snacks"
+   },
+   {
+    "id": "r028_t01",
+    "category": "audience_enjoyment",
+    "value": "mother",
+    "evidence": "she said she will be making them too"
+   },
+   {
+    "id": "r028_t02",
+    "category": "meal_type",
+    "value": "snack",
+    "evidence": "healthy snack recipe"
+   },
+   {
+    "id": "r028_t03",
+    "category": "audience_enjoyment",
+    "value": "baby",
+    "evidence": "our daughter and one of the babie I watch ate the good ones from the first batch"
+   }
+  ]
+ },
+ {
+  "review_id": "r029",
+  "recipe": "Crock Pot Garlic Brown Sugar Chicken",
+  "review": "We absolutely loved this dish! My 25-year old son said to tell you it is the best darn 'Jewish stew' he's ever eaten (I told him a bit about you, and where you live). I got a late start on it so I made it on the stovetop instead of the crockpot. I browned 3 pounds of cut-up boneless, skinless chicken breasts and lightly browned them in a little oil. I doubled the sauce recipe. Since I was indecisive on what kind of vinegar to use, I used equal parts of cider, rice and basalmic vinegar. I simmered the chicken in the sauce for 45 minutes and then added cornstarch thickener and some coarsely chopped colored bell peppers and broccoli florets. Cooked for about another minute until the sauce thickend and the veggies were crisp-tender. Served over steamed white rice. It was soooo good and so colorful. This is definitely a keeper. Thanks, Mirj!",
+  "tuples": [
+   {
+    "id": "r029_t00",
+    "category": "audience_enjoyment",
+    "value": "son",
+    "evidence": "My 25-year old son said to tell you it is the best darn 'Jewish stew' he's ever eaten"
+   },
+   {
+    "id": "r029_t01",
+    "category": "texture_mouthfeel",
+    "value": "crisp-tender",
+    "evidence": "the veggies were crisp-tender"
+   },
+   {
+    "id": "r029_t02",
+    "category": "cuisine_type",
+    "value": "Jewish",
+    "evidence": "the best darn 'Jewish stew' he's ever eaten"
+   }
+  ]
+ },
+ {
+  "review_id": "r030",
+  "recipe": "Buttery Bread Machine Rolls",
+  "review": "These are absolutely fabulous rolls. When they were mixing the dough looked a little wet, but rather than adding more flour I just took a chance and left them alone. I'm glad I did - they worked out beautifully! I shaped into 24 rolls and proofed them in the oven since the house was pretty cool today. Baked 15 minutes at 350, which was perfect for them. Soft, fluffy, buttery...dh raved about these. They will be made often here!  UPDATE 2/9/08: Two years later I'm still making these rolls.  I often either drop them into muffin tins or divide each of the 24 dough balls into thirds and make cloverleaf rolls.  The dough is really SO easy to work with and versatile!",
+  "tuples": [
+   {
+    "id": "r030_t00",
+    "category": "texture_mouthfeel",
+    "value": "soft",
+    "evidence": "Soft, fluffy, buttery"
+   },
+   {
+    "id": "r030_t01",
+    "category": "taste_flavor",
+    "value": "buttery",
+    "evidence": "Soft, fluffy, buttery"
+   },
+   {
+    "id": "r030_t02",
+    "category": "texture_mouthfeel",
+    "value": "fluffy",
+    "evidence": "Soft, fluffy, buttery"
+   },
+   {
+    "id": "r030_t03",
+    "category": "audience_enjoyment",
+    "value": "husband",
+    "evidence": "dh raved about these"
+   },
+   {
+    "id": "r030_t04",
+    "category": "texture_mouthfeel",
+    "value": "buttery",
+    "evidence": "Soft, fluffy, buttery"
+   }
+  ]
+ },
+ {
+  "review_id": "r031",
+  "recipe": "Wholly Guacamole",
+  "review": "I want to give it 4.5 half stars. This is a really good guacamole recipe; we all really enjoyed it - it just didn't blow my mind (I think that's because the last guacamole I had was at a boutique hotel in Guatemala...it was amazing). Anyway, really really good. It also makes a ton. If you're just using it as a appetizer it will serve more than six for sure! Thanks for the recipe. I'll probably add some cumin next time, and more salt.",
+  "tuples": [
+   {
+    "id": "r031_t00",
+    "category": "meal_type",
+    "value": "appetizer",
+    "evidence": "just using it as a appetizer"
+   },
+   {
+    "id": "r031_t01",
+    "category": "taste_flavor",
+    "value": "salty",
+    "evidence": "more salt"
+   },
+   {
+    "id": "r031_t02",
+    "category": "audience_enjoyment",
+    "value": "we",
+    "evidence": "we all really enjoyed it"
+   },
+   {
+    "id": "r031_t03",
+    "category": "taste_flavor",
+    "value": "cumin",
+    "evidence": "add some cumin next time"
+   }
+  ]
+ },
+ {
+  "review_id": "r032",
+  "recipe": "Best Oatmeal Raisin Cookies",
+  "review": "Made these on a Sunday morning before making a day trip to see my grandkids.  Started late so didn&#039;t have time for the full hour soak on the raisins.  So they soaked for about 25 minutes while I creamed the butter and sugar, got the dry stuff mixed, and cleaned up my cooking mess. They still turned out delicious! Best oatmeal cookies I&#039;ve ever tasted (and I&#039;m an o.c. connoisseur) and super easy to make. I was surprised at how stiff the dough was, actually rechecked all my measurements. But nope, no goofs, just stiff dough. Some - but not lots - spread during cooking; I could have put another four on each sheet. 11 minutes in the oven and,  voila! Love these! My daughters will be getting a &quot;share&quot; from me. :-)",
+  "tuples": [
+   {
+    "id": "r032_t00",
+    "category": "audience_enjoyment",
+    "value": "grandkids",
+    "evidence": "to see my grandkids"
+   },
+   {
+    "id": "r032_t01",
+    "category": "meal_type",
+    "value": "breakfast",
+    "evidence": "Sunday morning"
+   }
+  ]
+ },
+ {
+  "review_id": "r033",
+  "recipe": "Frizzled Cabbage",
+  "review": "My new favorite cabbage dish! I used a small head of cabbage, a carrot, a bit of onion and garlic.  I think I can reduce the amt. of oil to 1 T. next time since the cabbage does release some liquid. I cooked it till crisp-tender.  It was very good.  Reminded me of the inside of an eggroll.  I will be making this often and trying different spices and probably some thin sliced celery as well.  Very easy and tasty. Thanks-\njustsaymo",
+  "tuples": [
+   {
+    "id": "r033_t00",
+    "category": "taste_flavor",
+    "value": "eggroll",
+    "evidence": "Reminded me of the inside of an eggroll"
+   },
+   {
+    "id": "r033_t01",
+    "category": "texture_mouthfeel",
+    "value": "crisp-tender",
+    "evidence": "I cooked it till crisp-tender"
+   }
+  ]
+ },
+ {
+  "review_id": "r034",
+  "recipe": "So It's Bekah's Pulled Pork Now",
+  "review": "Hog heaven! I've always enjoyed pulled pork sandwiches when I've had the good fortune to find a restaurant that serves them (not common at all here in Toronto), so when my local supermarket put pork shoulder on sale for 99/cents per pound this week I decided it was time to try this recipe. I cut the thick rind/skin off the shoulder I bought (just over 7 lbs, bone-in), trying to leave most of the fat still on the meat. I did have trouble with the rub, finding that I couldn't get all of it to be absorbed by the meat no matter how strongly I massaged--I was left with just over half the rub after the meat had been completely coated and it flat-out wouldn't take any more. No worries; I saved the leftover rub and was able to rub it all onto the meat when I pulled it out of the fridge the next day and did the re-rub. This was done to falling-apart-perfection after 7 hours in the oven. I didn't use the Molasses Barbecue Sauce; instead I used recipe #40980 (Mysterygirl's K.C. Masterpiece sauce) as I prefer a sweet smoky sauce. I did make the Pig Pickin Sauce, too. Once this is in the oven, there really isn't anything to do except wait for it to be done--talk about simple! Thanks for the recipe; I'm so pleased to be able to make this restaurant favourite at home with such ease. Oh, my dinner guests loved it too!",
+  "tuples": [
+   {
+    "id": "r034_t00",
+    "category": "audience_enjoyment",
+    "value": "dinner guests",
+    "evidence": "my dinner guests loved it too"
+   },
+   {
+    "id": "r034_t01",
+    "category": "audience_enjoyment",
+    "value": "guests",
+    "evidence": "my dinner guests loved it too"
+   },
+   {
+    "id": "r034_t02",
+    "category": "texture_mouthfeel",
+    "value": "falling-apart",
+    "evidence": "This was done to falling-apart-perfection"
+   },
+   {
+    "id": "r034_t03",
+    "category": "meal_type",
+    "value": "dinner",
+    "evidence": "my dinner guests"
+   }
+  ]
+ },
+ {
+  "review_id": "r035",
+  "recipe": "Mahogany Beef Stew",
+  "review": "This had a lot of flavor! Hooray for another great use of hoisin sauce! Who would have thought? But since I like potato and veggies in my stew, I added them at the end so they didn't mush up. I also deleted the oregano, basil, and bay leaf because it reminded me too much of spaghetti sauce. Instead I added 2 tsps of rosemary, 2 tsps of thyme, 8oz can of tomato sauce, and a very small pinch of red pepper flakes. Yum! OAMC: I also made this to freeze so after the meat was tender, I seperated the amount I wanted to freeze and let it cool in the refrigerator.  Once it was COLD, I added 2-3 C of frozen mixed vegetables and portioned into freezer bags. When ready to serve, thaw a bag overnight in the refrigerator, and if you want potatoes, add them as the reheated stew simmers.",
+  "tuples": [
+   {
+    "id": "r035_t00",
+    "category": "texture_mouthfeel",
+    "value": "tender",
+    "evidence": "after the meat was tender"
+   }
+  ]
+ },
+ {
+  "review_id": "r036",
+  "recipe": "Lemon Bars",
+  "review": "It is really yummy!!!!!!!! undeniable!!!!\nwhat I had done:\n1. put a baking sheet under the pan that covers till the very top.(i hope this explanation make sense) so that when I finish baking, I dont have to have a fuss over sticky mixture.\n2. the original recipe made the base very thick, it is half of the thickness of the whole bars. i prefer a thin one, so next time, I will just put 1/2 or 3/4 from the recipe.\n3. after reading other reviews, i decided to beat the eggs first for 5 minutes then add other mixture.\n4. i only put 1 1/2 cup of sugar. so its not so sweet (a matter of preference).\n5. i bake it for 33 minutes on a 350F or 177C. i dont want to take any risk for the mixture to be runny. the base is then brown color. but not burnt.\n6. and next time i would cut it when its still a bit warm or it will be hard.\nVERY VERY GOOD RECIPE!!!!!! \nthanks!",
+  "tuples": [
+   {
+    "id": "r036_t00",
+    "category": "texture_mouthfeel",
+    "value": "thin",
+    "evidence": "a thin one"
+   },
+   {
+    "id": "r036_t01",
+    "category": "texture_mouthfeel",
+    "value": "brown",
+    "evidence": "base is then brown color"
+   },
+   {
+    "id": "r036_t02",
+    "category": "taste_flavor",
+    "value": "not so sweet",
+    "evidence": "so its not so sweet"
+   }
+  ]
+ },
+ {
+  "review_id": "r037",
+  "recipe": "Taco Seasoning Mix",
+  "review": "Who would have know with a few ingredients that I most always have on hand I could make the seasoning to whip up a great taco salad?  The only thing that I changed in this was to use Hot Shot Seasoning instead of the Crushed Red Pepper and it turned out wonderfully.  I doubled the batch as I made 2 pounds of hamburger and wanted there to be plenty of spice.  I agree that this tastes pretty similar to Ortega brand taco seasoning and I too will be using this often.  Thank you for a great spice to add to my cupboard Opal Fitzgerald!",
+  "tuples": [
+   {
+    "id": "r037_t00",
+    "category": "taste_flavor",
+    "value": "spicy",
+    "evidence": "wanted there to be plenty of spice"
+   },
+   {
+    "id": "r037_t01",
+    "category": "taste_flavor",
+    "value": "spice",
+    "evidence": "plenty of spice"
+   },
+   {
+    "id": "r037_t02",
+    "category": "taste_flavor",
+    "value": "similar",
+    "evidence": "tastes pretty similar to Ortega brand taco seasoning"
+   }
+  ]
+ },
+ {
+  "review_id": "r038",
+  "recipe": "My No Roll Pie Crust",
+  "review": "I used this recipe for my vanilla creme pie and although the crust worked great for this type of pie,the texture was not was what I was expecting. It was more crumbly than a regular crust. I followed the recipe perfectly so idk what I did wrong. Next time I&#039;m going to make it with butter and add more flour and cut the butter mix it together and spread in the pan. I like my crust thick and with yummy crust. My crust barely reach the edge so I was not able to flute anything. But it was good a substitution. For a graham cracker crust it&#039;s perfect! I&#039;d try recipe as is for a cheesecake and use my variation for other pies like blueberry and apple.",
+  "tuples": [
+   {
+    "id": "r038_t00",
+    "category": "meal_type",
+    "value": "pie",
+    "evidence": "for my vanilla creme pie"
+   },
+   {
+    "id": "r038_t01",
+    "category": "texture_mouthfeel",
+    "value": "thick",
+    "evidence": "I like my crust thick"
+   }
+  ]
+ },
+ {
+  "review_id": "r039",
+  "recipe": "My No Roll Pie Crust",
+  "review": "Just today I came across an old favorite recipe of mine that I thought I had lost forever.  It's a cranberry walnut pie.  Now, mind you, I have never made my own crust for anything -  I must admit I buy them (Oh the shame!) and I had none in the house.  Then I remembered I had your recipe saved in my cookbook and I gave it a spin - WOW!  I will never buy pie crusts again!  I love how it is sweet and yet a little salty all at the same time.  When I was mixing it up it didn't ball up for me so I added another teaspoon or so of milk and it came right together.  Perfect!  ",
+  "tuples": [
+   {
+    "id": "r039_t00",
+    "category": "taste_flavor",
+    "value": "sweet",
+    "evidence": "it is sweet"
+   },
+   {
+    "id": "r039_t01",
+    "category": "taste_flavor",
+    "value": "salty",
+    "evidence": "a little salty"
+   },
+   {
+    "id": "r039_t02",
+    "category": "meal_type",
+    "value": "dessert",
+    "evidence": "cranberry walnut pie"
+   }
+  ]
+ },
+ {
+  "review_id": "r040",
+  "recipe": "Italian Wedding Soup",
+  "review": "Simple, fast, delicious.  I used three hot italian sausages instead of meatballs, took the skin off them and ripped them into little pieces.  Used acini de pepe pasta instead of orzo just because it appealed to me more in the store, and used spinach as escarole was nowhere to be found.  I added basil and garlic salt to about a litre of chicken broth.  Forgot to buy carrots, so we did without...DH refused to put the parmesan cheese on his (I'm not really sure why, didn't think it needed it or something) and he still raved and raved about it.  Using the hot sausage really gives this some kick, it'll be perfect for a cool fall day, that's for sure.  This was on the table in less than 45 minutes, which is pretty incredible for homemade soup.  You've given me new incentive to make up a big batch of homemade chicken broth so I can make this often throughout the winter!",
+  "tuples": [
+   {
+    "id": "r040_t00",
+    "category": "audience_enjoyment",
+    "value": "husband",
+    "evidence": "he still raved and raved about it"
+   },
+   {
+    "id": "r040_t01",
+    "category": "taste_flavor",
+    "value": "spicy",
+    "evidence": "really gives this some kick"
+   },
+   {
+    "id": "r040_t02",
+    "category": "occasion_holiday",
+    "value": "winter",
+    "evidence": "throughout the winter"
+   },
+   {
+    "id": "r040_t03",
+    "category": "occasion_holiday",
+    "value": "fall",
+    "evidence": "it'll be perfect for a cool fall day"
+   },
+   {
+    "id": "r040_t04",
+    "category": "taste_flavor",
+    "value": "kick",
+    "evidence": "Using the hot sausage really gives this some kick"
+   },
+   {
+    "id": "r040_t05",
+    "category": "cuisine_type",
+    "value": "Italian",
+    "evidence": "hot italian sausages"
+   }
+  ]
+ },
+ {
+  "review_id": "r041",
+  "recipe": "Beef Patties in Onion Gravy",
+  "review": "Was a hit with both adults and kids. My 4 year old gobbled it up and so did my 7 year old. My hubby ate like it was going to fly away. The flavor was wonderful. I did use 1/3 regular bread crumbs and the rest italian seasoned because that was all I had on hand. This was my first time making gravy and it was a big hit also. You should see me, smiling like I'm a pro at gravy now! I doubled the recipe and it worked out wonderfully. Definantly a five star recipe in my book! Very easy and simple to make. And it was so full of flavor. This went wonderfully with mashed'a'tators (lol) and veggies. Cliche side dishes? Yes. But did it taste wonderful together? Oh, you bet your bottom it did! Thank you papergoddess!\nEdited to add: I used the Aldi's generic soup mix and it turned out nasty with no flavor at all. I just recently found a recipe on here to make a soup mix yourself. I would recommend you use that or Liptons but stay away from the generic stuff. Esp if you have guests over.",
+  "tuples": [
+   {
+    "id": "r041_t00",
+    "category": "audience_enjoyment",
+    "value": "husband",
+    "evidence": "My hubby ate like it was going to fly away"
+   },
+   {
+    "id": "r041_t01",
+    "category": "audience_enjoyment",
+    "value": "kids",
+    "evidence": "Was a hit with both adults and kids"
+   },
+   {
+    "id": "r041_t02",
+    "category": "audience_enjoyment",
+    "value": "adults",
+    "evidence": "Was a hit with both adults and kids"
+   },
+   {
+    "id": "r041_t03",
+    "category": "audience_enjoyment",
+    "value": "7 year old",
+    "evidence": "and so did my 7 year old"
+   },
+   {
+    "id": "r041_t04",
+    "category": "taste_flavor",
+    "value": "full of flavor",
+    "evidence": "And it was so full of flavor"
+   },
+   {
+    "id": "r041_t05",
+    "category": "audience_enjoyment",
+    "value": "4 year old",
+    "evidence": "My 4 year old gobbled it up"
+   },
+   {
+    "id": "r041_t06",
+    "category": "audience_enjoyment",
+    "value": "guests",
+    "evidence": "Esp if you have guests over"
+   }
+  ]
+ },
+ {
+  "review_id": "r042",
+  "recipe": "Beef Patties in Onion Gravy",
+  "review": "Incredibly simple to make, Great for the bachelor who has no time or ability to cook. Yet so good it can impress the ladies. I went to the store with an modestly stocked kitchen and got the ingrediants for 7 bucks. When was the last time you fed 4 people for 7 bucks? I give it 2 thumbs way up. My local store didn't have plain dry breadcrumbs so I spiced it up a bit with italian seasoned crumbs... In the words of Borat.. Nice. I served it with a side of potatoes and some mixed veggies.",
+  "tuples": [
+   {
+    "id": "r042_t00",
+    "category": "audience_enjoyment",
+    "value": "bachelor",
+    "evidence": "Great for the bachelor who has no time or ability to cook"
+   },
+   {
+    "id": "r042_t01",
+    "category": "audience_enjoyment",
+    "value": "ladies",
+    "evidence": "it can impress the ladies"
+   },
+   {
+    "id": "r042_t02",
+    "category": "meal_type",
+    "value": "side-dish",
+    "evidence": "served it with a side of potatoes"
+   },
+   {
+    "id": "r042_t03",
+    "category": "cuisine_type",
+    "value": "Italian",
+    "evidence": "italian seasoned crumbs"
+   }
+  ]
+ },
+ {
+  "review_id": "r043",
+  "recipe": "Grilled Moroccan Chicken",
+  "review": "This is so fresh and flavorful...I did not use a food processor and I used a little bit more garlic and cayenne than what was called for and I also used fresh lime juice and marinated the chicken for a couple hours before grilling.  I also used some lime juice during the grilling process as one of the other reviewers mentioned.  I have made this many times and it always turns out perfect.  I usually serve it with grilled green and yellow zuccini and lemon and spinach couscous.  Thank you so much for sharing this tasty recipe!",
+  "tuples": [
+   {
+    "id": "r043_t00",
+    "category": "meal_type",
+    "value": "lunch",
+    "evidence": "I usually serve it with grilled green and yellow zuccini and lemon and spinach couscous."
+   },
+   {
+    "id": "r043_t01",
+    "category": "taste_flavor",
+    "value": "garlic",
+    "evidence": "a little bit more garlic"
+   },
+   {
+    "id": "r043_t02",
+    "category": "taste_flavor",
+    "value": "cayenne",
+    "evidence": "and cayenne"
+   },
+   {
+    "id": "r043_t03",
+    "category": "taste_flavor",
+    "value": "fresh",
+    "evidence": "This is so fresh"
+   },
+   {
+    "id": "r043_t04",
+    "category": "meal_type",
+    "value": "dinner",
+    "evidence": "I usually serve it with grilled green and yellow zuccini and lemon and spinach couscous."
+   },
+   {
+    "id": "r043_t05",
+    "category": "taste_flavor",
+    "value": "lime juice",
+    "evidence": "fresh lime juice"
+   }
+  ]
+ },
+ {
+  "review_id": "r044",
+  "recipe": "The Best Apple Pie Muffins Ever",
+  "review": "I have to declare these the best muffins ever! They are way too nummy for my good. All of my kids & friends that have tried them love them, even my son that doesn't like anything with cooked apples! I made them with only a couple minor changes that other reviewers suggested.\n\nI added 1 tsp of cinnamon to the batter and reduced the sugar to 1 cup. (Next time I think I might cut back to 3/4 c and see if I can tell the difference.) I used 1 cup of milk soured with 1 Tbs of lemon juice as a substitute for the buttermilk. I accidentally used only 1/3 cup of oil because I intended to use 1/3 c of applesauce too, but forgot. \n\nI used some homemade cake release to grease the muffin tins. My first batch was slightly overbaked (still tasted good- just too brown). So I lowered the temp to 325 and baked the second batch for about 20 minutes. That was perfect for my oven. I made 15 regular size muffins and 12 mini muffins (I baked them for 15 minutes.)\n\nThe tops of some of my muffins kind of caved in the middle a little like a volcano for some reason. I'm not sure why- but it didn't affect the taste at all. Next time I might add some baking powder to see if that helps them dome right. And more apples and a little more cinnamon too I think.",
+  "tuples": [
+   {
+    "id": "r044_t00",
+    "category": "audience_enjoyment",
+    "value": "son",
+    "evidence": "even my son that doesn't like anything with cooked apples!"
+   },
+   {
+    "id": "r044_t01",
+    "category": "audience_enjoyment",
+    "value": "kids",
+    "evidence": "All of my kids & friends that have tried them love them"
+   },
+   {
+    "id": "r044_t02",
+    "category": "audience_enjoyment",
+    "value": "friends",
+    "evidence": "All of my kids & friends that have tried them love them"
+   },
+   {
+    "id": "r044_t03",
+    "category": "taste_flavor",
+    "value": "nummy",
+    "evidence": "way too nummy"
+   }
+  ]
+ },
+ {
+  "review_id": "r045",
+  "recipe": "Traditional Irish Shepherd's Pie",
+  "review": "This is a staple recipe in our kitchen.  There is something about true comfort food and this one nails it.  I&#039;ve had lots of Shepherd&#039;s Pie across the pond, and this one doesn&#039;t disappoint.  The first time I made it exactly like the recipe, but often I like to switch things up as well.  My favorite version now is to substitute Guinness (the can not the bottle) for the wine, to re-hydrate 1/8 cup finely chopped porcini mushrooms in beef stock, and add a cup chopped baby bella&#039;s.  I always also always make a double batch as it&#039;s just too darned good the next day, and the day after that, and....  My spouse is also a triple portion guy on Pie night, no need for any side dishes here!",
+  "tuples": [
+   {
+    "id": "r045_t00",
+    "category": "taste_flavor",
+    "value": "comfort food",
+    "evidence": "There is something about true comfort food and this one nails it"
+   },
+   {
+    "id": "r045_t01",
+    "category": "meal_type",
+    "value": "dinner",
+    "evidence": "on Pie night"
+   },
+   {
+    "id": "r045_t02",
+    "category": "audience_enjoyment",
+    "value": "spouse",
+    "evidence": "My spouse is also a triple portion guy"
+   }
+  ]
+ }
+]

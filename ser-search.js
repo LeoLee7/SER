@@ -95,8 +95,14 @@ function reportSearchRouting(facetMatches, droppedTerms) {
   const termsDisplay = document.getElementById('searchTermsDisplay');
   if (!termsDisplay) return;
 
+  // Values in one facet combine with OR, values across facets with AND.
+  const byCategory = new Map();
+  facetMatches.forEach(m => {
+    if (!byCategory.has(m.category)) byCategory.set(m.category, []);
+    byCategory.get(m.category).push(m.value);
+  });
   const parts = [];
-  facetMatches.forEach(m => parts.push(m.value + ' (' + m.category + ')'));
+  byCategory.forEach((vals, cat) => parts.push(vals.join(' or ') + ' (' + cat + ')'));
   if (parts.length === 0) parts.push('nothing matched');
   let text = parts.join(', ');
   if (droppedTerms.length > 0) text += '  |  ignored: ' + droppedTerms.join(', ');
@@ -179,9 +185,17 @@ function adjectiveStems(term) {
     .filter((s, i, a) => s !== term && s.length >= 4 && a.indexOf(s) === i);
 }
 
+// Clicking a value's link selects only that value; clicking its checkbox adds
+// it. Use the checkbox when the facet already has a selection, so a second
+// term routed to the same facet does not replace the first.
 function clickFacetEntry(entry) {
+  const facet = entry.element.closest('[data-ex-role="facet"]');
+  const hasSelection = facet && facet.querySelector('.exhibit-facet-value-selected');
+  const box = entry.element.querySelector('.exhibit-facet-value-checkbox');
   const link = entry.element.querySelector('a');
-  if (link) link.click(); else entry.element.click();
+  if (hasSelection && box) box.click();
+  else if (link) link.click();
+  else entry.element.click();
 }
 
 function performSmartSearch() {

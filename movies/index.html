@@ -194,7 +194,6 @@
             <div data-ex-role="facet" data-ex-expression=".runtime_bucket" data-ex-facet-label="Runtime" data-ex-height="8em" data-ex-sort-mode="count" data-ex-sort-direction="forward"></div>
             <div data-ex-role="facet" data-ex-expression=".rated" data-ex-facet-label="MPAA Rating" data-ex-height="8em" data-ex-sort-mode="count" data-ex-sort-direction="forward"></div>
             <hr />
-            <div data-ex-role="facet" data-ex-expression=".genre" data-ex-facet-label="Genre" data-ex-height="14em" data-ex-sort-mode="count" data-ex-sort-direction="forward"></div>
             <div data-ex-role="facet" data-ex-expression=".cast" data-ex-facet-label="Cast" data-ex-height="14em" data-ex-sort-mode="count" data-ex-sort-direction="forward"></div>
             <div data-ex-role="facet" data-ex-expression=".director" data-ex-facet-label="Director" data-ex-height="12em" data-ex-sort-mode="count" data-ex-sort-direction="forward"></div>
             <div style="text-align: center" data-ex-role="logo"></div>
@@ -211,7 +210,6 @@
           <span class="close-btn" onclick="closeModal()">&times;</span>
         </div>
         <div class="legend">
-          <div class="legend-item"><div class="legend-color hl-genre"></div> Genre</div>
           <div class="legend-item"><div class="legend-color hl-occasion"></div> Occasion</div>
           <div class="legend-item"><div class="legend-color hl-plot"></div> Plot</div>
           <div class="legend-item"><div class="legend-color hl-subjective-feeling"></div> Subjective Feeling</div>
@@ -382,7 +380,16 @@
 
       // Query routing lives in ../ser-search.js, shared with the recipe page.
       window.SER_SEARCH_CONFIG = {
-        domainStopWords: ['movie', 'movies', 'film', 'films', 'show', 'shows', 'watch', 'watching']
+        domainStopWords: ['movie', 'movies', 'film', 'films', 'show', 'shows', 'watch', 'watching'],
+        // Variants merged into a value during normalization (rebuild_v4_movies maps).
+        querySynonyms: {
+          'spooky': 'creepy', 'eerie': 'creepy', 'hilarious': 'funny', 'tearjerker': 'sad',
+          'weepy': 'sad', 'frightening': 'scary', 'terrifying': 'scary', 'gruesome': 'gory',
+          'bloody': 'gory', 'gorgeous': 'visually stunning', 'beautiful': 'visually stunning',
+          'children': 'kids', 'teens': 'teenagers', 'suspense': 'suspenseful', 'heartfelt': 'touching',
+          'raunchy': 'crude', 'grim': 'dark', 'inspirational': 'inspiring',
+          'chick flick': 'romance fans', 'mind-bending': 'complex plot'
+        }
       };
 
       function hideMissingFieldValues() {

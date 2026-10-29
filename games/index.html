@@ -252,6 +252,11 @@
             <div data-ex-role="facet" data-ex-expression=".purpose_attributes" data-ex-facet-label="Purpose" data-ex-height="14em" data-ex-sort-mode="count" data-ex-sort-direction="forward"></div>
             <div data-ex-role="facet" data-ex-expression=".player_type_attributes" data-ex-facet-label="Player Type" data-ex-height="14em" data-ex-sort-mode="count" data-ex-sort-direction="forward"></div>
             <div data-ex-role="facet" data-ex-expression=".value_attributes" data-ex-facet-label="Value" data-ex-height="14em" data-ex-sort-mode="count" data-ex-sort-direction="forward"></div>
+            <hr />
+            <div data-ex-role="facet" data-ex-expression=".play_modes" data-ex-facet-label="Play modes (Steam)" data-ex-height="10em" data-ex-sort-mode="count" data-ex-sort-direction="forward"></div>
+            <div data-ex-role="facet" data-ex-expression=".genre" data-ex-facet-label="Genre (Steam)" data-ex-height="10em" data-ex-sort-mode="count" data-ex-sort-direction="forward"></div>
+            <div data-ex-role="facet" data-ex-expression=".price_bucket" data-ex-facet-label="Price" data-ex-height="8em" data-ex-sort-mode="count" data-ex-sort-direction="forward"></div>
+            <div data-ex-role="facet" data-ex-expression=".release_year" data-ex-facet-label="Release year" data-ex-height="8em" data-ex-sort-mode="count" data-ex-sort-direction="forward"></div>
             <div style="text-align: center" data-ex-role="logo"></div>
           </td>
         </tr>
@@ -442,7 +447,15 @@
 
       // Query routing lives in ../ser-search.js, shared with the recipe page.
       window.SER_SEARCH_CONFIG = {
-        domainStopWords: ['game', 'games', 'play', 'playing', 'player', 'players']
+        domainStopWords: ['game', 'games', 'play', 'playing', 'player', 'players'],
+        // Variants merged into a value during normalization (rebuild_v4_games maps).
+        querySynonyms: {
+          'chill': 'relaxing', 'unwind': 'relaxing', 'relax': 'relaxing', 'grindy': 'grinding',
+          'grind': 'grinding', 'comfy': 'cozy', 'difficult': 'hard', 'tough': 'hard',
+          'children': 'kids', 'family': 'families', 'newbie': 'beginners', 'noob': 'beginners',
+          'gorgeous': 'beautiful', 'spooky': 'creepy', 'addicting': 'addictive',
+          'hilarious': 'funny', 'explore': 'exploration', 'farm': 'farming', 'music': 'great soundtrack'
+        }
       };
 
       function hideMissingFieldValues() {

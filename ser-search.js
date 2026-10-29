@@ -5,6 +5,8 @@
 //   * loadExhibitData()          -> Promise of the Exhibit JSON ({items: [...]})
 //   * window.SER_SEARCH_CONFIG   -> { domainStopWords: [...], facetFields?: [...] }
 //     facetFields defaults to every non-NumericRange facet expression on the page.
+//     querySynonyms maps a word users type to the value it names
+//     ({ spooky: 'creepy' }), for variants that were merged into a value.
 //
 // Two problems the old search had, both visible in the CIKM review:
 //   1. Query terms that matched no facet value were silently dropped.
@@ -14,8 +16,8 @@
 //      to survive.
 // So each query term is routed rather than forced onto a facet, and a facet
 // value filters only when it is discriminative. Common values are held and
-// applied only alongside a discriminative constraint. Unmatched terms are
-// reported in the status line.
+// applied alongside a discriminative constraint, or on their own when the
+// query has none. Unmatched terms are reported in the status line.
 // ---------------------------------------------------------------------
 
 // A facet value present in more than this share of the corpus is kept for
@@ -179,6 +181,27 @@ function findBestMatch(term, facetIndex) {
   return [];
 }
 
+// Singular forms of a plural word (families -> family, eaters -> eater).
+function singularForms(word) {
+  if (word.length < 4 || /ss$/.test(word)) return [];
+  const forms = [];
+  if (/ies$/.test(word)) forms.push(word.replace(/ies$/, 'y'));
+  if (/es$/.test(word)) forms.push(word.replace(/es$/, ''));
+  if (/s$/.test(word)) forms.push(word.replace(/s$/, ''));
+  return forms.filter((f, i, a) => f.length >= 3 && a.indexOf(f) === i);
+}
+
+// The phrase itself, then with its last word made singular.
+// A page synonym comes first, since it names the value the variant was merged into.
+function phraseForms(phrase) {
+  const syn = serConfig().querySynonyms || {};
+  const words = phrase.split(' ');
+  const last = words.pop();
+  const forms = [phrase].concat(singularForms(last).map(f => words.concat([f]).join(' ')));
+  const named = forms.filter(f => syn[f]).map(f => syn[f].toLowerCase());
+  return named.concat(forms);
+}
+
 function adjectiveStems(term) {
   if (!/y$/.test(term) || term.length < 5) return [];
   return [term.replace(/ky$/, ''), term.replace(/y$/, 'e'), term.replace(/y$/, '')]
@@ -225,13 +248,18 @@ function performSmartSearch() {
     setTimeout(() => {
       const facetIndex = buildFacetIndex();
 
-      // Single words first, then multi-word phrases for still-unmatched terms.
-      const allTermCombinations = searchTerms.slice();
-      for (let len = 2; len <= searchTerms.length; len++) {
+      // A phrase that names a value exactly goes first, longest first, so its
+      // words are not routed one by one ([horror fans] must not also select
+      // "fans of the book"). Then single words, then the other phrases.
+      const phrases = [];
+      for (let len = searchTerms.length; len >= 2; len--) {
         for (let i = 0; i <= searchTerms.length - len; i++) {
-          allTermCombinations.push(searchTerms.slice(i, i + len).join(' '));
+          phrases.push(searchTerms.slice(i, i + len).join(' '));
         }
       }
+      const namesValue = p => phraseForms(p).some(f => facetIndex.some(e => e.valueLower === f));
+      const allTermCombinations = phrases.filter(namesValue)
+        .concat(searchTerms, phrases.filter(p => !namesValue(p)).reverse());
 
       const toClick = [];
       const matchedTerms = new Set();
@@ -242,7 +270,11 @@ function performSmartSearch() {
         const phraseWords = phrase.split(' ');
         if (phraseWords.every(w => matchedTerms.has(w))) return;
 
-        let matches = findBestMatch(phrase, facetIndex);
+        let matches = [];
+        for (const form of phraseForms(phrase)) {
+          matches = findBestMatch(form, facetIndex);
+          if (matches.length > 0) break;
+        }
         // An adjective with no value of its own tries its noun stem
         // (garlicky -> garlic, cheesy -> cheese).
         if (matches.length === 0 && phraseWords.length === 1) {
@@ -285,15 +317,13 @@ function performSmartSearch() {
         droppedTerms.push(phrase);
       });
 
-      if (toClick.length > 0) {
-        weakMatches.forEach(m => {
-          if (!toClick.some(tc => tc.category === m.category &&
-                                  tc.valueLower === m.valueLower)) toClick.push(m);
-          console.log(`Applying held facet [${m.category}] "${m.value}"`);
-        });
-      } else {
-        weakMatches.forEach(m => droppedTerms.push(m.value));
-      }
+      // Held values join a discriminative constraint. With none, they are still
+      // the user's words, so they apply on their own ([fun multiplayer game]).
+      weakMatches.forEach(m => {
+        if (!toClick.some(tc => tc.category === m.category &&
+                                tc.valueLower === m.valueLower)) toClick.push(m);
+        console.log(`Applying held facet [${m.category}] "${m.value}"`);
+      });
 
       if (droppedTerms.length > 0) console.log('No match anywhere for: ' + droppedTerms.join(', '));
       reportSearchRouting(toClick, droppedTerms);

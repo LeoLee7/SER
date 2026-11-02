@@ -30,3 +30,47 @@
   border-color: var(--color-text-primary, #111827);
   color: #ffffff;
 }
+
+/* 2026-11-01 layout fixes. Page-level rules strip link borders with
+   !important, so the tab border has to be restated the same way. */
+#header .domain-switch a,
+#header .domain-switch span.current {
+  border: 1px solid var(--color-border, #e5e7eb) !important;
+}
+#header .domain-switch span.current {
+  border-color: var(--color-text-primary, #111827) !important;
+}
+
+/* Search box on its own row so the example query is not cut off */
+.search-container .search-wrapper {
+  flex-wrap: wrap;
+}
+.search-container .search-input {
+  flex: 1 1 100%;
+  min-width: 0;
+}
+.search-container .search-button,
+.search-container .clear-button {
+  flex: 1 1 0;
+}
+
+/* Facet lists: shrink to their content, cap at eight full rows (25px each),
+   and drop the drag handle that overlapped the next facet */
+.exhibit-facet-body {
+  height: auto !important;
+  max-height: 200px;
+  overflow-y: auto;
+}
+.exhibit-resizableDivWidget-resizer {
+  display: none !important;
+}
+.exhibit-facet-body::-webkit-scrollbar {
+  width: 6px;
+}
+.exhibit-facet-body::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 3px;
+}
+.exhibit-facet {
+  margin-bottom: 18px;
+}

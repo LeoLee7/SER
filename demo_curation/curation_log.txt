@@ -1,0 +1,249 @@
+food-exhibit-data-500recipes.json: Creamy Cajun Chicken Pasta: occasion_attributes valentine's day -> Valentine's Day
+food-exhibit-data-500recipes.json: Jo Mama's World Famous Spaghetti: audience_attributes girl -> girls
+food-exhibit-data-500recipes.json: Kittencal's Italian Melt-In-Your-Mouth Meatballs: texture_attributes drop not fall apart
+food-exhibit-data-500recipes.json: Beer Bread: audience_attributes husband's family -> in-laws
+food-exhibit-data-500recipes.json: Beer Bread: occasion_attributes bbq -> BBQ
+food-exhibit-data-500recipes.json: Oven-Fried Chicken Chimichangas: audience_attributes drop vegetarian
+food-exhibit-data-500recipes.json: Simply Sour Cream Chicken Enchiladas: audience_attributes drop meat lovers
+food-exhibit-data-500recipes.json: Olive Garden Copycat Zuppa Toscana: texture_attributes drop span "I like my soups a bit more velvety"
+food-exhibit-data-500recipes.json: Olive Garden Copycat Zuppa Toscana: texture_attributes drop velvety (support below 1)
+food-exhibit-data-500recipes.json: Olive Garden Copycat Zuppa Toscana: texture_attributes drop span "Chard instead of Kale as it's more tender"
+food-exhibit-data-500recipes.json: Mexican Rice: audience_attributes drop twins
+food-exhibit-data-500recipes.json: Mexican Rice: audience_attributes drop kids' friends
+food-exhibit-data-500recipes.json: Chicken Tortilla Soup II: audience_attributes husband's family -> in-laws
+food-exhibit-data-500recipes.json: Dark Chocolate Cake: occasion_attributes valentine's day -> Valentine's Day
+food-exhibit-data-500recipes.json: Poverty Meal: taste_attributes drop comfort food
+food-exhibit-data-500recipes.json: Kittencal's Chocolate Frosting/Icing: occasion_attributes valentine's day -> Valentine's Day
+food-exhibit-data-500recipes.json: Authentic Italian Meatballs: texture_attributes drop not fall apart
+food-exhibit-data-500recipes.json: Kittencal's Chicken Crescent Roll Casserole: audience_attributes drop friend's daughter
+food-exhibit-data-500recipes.json: Cracker Barrel's Hashbrowns Casserole - Copycat: occasion_attributes camping trip -> camping
+food-exhibit-data-500recipes.json: Perfect Pork Tenderloin: audience_attributes drop meat lovers
+food-exhibit-data-500recipes.json: Baked Salmon: occasion_attributes valentine's day -> Valentine's Day
+food-exhibit-data-500recipes.json: Really Good Vegetarian Meatloaf (Really!): audience_attributes drop vegetarians
+food-exhibit-data-500recipes.json: Really Good Vegetarian Meatloaf (Really!): audience_attributes drop meat lovers
+food-exhibit-data-500recipes.json: Country White Bread or Dinner Rolls (Bread Machine): audience_attributes husband's family -> in-laws
+food-exhibit-data-500recipes.json: Country White Bread or Dinner Rolls (Bread Machine): audience_attributes drop youngest
+food-exhibit-data-500recipes.json: Chocolate! Chocolate! Chocolate! Bundt Cake With Chocolate Glaze: audience_attributes drop client
+food-exhibit-data-500recipes.json: Slow-Cooker Cheesy Chicken: audience_attributes drop span "my husband, kids, and I all agreed on 3.5 stars"
+food-exhibit-data-500recipes.json: Slow-Cooker Cheesy Chicken: audience_attributes drop span "my super picky, brain damaged 3 year old loved it"
+food-exhibit-data-500recipes.json: Best Grilled Pork Chops: occasion_attributes bbq -> BBQ
+food-exhibit-data-500recipes.json: Kittencal's Famous Greek Salad: occasion_attributes bbq -> BBQ
+food-exhibit-data-500recipes.json: Loaded Baked Potato Salad: occasion_attributes bbq -> BBQ
+food-exhibit-data-500recipes.json: Easy Breakfast Casserole: audience_attributes drop vegetarians
+food-exhibit-data-500recipes.json: Perfectly Sweet Cornbread: audience_attributes drop daughter's boyfriend
+food-exhibit-data-500recipes.json: White Almond Sour Cream Wedding Cake: occasion_attributes valentine's day -> Valentine's Day
+food-exhibit-data-500recipes.json: Awesome Baked Ham: audience_attributes drop meat lovers
+food-exhibit-data-500recipes.json: Southern Fried Chicken: occasion_attributes camping trip -> camping
+food-exhibit-data-500recipes.json: Uncle Bill's Whipped Shortbread Cookies: audience_attributes drop daughter's boyfriend
+food-exhibit-data-500recipes.json: Ground Beef Stuffed Green Bell Peppers With Cheese: occasion_attributes bbq -> BBQ
+food-exhibit-data-500recipes.json: Soft Molasses Cookies: texture_attributes drop not spread
+food-exhibit-data-500recipes.json: BLT Pasta Salad: audience_attributes girl -> girls
+food-exhibit-data-500recipes.json: BLT Pasta Salad: audience_attributes husband's family -> in-laws
+food-exhibit-data-500recipes.json: Classic Potato Salad: occasion_attributes bbq -> BBQ
+food-exhibit-data-500recipes.json: Olive Garden Pasta E Fagioli Soup in a Crock Pot (Copycat): occasion_attributes valentine's day -> Valentine's Day
+food-exhibit-data-500recipes.json: Potato Salad: occasion_attributes bbq -> BBQ
+food-exhibit-data-500recipes.json: Wholly Guacamole: occasion_attributes bbq -> BBQ
+food-exhibit-data-500recipes.json: Italian Wedding Soup: audience_attributes drop client
+food-exhibit-data-500recipes.json: Grilled Moroccan Chicken: occasion_attributes bbq -> BBQ
+food-exhibit-data-500recipes.json: The Best Apple Pie Muffins Ever: audience_attributes drop twins
+food-exhibit-data-500recipes.json: Spanish Chicken &amp; Rice Bake: audience_attributes drop vegetarian
+food-exhibit-data-500recipes.json: Spanish Chicken &amp; Rice Bake: audience_attributes drop meat lovers
+food-exhibit-data-500recipes.json: Bacon-Wrapped Jalapeno Poppers: occasion_attributes bbq -> BBQ
+food-exhibit-data-500recipes.json: Strawberries &amp; Cream Bread (Strawberry or Blueberry): occasion_attributes bbq -> BBQ
+food-exhibit-data-500recipes.json: Big Thicket Chicken and Dumplings: audience_attributes drop friend's daughter
+food-exhibit-data-500recipes.json: Jumbo Shrimp Parmesan: occasion_attributes valentine's day -> Valentine's Day
+food-exhibit-data-500recipes.json: Creamy Potato Salad: occasion_attributes bbq -> BBQ
+food-exhibit-data-500recipes.json: Mrs. Geraldine's Ground Beef Casserole: taste_attributes drop comfort food
+food-exhibit-data-500recipes.json: Macaroni Salad: occasion_attributes bbq -> BBQ
+food-exhibit-data-500recipes.json: Chicken Scaloppine With Lemon Glaze  (Low Fat and Delicious!): audience_attributes roommates -> roommate
+food-exhibit-data-500recipes.json: Greek-Style Turkey Burgers: occasion_attributes bbq -> BBQ
+food-exhibit-data-500recipes.json: Kittencal's Extreme Chocolate Brownies: audience_attributes drop daughter's boyfriend
+food-exhibit-data-500recipes.json: Kittencal's Extreme Chocolate Brownies: occasion_attributes bbq -> BBQ
+food-exhibit-data-500recipes.json: Chocolate Cream Pie: occasion_attributes valentine's day -> Valentine's Day
+food-exhibit-data-500recipes.json: Soft Batch Chocolate Chip Cookies: texture_attributes drop not spread
+food-exhibit-data-500recipes.json: Utterly Deadly Southern Pecan Pie: audience_attributes roommates -> roommate
+food-exhibit-data-500recipes.json: Deviled Eggs: occasion_attributes bbq -> BBQ
+food-exhibit-data-500recipes.json: Kittencal's Famous Coleslaw: occasion_attributes bbq -> BBQ
+food-exhibit-data-500recipes.json: Granny's Sugar Cookies: occasion_attributes valentine's day -> Valentine's Day
+food-exhibit-data-500recipes.json: Oven-Roasted Corn on the Cob: occasion_attributes bbq -> BBQ
+food-exhibit-data-500recipes.json: Beth's Pizza Crust: occasion_attributes drop friday
+food-exhibit-data-500recipes.json: World's Best Butter Cookies: occasion_attributes valentine's day -> Valentine's Day
+food-exhibit-data-500recipes.json: Beef Tips: occasion_attributes sunday -> sunday dinner
+food-exhibit-data-500recipes.json: Buttery Shrimp And Pasta: occasion_attributes valentine's day -> Valentine's Day
+food-exhibit-data-500recipes.json: White Chicken Chili: occasion_attributes sunday -> sunday dinner
+food-exhibit-data-500recipes.json: Mama Iuliucci's Famous Meat-A-Balls (Italian Meatballs): texture_attributes drop not fall apart
+food-exhibit-data-500recipes.json: Simple Caribbean Jerk Chicken: occasion_attributes bbq -> BBQ
+food-exhibit-data-500recipes.json: Perfect Rump Roast: texture_attributes drop pink
+food-exhibit-data-500recipes.json: Hamburgers: occasion_attributes bbq -> BBQ
+food-exhibit-data-500recipes.json: Kittencal's Chinese Chicken Balls With Sweet and Sour Sauce: occasion_attributes drop saturday night
+food-exhibit-data-500recipes.json: New York Cheesecake: texture_attributes drop not fall apart
+food-exhibit-data-500recipes.json: Crock Pot Ravioli: audience_attributes drop twins
+food-exhibit-data-500recipes.json: Best Albondigas Soup: audience_attributes roommates -> roommate
+food-exhibit-data-500recipes.json: Tilapia Al Ajillo (Garlic Tilapia): occasion_attributes drop saturday night
+food-exhibit-data-500recipes.json: Perfectly Juice Prime Rib: occasion_attributes valentine's day -> Valentine's Day
+food-exhibit-data-500recipes.json: My Mama Iuliucci's "Don't Skip a Step" Spaghetti Sauce: occasion_attributes drop friday
+food-exhibit-data-500recipes.json: Most Incredible No Fail Pie Crust: texture_attributes drop not breaking
+food-exhibit-data-500recipes.json: Roasted Garlic Mashed Potatoes - the Best You've Ever Had: occasion_attributes bbq -> BBQ
+food-exhibit-data-500recipes.json: Just Like Loaded Baked Potatoes Casserole: audience_attributes drop youngest
+food-exhibit-data-500recipes.json: Dirty Shrimp in Butter-Beer Sauce: occasion_attributes bbq -> BBQ
+food-exhibit-data-500recipes.json: Adam's Ribs: occasion_attributes bbq -> BBQ
+food-exhibit-data-500recipes.json: Puppy Chow or Monkey Munch: audience_attributes drop kids' friends
+food-exhibit-data-500recipes.json: Sausage Balls: audience_attributes husband's family -> in-laws
+food-exhibit-data-500recipes.json: Kittencal's Perfect Prime Rib Roast Beef: texture_attributes drop pink
+food-exhibit-data-500recipes.json: Black Bean and Couscous Salad: occasion_attributes bbq -> BBQ
+food-exhibit-data-500recipes.json: Paula Deen Crock Pot Macaroni and Cheese: audience_attributes husband's family -> in-laws
+food-exhibit-data-500recipes.json: Chocolate Chip Oatmeal Cookies: occasion_attributes graduation party -> graduation
+food-exhibit-data-500recipes.json: Italian Chopped Salad in Shells: occasion_attributes bbq -> BBQ
+food-exhibit-data-500recipes.json: French Dip Roast Beef for the Crock Pot: audience_attributes roommates -> roommate
+food-exhibit-data-500recipes.json: Awesome Bacon-Tomato Dip: occasion_attributes graduation party -> graduation
+food-exhibit-data-500recipes.json: Pizza Dough: occasion_attributes drop saturday night
+food-exhibit-data-500recipes.json: Refried Beans: audience_attributes drop vegetarian
+food-exhibit-data-500recipes.json: Kittencal's Onion Patties/Latkes: occasion_attributes bbq -> BBQ
+food-exhibit-data-500recipes.json: Caesar Pork Chops: audience_attributes drop youngest
+food-exhibit-data-500recipes.json: Spinach Strawberry Salad: audience_attributes husband's family -> in-laws
+food-exhibit-data-500recipes.json: Spinach Strawberry Salad: occasion_attributes bbq -> BBQ
+food-exhibit-data-500recipes.json: Patti Labelle's Macaroni and Cheese: occasion_attributes bbq -> BBQ
+food-exhibit-data-500recipes.json: Lee Lee's Famous Chocolate Sauce for Ice Cream: occasion_attributes bbq -> BBQ
+food-exhibit-data-500recipes.json: Perfect Pasta Salad:: occasion_attributes bbq -> BBQ
+food-exhibit-data-500recipes.json: Perfect Pasta With No Watching and No Sweating: texture_attributes drop not breaking
+food-exhibit-data-500recipes.json: The Best Snickerdoodles I Have Ever Eaten: occasion_attributes bbq -> BBQ
+movies/movie-exhibit-data-100movies.json: King Kong (2005): subjective_feeling touching -> moving
+movies/movie-exhibit-data-100movies.json: King Kong (2005): vibe_style drop special effects
+movies/movie-exhibit-data-100movies.json: King Kong (2005): occasion drop big screen
+movies/movie-exhibit-data-100movies.json: Serenity (2005): target_audience drop father
+movies/movie-exhibit-data-100movies.json: Serenity (2005): target_audience drop women
+movies/movie-exhibit-data-100movies.json: Serenity (2005): target_audience drop men
+movies/movie-exhibit-data-100movies.json: The Chronicles of Narnia: The Lion, the Witch and the Wardrobe (2005): subjective_feeling touching -> moving
+movies/movie-exhibit-data-100movies.json: A History of Violence (2005): target_audience drop women
+movies/movie-exhibit-data-100movies.json: Saw II (2005): vibe_style drop creepy
+movies/movie-exhibit-data-100movies.json: Saw II (2005): vibe_style drop disturbing
+movies/movie-exhibit-data-100movies.json: The Dukes of Hazzard (2005): target_audience drop women
+movies/movie-exhibit-data-100movies.json: The Dukes of Hazzard (2005): target_audience drop men
+movies/movie-exhibit-data-100movies.json: Doom (2005): target_audience drop son
+movies/movie-exhibit-data-100movies.json: Pride & Prejudice (2005): vibe_style drop period
+movies/movie-exhibit-data-100movies.json: Pride & Prejudice (2005): target_audience drop husband
+movies/movie-exhibit-data-100movies.json: Pride & Prejudice (2005): target_audience drop younger audience
+movies/movie-exhibit-data-100movies.json: The Devil's Rejects (2005): vibe_style drop disturbing
+movies/movie-exhibit-data-100movies.json: The Devil's Rejects (2005): occasion drop big screen
+movies/movie-exhibit-data-100movies.json: Sin City (2005): target_audience drop women
+movies/movie-exhibit-data-100movies.json: Brokeback Mountain (2005): subjective_feeling touching -> moving
+movies/movie-exhibit-data-100movies.json: The 40-Year-Old Virgin (2005): target_audience drop women
+movies/movie-exhibit-data-100movies.json: The 40-Year-Old Virgin (2005): target_audience drop men
+movies/movie-exhibit-data-100movies.json: Wedding Crashers (2005): target_audience drop women
+movies/movie-exhibit-data-100movies.json: Wedding Crashers (2005): target_audience drop men
+movies/movie-exhibit-data-100movies.json: Star Wars: Episode III - Revenge of the Sith (2005): vibe_style drop special effects
+movies/movie-exhibit-data-100movies.json: Star Wars: Episode III - Revenge of the Sith (2005): target_audience drop women
+movies/movie-exhibit-data-100movies.json: The Constant Gardener (2005): subjective_feeling touching -> moving
+movies/movie-exhibit-data-100movies.json: Corpse Bride (2005): vibe_style drop creepy
+movies/movie-exhibit-data-100movies.json: Stealth (2005): vibe_style drop special effects
+movies/movie-exhibit-data-100movies.json: Stealth (2005): vibe_style drop action-packed
+movies/movie-exhibit-data-100movies.json: Stealth (2005): target_audience drop husband
+movies/movie-exhibit-data-100movies.json: Elizabethtown (2005): subjective_feeling touching -> moving
+movies/movie-exhibit-data-100movies.json: Elizabethtown (2005): target_audience drop men
+movies/movie-exhibit-data-100movies.json: The Skeleton Key (2005): vibe_style drop creepy
+movies/movie-exhibit-data-100movies.json: Final Fantasy VII: Advent Children (2005): vibe_style drop special effects
+movies/movie-exhibit-data-100movies.json: Final Fantasy VII: Advent Children (2005): vibe_style drop action-packed
+movies/movie-exhibit-data-100movies.json: Æon Flux (2005): target_audience drop husband
+movies/movie-exhibit-data-100movies.json: Æon Flux (2005): target_audience drop father
+movies/movie-exhibit-data-100movies.json: Four Brothers (2005): vibe_style drop action-packed
+movies/movie-exhibit-data-100movies.json: Four Brothers (2005): target_audience drop men
+movies/movie-exhibit-data-100movies.json: Wallace & Gromit: The Curse of the Were-Rabbit (2005): vibe_style drop british
+movies/movie-exhibit-data-100movies.json: Wallace & Gromit: The Curse of the Were-Rabbit (2005): vibe_style drop charming
+movies/movie-exhibit-data-100movies.json: March of the Penguins (2005): subjective_feeling touching -> moving
+movies/movie-exhibit-data-100movies.json: March of the Penguins (2005): vibe_style drop charming
+movies/movie-exhibit-data-100movies.json: March of the Penguins (2005): target_audience drop younger audience
+movies/movie-exhibit-data-100movies.json: Napoleon Dynamite (2004): subjective_feeling amusing -> funny
+movies/movie-exhibit-data-100movies.json: Wolf Creek (2005): vibe_style drop creepy
+movies/movie-exhibit-data-100movies.json: The Phantom of the Opera (2004): subjective_feeling touching -> moving
+movies/movie-exhibit-data-100movies.json: The Fog (2005): target_audience drop younger audience
+movies/movie-exhibit-data-100movies.json: The Fog (2005): target_audience drop kids (item)
+movies/movie-exhibit-data-100movies.json: Constantine (2005): vibe_style drop special effects
+movies/movie-exhibit-data-100movies.json: Transporter 2 (2005): vibe_style drop action-packed
+movies/movie-exhibit-data-100movies.json: Transporter 2 (2005): target_audience drop women
+movies/movie-exhibit-data-100movies.json: The Descent (2005): occasion drop big screen
+movies/movie-exhibit-data-100movies.json: The Descent (2005): target_audience drop women
+movies/movie-exhibit-data-100movies.json: The Descent (2005): target_audience drop men
+movies/movie-exhibit-data-100movies.json: Must Love Dogs (2005): target_audience drop husband
+movies/movie-exhibit-data-100movies.json: Must Love Dogs (2005): target_audience drop women
+movies/movie-exhibit-data-100movies.json: Must Love Dogs (2005): target_audience drop men
+movies/movie-exhibit-data-100movies.json: Million Dollar Baby (2004): subjective_feeling touching -> moving
+movies/movie-exhibit-data-100movies.json: Mr. & Mrs. Smith (2005): subjective_feeling amusing -> funny
+movies/movie-exhibit-data-100movies.json: Mr. & Mrs. Smith (2005): target_audience drop son
+movies/movie-exhibit-data-100movies.json: Mr. & Mrs. Smith (2005): target_audience drop women
+movies/movie-exhibit-data-100movies.json: Mr. & Mrs. Smith (2005): target_audience drop men
+movies/movie-exhibit-data-100movies.json: Mr. & Mrs. Smith (2005): target_audience drop boys
+movies/movie-exhibit-data-100movies.json: Mr. & Mrs. Smith (2005): target_audience drop family (item)
+movies/movie-exhibit-data-100movies.json: The Legend of Zorro (2005): vibe_style drop action-packed
+movies/movie-exhibit-data-100movies.json: The Legend of Zorro (2005): target_audience drop father
+movies/movie-exhibit-data-100movies.json: The Legend of Zorro (2005): target_audience drop women
+movies/movie-exhibit-data-100movies.json: Sky High (2005): target_audience drop son
+movies/movie-exhibit-data-100movies.json: Sky High (2005): target_audience drop daughter
+movies/movie-exhibit-data-100movies.json: Sky High (2005): target_audience drop younger audience
+movies/movie-exhibit-data-100movies.json: Chicken Little (2005): target_audience drop boys
+movies/movie-exhibit-data-100movies.json: Last Days (2005): subjective_feeling touching -> moving
+movies/movie-exhibit-data-100movies.json: Cinderella Man (2005): subjective_feeling touching -> moving
+movies/movie-exhibit-data-100movies.json: Cinderella Man (2005): target_audience drop women
+movies/movie-exhibit-data-100movies.json: Cinderella Man (2005): target_audience drop men
+movies/movie-exhibit-data-100movies.json: Garden State (2004): subjective_feeling touching -> moving
+movies/movie-exhibit-data-100movies.json: The Family Stone (2005): subjective_feeling touching -> moving
+movies/movie-exhibit-data-100movies.json: The Family Stone (2005): target_audience drop men
+movies/movie-exhibit-data-100movies.json: Just Like Heaven (2005): subjective_feeling amusing -> funny
+movies/movie-exhibit-data-100movies.json: Just Like Heaven (2005): vibe_style drop charming
+movies/movie-exhibit-data-100movies.json: Just Like Heaven (2005): target_audience drop women
+movies/movie-exhibit-data-100movies.json: Just Like Heaven (2005): target_audience drop men
+movies/movie-exhibit-data-100movies.json: Titanic (1997): subjective_feeling touching -> moving
+movies/movie-exhibit-data-100movies.json: Titanic (1997): target_audience drop women
+movies/movie-exhibit-data-100movies.json: Troy (2004): target_audience drop women
+movies/movie-exhibit-data-100movies.json: Troy (2004): target_audience drop men
+movies/movie-exhibit-data-100movies.json: The Shawshank Redemption (1994): subjective_feeling touching -> moving
+movies/movie-exhibit-data-100movies.json: Kiss Kiss Bang Bang (2005): subjective_feeling amusing -> funny
+movies/movie-exhibit-data-100movies.json: Kiss Kiss Bang Bang (2005): target_audience drop men
+movies/movie-exhibit-data-100movies.json: Hustle & Flow (2005): subjective_feeling touching -> moving
+movies/movie-exhibit-data-100movies.json: Hustle & Flow (2005): target_audience drop son
+movies/movie-exhibit-data-100movies.json: Downfall (2004): subjective_feeling drop creepy (item)
+movies/movie-exhibit-data-100movies.json: Shopgirl (2005): subjective_feeling touching -> moving
+movies/movie-exhibit-data-100movies.json: Dark Water (2005): vibe_style drop creepy
+movies/movie-exhibit-data-100movies.json: Dark Water (2005): target_audience drop daughter
+movies/movie-exhibit-data-100movies.json: Unleashed (2005): subjective_feeling touching -> moving
+movies/movie-exhibit-data-100movies.json: Harry Potter and the Prisoner of Azkaban (2004): target_audience drop women
+movies/movie-exhibit-data-100movies.json: Donnie Darko (2001): subjective_feeling touching -> moving
+movies/movie-exhibit-data-100movies.json: Sahara (2005): vibe_style drop action-packed
+movies/movie-exhibit-data-100movies.json: Sahara (2005): target_audience drop women
+movies/movie-exhibit-data-100movies.json: The Ring Two (2005): vibe_style drop creepy
+movies/movie-exhibit-data-100movies.json: The Longest Yard (2005): target_audience drop son
+movies/movie-exhibit-data-100movies.json: The Longest Yard (2005): target_audience drop women
+movies/movie-exhibit-data-100movies.json: The Longest Yard (2005): target_audience drop men
+movies/movie-exhibit-data-100movies.json: The Longest Yard (2005): target_audience drop boys
+movies/movie-exhibit-data-100movies.json: Me and You and Everyone We Know (2005): subjective_feeling touching -> moving
+games/game-exhibit-data-100games.json: Warhammer 40,000: Darktide: value_attributes worth full price -> worth the price
+games/game-exhibit-data-100games.json: Back 4 Blood: value_attributes worth full price -> worth the price
+games/game-exhibit-data-100games.json: Crusader Kings III: player_type_attributes drop women
+games/game-exhibit-data-100games.json: Persona 5 Royal: value_attributes worth full price -> worth the price
+games/game-exhibit-data-100games.json: Foxhole: gameplay_attributes drop teamwork
+games/game-exhibit-data-100games.json: Hades: value_attributes worth full price -> worth the price
+games/game-exhibit-data-100games.json: STALCRAFT: X: player_type_attributes drop women
+games/game-exhibit-data-100games.json: State of Decay 2: Juggernaut Edition: value_attributes worth full price -> worth the price
+games/game-exhibit-data-100games.json: Hell Let Loose: difficulty_attributes drop hard (item)
+games/game-exhibit-data-100games.json: Hell Let Loose: gameplay_attributes drop teamwork
+games/game-exhibit-data-100games.json: The Last of Us™ Part I: value_attributes worth full price -> worth the price
+games/game-exhibit-data-100games.json: Barotrauma: player_type_attributes drop masochists
+games/game-exhibit-data-100games.json: Medieval Dynasty: value_attributes worth full price -> worth the price
+games/game-exhibit-data-100games.json: GUILTY GEAR -STRIVE-: difficulty_attributes drop complex
+games/game-exhibit-data-100games.json: Noita: player_type_attributes drop masochists
+games/game-exhibit-data-100games.json: Inscryption: value_attributes worth full price -> worth the price
+games/game-exhibit-data-100games.json: Once Human: player_type_attributes drop introverts
+games/game-exhibit-data-100games.json: Stray: player_type_attributes drop cat lovers
+games/game-exhibit-data-100games.json: The Planet Crafter: value_attributes worth full price -> worth the price
+games/game-exhibit-data-100games.json: Library Of Ruina: value_attributes worth full price -> worth the price
+games/game-exhibit-data-100games.json: Cookie Clicker: gameplay_attributes drop engaging (item)
+games/game-exhibit-data-100games.json: Cookie Clicker: gameplay_attributes drop deep (item)
+games/game-exhibit-data-100games.json: Cookie Clicker: activity_attributes drop clicking
+games/game-exhibit-data-100games.json: NEEDY STREAMER OVERLOAD: activity_attributes drop multiple endings
+games/game-exhibit-data-100games.json: Blade and Sorcery: activity_attributes drop magic
+games/game-exhibit-data-100games.json: Neon Abyss: value_attributes worth full price -> worth the price
+games/game-exhibit-data-100games.json: Helltaker: value_attributes drop worth the price (item)
+games/game-exhibit-data-100games.json: Paleo Pines: difficulty_attributes drop simple
+games/game-exhibit-data-100games.json: Poppy Playtime: value_attributes drop worth the price (item)
+games/game-exhibit-data-100games.json: Phoenotopia: Awakening: value_attributes worth full price -> worth the price
+games/game-exhibit-data-100games.json: Scars Above: difficulty_attributes drop simple
+games/game-exhibit-data-100games.json: Rec Room: player_type_attributes drop introverts

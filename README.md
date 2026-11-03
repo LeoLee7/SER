@@ -1,66 +1,36 @@
-# SER-DB: Subjective Experience Repository
+# SER: An Experiential Search and Retrieval System
 
-A demonstration of extracting and organizing subjective product needs (SPN) from food reviews using LLM-based attribute extraction.
+SER answers searches for properties that catalogs do not record but reviews do, such as whether children will eat a dish. Its core is EXP-DB, which annotates each item with catalog attributes and with experiential attributes extracted from its reviews, each linked to the review span it came from.
 
-## Preview the Demo
+- **Live demo:** https://leolee7.github.io/SER/ (recipes, [movies](https://leolee7.github.io/SER/movies/), [games](https://leolee7.github.io/SER/games/))
+- **Video:** https://youtu.be/gwKzpr1FuOM
 
-### Option 1: Using Live Server (VS Code Extension)
+## Demo
 
-1. Install the [Live Server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) in VS Code
-2. Right-click on `food-exhibit-500recipes.html`
-3. Select "Open with Live Server"
-4. The page will open automatically in your browser
+The left column holds facets extracted from reviews, the right column facets from the catalog record. Type a need such as "chicken dish for kids"; SER maps its words to facet values and reports which ones it applied. Open a recipe and choose "View Reviews with Highlights" to see the review spans behind each value.
 
-### Option 2: Using Python HTTP Server
+![Faceted search interface](imgs/demo-faceted-interface.jpg)
 
-1. Start a local HTTP server in this directory:
-   ```bash
-   python3 -m http.server 8080
-   ```
+![Review highlights](imgs/demo-review-highlights.jpg)
 
-2. Open your browser and navigate to:
-   ```
-   http://localhost:8080/food-exhibit-500recipes.html
-   ```
+To run it locally, serve this directory and open the root page:
 
-3. When done, stop the server with `Ctrl+C`
+```bash
+python3 -m http.server 8080
+# then open http://localhost:8080/
+```
 
-## Demo Screenshots
+## Data
 
-### Faceted Search Interface
-The main interface allows browsing and filtering recipes across multiple subjective dimensions:
-
-![Faceted Search Interface](imgs/demo-faceted-interface.jpg)
-
-### Review Highlights
-Click any recipe to view reviews with color-coded highlighting showing where each attribute was extracted:
-
-![Review Highlights](imgs/demo-review-highlights.jpg)
-
-### Filtered Reviews - Thanksgiving Example
-Filter by specific attributes like "husband" and "Thanksgiving" to see only matching reviews with highlighted spans:
-
-![Filtered Reviews - Thanksgiving](imgs/demo-filtered-husband-thanksgiving.jpg)
-
-### Filtered Reviews - Christmas Example
-Another example showing how filtering works for holiday-specific attributes like "Christmas":
-
-![Filtered Reviews - Christmas](imgs/demo-filtered-husband-christmas.jpg)
-
-## Data Source
-
-**Original Dataset**: [Food.com - Recipes and Reviews (Kaggle)](https://www.kaggle.com/datasets/irkaal/foodcom-recipes-and-reviews)
-
-- **Full Dataset**: 522,517 recipes with 1,401,982 reviews from 271,907 users
-- **Demo Subset**: 500 top-rated recipes with ~10,000 reviews (20 reviews per recipe)
-- **License**: [CC0: Public Domain](https://creativecommons.org/publicdomain/zero/1.0/)
-- **Academic Use**: ✅ **Freely available for academic research, education, and commercial purposes with no restrictions**
-
-The demo showcases how subjective experiences can be systematically extracted from natural language reviews and organized into a browsable, faceted interface.
+| Domain | Items | Reviews | Source |
+|---|---|---|---|
+| Recipes | 500 | 9,306 | [Food.com Recipes and Reviews (Kaggle)](https://www.kaggle.com/datasets/irkaal/foodcom-recipes-and-reviews), CC0 |
+| Movies | 100 | 3,992 | [IMDb Review Dataset (Kaggle)](https://doi.org/10.34740/KAGGLE/DSV/1836923) |
+| Games | 100 | 4,000 | [Steam Games Dataset](https://doi.org/10.57967/hf/0511) and [Steam reviews 2020 to 2024](https://doi.org/10.17632/jxy85cr3th.2) |
 
 ## Category Settings
 
-Reviews are extracted into **6 experiential categories** (a single review phrase can belong to several):
+For recipes, reviews are extracted into six experiential categories (a single review phrase can belong to several):
 
 | Category (demo label) | What it records | Examples |
 |---|---|---|
@@ -71,7 +41,7 @@ Reviews are extracted into **6 experiential categories** (a single review phrase
 | **Audience** | who ate and liked it (not who cooked it) | kids, husband, family, guests, picky eater |
 | **Cooked as (cuisine)** | the cuisine the reviewer describes it as | Mexican, Italian, Chinese |
 
-Main ingredient, listed cuisine, cook time, and calories come from the Food.com catalog.
+Main ingredient, listed cuisine, cook time, and calories come from the Food.com catalog. The movie and game pages follow the same design with their own categories.
 
 ## Pipeline (v4, October 2026)
 
@@ -81,9 +51,3 @@ Main ingredient, listed cuisine, cook time, and calories come from the Food.com 
 4. **Aggregate.** A recipe carries a flavor value when two of its reviews assert it, and a value of another category when one does. A value must apply to at least two recipes.
 
 Every facet value keeps its link to the review span it came from, which the demo highlights. Full log, evaluation, and how to rebuild: [`rebuild_v4/README.md`](rebuild_v4/README.md). The previous version (Gemma 3 extraction) is tagged `v3-deployed-2026-10-24`.
-
-## Demo Features
-
-- **Faceted browsing**: Filter recipes by any combination of extracted attributes
-- **Review highlights**: Click recipes to see reviews with highlighted extraction spans
-- **Context-aware**: Selected facets filter both recipes and visible attributes

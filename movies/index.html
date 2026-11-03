@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
   <head>
-    <title>Movies | Exhibit Facet Search</title>
+    <title>SER | Movies</title>
     <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
     <link rel="stylesheet" href="https://www.simile-widgets.org/styles/common.css" type="text/css" />
     <link rel="stylesheet" href="movie-exhibit.css" type="text/css" />
@@ -135,9 +135,9 @@
     <table id="header">
       <tr style="vertical-align: middle;">
         <td>
-          <h1>Movie Facet Search (100 Movies)</h1>
+          <h1>SER Movie Search</h1>
           <nav class="domain-switch"><a href="../index.html">Recipes</a><span class="current">Movies</span><a href="../games/index.html">Games</a></nav>
-          <p>Browse 100 movies with LLM-extracted subjective features from 2,000 reviews.</p>
+          <p>100 IMDb movies with attributes extracted from 3,992 reviews.</p>
         </td>
       </tr>
     </table>
@@ -147,7 +147,7 @@
         <tr>
           <td class="facet-column">
             <div class="search-container">
-              <b>Search Attributes</b>
+              <b>Describe what you want</b>
               <div class="search-wrapper">
                 <input type="text"
                        id="customSearchBox"
@@ -156,13 +156,14 @@
                 <button class="search-button" onclick="performSmartSearch()">Search</button>
                 <button class="clear-button" onclick="clearSearch()">Clear</button>
               </div>
-              <div class="search-hint">Try: "funny romantic comedy" or "intense thriller" (Press Enter to search)</div>
+              <div class="search-hint">Try: "sad movie" or "movie for date night" (Press Enter to search)</div>
               <div id="searchStatus" class="search-status">
                 <span class="search-status-label">Searching for:</span>
                 <span id="searchTermsDisplay" class="search-status-terms"></span>
               </div>
             </div>
             <hr />
+            <div class="facet-column-heading">From reviews</div>
             <div data-ex-role="facet" data-ex-expression=".subjective_feeling" data-ex-facet-label="Subjective Feeling" data-ex-height="14em" data-ex-sort-mode="count" data-ex-sort-direction="forward"></div>
             <div data-ex-role="facet" data-ex-expression=".vibe_style" data-ex-facet-label="Vibe & Style" data-ex-height="14em" data-ex-sort-mode="count" data-ex-sort-direction="forward"></div>
             <div data-ex-role="facet" data-ex-expression=".plot" data-ex-facet-label="Plot" data-ex-height="14em" data-ex-sort-mode="count" data-ex-sort-direction="forward"></div>
@@ -175,7 +176,9 @@
                    data-ex-view-class="Thumbnail"
                    data-ex-show-all="true"
                    data-ex-paginate="true"
-                   data-ex-possible-orders=".review_count, .subjective_attribute_count, .imdb_rating, .avg_rating, .label">
+                   data-ex-orders=".imdb_rating"
+                   data-ex-directions="descending"
+                   data-ex-possible-orders=".imdb_rating, .subjective_attribute_count, .label">
                 <table data-ex-role="lens" class="movie-tile" style="display: none;">
                   <tr><td>
                     <div class="movie-tile-content">
@@ -190,7 +193,8 @@
             </div>
           </td>
           <td class="facet-column">
-            <div data-ex-role="facet" data-ex-expression=".imdb_bucket" data-ex-facet-label="IMDB Rating" data-ex-height="8em" data-ex-sort-mode="count" data-ex-sort-direction="forward"></div>
+            <div class="facet-column-heading">From the IMDb record</div>
+            <div data-ex-role="facet" data-ex-expression=".imdb_bucket" data-ex-facet-label="IMDb Rating" data-ex-height="8em" data-ex-sort-mode="count" data-ex-sort-direction="forward"></div>
             <div data-ex-role="facet" data-ex-expression=".runtime_bucket" data-ex-facet-label="Runtime" data-ex-height="8em" data-ex-sort-mode="count" data-ex-sort-direction="forward"></div>
             <div data-ex-role="facet" data-ex-expression=".rated" data-ex-facet-label="MPAA Rating" data-ex-height="8em" data-ex-sort-mode="count" data-ex-sort-direction="forward"></div>
             <hr />
@@ -231,124 +235,6 @@
           .catch(err => { console.error('Error loading exhibit data:', err); return null; });
       }
 
-      function getReviewsFromExhibit(movieId) {
-        if (!exhibitData) return [];
-        const movie = exhibitData.items.find(item => item.id == movieId);
-        return movie ? movie.reviews || [] : [];
-      }
-
-      function getSelectedFacets() {
-        const allSelected = [];
-        const facetDivs = document.querySelectorAll('[data-ex-role="facet"]');
-        facetDivs.forEach(facetDiv => {
-          const expression = facetDiv.getAttribute('data-ex-expression');
-          const facetClass = facetDiv.getAttribute('data-ex-facet-class');
-          if (!expression || expression.includes('NumericRange') || facetClass === 'NumericRange') return;
-          const allDivs = facetDiv.querySelectorAll('div');
-          allDivs.forEach(div => {
-            const classes = div.className || '';
-            const text = div.textContent?.trim() || '';
-            const computedStyle = window.getComputedStyle(div);
-            const isSelected = classes.includes('selected') || classes.includes('checked') ||
-                             classes.includes('exhibit-facet-value-selected') ||
-                             div.style.fontWeight === 'bold' || div.style.fontWeight === '700' ||
-                             computedStyle.fontWeight === 'bold' || computedStyle.fontWeight === '700' ||
-                             parseInt(computedStyle.fontWeight) >= 700;
-            if (isSelected && text && text.length > 0 && text.length < 200) {
-              let facetValue = text.split('(')[0].trim().replace(/^\d+\s+/, '');
-              if (/^\d+$/.test(facetValue)) return; // bold count element, not a value
-              if (facetValue && !allSelected.includes(facetValue)) allSelected.push(facetValue);
-            }
-          });
-        });
-        return { byDimension: {}, all: allSelected };
-      }
-
-      // Show reviews for a movie tile
-      function showReviewsForMovie(movieName) {
-        const selectedFacets = getSelectedFacets();
-        loadExhibitData().then(data => {
-          if (!data) { alert('Could not load exhibit data.'); return; }
-          const movie = data.items.find(item => item.name === movieName || item.label === movieName);
-          if (!movie) { alert('Could not find movie: ' + movieName); return; }
-
-          const reviews = movie.reviews || [];
-          let titleText = `Reviews for: ${movie.name}`;
-          if (selectedFacets.all.length > 0) titleText += ` (filtering for: ${selectedFacets.all.join(', ')})`;
-          document.getElementById('modalTitle').textContent = titleText;
-
-          let html = '';
-          if (reviews.length === 0) {
-            html = '<p>No reviews found for this movie.</p>';
-          } else {
-            const processedReviews = reviews.map(review => {
-              const result = highlightSpans(review, selectedFacets.all);
-              return { html: result.html, matchCount: result.matchCount };
-            });
-            let filteredReviews = processedReviews;
-            if (selectedFacets.all.length > 0) {
-              filteredReviews = processedReviews.filter(item => item.matchCount > 0);
-            }
-            filteredReviews.sort((a, b) => b.matchCount - a.matchCount);
-            if (filteredReviews.length === 0) {
-              html = '<p>No reviews found matching the selected attributes.</p>';
-            } else {
-              filteredReviews.forEach(item => {
-                const matchBadge = item.matchCount > 0
-                  ? `<span style="background: var(--color-accent); color: white; padding: 2px 8px; border-radius: 3px; font-size: 11px; font-weight: bold; margin-bottom: 8px; display: inline-block;">${item.matchCount} match${item.matchCount > 1 ? 'es' : ''}</span>`
-                  : '';
-                html += `<div class="review-item" style="${item.matchCount > 0 ? 'border-left-width: 5px;' : ''}">`;
-                if (matchBadge) html += matchBadge;
-                html += `<div class="review-text">${item.html}</div></div>`;
-              });
-            }
-          }
-          document.getElementById('modalReviews').innerHTML = html;
-          document.getElementById('reviewModal').style.display = 'block';
-        });
-      }
-
-      function highlightSpans(review, selectedAttributes = []) {
-        const text = review.review_text || '';
-        const attributes = review.attributes || [];
-        const normalizedSelected = selectedAttributes.map(a => a.toLowerCase().trim());
-        const spans = [];
-        let matchCount = 0;
-
-        attributes.forEach(attr => {
-          if (!attr.span || attr.span.start === undefined || attr.span.end === undefined) return;
-          const start = attr.span.start;
-          const end = attr.span.end;
-          if (start < 0 || end > text.length || start >= end) return;
-
-          const normalizedEntity = (attr.normalized_entity || attr.entity || '').toLowerCase().trim();
-          const shouldShow = selectedAttributes.length === 0 || normalizedSelected.includes(normalizedEntity);
-
-          if (shouldShow) {
-            const spanText = text.substring(start, end);
-            if (!spanText.trim()) return;
-            spans.push({ start, end, dimension: attr.dimension, entity: attr.entity });
-            if (selectedAttributes.length > 0 && normalizedSelected.includes(normalizedEntity)) matchCount++;
-          }
-        });
-
-        spans.sort((a, b) => a.start - b.start);
-        let result = '';
-        let lastEnd = 0;
-        spans.forEach(span => {
-          if (span.start >= lastEnd) {
-            result += escapeHtml(text.substring(lastEnd, span.start));
-            const dimClass = span.dimension.toLowerCase().replace(/[_\s]/g, '-');
-            result += `<span class="highlight hl-${dimClass}" title="${span.dimension}: ${span.entity}">`;
-            result += escapeHtml(text.substring(span.start, span.end));
-            result += `</span>`;
-            lastEnd = span.end;
-          }
-        });
-        result += escapeHtml(text.substring(lastEnd));
-        return { html: result, matchCount };
-      }
-
       function escapeHtml(text) {
         const div = document.createElement('div');
         div.textContent = text;
@@ -361,26 +247,21 @@
         if (event.target == document.getElementById('reviewModal')) closeModal();
       }
 
-      // Make thumbnails clickable
-      function attachTileHandlers() {
-        document.querySelectorAll('.movie-tile').forEach(thumb => {
-          const newThumb = thumb.cloneNode(true);
-          thumb.parentNode.replaceChild(newThumb, thumb);
-          newThumb.style.cursor = 'pointer';
-          newThumb.addEventListener('click', function(e) {
-            e.preventDefault();
-            e.stopPropagation();
-            e.stopImmediatePropagation();
-            const title = this.querySelector('.movie-tile-title')?.textContent?.trim();
-            if (title) showReviewsForMovie(title);
-            return false;
-          }, true);
-        });
-      }
-
-      // Query routing lives in ../ser-search.js, shared with the recipe page.
+      // Query routing lives in ../ser-search.js, the review modal in ../ser-ui.js.
+      window.SER_UI_CONFIG = {
+        reviewFields: {
+          subjective_feeling: { label: 'Subjective Feeling', cls: 'subjective-feeling', dims: ['Subjective-Feeling'] },
+          vibe_style: { label: 'Vibe & Style', cls: 'vibe-style', dims: ['Vibe-Style'] },
+          plot: { label: 'Plot', cls: 'plot', dims: ['Plot'] },
+          occasion: { label: 'Occasion', cls: 'occasion', dims: ['Occasion'] },
+          target_audience: { label: 'Target Audience', cls: 'target-audience', dims: ['Target-Audience'] }
+        }
+      };
       window.SER_SEARCH_CONFIG = {
-        domainStopWords: ['movie', 'movies', 'film', 'films', 'show', 'shows', 'watch', 'watching'],
+        domainStopWords: ['movie', 'movies', 'film', 'films', 'show', 'shows', 'watch', 'watching', 'rated'],
+        // MPAA ratings are single letters or hyphenated; join them before the query is split.
+        queryRewrites: [['\\br[ -]rated\\b', 'r-rated'], ['\\brated r\\b', 'r-rated'],
+                        ['\\bpg[ -]?13\\b', 'pg-13'], ['\\bpg[ -]rated\\b', 'pg']],
         // Variants merged into a value during normalization (rebuild_v4_movies maps).
         querySynonyms: {
           'spooky': 'creepy', 'eerie': 'creepy', 'hilarious': 'funny', 'tearjerker': 'sad',
@@ -388,67 +269,41 @@
           'bloody': 'gory', 'gorgeous': 'visually stunning', 'beautiful': 'visually stunning',
           'children': 'kids', 'teens': 'teenagers', 'suspense': 'suspenseful', 'heartfelt': 'touching',
           'raunchy': 'crude', 'grim': 'dark', 'inspirational': 'inspiring',
-          'chick flick': 'romance fans', 'mind-bending': 'complex plot'
+          'chick flick': 'romance fans', 'mind-bending': 'complex plot', 'r-rated': 'r'
         }
       };
 
-      function hideMissingFieldValues() {
-        document.querySelectorAll('a[title*="missing"]').forEach(link => {
-          const facetValue = link.closest('.exhibit-facet-value');
-          if (facetValue) { facetValue.style.display = 'none'; facetValue.remove(); }
-        });
-        document.querySelectorAll('.exhibit-facet-value').forEach(fv => {
-          const text = fv.textContent || '';
-          if (text.includes('missing this field') || text.includes('(missing')) { fv.style.display = 'none'; fv.remove(); }
-        });
-      }
-
       function hideExportButton() {
-        document.querySelectorAll('.exhibit-copyButton, .exhibit-bookmarkButton, img[src*="copy-button"], img[src*="liveclipboard"], img[src*="bookmark"]').forEach(el => { el.style.display = 'none'; });
-        document.querySelectorAll('img[title*="bookmark"], img[title*="Bookmark"], a[title*="bookmark"]').forEach(el => { el.style.display = 'none'; });
-      }
-
-      function reorderFacet(expression, correctOrder) {
-        const facetDivs = document.querySelectorAll('[data-ex-role="facet"][data-ex-expression="' + expression + '"]');
-        facetDivs.forEach(facetDiv => {
-          const valueElements = Array.from(facetDiv.querySelectorAll('.exhibit-facet-value'));
-          if (valueElements.length === 0) return;
-          const categoryMap = {};
-          valueElements.forEach(elem => {
-            const text = elem.textContent.trim();
-            const category = text.split('(')[0].trim().replace(/^\d+\s+/, '');
-            categoryMap[category] = elem;
-          });
-          const container = valueElements[0].parentElement;
-          if (!container) return;
-          correctOrder.forEach(category => {
-            const elem = categoryMap[category];
-            if (elem) container.appendChild(elem);
-          });
+        document.querySelectorAll('.exhibit-copyButton, .exhibit-bookmarkButton, img[src*="copy-button"], img[src*="liveclipboard"], img[src*="bookmark"]').forEach(el => {
+          if (el.style.display !== 'none') el.style.display = 'none';
         });
       }
 
-      function reorderCatalogFacets() {
-        reorderFacet('.imdb_bucket', ['8.0+', '7.0-7.9', '6.0-6.9', '5.0-5.9', 'Below 5.0']);
-        reorderFacet('.runtime_bucket', ['Under 90 min', '90-120 min', '120-150 min', '150+ min']);
-      }
+      // One delegated listener: Exhibit renders tiles by cloning the lens.
+      document.addEventListener('click', function(e) {
+        const tile = e.target.closest && e.target.closest('.movie-tile[itemid]');
+        if (!tile) return;
+        e.preventDefault();
+        e.stopPropagation();
+        loadExhibitData().then(data => {
+          const movie = data && data.items.find(item => String(item.id) === tile.getAttribute('itemid'));
+          if (movie) serShowReviews(movie);
+        });
+      }, true);
 
       document.addEventListener('DOMContentLoaded', function() {
+        loadExhibitData();
         setTimeout(initializeCustomSearch, 1000);
-        setTimeout(attachTileHandlers, 2000);
-        setTimeout(hideMissingFieldValues, 1500);
-        setTimeout(hideMissingFieldValues, 3000);
-        setTimeout(hideExportButton, 1500);
-        setTimeout(hideExportButton, 3000);
-        setTimeout(reorderCatalogFacets, 1500);
-        setTimeout(reorderCatalogFacets, 3000);
-        setInterval(attachTileHandlers, 2000);
-        setInterval(hideMissingFieldValues, 3000);
-        setInterval(reorderCatalogFacets, 3000);
+        serOnRender(() => {
+          hideExportButton();
+          serReorderFacet('.imdb_bucket', ['8.0+', '7.0-7.9', '6.0-6.9', '5.0-5.9', 'Below 5.0']);
+          serReorderFacet('.runtime_bucket', ['Under 90 min', '90-120 min', '120-150 min', '150+ min']);
+        });
       });
 
       document.addEventListener('keydown', function(e) { if (e.key === 'Escape') closeModal(); });
     </script>
+    <script src="../ser-ui.js"></script>
     <script src="../ser-search.js"></script>
   </body>
 </html>

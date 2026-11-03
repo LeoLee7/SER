@@ -74,3 +74,54 @@
 .exhibit-facet {
   margin-bottom: 18px;
 }
+
+/* 2026-11-02 audit fixes */
+/* Exhibit's sort menu shows raw field names; each page sets a sensible default order instead. */
+.exhibit-collectionView-header-sortControls {
+  display: none !important;
+}
+/* Exhibit lists items without a value as "(missing this field)". */
+.exhibit-facet-value:has(.exhibit-facet-value-missingThisField) {
+  display: none !important;
+}
+/* Status line reads as prose, not code. */
+.search-status-terms {
+  font-family: inherit !important;
+}
+/* Column headings separate review facets from catalog facets. */
+.facet-column-heading {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-text-tertiary, #6b7280);
+  margin: 4px 0 10px 0;
+}
+.match-badge {
+  background: var(--color-accent, #2563eb);
+  color: #ffffff;
+  padding: 2px 8px;
+  border-radius: 3px;
+  font-size: 11px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  display: inline-block;
+}
+.recipe-attr-row {
+  margin-top: 4px;
+}
+.recipe-attr-label {
+  font-weight: 600;
+}
+/* Long titles stay inside their card. */
+td.recipe-thumb-caption > span,
+.movie-tile-title > span {
+  display: -webkit-box !important;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.recipe-thumb[itemid], .movie-tile[itemid], .game-thumb[itemid] {
+  cursor: pointer;
+}

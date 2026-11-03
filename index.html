@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
   <head>
-    <title>Food Recipes | Exhibit Facet Search</title>
+    <title>SER | Recipes</title>
     <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
     <link rel="stylesheet" href="https://www.simile-widgets.org/styles/common.css" type="text/css" />
     <link rel="stylesheet" href="food-exhibit.css" type="text/css" />
@@ -814,9 +814,9 @@
     <table id="header">
       <tr style="vertical-align: middle;">
         <td>
-          <h1>Food Recipe Facet Search (500 Recipes)</h1>
+          <h1>SER Recipe Search</h1>
           <nav class="domain-switch"><span class="current">Recipes</span><a href="movies/index.html">Movies</a><a href="games/index.html">Games</a></nav>
-          <p>Browse 500 top recipes with LLM-extracted subjective features from 10,000 reviews.</p>
+          <p>500 Food.com recipes with attributes extracted from 9,306 reviews.</p>
         </td>
       </tr>
     </table>
@@ -826,7 +826,7 @@
         <tr>
           <td class="facet-column">
             <div class="search-container">
-              <b>Search Attributes</b>
+              <b>Describe what you want</b>
               <div class="search-wrapper">
                 <input type="text"
                        id="customSearchBox"
@@ -842,6 +842,7 @@
               </div>
             </div>
             <hr />
+            <div class="facet-column-heading">From reviews</div>
             <div data-ex-role="facet" data-ex-expression=".audience_attributes" data-ex-facet-label="Audience" data-ex-height="14em" data-ex-sort-mode="count" data-ex-sort-direction="forward"></div>
             <div data-ex-role="facet" data-ex-expression=".occasion_attributes" data-ex-facet-label="Occasion" data-ex-height="14em" data-ex-sort-mode="count" data-ex-sort-direction="forward"></div>
             <div data-ex-role="facet" data-ex-expression=".texture_attributes" data-ex-facet-label="Texture" data-ex-height="14em" data-ex-sort-mode="count" data-ex-sort-direction="forward"></div>
@@ -863,9 +864,9 @@
                    data-ex-view-class="Thumbnail"
                    data-ex-show-all="true"
                    data-ex-paginate="true"
-                   data-ex-orders=".aggregated_rating"
-                   data-ex-directions="reverse"
-                   data-ex-possible-orders=".aggregated_rating, .review_count, .calories, .label">
+                   data-ex-orders=".subjective_attribute_count"
+                   data-ex-directions="descending"
+                   data-ex-possible-orders=".subjective_attribute_count, .review_count, .calories, .label">
                 <table data-ex-role="lens" class="recipe-thumb" style="display: none;">
                   <tr>
                     <td class="recipe-thumb-image">
@@ -899,6 +900,7 @@
             </div>
           </td>
           <td class="facet-column">
+            <div class="facet-column-heading">From the recipe record</div>
             <div data-ex-role="facet" data-ex-expression=".cuisine_catalog" data-ex-facet-label="Cuisine" data-ex-height="14em" data-ex-sort-mode="count" data-ex-sort-direction="forward"></div>
             <div data-ex-role="facet" data-ex-expression=".main_ingredient" data-ex-facet-label="Main ingredient" data-ex-height="14em" data-ex-sort-mode="count" data-ex-sort-direction="forward"></div>
             <div data-ex-role="facet" data-ex-expression=".cook_time_category" data-ex-facet-label="Cook Time" data-ex-height="10em" data-ex-sort-mode="count" data-ex-sort-direction="forward"></div>
@@ -948,698 +950,173 @@
           });
       }
 
-      // Reviews are embedded in exhibit data - no separate load needed
-      function getReviewsFromExhibit(recipeId) {
-        if (!exhibitData) return [];
-
-        const recipe = exhibitData.items.find(item => item.id == recipeId);
-        return recipe ? recipe.reviews || [] : [];
-      }
-
-      // Get currently selected facet values by examining DOM
-      function getSelectedFacets() {
-        const allSelected = [];
-
-        console.log('=== Searching for selected facets ===');
-
-        // Look for all facet divs
-        const facetDivs = document.querySelectorAll('[data-ex-role="facet"]');
-        console.log('Found facet divs:', facetDivs.length);
-
-        facetDivs.forEach(facetDiv => {
-          const expression = facetDiv.getAttribute('data-ex-expression');
-          const facetClass = facetDiv.getAttribute('data-ex-facet-class');
-
-          // Skip numeric ranges (like calories) and search facets
-          if (!expression || expression.includes('NumericRange') || facetClass === 'NumericRange' || facetDiv.querySelector('[data-ex-facet-class="TextSearch"]')) {
-            return; // Skip numeric and search facets
-          }
-
-          console.log('Examining facet:', expression);
-
-          // Look for all divs within this facet that might be facet values
-          // Exhibit uses specific class names for facet values
-          const facetValues = facetDiv.querySelectorAll('div[class*="facet"], div[class*="value"]');
-          console.log('  Found potential value elements:', facetValues.length);
-
-          // Also try more generic approach - find all divs with text content
-          const allDivs = facetDiv.querySelectorAll('div');
-          let foundInThisFacet = 0;
-
-          allDivs.forEach(div => {
-            // Check if this div looks like a selected facet value
-            const classes = div.className || '';
-            const text = div.textContent?.trim() || '';
-            const computedStyle = window.getComputedStyle(div);
-
-            // Look for indicators of selection (broader check)
-            const isSelected = classes.includes('selected') ||
-                             classes.includes('checked') ||
-                             classes.includes('exhibit-facet-value-selected') ||
-                             div.style.fontWeight === 'bold' ||
-                             div.style.fontWeight === '700' ||
-                             computedStyle.fontWeight === 'bold' ||
-                             computedStyle.fontWeight === '700' ||
-                             parseInt(computedStyle.fontWeight) >= 700;
-
-            if (isSelected && text && text.length > 0 && text.length < 200) {
-              // Remove count like "(123)" and also leading numbers like "474 husband"
-              let facetValue = text.split('(')[0].trim();
-
-              // Remove leading number and space (e.g., "474 husband" -> "husband")
-              facetValue = facetValue.replace(/^\d+\s+/, '');
-
-              // Skip the bold count element inside a selected value (e.g. "56").
-              if (/^\d+$/.test(facetValue)) return;
-
-              if (facetValue && !allSelected.includes(facetValue)) {
-                console.log('  -> Found selected:', facetValue, 'in', expression, '(from:', text.substring(0, 50), ')');
-                allSelected.push(facetValue);
-                foundInThisFacet++;
-              }
-            }
-          });
-
-          console.log('  Found', foundInThisFacet, 'selected values in this facet');
-        });
-
-        console.log('Final selected facets:', allSelected);
-
-        return {
-          byDimension: {},
-          all: allSelected
-        };
-      }
-
-      // Show reviews for the currently displayed recipe
-      function showReviewsForCurrentRecipe(button) {
-        // Find the recipe detail div that contains this button
-        const detailDiv = button.closest('.recipe-detail');
-
-        // Get recipe name from the h2
-        const recipeName = detailDiv.querySelector('h2 span').textContent;
-
-        // Get selected facets
-        const selectedFacets = getSelectedFacets();
-
-        // Load exhibit data to find recipe ID by name
-        loadExhibitData().then(exhibitData => {
-          if (!exhibitData) {
-            alert('Could not load exhibit data. Please try again.');
-            return;
-          }
-
-          // Find recipe by name
-          const recipe = exhibitData.items.find(item => item.name === recipeName);
-
-          if (!recipe) {
-            console.error('Could not find recipe:', recipeName);
-            alert('Could not find recipe. Please try again.');
-            return;
-          }
-
-          const recipeId = recipe.id;
-
-          // Get reviews from embedded exhibit data (already loaded)
-          const reviews = getReviewsFromExhibit(recipeId);
-
-            let titleText = `Reviews for: ${recipeName}`;
-            if (selectedFacets.all.length > 0) {
-              titleText += ` (filtering for: ${selectedFacets.all.join(', ')})`;
-            }
-            document.getElementById('modalTitle').textContent = titleText;
-
-            let html = '';
-            if (reviews.length === 0) {
-              html = '<p>No reviews with extracted attributes found for this recipe.</p>';
-            } else {
-              // Process reviews and calculate match counts
-              const processedReviews = reviews.map(review => {
-                const result = highlightSpans(review, selectedFacets.all);
-                return {
-                  html: result.html,
-                  matchCount: result.matchCount,
-                  review: review
-                };
-              });
-
-              // Debug: Log review attributes to see what we're matching against
-              console.log('Total reviews:', processedReviews.length);
-              console.log('Selected facets:', selectedFacets.all);
-
-              if (selectedFacets.all.length > 0 && reviews.length > 0) {
-                console.log('Sample review attributes:', reviews[0].attributes?.map(a => a.entity).slice(0, 10));
-              }
-
-              // Filter reviews if facets are selected (only show reviews with matches)
-              let filteredReviews = processedReviews;
-
-              if (selectedFacets.all.length > 0) {
-                filteredReviews = processedReviews.filter(item => item.matchCount > 0);
-                console.log('Filtered reviews (with matches):', filteredReviews.length);
-
-                if (filteredReviews.length === 0) {
-                  console.warn('No matching reviews found! This might indicate a mismatch between facet values and review entities.');
-                }
-              }
-
-              // Sort by match count (most matches first)
-              filteredReviews.sort((a, b) => b.matchCount - a.matchCount);
-
-              if (filteredReviews.length === 0) {
-                html = '<p>No reviews found matching the selected attributes.</p>';
-              } else {
-                // Show reviews
-                filteredReviews.forEach(item => {
-                  const matchBadge = item.matchCount > 0
-                    ? `<span style="background: #4a90e2; color: white; padding: 2px 8px; border-radius: 3px; font-size: 11px; font-weight: bold; margin-bottom: 8px; display: inline-block;">${item.matchCount} match${item.matchCount > 1 ? 'es' : ''}</span>`
-                    : '';
-                  html += `<div class="review-item" style="${item.matchCount > 0 ? 'border-left-width: 5px;' : ''}">`;
-                  if (matchBadge) html += matchBadge;
-                  html += `<div class="review-text">${item.html}</div>`;
-                  html += `</div>`;
-                });
-              }
-            }
-
-            document.getElementById('modalReviews').innerHTML = html;
-            document.getElementById('reviewModal').style.display = 'block';
-        });
-      }
-
-      // Highlight spans in review text
-      function highlightSpans(review, selectedAttributes = []) {
-        const text = review.review_text || '';
-        const attributes = review.attributes || [];
-
-        // Debug: Log reviews with no attributes
-        if (!attributes || attributes.length === 0) {
-          console.log('Review with NO attributes:', text.substring(0, 100) + '...');
-        }
-
-        // Simply normalize selected attributes for matching (lowercase, trim)
-        // Matching will be done against normalized_entity field in data
-        const normalizedSelected = selectedAttributes.map(a => a.toLowerCase().trim());
-
-        // Filter spans based on selected attributes (if any)
-        const spans = [];
-        let matchCount = 0;
-        let invalidSpans = 0;
-
-        attributes.forEach(attr => {
-          // Check if span exists and has valid start/end properties
-          if (!attr.span || attr.span.start === undefined || attr.span.end === undefined) {
-            console.warn('Attribute missing span data:', attr.entity, 'dimension:', attr.dimension);
-            invalidSpans++;
-            return; // Skip attributes without valid spans
-          }
-
-          // Validate span indices
-          const start = attr.span.start;
-          const end = attr.span.end;
-
-          if (start < 0 || end > text.length || start >= end) {
-            console.warn('Invalid span:', attr.entity, 'start:', start, 'end:', end, 'text length:', text.length);
-            invalidSpans++;
-            return; // Skip invalid spans
-          }
-
-          // Match against normalized_entity (which is pre-computed in data)
-          // This allows facet "husband" to match review entity "hubby"
-          // while preserving original span text
-          const normalizedEntity = (attr.normalized_entity || attr.entity || '').toLowerCase().trim();
-
-          // If no filters, show all. Otherwise, check if normalized_entity matches
-          const shouldShow = selectedAttributes.length === 0 ||
-                           normalizedSelected.includes(normalizedEntity);
-
-          if (shouldShow) {
-            const spanText = text.substring(start, end);
-
-            // Debug: check if span is empty or just whitespace
-            if (!spanText.trim()) {
-              console.warn('Empty span text for:', attr.entity, 'at', start, '-', end);
-              invalidSpans++;
-              return;
-            }
-
-            spans.push({
-              start: start,
-              end: end,
-              dimension: attr.dimension,
-              entity: attr.entity
-            });
-
-            // Count matches for selected attributes
-            if (selectedAttributes.length > 0 && normalizedSelected.includes(normalizedEntity)) {
-              matchCount++;
-            }
-          }
-        });
-
-        // Log summary if there were issues
-        if (attributes.length > 0 && spans.length === 0) {
-          console.log('Review has', attributes.length, 'attributes but 0 valid spans (', invalidSpans, 'invalid/missing)');
-        }
-
-        spans.sort((a, b) => a.start - b.start);
-
-        let result = '';
-        let lastEnd = 0;
-
-        spans.forEach(span => {
-          if (span.start >= lastEnd) {
-            result += escapeHtml(text.substring(lastEnd, span.start));
-            const dimClass = span.dimension.replace(/_/g, '');
-            result += `<span class="highlight hl-${dimClass}" title="${span.dimension}: ${span.entity}">`;
-            result += escapeHtml(text.substring(span.start, span.end));
-            result += `</span>`;
-            lastEnd = span.end;
-          }
-        });
-
-        result += escapeHtml(text.substring(lastEnd));
-
-        return {
-          html: result,
-          matchCount: matchCount
-        };
-      }
-
-      function escapeHtml(text) {
-        const div = document.createElement('div');
-        div.textContent = text;
-        return div.innerHTML;
-      }
-
-      // Close modal
       function closeModal() {
         document.getElementById('reviewModal').style.display = 'none';
       }
 
-      // Click outside modal to close
       window.onclick = function(event) {
-        const modal = document.getElementById('reviewModal');
-        if (event.target == modal) {
-          closeModal();
-        }
+        if (event.target == document.getElementById('reviewModal')) closeModal();
       }
 
-      // Query routing lives in ser-search.js, shared with the movie and game pages.
+      // Query routing lives in ser-search.js, the review modal in ser-ui.js;
+      // both are shared with the movie and game pages.
       window.SER_SEARCH_CONFIG = {
         domainStopWords: ['food', 'foods', 'dish', 'dishes', 'recipe', 'recipes', 'meal', 'meals'],
-        preferFields: ['main_ingredient', 'cuisine_catalog']
+        preferFields: ['main_ingredient', 'cuisine_catalog'],
+        querySynonyms: {
+          'mom': 'mother', 'dad': 'father', 'grandma': 'grandmother', 'grandpa': 'grandfather',
+          'kid': 'kids', 'child': 'kids', 'children': 'kids', 'hubby': 'husband',
+          'xmas': 'Christmas', 'valentines': "valentine's day", 'valentine': "valentine's day",
+          'valentines day': "valentine's day", 'valentine day': "valentine's day"
+        }
+      };
+      window.SER_UI_CONFIG = {
+        reviewFields: {
+          audience_attributes: { label: 'Audience', cls: 'audienceenjoyment', dims: ['audience_enjoyment'] },
+          occasion_attributes: { label: 'Occasion', cls: 'occasionholiday', dims: ['occasion_holiday'] },
+          texture_attributes: { label: 'Texture', cls: 'texturemouthfeel', dims: ['texture_mouthfeel'] },
+          taste_attributes: { label: 'Taste & Flavor', cls: 'tasteflavor', dims: ['taste_flavor'] },
+          meal_type_attributes: { label: 'Served as', cls: 'mealtype', dims: ['meal_type'] },
+          type_attributes: { label: 'Cooked as (cuisine)', cls: 'cuisinetype', dims: ['cuisine_type'] }
+        }
       };
 
-      // Open recipe modal
-      function openRecipeModal(thumbElement) {
-        const modal = document.getElementById('recipeModal');
-        const modalBody = document.getElementById('recipeModalBody');
-
-        // Extract recipe data from thumbnail
-        const dataSpans = thumbElement.querySelectorAll('.recipe-data');
-        const recipeData = {};
-        dataSpans.forEach(span => {
-          const field = span.getAttribute('data-field');
-          recipeData[field] = span.textContent.trim();
-        });
-
-        // Build modal content
-        const html = `
-          <div class="recipe-card">
-            <div class="recipe-header">
-              <div class="recipe-image-wrapper">
-                <img src="${recipeData.image}" alt="${recipeData.name}" />
-              </div>
-              <div class="recipe-header-info">
-                <h2 class="recipe-title">${recipeData.name}</h2>
-                <div class="recipe-meta">
-                  <span class="recipe-meta-item">Rating: ${recipeData.rating}</span>
-                  <span class="recipe-meta-item">${recipeData.reviews} reviews</span>
-                  <span class="recipe-meta-item">${recipeData.calories} cal</span>
-                  ${formatDuration(recipeData.cookTime) ? `<span class="recipe-meta-item">Cook: ${formatDuration(recipeData.cookTime)}</span>` : ''}
-                  ${formatDuration(recipeData.totalTime) ? `<span class="recipe-meta-item">Total: ${formatDuration(recipeData.totalTime)}</span>` : ''}
-                </div>
-              </div>
-            </div>
-
-            <div class="recipe-content">
-              <div class="recipe-columns">
-                <div class="recipe-column">
-                  <div class="recipe-section">
-                    <h4>Ingredients</h4>
-                    <ul class="ingredients-list">${formatList(recipeData.ingredients, 'li')}</ul>
-                  </div>
-                </div>
-
-                <div class="recipe-column">
-                  <div class="recipe-section">
-                    <h4>Instructions</h4>
-                    <ol class="instructions-list">${formatList(recipeData.instructions, 'li')}</ol>
-                  </div>
-                </div>
-              </div>
-
-              <div class="recipe-footer">
-                <div class="recipe-tags">
-                  <strong>Subjective Attributes:</strong> ${formatAttributes(recipeData.attributes, recipeData.name)}
-                </div>
-                <button class="view-reviews-btn" onclick="showReviewsFromModal('${recipeData.name.replace(/'/g, "\\'")}')">
-                  View Reviews with Highlights
-                </button>
-              </div>
-            </div>
-          </div>
-        `;
-
-        modalBody.innerHTML = html;
-        modal.style.display = 'block';
-        document.body.style.overflow = 'hidden';
+      function recipeById(id) {
+        return (exhibitData && exhibitData.items.find(item => String(item.id) === String(id))) || null;
       }
 
-      // Close recipe modal
-      function closeRecipeModal() {
-        const modal = document.getElementById('recipeModal');
-        modal.style.display = 'none';
-        document.body.style.overflow = '';
-      }
-
-      // Format comma-separated list into HTML list items
-      function formatList(text, tag) {
-        const items = text.split(',').map(s => s.trim()).filter(s => s);
-        return items.map(item => `<${tag}>${item}</${tag}>`).join('');
+      function listHtml(values, tag) {
+        return (values || []).map(v => `<${tag}>${serCleanText(String(v))}</${tag}>`).join('');
       }
 
       // Format ISO 8601 duration to human-readable format
       function formatDuration(isoDuration) {
         if (!isoDuration) return '';
-
         const match = isoDuration.match(/PT(?:(\d+)H)?(?:(\d+)M)?/);
         if (!match) return '';
-
         const hours = parseInt(match[1] || 0);
         const minutes = parseInt(match[2] || 0);
-
         if (hours === 0 && minutes === 0) return '';
-
         const parts = [];
         if (hours > 0) parts.push(`${hours}h`);
         if (minutes > 0) parts.push(`${minutes}m`);
-
         return parts.join(' ');
       }
 
-      // Format attributes with vegetarian alternative labeling
-      function formatAttributes(text, recipeName) {
-        const hasMeat = /chicken|beef|pork|lamb|turkey|bacon|sausage|ham|steak|meat/i.test(recipeName);
-        if (hasMeat && /vegetarian/i.test(text)) {
-          return text.replace(/(vegetarian)/gi, '$1 <span style="color: #999; font-size: 0.85em;">(alternative)</span>');
-        }
-        return text;
+      // The review facet values this recipe carries, grouped as in the left column.
+      function attributesHtml(recipe) {
+        const fields = window.SER_UI_CONFIG.reviewFields;
+        return Object.keys(fields)
+          .filter(f => (recipe[f] || []).length > 0)
+          .map(f => `<div class="recipe-attr-row"><span class="recipe-attr-label">${fields[f].label}:</span> ${recipe[f].map(v => serCleanText(String(v))).join(', ')}</div>`)
+          .join('');
       }
 
-      // Show reviews from modal
-      function showReviewsFromModal(recipeName) {
-        // Get selected facets
-        const selectedFacets = getSelectedFacets();
-
-        // Load exhibit data to find recipe
-        loadExhibitData().then(exhibitData => {
-          if (!exhibitData) {
-            alert('Could not load exhibit data. Please try again.');
-            return;
-          }
-
-          // Find recipe by name
-          const recipe = exhibitData.items.find(item => item.name === recipeName);
-
-          if (!recipe) {
-            console.error('Could not find recipe:', recipeName);
-            alert('Could not find recipe. Please try again.');
-            return;
-          }
-
-          const recipeId = recipe.id;
-
-          // Get reviews from embedded exhibit data
-          const reviews = getReviewsFromExhibit(recipeId);
-
-          let titleText = `Reviews for: ${recipeName}`;
-          if (selectedFacets.all.length > 0) {
-            titleText += ` (filtering for: ${selectedFacets.all.join(', ')})`;
-          }
-          document.getElementById('modalTitle').textContent = titleText;
-
-          let html = '';
-          if (reviews.length === 0) {
-            html = '<p>No reviews with extracted attributes found for this recipe.</p>';
-          } else {
-            // Process reviews and calculate match counts using highlightSpans
-            const processedReviews = reviews.map(review => {
-              const result = highlightSpans(review, selectedFacets.all);
-              return {
-                html: result.html,
-                matchCount: result.matchCount,
-                review: review
-              };
-            });
-
-            // Filter reviews if facets are selected
-            let filteredReviews = processedReviews;
-            if (selectedFacets.all.length > 0) {
-              filteredReviews = processedReviews.filter(item => item.matchCount > 0);
-            }
-
-            // Sort by match count
-            filteredReviews.sort((a, b) => b.matchCount - a.matchCount);
-
-            if (filteredReviews.length === 0 && selectedFacets.all.length > 0) {
-              html = '<p>No reviews found matching the selected attributes.</p>';
-            } else {
-              // Show reviews
-              filteredReviews.forEach(item => {
-                const matchBadge = item.matchCount > 0
-                  ? `<span style="background: #4a90e2; color: white; padding: 2px 8px; border-radius: 3px; font-size: 11px; font-weight: bold; margin-bottom: 8px; display: inline-block;">${item.matchCount} match${item.matchCount > 1 ? 'es' : ''}</span>`
-                  : '';
-                html += `<div class="review-item" style="${item.matchCount > 0 ? 'border-left-width: 5px;' : ''}">`;
-                if (matchBadge) html += matchBadge;
-                html += `<div class="review-text">${item.html}</div>`;
-                html += `</div>`;
-              });
-            }
-          }
-
-          document.getElementById('modalReviews').innerHTML = html;
-          document.getElementById('reviewModal').style.display = 'block';
-
-          // Close recipe modal
-          closeRecipeModal();
+      function openRecipeModal(thumbElement) {
+        // Exhibit puts the item id on the rendered lens.
+        const id = thumbElement.getAttribute('itemid');
+        loadExhibitData().then(() => {
+          const recipe = id && recipeById(id);
+          if (!recipe) return;
+          const name = serCleanText(recipe.name);
+          const cook = formatDuration(recipe.cook_time);
+          const total = formatDuration(recipe.total_time);
+          document.getElementById('recipeModalBody').innerHTML = `
+            <div class="recipe-card">
+              <div class="recipe-header">
+                <div class="recipe-image-wrapper">
+                  ${recipe.image ? `<img src="${recipe.image}" alt="" />` : ''}
+                </div>
+                <div class="recipe-header-info">
+                  <h2 class="recipe-title">${name}</h2>
+                  <div class="recipe-meta">
+                    <span class="recipe-meta-item">Rating: ${recipe.aggregated_rating}/5</span>
+                    <span class="recipe-meta-item">${recipe.review_count.toLocaleString()} reviews on Food.com</span>
+                    <span class="recipe-meta-item">${Math.round(recipe.calories)} cal per serving</span>
+                    ${cook ? `<span class="recipe-meta-item">Cook: ${cook}</span>` : ''}
+                    ${total ? `<span class="recipe-meta-item">Total: ${total}</span>` : ''}
+                  </div>
+                </div>
+              </div>
+              <div class="recipe-content">
+                <div class="recipe-columns">
+                  <div class="recipe-column">
+                    <div class="recipe-section">
+                      <h4>Ingredients</h4>
+                      <ul class="ingredients-list">${listHtml(recipe.ingredients, 'li')}</ul>
+                    </div>
+                  </div>
+                  <div class="recipe-column">
+                    <div class="recipe-section">
+                      <h4>Instructions</h4>
+                      <ol class="instructions-list">${listHtml(recipe.instructions, 'li')}</ol>
+                    </div>
+                  </div>
+                </div>
+                <div class="recipe-footer">
+                  <div class="recipe-tags">
+                    <strong>From ${(recipe.reviews || []).length} reviews:</strong>
+                    ${attributesHtml(recipe)}
+                  </div>
+                  <button class="view-reviews-btn" onclick="showReviewsFromModal('${recipe.id}')">
+                    View Reviews with Highlights
+                  </button>
+                </div>
+              </div>
+            </div>`;
+          document.getElementById('recipeModal').style.display = 'block';
+          document.body.style.overflow = 'hidden';
         });
       }
 
-      // Close modal on ESC key
+      function closeRecipeModal() {
+        document.getElementById('recipeModal').style.display = 'none';
+        document.body.style.overflow = '';
+      }
+
+      function showReviewsFromModal(recipeId) {
+        loadExhibitData().then(() => {
+          const recipe = recipeById(recipeId);
+          if (!recipe) return;
+          closeRecipeModal();
+          serShowReviews(recipe);
+        });
+      }
+
       document.addEventListener('keydown', function(e) {
-        if (e.key === 'Escape') {
-          closeRecipeModal();
-        }
+        if (e.key === 'Escape') { closeRecipeModal(); closeModal(); }
       });
 
-      // Close modal on background click
       document.addEventListener('click', function(e) {
-        const modal = document.getElementById('recipeModal');
-        if (e.target === modal) {
-          closeRecipeModal();
-        }
+        if (e.target === document.getElementById('recipeModal')) closeRecipeModal();
       });
 
-      // Format arrays as proper HTML lists
-      function formatRecipeLists() {
-        document.querySelectorAll('.ingredients-list').forEach(ul => {
-          const content = ul.textContent.trim();
-          if (content && !ul.querySelector('li:not([data-ex-content])') && !ul.hasAttribute('data-formatted')) {
-            ul.innerHTML = '';
-            const items = content.split(',').map(s => s.trim()).filter(s => s);
-            if (items.length > 0) {
-              items.forEach(item => {
-                const li = document.createElement('li');
-                li.textContent = item;
-                ul.appendChild(li);
-              });
-              ul.setAttribute('data-formatted', 'true');
-            }
-          }
-        });
+      // Thumbnails open the recipe card. One delegated listener, since Exhibit
+      // renders cards by cloning the lens, which drops per-card listeners.
+      document.addEventListener('click', function(e) {
+        const thumb = e.target.closest && e.target.closest('.recipe-thumb[itemid]');
+        if (!thumb) return;
+        e.preventDefault();
+        e.stopPropagation();
+        openRecipeModal(thumb);
+      }, true);
 
-        document.querySelectorAll('.instructions-list').forEach(ol => {
-          const content = ol.textContent.trim();
-          if (content && !ol.querySelector('li:not([data-ex-content])') && !ol.hasAttribute('data-formatted')) {
-            ol.innerHTML = '';
-            const items = content.split(',').map(s => s.trim()).filter(s => s);
-            if (items.length > 0) {
-              items.forEach(item => {
-                const li = document.createElement('li');
-                li.textContent = item;
-                ol.appendChild(li);
-              });
-              ol.setAttribute('data-formatted', 'true');
-            }
-          }
-        });
-
-        // Add "(alternative)" label to vegetarian attributes for meat-based recipes
-        document.querySelectorAll('.recipe-card').forEach(card => {
-          const title = card.querySelector('.recipe-title');
-          const tagsDiv = card.querySelector('.recipe-tags span');
-
-          if (title && tagsDiv && !card.hasAttribute('data-veg-checked')) {
-            const recipeName = title.textContent.toLowerCase();
-            const hasMeat = /chicken|beef|pork|lamb|turkey|bacon|sausage|ham|steak|meat/.test(recipeName);
-
-            if (hasMeat) {
-              const tags = tagsDiv.textContent;
-              if (tags.includes('vegetarian') && !tags.includes('(alternative)')) {
-                tagsDiv.innerHTML = tags.replace(/(vegetarian)/gi, '$1 <span style="color: #999; font-size: 0.85em;">(alternative)</span>');
-              }
-            }
-            card.setAttribute('data-veg-checked', 'true');
-          }
-        });
-      }
-
-
-      // Attach click handlers to thumbnails
-      function attachThumbnailHandlers() {
-        const thumbnails = document.querySelectorAll('.recipe-thumb');
-        thumbnails.forEach(thumb => {
-          // Remove any existing handlers
-          const newThumb = thumb.cloneNode(true);
-          thumb.parentNode.replaceChild(newThumb, thumb);
-
-          // Add click handler to entire thumbnail
-          newThumb.addEventListener('click', function(e) {
-            e.preventDefault();
-            e.stopPropagation();
-            e.stopImmediatePropagation();
-            openRecipeModal(this);
-            return false;
-          }, true);
-        });
-      }
-
-      // Initialize after DOM is ready
-      // Hide "(missing this field)" facet values
-      function hideMissingFieldValues() {
-        // Find all links with title containing "missing"
-        const missingLinks = document.querySelectorAll('a[title*="missing"]');
-        missingLinks.forEach(link => {
-          // Hide the parent facet value div
-          const facetValue = link.closest('.exhibit-facet-value');
-          if (facetValue) {
-            facetValue.style.display = 'none';
-            facetValue.remove(); // Remove from DOM entirely
-          }
-        });
-
-        // Also check by text content
-        const allFacetValues = document.querySelectorAll('.exhibit-facet-value');
-        allFacetValues.forEach(facetValue => {
-          const text = facetValue.textContent || '';
-          if (text.includes('missing this field') || text.includes('(missing')) {
-            facetValue.style.display = 'none';
-            facetValue.remove(); // Remove from DOM entirely
-          }
-        });
-
-        // Check all links with "missing" in title
-        document.querySelectorAll('a').forEach(link => {
-          const title = link.getAttribute('title') || '';
-          if (title.toLowerCase().includes('missing')) {
-            const parent = link.closest('.exhibit-facet-value');
-            if (parent) {
-              parent.style.display = 'none';
-              parent.remove();
-            }
-          }
-        });
-      }
-
-      // Hide Exhibit export and bookmark buttons
       function hideExportButton() {
         document.querySelectorAll('.exhibit-copyButton, .exhibit-bookmarkButton, img[src*="copy-button"], img[src*="liveclipboard"], img[src*="bookmark"]').forEach(el => {
-          el.style.display = 'none';
-        });
-        // Also hide by title attribute
-        document.querySelectorAll('img[title*="bookmark"], img[title*="Bookmark"], a[title*="bookmark"]').forEach(el => {
-          el.style.display = 'none';
-        });
-      }
-
-      // Reorder cook time facet by natural time order (using sort index from data)
-      function reorderCookTimeFacet() {
-        // Find the cook time facet
-        const facetDivs = document.querySelectorAll('[data-ex-role="facet"][data-ex-expression=".cook_time_category"]');
-
-        facetDivs.forEach(facetDiv => {
-          // Find all facet value elements
-          const valueElements = Array.from(facetDiv.querySelectorAll('.exhibit-facet-value'));
-
-          if (valueElements.length === 0) return;
-
-          // Define the correct order based on our natural time categories
-          const correctOrder = ['< 15 min', '15-30 min', '30-60 min', '1-2 hr', '2-4 hr', '4+ hr'];
-
-          // Create a map of category to element
-          const categoryMap = {};
-          valueElements.forEach(elem => {
-            const text = elem.textContent.trim();
-            // Extract just the category name (remove count like "(123)")
-            const category = text.split('(')[0].trim().replace(/^\d+\s+/, '');
-            categoryMap[category] = elem;
-          });
-
-          // Get the parent container
-          const container = valueElements[0].parentElement;
-          if (!container) return;
-
-          // Reorder elements based on correctOrder
-          correctOrder.forEach(category => {
-            const elem = categoryMap[category];
-            if (elem) {
-              container.appendChild(elem); // Move to end in correct order
-            }
-          });
+          if (el.style.display !== 'none') el.style.display = 'none';
         });
       }
 
       document.addEventListener('DOMContentLoaded', function() {
-        // Wait for Exhibit to initialize
+        loadExhibitData();
         setTimeout(initializeCustomSearch, 1000);
-
-        // Attach thumbnail handlers after Exhibit renders
-        setTimeout(attachThumbnailHandlers, 2000);
-
-        // Hide missing field values once after Exhibit loads
-        setTimeout(hideMissingFieldValues, 1500);
-        setTimeout(hideMissingFieldValues, 3000); // Second check
-
-        // Hide export button after Exhibit loads
-        setTimeout(hideExportButton, 1500);
-        setTimeout(hideExportButton, 3000);
-
-        // Reorder cook time facet to show natural time progression
-        setTimeout(reorderCookTimeFacet, 1500);
-        setTimeout(reorderCookTimeFacet, 3000); // Second check
-
-        // Re-attach handlers when pagination changes (stable interval)
-        setInterval(attachThumbnailHandlers, 2000);
-
-        // Periodically hide missing field values (less frequent)
-        setInterval(hideMissingFieldValues, 3000);
-
-        // Periodically reorder cook time facet
-        setInterval(reorderCookTimeFacet, 3000);
+        serOnRender(() => {
+          hideExportButton();
+          serReorderFacet('.cook_time_category', ['< 15 min', '15-30 min', '30-60 min', '1-2 hr', '2-4 hr', '4+ hr']);
+        });
       });
     </script>
+    <script src="ser-ui.js"></script>
     <script src="ser-search.js"></script>
   </body>
 </html>

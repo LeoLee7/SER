@@ -30,8 +30,17 @@ const SER_BASE_STOP_WORDS = [
   'after', 'above', 'below', 'between', 'under', 'again', 'further', 'then',
   'once', 'here', 'there', 'when', 'where', 'why', 'how', 'all', 'both', 'each',
   'few', 'more', 'most', 'other', 'some', 'such', 'only', 'own', 'same', 'so',
-  'than', 'too', 'very', 'can', 'will', 'just', 'should', 'now', 'i', 'me'
+  'than', 'very', 'can', 'will', 'just', 'should', 'now', 'i', 'me', 'something',
+  'anything', 'want', 'need', 'looking', 'like', 'that', 'is', 'are', 'be'
 ];
+
+// Words that are part of a value ("not too hard", "great soundtrack") but say
+// nothing on their own. They match only inside a whole phrase.
+const SER_NO_SOLO_WORDS = new Set([
+  'not', 'no', 'too', 'great', 'good', 'best', 'top', 'really', 'nice', 'super',
+  'very', 'lot', 'well', 'rated', 'new', 'old', 'big', 'little', 'day', 'night', 'time'
+]);
+const SER_NEGATIONS = new Set(['not', 'no', 'without', 'non', 'never']);
 
 let queryIndex = null;
 
@@ -92,22 +101,29 @@ function facetValueShare(category, value) {
   return df == null ? 1 : df / queryIndex.n;
 }
 
-// Show the user where each term went.
-function reportSearchRouting(facetMatches, droppedTerms) {
+// Show what the query selected, read back from the facets after the clicks,
+// so the line never claims a value that could not be applied.
+function facetLabel(facetDiv) {
+  return (facetDiv.getAttribute('data-ex-facet-label') ||
+          facetDiv.querySelector('.exhibit-facet-header-title')?.textContent || '').trim();
+}
+
+function reportSearchRouting(routed, droppedTerms) {
   const termsDisplay = document.getElementById('searchTermsDisplay');
   if (!termsDisplay) return;
-
-  // Values in one facet combine with OR, values across facets with AND.
-  const byCategory = new Map();
-  facetMatches.forEach(m => {
-    if (!byCategory.has(m.category)) byCategory.set(m.category, []);
-    byCategory.get(m.category).push(m.value);
-  });
   const parts = [];
-  byCategory.forEach((vals, cat) => parts.push(vals.join(' or ') + ' (' + cat + ')'));
-  if (parts.length === 0) parts.push('nothing matched');
-  let text = parts.join(', ');
-  if (droppedTerms.length > 0) text += '  |  ignored: ' + droppedTerms.join(', ');
+  const applied = new Set();
+  document.querySelectorAll('[data-ex-role="facet"]').forEach(facet => {
+    const vals = Array.from(facet.querySelectorAll('.exhibit-facet-value-selected'))
+      .map(v => v.getAttribute('title')).filter(Boolean);
+    vals.forEach(v => applied.add(v.toLowerCase()));
+    if (vals.length > 0) parts.push(vals.join(' or ') + ' (' + facetLabel(facet) + ')');
+  });
+  const notApplied = routed.filter(m => !applied.has(m.valueLower)).map(m => m.value);
+  let text = parts.length > 0 ? parts.join(', ')
+    : 'no facet value matches this query, so all items are shown';
+  if (notApplied.length > 0) text += '. Not applied, as no item also matches the rest: ' + notApplied.join(', ');
+  if (droppedTerms.length > 0) text += '. Not understood: ' + droppedTerms.join(', ');
   termsDisplay.textContent = text;
 }
 
@@ -119,15 +135,11 @@ function buildFacetIndex() {
     if (!expression || facetClass === 'NumericRange') return;
 
     const category = facetCategory(expression);
-    const values = facetDiv.querySelectorAll('.exhibit-facet-value, div[class*="facet-value"]');
-    const seen = new Set();
-    values.forEach(elem => {
-      if (seen.has(elem)) return;
-      seen.add(elem);
-      // Facet values look like "134 Christmas": strip the leading count.
-      const rawText = elem.textContent.trim();
-      const value = rawText.replace(/^\d+\s+/, '').replace(/\s*\(\d+\)\s*$/, '').trim();
-      if (!value || value.includes('missing')) return;
+    // Only value rows: their count is a separate element, and indexing it made
+    // a query for "$10" select whichever value 10 items carry.
+    facetDiv.querySelectorAll('.exhibit-facet-value').forEach(elem => {
+      const value = (elem.getAttribute('title') || '').trim();
+      if (!value) return;
       index.push({ category: category, value: value, valueLower: value.toLowerCase(), element: elem });
     });
   });
@@ -229,15 +241,22 @@ function performSmartSearch() {
   if (!query) { clearSearch(); return; }
 
   const stopWords = new Set(SER_BASE_STOP_WORDS.concat(serConfig().domainStopWords || []));
-  const words = query.toLowerCase().replace(/['’]/g, "'").split(/\s+/)
+  let normalized = query.toLowerCase().replace(/['’]/g, "'");
+  (serConfig().queryRewrites || []).forEach(([pattern, to]) => {
+    normalized = normalized.replace(new RegExp(pattern, 'g'), to);
+  });
+  const words = normalized.split(/\s+/)
     .map(w => w.replace(/'s$/, '').replace(/[^a-z0-9-]/g, ''));
   const searchTerms = words.filter(word => word.length > 1 && !stopWords.has(word));
-  if (searchTerms.length === 0) return;
+  // A word after "not" is the opposite of what the user wants unless a value
+  // names the whole phrase ("not too sweet"), so it is never routed alone.
+  const negated = new Set(words.filter((w, i) => i > 0 && SER_NEGATIONS.has(words[i - 1])));
+  if (searchTerms.length === 0) { clearSearch(); return; }
 
   const statusDiv = document.getElementById('searchStatus');
   const termsDisplay = document.getElementById('searchTermsDisplay');
   if (statusDiv && termsDisplay) {
-    termsDisplay.textContent = searchTerms.join(', ');
+    termsDisplay.textContent = '...';
     statusDiv.classList.add('active');
   }
 
@@ -269,6 +288,10 @@ function performSmartSearch() {
       allTermCombinations.forEach(phrase => {
         const phraseWords = phrase.split(' ');
         if (phraseWords.every(w => matchedTerms.has(w))) return;
+        if (phraseWords.length === 1 && (SER_NO_SOLO_WORDS.has(phrase) || negated.has(phrase))) {
+          if (!SER_NO_SOLO_WORDS.has(phrase)) droppedTerms.push('not ' + phrase);
+          return;
+        }
 
         let matches = [];
         for (const form of phraseForms(phrase)) {
@@ -326,11 +349,10 @@ function performSmartSearch() {
       });
 
       if (droppedTerms.length > 0) console.log('No match anywhere for: ' + droppedTerms.join(', '));
-      reportSearchRouting(toClick, droppedTerms);
 
       // Click sequentially: each click re-renders the facets.
       function clickSequentially(items, idx) {
-        if (idx >= items.length) return;
+        if (idx >= items.length) { setTimeout(() => reportSearchRouting(items, droppedTerms), 700); return; }
         const match = items[idx];
         const fresh = buildFacetIndex().find(e =>
           e.category === match.category && e.valueLower === match.valueLower);
@@ -344,7 +366,8 @@ function performSmartSearch() {
 
       // Retry discriminative matches for unmatched terms in case Exhibit had
       // not finished rendering the facet lists.
-      const unmatchedTerms = searchTerms.filter(t => !matchedTerms.has(t));
+      const unmatchedTerms = searchTerms.filter(t => !matchedTerms.has(t) &&
+        !SER_NO_SOLO_WORDS.has(t) && !negated.has(t));
       if (unmatchedTerms.length > 0) {
         setTimeout(() => {
           const freshIndex = buildFacetIndex();
